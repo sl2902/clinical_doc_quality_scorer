@@ -5,12 +5,13 @@ import random
 import os
 from datetime import datetime
 
-# Configuration
-DATA_DIR = "data"
-SCENARIOS = ["uri", "htn_followup", "t2dm", "back_pain", "annual_physical"]
-PERSONAS = ["gold", "brooks", "chen"]
-# DIMENSIONS = ["completeness", "accuracy", "compliance", "risk", "clarity"]
-DIMENSIONS = ["risk"]
+from src.config import(
+    data_dir,
+    dimensions,
+    max_notes,
+    scenarios,
+    personas,
+)
 
 def load_note(filepath):
     """Load a single note"""
@@ -52,14 +53,14 @@ def fix_inconsistent_labels(note):
     
     return note
 
-def load_all_notes():
+def load_all_notes(scenarios, personas):
     """Load all 150 labeled notes"""
     all_notes = []
     
-    for persona in PERSONAS:
-        persona_dir = f"{DATA_DIR}/{persona}"
+    for persona in personas:
+        persona_dir = f"{data_dir}/{persona}"
         
-        for scenario in SCENARIOS:
+        for scenario in scenarios:
             for i in range(10):
                 note_id = f"{persona}_{scenario}_{i:03d}"
                 filepath = f"{persona_dir}/{note_id}.json"
@@ -78,7 +79,7 @@ def load_all_notes():
 
 def split_dataset(notes, train_ratio=0.8):
     """Split into train and test sets"""
-    random.seed(42)  # Reproducible split
+    random.seed(42)
     random.shuffle(notes)
     
     split_idx = int(len(notes) * train_ratio)
@@ -88,23 +89,29 @@ def split_dataset(notes, train_ratio=0.8):
     print(f"Train: {len(train_notes)}, Test: {len(test_notes)}")
     return train_notes, test_notes
 
-def format_for_finetuning(notes, dimension):
-    """Convert to instruction-response pairs for fine-tuning"""
-    dataset = []
+def format_for_finetuning(data):
+    """Convert note to Gemma chat format"""
+    converted = []
     
-    for note in notes:
-        instruction = f"Score the {dimension} of this clinical note (0-100):\n\n{note['note_text']}"
-        output = str(note['ground_truth_scores'][dimension])
+    for item in data:
+        # Gemma chat format
+        text = (
+            f"<start_of_turn>user\n{item['instruction']}<end_of_turn>\n"
+            f"<start_of_turn>model\n{item['output']}<end_of_turn>"
+        )
         
-        dataset.append({
-            "instruction": instruction,
-            "output": output,
-            "note_id": note['note_id']  # For debugging
+        converted.append({
+            "text": text,
+            "note_id": item['note_id']
         })
     
-    return dataset
+    return converted
 
-def create_training_datasets():
+def create_training_datasets(
+        scenarios: list = scenarios, 
+        personas: list = personas, 
+        dimensions: list = dimensions
+    ):
     """Main function to prepare all training data"""
     
     print("="*80)
@@ -113,30 +120,30 @@ def create_training_datasets():
     
     # Load all notes
     print("\n1. Loading notes...")
-    all_notes = load_all_notes()
+    all_notes = load_all_notes(scenarios, personas)
     
-    if len(all_notes) != 150:
-        print(f"\nWARNING: Expected 150 notes, got {len(all_notes)}")
+    if len(all_notes) != max_notes:
+        print(f"\nWARNING: Expected {max_notes} notes, got {len(all_notes)}")
     
     # Split dataset
     print("\n2. Splitting dataset...")
     train_notes, test_notes = split_dataset(all_notes)
     
     # Save splits
-    save_json(train_notes, f"{DATA_DIR}/splits/train_split.json")
-    save_json(test_notes, f"{DATA_DIR}/splits/test_split.json")
+    save_json(train_notes, f"{data_dir}/splits/train_split.json")
+    save_json(test_notes, f"{data_dir}/splits/test_split.json")
     print("Saved train/test splits")
     
     # Format for each dimension
     print("\n3. Formatting for fine-tuning...")
-    for dimension in DIMENSIONS:
+    for dimension in dimensions:
         # Training data
-        train_data = format_for_finetuning(train_notes, dimension)
-        save_json(train_data, f"{DATA_DIR}/finetuning/{dimension}_train.json")
+        train_data = format_for_finetuning(train_notes)
+        save_json(train_data, f"{data_dir}/finetuning/{dimension}_train.json")
         
         # Test data
-        test_data = format_for_finetuning(test_notes, dimension)
-        save_json(test_data, f"{DATA_DIR}/finetuning/{dimension}_test.json")
+        test_data = format_for_finetuning(test_notes)
+        save_json(test_data, f"{data_dir}/finetuning/{dimension}_test.json")
         
         print(f"  {dimension}: {len(train_data)} train, {len(test_data)} test")
     
@@ -145,10 +152,10 @@ def create_training_datasets():
     print("DATA PREPARATION COMPLETE")
     print("="*80)
     print(f"\nOutputs:")
-    print(f"  - {DATA_DIR}/splits/train_split.json ({len(train_notes)} notes)")
-    print(f"  - {DATA_DIR}/splits/test_split.json ({len(test_notes)} notes)")
-    print(f"  - {DATA_DIR}/finetuning/[dimension]_train.json (5 files)")
-    print(f"  - {DATA_DIR}/finetuning/[dimension]_test.json (5 files)")
+    print(f"  - {data_dir}/splits/train_split.json ({len(train_notes)} notes)")
+    print(f"  - {data_dir}/splits/test_split.json ({len(test_notes)} notes)")
+    print(f"  - {data_dir}/finetuning/[dimension]_train.json (5 files)")
+    print(f"  - {data_dir}/finetuning/[dimension]_test.json (5 files)")
     
     return train_notes, test_notes
 
