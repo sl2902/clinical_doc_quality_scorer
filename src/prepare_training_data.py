@@ -53,7 +53,7 @@ def fix_inconsistent_labels(note):
     
     return note
 
-def load_all_notes(scenarios, personas):
+def load_all_notes(scenarios, personas, data_dir):
     """Load all 150 labeled notes"""
     all_notes = []
     
