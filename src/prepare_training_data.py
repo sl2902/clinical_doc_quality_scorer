@@ -56,6 +56,7 @@ def fix_inconsistent_labels(note):
 def load_all_notes(scenarios, personas, data_dir):
     """Load all 150 labeled notes"""
     all_notes = []
+    personas = ["gold"] + personas 
     
     for persona in personas:
         persona_dir = f"{data_dir}/{persona}"
@@ -112,6 +113,7 @@ def create_training_datasets(
         personas: list = personas, 
         dimensions: list = dimensions,
         data_dir: str = data_dir,
+        output_data_dir: str = data_dir, # added this parameter because on kaggle we cannot save anything to /kaggle/input/
     ):
     """Main function to prepare all training data"""
     
@@ -131,8 +133,8 @@ def create_training_datasets(
     train_notes, test_notes = split_dataset(all_notes)
     
     # Save splits
-    save_json(train_notes, f"{data_dir}/splits/train_split.json")
-    save_json(test_notes, f"{data_dir}/splits/test_split.json")
+    save_json(train_notes, f"{output_data_dir}/splits/train_split.json")
+    save_json(test_notes, f"{output_data_dir}/splits/test_split.json")
     print("Saved train/test splits")
     
     # Format for each dimension
@@ -140,11 +142,11 @@ def create_training_datasets(
     for dimension in dimensions:
         # Training data
         train_data = format_for_finetuning(train_notes)
-        save_json(train_data, f"{data_dir}/finetuning/{dimension}_train.json")
+        save_json(train_data, f"{output_data_dir}/finetuning/{dimension}_train.json")
         
         # Test data
         test_data = format_for_finetuning(test_notes)
-        save_json(test_data, f"{data_dir}/finetuning/{dimension}_test.json")
+        save_json(test_data, f"{output_data_dir}/finetuning/{dimension}_test.json")
         
         print(f"  {dimension}: {len(train_data)} train, {len(test_data)} test")
     
@@ -153,10 +155,10 @@ def create_training_datasets(
     print("DATA PREPARATION COMPLETE")
     print("="*80)
     print(f"\nOutputs:")
-    print(f"  - {data_dir}/splits/train_split.json ({len(train_notes)} notes)")
-    print(f"  - {data_dir}/splits/test_split.json ({len(test_notes)} notes)")
-    print(f"  - {data_dir}/finetuning/[dimension]_train.json (5 files)")
-    print(f"  - {data_dir}/finetuning/[dimension]_test.json (5 files)")
+    print(f"  - {output_data_dir}/splits/train_split.json ({len(train_notes)} notes)")
+    print(f"  - {output_data_dir}/splits/test_split.json ({len(test_notes)} notes)")
+    print(f"  - {output_data_dir}/finetuning/[dimension]_train.json (5 files)")
+    print(f"  - {output_data_dir}/finetuning/[dimension]_test.json (5 files)")
     
     return train_notes, test_notes
 
