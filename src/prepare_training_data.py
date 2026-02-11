@@ -110,7 +110,8 @@ def format_for_finetuning(data):
 def create_training_datasets(
         scenarios: list = scenarios, 
         personas: list = personas, 
-        dimensions: list = dimensions
+        dimensions: list = dimensions,
+        data_dir: str = data_dir,
     ):
     """Main function to prepare all training data"""
     
