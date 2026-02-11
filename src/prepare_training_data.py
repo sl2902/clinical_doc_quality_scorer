@@ -121,7 +121,7 @@ def create_training_datasets(
     
     # Load all notes
     print("\n1. Loading notes...")
-    all_notes = load_all_notes(scenarios, personas)
+    all_notes = load_all_notes(scenarios, personas, data_dir)
     
     if len(all_notes) != max_notes:
         print(f"\nWARNING: Expected {max_notes} notes, got {len(all_notes)}")
