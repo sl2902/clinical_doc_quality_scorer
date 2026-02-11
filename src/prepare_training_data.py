@@ -98,7 +98,7 @@ def format_for_finetuning(data, dimension):
     for item in data:
         # Gemma chat format
         text = (
-            f"<start_of_turn>user\n{prompt}<end_of_turn>\n"
+            f"<start_of_turn>user\n{prompt}\n\n{item['note_text']}<end_of_turn>\n"
             f"<start_of_turn>model\n{item['ground_truth_scores'][dimension]}<end_of_turn>"
         )
         
