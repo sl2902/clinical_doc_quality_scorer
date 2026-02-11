@@ -19,8 +19,13 @@ os.environ['TOKENIZERS_PARALLELISM'] = 'true'
 from kaggle_secrets import UserSecretsClient
 
 from src.config import (
+    model_name,
     scenarios,
+    personas,
     base_dir,
+    gold_prompt_dir,
+    persona_prompt_dir,
+    persona_generated_dir,
 )
 
 def clear_gpu_memory():
@@ -35,7 +40,7 @@ def get_credentials(secret_name: str = "hf_token"):
 
     return service_account_json
 
-def load_medgemma(model_name="google/medgemma-4b-it", token=None):
+def load_medgemma(model_name=model_name, token=None):
     """Load MedGemma model"""
     print(f"Loading {model_name}...")
     tokenizer = AutoTokenizer.from_pretrained(model_name, token=token)
@@ -130,9 +135,9 @@ def save_note_with_labels(note_text, labels, persona, scenario, note_id):
         json.dump(data, f, indent=2)
 
 
-def run_scenarios(tokenizer, model, base_dir: str = "/kaggle/input/prompts"):
+def run_scenarios(tokenizer, model, base_dir: str = base_dir, scenarios: list = scenarios, n_notes: int = 10):
     for scenario in scenarios:
-        for i in range(10):  # 10 notes per scenario
+        for i in range(n_notes):  # 10 notes per scenario
             # Load scenario-specific prompt
             prompt = load_prompt(f"{base_dir}/{scenario}_prompt.txt")
             
@@ -148,15 +153,14 @@ def run_scenarios(tokenizer, model, base_dir: str = "/kaggle/input/prompts"):
             
             print(f"Generated {scenario} note {i+1}/10")
 
-def transform_to_persona(tokenizer, model, gold_note, path: str= "/kaggle/input/personas", persona="brooks"):
+def transform_to_persona(tokenizer, model, gold_note, persona, path):
     """Transform gold standard note to persona style"""
     
-    if persona == "brooks":
-        with open(f"{path}/brooks_transform_prompt.txt", 'r') as f:
-            transform_prompt = f.read()
-    else:
-        with open(f"{path}/chen_transform_prompt.txt", 'r') as f:
-            transform_prompt = f.read()
+    with open(f"{path}/{persona}_transform_prompt.txt", 'r') as f:
+        transform_prompt = f.read()
+    # else:
+    #     with open(f"{path}/chen_transform_prompt.txt", 'r') as f:
+    #         transform_prompt = f.read()
     
     full_prompt = transform_prompt.replace("{insert_gold_standard_note_here}", gold_note)
     
@@ -166,19 +170,28 @@ def transform_to_persona(tokenizer, model, gold_note, path: str= "/kaggle/input/
     return cleaned
 
 
-def run_personas(tokenizer, model, base_path: str = "/kaggle/input/gold-prompts/generated_prompts"):
+def run_personas(
+        tokenizer, 
+        model, 
+        base_path: str = gold_prompt_dir, 
+        scenarios: list = scenarios, 
+        n_notes: int = 10,
+        personas: list = personas,
+        persona_path: str = persona_prompt_dir,
+    ):
     for scenario in scenarios:
-        for i in range(10):  # 10 notes per scenario
+        for i in range(n_notes):  # 10 notes per scenario
             # Load gold note
             gold_note = load_prompt(f"{base_path}/gold_{scenario}_{i:03d}")
             
-            # Transform to Brooks
-            brooks_note = transform_to_persona(tokenizer, model, gold_note, persona="brooks")
-            save_note(brooks_note, scenario=scenario, note_id=f"brooks_{scenario}_{i:03d}.json", persona="brooks")
+            for persona in personas:
+                # Transform to persona
+                note = transform_to_persona(tokenizer, model, gold_note, persona, persona_path)
+                save_note(note, scenario=scenario, note_id=f"{persona}_{scenario}_{i:03d}.json", persona=persona)
             
-            # Transform to Chen  
-            chen_note = transform_to_persona(tokenizer, model, gold_note, persona="chen")
-            save_note(chen_note, scenario=scenario, note_id=f"chen_{scenario}_{i:03d}.json", persona="chen")
+            # # Transform to Chen  
+            # chen_note = transform_to_persona(tokenizer, model, gold_note, persona="chen")
+            # save_note(chen_note, scenario=scenario, note_id=f"chen_{scenario}_{i:03d}.json", persona="chen")
             
             clear_gpu_memory()
             
@@ -252,15 +265,18 @@ Output JSON only:
 def run_generate_labels(
     tokenizer, 
     model,
-    gold_prompt_path: str = "/kaggle/input/gold-prompts/generated_prompts",
-    persona_generated_path: str = "/kaggle/input/personas-generated/generated_personas",
+    gold_prompt_path: str = gold_prompt_dir,
+    persona_generated_path: str = persona_generated_dir,
     max_new_tokens: int = 1500,
+    scenarios: list = scenarios,
+    n_notes: int = 10,
+    personas: list = personas,
 ):
     """Call the generate label function to run in batches"""
     for scenario in scenarios:
-        for i in range(10):
+        for i in range(n_notes):
             seq = f"{i:03d}"
-            for persona in ["brooks", "chen"]:
+            for persona in personas:
                 gold_file = f"{gold_prompt_path}/gold_{scenario}_{seq}"
                 persona_file = f"{persona_generated_path}/{persona}_{scenario}_{seq}.json"
                 gold_note = load_json_prompt(gold_file)["note"]
@@ -281,7 +297,7 @@ if __name__ == "__main__":
     # Load model once
     tokenizer, model = load_medgemma(token=get_credentials())
 
-    # run_scenarios(tokenizer, model)
+    # run_scenarios(tokenizer, model, scenarios)
     # run_personas(tokenizer, model)
     # run_generate_labels(tokenizer, model)
 
