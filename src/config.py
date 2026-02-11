@@ -14,4 +14,4 @@ persona_generated_dir = "/kaggle/input/personas-generated/generated_personas"
 max_notes = 150
 
 # training prompt
-prompt = "Score the accuracy of this clinical note (0-100):\n\n"
+prompt = "Score the accuracy of this clinical note (0-100):"
