@@ -3,6 +3,11 @@
 import json
 import os
 
+from src.config import(
+    data_dir,
+    dimensions,
+)
+
 def convert_to_gemma_format(data):
     """Convert from old format to Gemma chat format"""
     converted = []
@@ -21,23 +26,19 @@ def convert_to_gemma_format(data):
     
     return converted
 
-# Convert all dimensions
-# DIMENSIONS = ["completeness", "accuracy", "compliance", "risk", "clarity"]
-DIMENSIONS = ["risk"]
-
-for dim in DIMENSIONS:
+for dim in dimensions:
     # Load old format
-    train = json.load(open(f"data/finetuning/{dim}_train.json"))
-    test = json.load(open(f"data/finetuning/{dim}_test.json"))
+    train = json.load(open(f"{data_dir}/finetuning/{dim}_train.json"))
+    test = json.load(open(f"{data_dir}/finetuning/{dim}_test.json"))
     
     # Convert
     train_gemma = convert_to_gemma_format(train)
     test_gemma = convert_to_gemma_format(test)
     
-    os.makedirs("data/gemma_format/", exist_ok=True)
+    # os.makedirs("{data_dir}/gemma_format/", exist_ok=True)
     # Save
-    json.dump(train_gemma, open(f"data/gemma_format/{dim}_train.json", 'w'), indent=2)
-    json.dump(test_gemma, open(f"data/gemma_format/{dim}_test.json", 'w'), indent=2)
+    json.dump(train_gemma, open(f"{data_dir}/gemma_format/{dim}_train.json", 'w'), indent=2)
+    json.dump(test_gemma, open(f"{data_dir}/gemma_format/{dim}_test.json", 'w'), indent=2)
     
     print(f"Converted {dim}: {len(train_gemma)} train, {len(test_gemma)} test")
 
