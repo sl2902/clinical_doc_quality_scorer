@@ -11,6 +11,7 @@ from src.config import(
     max_notes,
     scenarios,
     personas,
+    prompt,
 )
 
 def load_note(filepath):
@@ -90,15 +91,15 @@ def split_dataset(notes, train_ratio=0.8):
     print(f"Train: {len(train_notes)}, Test: {len(test_notes)}")
     return train_notes, test_notes
 
-def format_for_finetuning(data):
+def format_for_finetuning(data, dimension):
     """Convert note to Gemma chat format"""
     converted = []
     
     for item in data:
         # Gemma chat format
         text = (
-            f"<start_of_turn>user\n{item['instruction']}<end_of_turn>\n"
-            f"<start_of_turn>model\n{item['output']}<end_of_turn>"
+            f"<start_of_turn>user\n{prompt}<end_of_turn>\n"
+            f"<start_of_turn>model\n{item['ground_truth_scores'][dimension]}<end_of_turn>"
         )
         
         converted.append({
@@ -141,11 +142,11 @@ def create_training_datasets(
     print("\n3. Formatting for fine-tuning...")
     for dimension in dimensions:
         # Training data
-        train_data = format_for_finetuning(train_notes)
+        train_data = format_for_finetuning(train_notes, dimension)
         save_json(train_data, f"{output_data_dir}/finetuning/{dimension}_train.json")
         
         # Test data
-        test_data = format_for_finetuning(test_notes)
+        test_data = format_for_finetuning(test_notes, dimension)
         save_json(test_data, f"{output_data_dir}/finetuning/{dimension}_test.json")
         
         print(f"  {dimension}: {len(train_data)} train, {len(test_data)} test")
