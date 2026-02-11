@@ -151,7 +151,7 @@ def run_scenarios(tokenizer, model, base_dir: str = base_dir, scenarios: list = 
             # Clear memory
             clear_gpu_memory()
             
-            print(f"Generated {scenario} note {i+1}/n_notes")
+            print(f"Generated {scenario} note {i+1}/{n_notes}")
 
 def transform_to_persona(tokenizer, model, gold_note, persona, path):
     """Transform gold standard note to persona style"""
@@ -195,7 +195,7 @@ def run_personas(
             
             clear_gpu_memory()
             
-            print(f"{scenario}: Transformed {i+1}/n_notes")
+            print(f"{scenario}: Transformed {i+1}/{n_notes}")
 
 def clean_label_note(generated_text):
     import re
@@ -289,7 +289,7 @@ def run_generate_labels(
                     save_note_with_labels(persona_note, labels, persona, scenario, labels["note_id"])
             clear_gpu_memory()
             
-            print(f"{scenario}: Labeled {i+1}/n_notes")
+            print(f"{scenario}: Labeled {i+1}/{n_notes}")
 
 
 if __name__ == "__main__":
