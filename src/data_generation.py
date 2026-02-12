@@ -188,7 +188,7 @@ def run_scenarios(
         print(f"{'='*80}")
         
         # Load base prompt template (with placeholders)
-        prompt_template = load_prompt(f"{base_dir}/{scenario}.txt")
+        prompt_template = load_prompt(f"{base_dir}/{scenario}_prompt.txt")
         
         note_counter = 0
         
