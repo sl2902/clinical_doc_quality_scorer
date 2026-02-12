@@ -1,7 +1,7 @@
 model_name = "google/medgemma-4b-it"
 
 scenarios = ["uri", "htn_followup", "t2dm", "back_pain", "annual_physical"]
-personas = ["brooks", "chen"]
+personas = ["brooks", "chen", "minimal"]
 dimensions = ["completeness", "accuracy", "compliance", "risk", "clarity"]
 
 data_dir = "data"
