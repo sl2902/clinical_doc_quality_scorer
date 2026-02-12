@@ -26,6 +26,9 @@ from src.config import (
     gold_prompt_dir,
     persona_prompt_dir,
     persona_generated_dir,
+    gender_content,
+    demographics_female,
+    demographics_male,
 )
 
 def clear_gpu_memory():
@@ -100,14 +103,27 @@ def load_json_prompt(prompt_file: str):
         prompt = json.load(f)
     return prompt
 
-def save_note(clean_note: str, scenario: str, note_id: str, persona: str = "gold_standard"):
-    with open(note_id, 'w') as f:
-        json.dump({
-            "scenario": scenario,
-            "persona": persona,
-            "generated_at": datetime.now().isoformat(),
-            "note": clean_note
-        }, f, indent=2)
+def save_note(
+        clean_note: str, 
+        scenario: str, 
+        note_id: str, 
+        persona: str = "gold",
+        metadata=None,
+    ):
+    data = {
+        "note_id": note_id.replace('.json', ''),
+        "scenario": scenario,
+        "persona": persona,
+        "note_text": clean_note,
+        "generated_at": datetime.now().isoformat()
+    }
+    
+    if metadata:
+        data['demographics'] = metadata['demographics']
+    
+    filename = note_id
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=2)
 
 def save_note_with_labels(note_text, labels, persona, scenario, note_id):
     """Save note and its labels together"""
@@ -134,24 +150,106 @@ def save_note_with_labels(note_text, labels, persona, scenario, note_id):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=2)
 
+def inject_demographics_and_gender_content(prompt_template, demographics, scenario):
+    """Inject demographics AND gender-specific clinical content"""
+    
+    gender = demographics['gender']
+    
+    # Base demographics
+    filled_prompt = prompt_template.format(
+        name=demographics['name'],
+        age=demographics['age'],
+        gender=demographics['gender'],
+        occupation=demographics['occupation']
+    )
+    
+    # Gender-specific content (if scenario has it)
+    if scenario in gender_content and gender in gender_content[scenario]:
+        for key, value in gender_content[scenario][gender].items():
+            placeholder = "{" + key + "}"
+            filled_prompt = filled_prompt.replace(placeholder, value)
+    
+    return filled_prompt
 
-def run_scenarios(tokenizer, model, base_dir: str = base_dir, scenarios: list = scenarios, n_notes: int = 10):
+
+def run_scenarios(
+    tokenizer, 
+    model, 
+    base_dir: str = base_dir, 
+    scenarios: list = scenarios, 
+    n_notes_per_gender: int = 5,
+):
+    """Generate gold notes with gender-specific demographics and clinical content"""
+    
     for scenario in scenarios:
-        for i in range(n_notes):  # 10 notes per scenario
-            # Load scenario-specific prompt
-            prompt = load_prompt(f"{base_dir}/{scenario}_prompt.txt")
+        print(f"\n{'='*80}")
+        print(f"GENERATING SCENARIO: {scenario}")
+        print(f"{'='*80}")
+        
+        # Load base prompt template (with placeholders)
+        prompt_template = load_prompt(f"{base_dir}/{scenario}.txt")
+        
+        note_counter = 0
+        
+        # Generate male notes
+        for i in range(n_notes_per_gender):
+            demographics = demographics_male[i]
             
-            # Generate
+            # Inject demographics and gender-specific content
+            prompt = inject_demographics_and_gender_content(
+                prompt_template, 
+                demographics, 
+                scenario
+            )
+            
+            # Generate note
             note = generate_note(prompt, tokenizer, model)
             clean = clean_note(note)
             
             # Save
-            save_note(clean, scenario=scenario, note_id=f"gold_{scenario}_{i:03d}.json")
+            note_id = f"gold_{scenario}_{note_counter:03d}"
+            save_note(
+                clean, 
+                scenario=scenario, 
+                note_id=f"{note_id}.json",
+                metadata={'demographics': demographics}
+            )
             
-            # Clear memory
             clear_gpu_memory()
             
-            print(f"Generated {scenario} note {i+1}/{n_notes}")
+            print(f" Generated {note_id} ({demographics['name']}, {demographics['age']}{demographics['gender']})")
+            note_counter += 1
+        
+        # Generate female notes
+        for i in range(n_notes_per_gender):
+            demographics = demographics_female[i]
+            
+            # Inject demographics and gender-specific content
+            prompt = inject_demographics_and_gender_content(
+                prompt_template, 
+                demographics, 
+                scenario
+            )
+            
+            # Generate note
+            note = generate_note(prompt, tokenizer, model)
+            clean = clean_note(note)
+            
+            # Save
+            note_id = f"gold_{scenario}_{note_counter:03d}"
+            save_note(
+                clean, 
+                scenario=scenario, 
+                note_id=f"{note_id}.json",
+                metadata={'demographics': demographics}
+            )
+            
+            clear_gpu_memory()
+            
+            print(f" Generated {note_id} ({demographics['name']}, {demographics['age']}{demographics['gender']})")
+            note_counter += 1
+        
+        print(f"\n Completed {scenario}: {note_counter}/{2 * n_notes_per_gender} notes generated")
 
 def transform_to_persona(tokenizer, model, gold_note, persona, path):
     """Transform gold standard note to persona style"""
