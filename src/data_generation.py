@@ -282,9 +282,9 @@ def run_personas(
     
     # Load transformation prompts
     transform_prompts = {
-        "brooks": load_prompt(f"{persona_prompt_dir}/brooks_transform.txt"),
-        "chen": load_prompt(f"{persona_prompt_dir}/chen_transform.txt"),
-        "minimal": load_prompt(f"{persona_prompt_dir}/minimal_transform.txt")
+        "brooks": load_prompt(f"{persona_prompt_dir}/brooks_transform_prompt.txt"),
+        "chen": load_prompt(f"{persona_prompt_dir}/chen_transform_prompt.txt"),
+        "minimal": load_prompt(f"{persona_prompt_dir}/minimal_transform_prompt.txt")
     }
     
     for scenario in scenarios:
