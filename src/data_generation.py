@@ -65,7 +65,8 @@ def generate_note(prompt, tokenizer, model, max_new_tokens = 1000):
     outputs = model.generate(
         **inputs, 
         max_new_tokens=max_new_tokens,
-        temperature=0.3,
+        temperature=0.7,
+        top_p=0.9,
         do_sample=True,
         pad_token_id=tokenizer.eos_token_id,
         repetition_penalty=1.2
