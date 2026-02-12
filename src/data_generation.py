@@ -334,7 +334,7 @@ def run_personas(
                 
                 print(f" Generated {persona_note_id} ({demographics['name']}, {demographics['age']}{demographics['gender']})")
         
-        print(f"\n Completed {scenario}: {i}/{n_notes} persona tranformation")
+        print(f"\n Completed {scenario}: {i+1}/{n_notes} persona tranformation")
 
 
 # def run_personas(
