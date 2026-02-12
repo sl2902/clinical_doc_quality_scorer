@@ -121,6 +121,8 @@ def save_note(
     
     if metadata:
         data['demographics'] = metadata['demographics']
+        if metadata.get('source_gold_note'):
+            data['source_gold_note'] = metadata.get('source_gold_note')
     
     filename = note_id
     with open(filename, 'w') as f:
@@ -323,9 +325,9 @@ def run_personas(
                     final_note,
                     scenario=scenario,
                     note_id=f"{persona_note_id}.json",
+                    persona=persona,
                     metadata={
                         'demographics': demographics,
-                        'persona': persona,
                         'source_gold_note': gold_note_id
                     }
                 )
