@@ -91,7 +91,7 @@ def clean_note(generated_text):
         if len(parts) > 1:
             return  max(parts, key=len).strip().strip('```\n')
     
-    return generated_text.strip().strip('```\n')
+    return generated_text.strip().strip('---END OF NOTE---').strip('```\n')
 
 def load_prompt(prompt_file: str):
     with open(prompt_file, 'r') as f:
