@@ -261,9 +261,6 @@ def transform_to_persona(tokenizer, model, gold_note, persona, path):
     
     with open(f"{path}/{persona}_transform_prompt.txt", 'r') as f:
         transform_prompt = f.read()
-    # else:
-    #     with open(f"{path}/chen_transform_prompt.txt", 'r') as f:
-    #         transform_prompt = f.read()
     
     full_prompt = transform_prompt.replace("{insert_gold_standard_note_here}", gold_note)
     
@@ -272,33 +269,100 @@ def transform_to_persona(tokenizer, model, gold_note, persona, path):
     
     return cleaned
 
-
 def run_personas(
-        tokenizer, 
-        model, 
-        base_path: str = gold_prompt_dir, 
-        scenarios: list = scenarios, 
-        n_notes: int = 10,
-        personas: list = personas,
-        persona_path: str = persona_prompt_dir,
-    ):
+    tokenizer,
+    model,
+    gold_notes_dir: str = gold_prompt_dir,
+    scenarios: list = scenarios,
+    personas: list = personas,
+    n_notes: int = 10,
+    persona_prompt_dir: str = persona_prompt_dir,
+):
+    """Generate persona notes from gold notes"""
+    
+    # Load transformation prompts
+    transform_prompts = {
+        "brooks": load_prompt(f"{persona_prompt_dir}/brooks_transform.txt"),
+        "chen": load_prompt(f"{persona_prompt_dir}/chen_transform.txt"),
+        "minimal": load_prompt(f"{persona_prompt_dir}/minimal_transform.txt")
+    }
+    
     for scenario in scenarios:
-        for i in range(n_notes):  # 10 notes per scenario
+        print(f"\n{'='*80}")
+        print(f"TRANSFORMING SCENARIO: {scenario}")
+        print(f"{'='*80}")
+        
+        # Process all gold notes for this scenario
+        for i in range(n_notes):
+            gold_note_id = f"gold_{scenario}_{i:03d}"
+            gold_file = f"{gold_notes_dir}/{gold_note_id}.json"
+            
             # Load gold note
-            gold_note = load_prompt(f"{base_path}/gold_{scenario}_{i:03d}")
+            gold_data = json.load(open(gold_file))
+            gold_text = gold_data['note_text']
+            demographics = gold_data.get('demographics', {})
             
+            # Create demographics header
+            demo_header = f"**Patient:** {demographics['name']}\n**Age:** {demographics['age']}\n**Gender:** {demographics['gender']}\n**Occupation:** {demographics['occupation']}\n\n"
+            
+            # Transform into each persona
             for persona in personas:
-                # Transform to persona
-                note = transform_to_persona(tokenizer, model, gold_note, persona, persona_path)
-                save_note(note, scenario=scenario, note_id=f"{persona}_{scenario}_{i:03d}.json", persona=persona)
+                # Create transformation prompt
+                prompt = transform_prompts[persona].replace("{gold_note}", gold_text)
+                
+                # Generate transformed note
+                transformed = generate_note(prompt, tokenizer, model)
+                clean = clean_note(transformed)
+                
+                # Prepend demographics to ensure consistency
+                final_note = demo_header + clean
+                
+                # Save with persona prefix
+                persona_note_id = f"{persona}_{scenario}_{i:03d}"
+                save_note(
+                    final_note,
+                    scenario=scenario,
+                    note_id=f"{persona_note_id}.json",
+                    metadata={
+                        'demographics': demographics,
+                        'persona': persona,
+                        'source_gold_note': gold_note_id
+                    }
+                )
+                
+                clear_gpu_memory()
+                
+                print(f" Generated {persona_note_id} ({demographics['name']}, {demographics['age']}{demographics['gender']})")
+        
+        print(f"\n Completed {scenario}: {i}/{n_notes} persona tranformation")
+
+
+# def run_personas(
+#         tokenizer, 
+#         model, 
+#         base_path: str = gold_prompt_dir, 
+#         scenarios: list = scenarios, 
+#         n_notes: int = 10,
+#         personas: list = personas,
+#         persona_path: str = persona_prompt_dir,
+#     ):
+#     for scenario in scenarios:
+#         for i in range(n_notes):  # 10 notes per scenario
+#             # Load gold note
+#             gold_note = load_prompt(f"{base_path}/gold_{scenario}_{i:03d}")
             
-            # # Transform to Chen  
-            # chen_note = transform_to_persona(tokenizer, model, gold_note, persona="chen")
-            # save_note(chen_note, scenario=scenario, note_id=f"chen_{scenario}_{i:03d}.json", persona="chen")
+#             for persona in personas:
+#                 # Transform to persona
+#                 note = transform_to_persona(tokenizer, model, gold_note, persona, persona_path)
+#                 save_note(note, scenario=scenario, note_id=f"{persona}_{scenario}_{i:03d}.json", persona=persona)
             
-            clear_gpu_memory()
+#             # # Transform to Chen  
+#             # chen_note = transform_to_persona(tokenizer, model, gold_note, persona="chen")
+#             # save_note(chen_note, scenario=scenario, note_id=f"chen_{scenario}_{i:03d}.json", persona="chen")
             
-            print(f"{scenario}: Transformed {i+1}/{n_notes}")
+#             clear_gpu_memory()
+            
+#             print(f"{scenario}: Transformed {i+1}/{n_notes}")
 
 def clean_label_note(generated_text):
     import re
