@@ -155,14 +155,18 @@ def inject_demographics_and_gender_content(prompt_template, demographics, scenar
     """Inject demographics AND gender-specific clinical content"""
     
     gender = demographics['gender']
+
+    safe_dict = {
+        'name': demographics['name'],
+        'age': demographics['age'],
+        'gender': demographics['gender'],
+        'occupation': demographics['occupation']
+    }
     
     # Base demographics
-    filled_prompt = prompt_template.format(
-        name=demographics['name'],
-        age=demographics['age'],
-        gender=demographics['gender'],
-        occupation=demographics['occupation']
-    )
+    filled_prompt = prompt_template
+    for key, value in safe_dict.items():
+        filled_prompt = filled_prompt.replace(f"{{{key}}}", str(value))
     
     # Gender-specific content (if scenario has it)
     if scenario in gender_content and gender in gender_content[scenario]:
