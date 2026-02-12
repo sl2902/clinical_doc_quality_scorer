@@ -15,3 +15,80 @@ max_notes = 150
 
 # training prompt
 prompt = "Score the accuracy of this clinical note (0-100):"
+
+# demographic details used in the scenario prompts
+demographics_male = [
+    {"age": 42, "gender": "M", "occupation": "software engineer", "name": "Robert Chen"},
+    {"age": 51, "gender": "M", "occupation": "sales manager", "name": "David Kim"},
+    {"age": 38, "gender": "M", "occupation": "warehouse worker", "name": "James Wilson"},
+    {"age": 33, "gender": "M", "occupation": "restaurant manager", "name": "Carlos Rodriguez"},
+    {"age": 47, "gender": "M", "occupation": "high school teacher", "name": "Michael Brown"}
+]
+
+demographics_female = [
+    {"age": 35, "gender": "F", "occupation": "elementary teacher", "name": "Jane Doe"},
+    {"age": 28, "gender": "F", "occupation": "registered nurse", "name": "Maria Garcia"},
+    {"age": 45, "gender": "F", "occupation": "accountant", "name": "Lisa Anderson"},
+    {"age": 29, "gender": "F", "occupation": "graphic designer", "name": "Emily Taylor"},
+    {"age": 39, "gender": "F", "occupation": "project manager", "name": "Sarah Johnson"}
+]
+
+# gender-specific content block
+gender_content = {
+    "annual_physical": {
+        "M": {
+            "gender_specific_screening": """* Prostate: No urinary symptoms, PSA discussed (age <50, deferred per patient preference)
+  * Testicular self-exam: Reviewed technique""",
+            
+            "gu_ros": "No dysuria, no urinary frequency/urgency, no erectile dysfunction, no hematuria",
+            
+            "breast_exam": "Breast: Normal male breast tissue, no gynecomastia, no masses",
+            
+            "gu_exam": "Normal male external genitalia, both testes descended and normal size/consistency, no masses, no hernias, circumcised, no lesions",
+            
+            "gender_specific_cancer_screening": """* Prostate cancer: PSA discussed, deferred per shared decision-making (age <50, average risk)
+  * Testicular cancer: Self-exam technique reviewed"""
+        },
+        
+        "F": {
+            "gender_specific_screening": """* Last mammogram: 1 year ago (normal, due for repeat today)
+  * Last Pap smear: 3 years ago (normal, not due yet - every 3 years per guidelines)
+  * Menstrual history: Regular periods, cycle 28 days""",
+            
+            "gu_ros": "No dysuria, no urinary frequency/urgency, menstrual periods regular (still menstruating), no abnormal vaginal bleeding",
+            
+            "breast_exam": "Breast: No masses, no skin changes, no nipple discharge, no lymphadenopathy (axillary, supraclavicular, infraclavicular)",
+            
+            "gu_exam": "External genitalia normal, no lesions, pelvic exam deferred (recent normal Pap smear)",
+            
+            "gender_specific_cancer_screening": """* Mammogram: Ordered today (annual for ages 40-75)
+  * Cervical cancer: Pap smear not due (last 3 years ago, continue every 3 years per age and HPV status)"""
+        }
+    },
+    "htn_followup": {
+        "M": {
+            "gender_specific_htn_questions": "- Sexual function: No erectile dysfunction, no concerns related to medication",
+            
+            "gender_specific_htn_counseling": "- Sexual health: Discussed that BP medications can affect erectile function, instructed to report any concerns"
+        },
+        
+        "F": {
+            "gender_specific_htn_questions": "- Menstrual status: Regular periods / Postmenopausal\n- Contraception: Using [method] / Not applicable\n- Pregnancy screening: Not pregnant (LMP 2 weeks ago) / Not applicable if postmenopausal",
+            
+            "gender_specific_htn_counseling": "- Contraception counseling: ACE inhibitors contraindicated in pregnancy, importance of reliable contraception discussed / Not applicable if postmenopausal"
+        }
+    },
+    "t2dm": {
+        "M": {
+            "gender_specific_diabetes_questions": "- Sexual function: Reports occasional erectile dysfunction, may be related to diabetes",
+            
+            "gender_specific_diabetes_counseling": "- Erectile dysfunction: Discussed relationship to diabetes and vascular health, may improve with better glucose control, consider PDE5 inhibitors if persistent"
+        },
+        
+        "F": {
+            "gender_specific_diabetes_questions": "- Gestational diabetes history: None / Had gestational diabetes with pregnancy\n- Pregnancy planning: Not currently planning pregnancy / Actively trying to conceive\n- Menstrual status: Regular periods / Irregular cycles related to obesity and insulin resistance",
+            
+            "gender_specific_diabetes_counseling": "- Pregnancy planning: If planning pregnancy, HbA1c should be <6.5% prior to conception, discussed preconception counseling, GLP-1 agonists contraindicated in pregnancy (discontinue if pregnancy planned or occurs)\n- Contraception: Discussed need for reliable contraception while on diabetes medications"
+        }
+    }
+}
