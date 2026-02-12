@@ -56,7 +56,7 @@ def load_medgemma(model_name=model_name, token=None):
     )
     return tokenizer, model
 
-def generate_note(prompt, tokenizer, model, max_new_tokens = 1000):
+def generate_note(prompt, tokenizer, model, max_new_tokens = 1500):
     """Generate clinical note"""
     clear_gpu_memory()
     inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
@@ -65,12 +65,11 @@ def generate_note(prompt, tokenizer, model, max_new_tokens = 1000):
     outputs = model.generate(
         **inputs, 
         max_new_tokens=max_new_tokens,
-        temperature=0.7,
+        temperature=0.4,
         top_p=0.9,
         do_sample=True,
         pad_token_id=tokenizer.eos_token_id,
-        repetition_penalty=1.2
-        # eos_token_id=[tokenizer.eos_token_id, tokenizer.encode("---")[0]] 
+        repetition_penalty=1.2,
     )
     del inputs
     generated_ids = outputs[0][input_length:]
