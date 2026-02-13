@@ -1,5 +1,12 @@
 model_name = "google/medgemma-4b-it"
 
+model_name_gpt = "gpt-4o"
+MAX_REQUESTS_PER_MINUTE = 30
+MAX_TOKENS_PER_MINUTE = 60000
+SEMAPHORE_SIZE = 5
+BATCH_SIZE = 5
+BATCH_DELAY = 3 
+
 scenarios = ["uri", "htn_followup", "t2dm", "back_pain", "annual_physical"]
 personas = ["brooks", "chen", "minimal"]
 dimensions = ["completeness", "accuracy", "compliance", "risk", "clarity"]
@@ -9,6 +16,8 @@ base_dir = "/kaggle/input/prompts"
 gold_prompt_dir = "/kaggle/input/gold-prompts/generated_prompts"
 persona_prompt_dir = "/kaggle/input/personas"
 persona_generated_dir = "/kaggle/input/personas-generated/generated_personas"
+
+data_dir_gold = "data/gold"
 
 # 50 gold; 50 brooks; 50 chen
 max_notes = 150
@@ -91,4 +100,46 @@ gender_content = {
             "gender_specific_diabetes_counseling": "- Pregnancy planning: If planning pregnancy, HbA1c should be <6.5% prior to conception, discussed preconception counseling, GLP-1 agonists contraindicated in pregnancy (discontinue if pregnancy planned or occurs)\n- Contraception: Discussed need for reliable contraception while on diabetes medications"
         }
     }
+}
+
+scenario_variations = {
+    "uri": [
+        {"severity": "mild", "duration": "3 days", "complications": "none"},
+        {"severity": "moderate", "duration": "5 days", "complications": "none"},
+        {"severity": "moderate", "duration": "7 days", "complications": "mild sinusitis"},
+        {"severity": "mild", "duration": "4 days", "complications": "none"},
+        {"severity": "severe", "duration": "10 days", "complications": "secondary bacterial infection suspected"},
+    ],
+    
+    "htn_followup": [
+        {"control": "well-controlled", "adherence": "excellent", "labs": "all normal"},
+        {"control": "uncontrolled", "adherence": "good", "labs": "borderline lipids"},
+        {"control": "improving", "adherence": "variable", "labs": "elevated creatinine"},
+        {"control": "uncontrolled", "adherence": "excellent", "labs": "normal"},
+        {"control": "well-controlled", "adherence": "good", "labs": "low potassium"},
+    ],
+    
+    "t2dm": [
+        {"control": "uncontrolled", "a1c": "8.2%", "complications": "neuropathy symptoms"},
+        {"control": "poorly controlled", "a1c": "9.5%", "complications": "none yet"},
+        {"control": "improving", "a1c": "7.8%", "complications": "mild retinopathy"},
+        {"control": "uncontrolled", "a1c": "8.5%", "complications": "none"},
+        {"control": "very poor", "a1c": "10.2%", "complications": "foot ulcer concern"},
+    ],
+    
+    "back_pain": [
+        {"severity": "moderate", "radiation": "no radiculopathy", "duration": "3 days"},
+        {"severity": "severe", "radiation": "L leg radiculopathy", "duration": "2 weeks"},
+        {"severity": "mild", "radiation": "no radiculopathy", "duration": "1 day"},
+        {"severity": "moderate", "radiation": "R leg tingling", "duration": "5 days"},
+        {"severity": "severe", "radiation": "bilateral leg weakness", "duration": "1 week"},
+    ],
+    
+    "annual_physical": [
+        {"focus": "routine", "concerns": "none", "findings": "all normal"},
+        {"focus": "new hypertension", "concerns": "family history", "findings": "elevated BP"},
+        {"focus": "weight management", "concerns": "prediabetes", "findings": "obesity"},
+        {"focus": "routine", "concerns": "fatigue", "findings": "low vitamin D"},
+        {"focus": "preventive", "concerns": "cancer screening", "findings": "all normal"},
+    ]
 }
