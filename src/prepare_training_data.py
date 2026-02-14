@@ -5,7 +5,7 @@ import random
 import os
 from datetime import datetime
 
-from src.config import(
+from config import(
     data_dir,
     dimensions,
     max_notes,
@@ -54,7 +54,7 @@ def fix_inconsistent_labels(note):
     
     return note
 
-def load_all_notes(scenarios, personas, data_dir):
+def load_all_notes(scenarios, personas, data_dir, n_notes):
     """Load all 150 labeled notes"""
     all_notes = []
     personas = ["gold"] + personas 
@@ -63,14 +63,14 @@ def load_all_notes(scenarios, personas, data_dir):
         persona_dir = f"{data_dir}/{persona}"
         
         for scenario in scenarios:
-            for i in range(10):
+            for i in range(n_notes):
                 note_id = f"{persona}_{scenario}_{i:03d}"
                 filepath = f"{persona_dir}/{note_id}.json"
                 
                 try:
                     note = load_note(filepath)
                     # Fix inconsistencies
-                    note = fix_inconsistent_labels(note)
+                    # note = fix_inconsistent_labels(note)
                     all_notes.append(note)
                     print(f"Loaded: {note_id}")
                 except FileNotFoundError:
@@ -115,6 +115,7 @@ def create_training_datasets(
         dimensions: list = dimensions,
         data_dir: str = data_dir,
         output_data_dir: str = data_dir, # added this parameter because on kaggle we cannot save anything to /kaggle/input/
+        n_notes: int = 10,
     ):
     """Main function to prepare all training data"""
     
@@ -124,7 +125,7 @@ def create_training_datasets(
     
     # Load all notes
     print("\n1. Loading notes...")
-    all_notes = load_all_notes(scenarios, personas, data_dir)
+    all_notes = load_all_notes(scenarios, personas, data_dir, n_notes)
     
     if len(all_notes) != max_notes:
         print(f"\nWARNING: Expected {max_notes} notes, got {len(all_notes)}")
