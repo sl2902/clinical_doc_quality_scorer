@@ -19,8 +19,8 @@ persona_generated_dir = "/kaggle/input/personas-generated/generated_personas"
 
 data_dir_gold = "data/gold"
 
-# 50 gold; 50 brooks; 50 chen
-max_notes = 150
+# 50 gold; 50 brooks; 50 chen; 50 minimal
+max_notes = 200
 
 # training prompt
 prompt = "Score the accuracy of this clinical note (0-100):"
