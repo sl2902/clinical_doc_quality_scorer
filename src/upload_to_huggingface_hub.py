@@ -10,8 +10,7 @@ login(token=hf_token)
 
 BASE_MODEL = "google/medgemma-4b-it"
 
-# dimensions = ["completeness", "accuracy", "compliance", "risk", "clarity"]
-dimensions = ["risk"]
+dimensions = ["completeness", "accuracy", "compliance", "risk", "clarity"]
 
 for dim in dimensions:
     print(f"Uploading {dim}...")
@@ -20,7 +19,7 @@ for dim in dimensions:
 
     try:
         create_repo(repo_id, token=hf_token, repo_type="model", exist_ok=True)
-        print(f"✓ Created repo: {repo_id}")
+        print(f" Created repo: {repo_id}")
     except Exception as e:
         print(f"Repo might already exist: {e}")
     
@@ -32,6 +31,6 @@ for dim in dimensions:
         create_pr=False,
     )
     
-    print(f"✓ Done: https://huggingface.co/{repo_id}")
+    print(f" Done: https://huggingface.co/{repo_id}")
 
 print("\nAll agents uploaded!")
