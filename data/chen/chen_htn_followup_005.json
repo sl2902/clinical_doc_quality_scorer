@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_htn_followup_005",
+  "scenario": "htn_followup",
+  "persona": "chen",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Clinical Note**\n\n**Chief Complaint:**  \nBlood pressure check\n\n**History of Present Illness:**  \nPatient with hypertension, on Lisinopril 10mg daily. Excellent med adherence, no missed doses. BP at home: avg 138/86 over 2 weeks. Walks 3x/wk, 30 mins. Reducing sodium; drinks 2-3 beers weekends.\n\n**Review of Systems:**  \n- Cardiovascular: No CP, palpitations.  \n- Respiratory: No SOB.  \n- Neurological: No HA, dizziness.  \n- Gastrointestinal: Regular periods, no GI issues.  \n- Psychiatric: Not assessed.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 142/88, HR 74, BMI 28.3  \n- **Cardiovascular:** Regular rhythm, 2+ pulses  \n- **Respiratory:** Clear lungs  \n- **Extremities:** WNL  \n- **Fundoscopic Exam:** Unremarkable\n\n**Assessment and Plan:**  \n1. **Hypertension, uncontrolled**  \n   - Increase Lisinopril  \n   - Continue home BP monitoring  \n   - Lifestyle: DASH diet, sodium <2000mg/day, alcohol <2 drinks/day, exercise 5x/week  \n   - Follow-up in a few weeks  \n\n2. **Overweight**  \n   - Aim to lose 10 lbs in 3 months  \n\n3. **Lipid Management**  \n   - Recheck BMP and lipid panel in 6 months  \n\n**Patient Education:**  \nDiscussed lifestyle changes for BP control and cardiovascular risk reduction.\n\n**Medical Decision Making:**  \nBP remains elevated; increase Lisinopril. Considered second agent but opted for dose increase. Discussed importance of reaching target BP <130/80.",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_htn_followup_005",
+  "generated_at": "2026-02-14T02:50:47.066318",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 80,
+    "risk": 85,
+    "clarity": 88
+  }
+}

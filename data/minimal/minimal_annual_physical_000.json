@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_annual_physical_000",
+  "scenario": "annual_physical",
+  "persona": "minimal",
+  "note_text": "**Patient:** Robert Chen\n**Age:** 42\n**Gender:** M\n**Occupation:** software engineer\n\n**Chief Complaint:**  \nAnnual physical\n\n**HPI:**  \nRoutine check-up. Feels well. Mild hypertension, controlled.\n\n**Physical Exam:**  \n- **VS:** BP 122/76, HR 68, RR 14, T 98.2\u00b0F, O2 99%  \n- Gen: Well-appearing  \n- CV: RRR, no murmurs  \n- Resp: Clear bilaterally\n\n**Assessment:**  \n- Health maintenance  \n- Essential hypertension\n\n**Plan:**  \n- Continue Lisinopril  \n- Labs: Lipid panel, fasting glucose  \n- Discussed vaccines, screenings",
+  "demographics": {
+    "age": 42,
+    "gender": "M",
+    "occupation": "software engineer",
+    "name": "Robert Chen"
+  },
+  "source_gold_note": "gold_annual_physical_000",
+  "generated_at": "2026-02-14T02:32:39.997585",
+  "ground_truth_scores": {
+    "completeness": 30,
+    "accuracy": 75,
+    "compliance": 25,
+    "risk": 30,
+    "clarity": 50
+  }
+}

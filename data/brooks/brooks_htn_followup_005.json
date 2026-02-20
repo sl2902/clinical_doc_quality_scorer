@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_htn_followup_005",
+  "scenario": "htn_followup",
+  "persona": "brooks",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Chief Complaint:**  \nBP check\n\n**HPI:**  \nPt with hx of HTN on Lisinopril 10mg daily. Reports good adherence, BP avg 138/86 at home. Engages in exercise, reducing sodium, drinks 2-3 beers on weekends.\n\n**ROS:**  \nNo fever, wt loss, CP, SOB, HA, dizziness. Menstrual WNL. No depression, anxiety.\n\n**Physical Exam:**  \nBP 142/88, HR 74, Wt 192 lbs, BMI 28.3. Gen: Alert, overweight. CV: Reg, no murmurs. Resp: Clear. Ext: No edema. WNL.\n\n**Assessment/Plan:**  \n1. HTN, uncontrolled: \u2191 Lisinopril to 20mg daily. Lifestyle mods: DASH, \u2193 Na, limit EtOH, \u2191 exercise.  \n2. Overweight: Aim to lose 10 lbs.  \n3. Labs: Recheck BMP, lipid in 6 mos.  \n4. Contraception: Discussed ACE-I risks.  \n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_htn_followup_005",
+  "generated_at": "2026-02-14T02:50:26.540874",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 80,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 75
+  }
+}

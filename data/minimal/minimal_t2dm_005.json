@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_t2dm_005",
+  "scenario": "t2dm",
+  "persona": "minimal",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Chief Complaint:**  \nDiabetes follow-up\n\n**HPI:**  \n3-year Type 2 DM. Fasting glucose 160-220, postprandial 180-250. On Metformin, occasional GI upset. Tingling feet, no hypoglycemia.\n\n**Physical Exam:**  \n- BP 128/78, HR 78, Temp 98.6, Weight 185 lbs, BMI 32.4  \n- Alert, obese. Feet: sensation intact, no wounds.\n\n**Assessment:**  \n- Uncontrolled Type 2 Diabetes  \n- Obesity  \n- Neuropathy symptoms\n\n**Plan:**  \n- Add Semaglutide, continue Metformin.  \n- Lifestyle changes: exercise, diet.  \n- Diabetes educator referral.  \n- Ophthalmology referral.",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_t2dm_005",
+  "generated_at": "2026-02-14T02:52:05.921272",
+  "ground_truth_scores": {
+    "completeness": 30,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 50
+  }
+}

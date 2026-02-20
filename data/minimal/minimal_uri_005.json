@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_uri_005",
+  "scenario": "uri",
+  "persona": "minimal",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Chief Complaint:**  \n- Cough, congestion 3 days\n\n**HPI:**  \n- Mild cough, nasal congestion, sore throat, fatigue. No severe symptoms.\n\n**Physical Exam:**  \n- Vitals: T 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99%  \n- Nose: Congested, clear discharge  \n- Lungs: Clear bilaterally\n\n**Assessment:**  \n- Viral URI\n\n**Plan:**  \n- Rest, fluids.  \n- Pseudoephedrine, dextromethorphan PRN.",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_uri_005",
+  "generated_at": "2026-02-14T02:53:32.966549",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 50
+  }
+}

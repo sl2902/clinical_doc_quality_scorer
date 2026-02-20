@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_back_pain_009",
+  "scenario": "back_pain",
+  "persona": "minimal",
+  "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**  \n- Severe back pain, leg weakness\n\n**HPI:**  \n- 1 week of sharp low back pain, worsens with movement, began after lifting, bilateral leg weakness.\n\n**Physical Exam:**  \n- Vital Signs: BP 128/82, HR 74, Temp 98.4\u00b0F  \n- Tender left lumbar region, limited ROM, antalgic gait.\n\n**Assessment:**  \n- Acute mechanical low back pain, lumbar strain\n\n**Plan:**  \n- Ibuprofen, muscle relaxant, heat therapy, PT referral. Avoid lifting, modify activity.",
+  "demographics": {
+    "age": 39,
+    "gender": "F",
+    "occupation": "project manager",
+    "name": "Sarah Johnson"
+  },
+  "source_gold_note": "gold_back_pain_009",
+  "generated_at": "2026-02-14T02:49:28.355413",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 50
+  }
+}

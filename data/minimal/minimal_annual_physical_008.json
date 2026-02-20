@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_annual_physical_008",
+  "scenario": "annual_physical",
+  "persona": "minimal",
+  "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Chief Complaint:**  \nAnnual exam  \n\n**HPI:**  \nRoutine check-up. Reports mild fatigue, no acute issues.  \n\n**Physical Exam:**  \n- Vital Signs: BP 122/76, HR 68, Temp 98.2\u00b0F  \n- General: Well-appearing, no distress  \n\n**Assessment:**  \n- Hypertension, controlled  \n- Mild fatigue  \n\n**Plan:**  \n- Continue Lisinopril  \n- Screen labs: Lipid, glucose, TSH  \n- Encourage sleep, stress management",
+  "demographics": {
+    "age": 29,
+    "gender": "F",
+    "occupation": "graphic designer",
+    "name": "Emily Taylor"
+  },
+  "source_gold_note": "gold_annual_physical_008",
+  "generated_at": "2026-02-14T02:48:25.142032",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 50
+  }
+}

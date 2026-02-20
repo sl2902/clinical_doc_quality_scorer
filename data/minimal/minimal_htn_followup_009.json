@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_htn_followup_009",
+  "scenario": "htn_followup",
+  "persona": "minimal",
+  "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**  \n- BP check  \n\n**HPI:**  \n- F/U for HTN, on Lisinopril. BP avg 138/86, not at goal.  \n\n**Physical Exam:**  \n- BP 142/88, HR 74, BMI 28.3  \n- Alert, no edema  \n\n**Assessment:**  \n- Uncontrolled HTN  \n- Overweight  \n\n**Plan:**  \n- \u2191 Lisinopril to 20mg  \n- Monitor BP, return 6-8 wks",
+  "demographics": {
+    "age": 39,
+    "gender": "F",
+    "occupation": "project manager",
+    "name": "Sarah Johnson"
+  },
+  "source_gold_note": "gold_htn_followup_009",
+  "generated_at": "2026-02-14T02:51:10.314280",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 50
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_uri_003",
+  "scenario": "uri",
+  "persona": "brooks",
+  "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**CC:** Cough and congestion, 4 days\n\n**HPI:** Pt with cough, nasal congestion, clear rhinorrhea. Reports sore throat, mild HA, fatigue. Denies fever, SOB, CP. No significant PMH.\n\n**ROS:** +Fatigue, nasal congestion, sore throat, cough, mild HA. -Fever, SOB, CP, GI sx.\n\n**PE:** Temp 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99% RA. Gen: Alert, NAD. HEENT: Congested nasal mucosa, mild pharyngeal erythema. Lungs: Clear bilat. CV: RRR, no murmurs.\n\n**A/P:**  \n- Acute viral URI (J06.9)  \n- Rest, fluids, humidifier. Pseudoephedrine, dextromethorphan PRN.  \n- RTC or f/u PRN if sx worsen or persist.",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "source_gold_note": "gold_uri_003",
+  "generated_at": "2026-02-14T02:53:13.094984",
+  "ground_truth_scores": {
+    "completeness": 70,
+    "accuracy": 85,
+    "compliance": 65,
+    "risk": 75,
+    "clarity": 80
+  }
+}

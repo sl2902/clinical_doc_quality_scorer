@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_back_pain_005",
+  "scenario": "back_pain",
+  "persona": "chen",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Chief Complaint:**  \nBack pain for 3 days\n\n**History of Present Illness:**  \n35-year-old female with acute low back pain, lumbar region, left side. Pain sharp with movement, dull at rest. Started 3 days ago after lifting at work. Pain worse in AM, after sitting. No leg radiation, no neuro symptoms noted.\n\n**Review of Systems:**  \n- **Musculoskeletal:** Sharp back pain, no other joint issues.  \n- **Neurological/Musculoskeletal Combined:** No leg weakness, no tingling, normal balance.  \n- **Constitutional/GU/Respiratory:** No fever, weight stable, normal urination.  \n- **Abdomen:** Not reviewed.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/82 mmHg, HR 74, Temp 98.4\u00b0F.  \n- **Back:** Tenderness left paraspinal L3-L5, muscle spasm, limited flexion.  \n- **Neurological:** Grossly intact reflexes and strength, negative straight leg raise.  \n- **Abdomen:** Soft, non-tender.\n\n**Assessment and Plan:**  \n- **Assessment:** Acute mechanical low back pain, lumbar strain.  \n- **Plan:**  \n  * **Medications:** Ibuprofen and muscle relaxant at bedtime.  \n  * **Activity:** Avoid heavy lifting, modify activities. Light duty work if possible.  \n  * **Therapy:** Heat/Ice as needed, consider PT if no improvement in a week.  \n  * **Education:** Discussed red flags - leg weakness, groin numbness, bowel issues.  \n  * **Follow-Up:** Return if no improvement in a few weeks or if symptoms worsen.  \n\n**Documentation:**  \nTime Spent: Not documented.  \nBilling Level: Not documented.",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_back_pain_005",
+  "generated_at": "2026-02-14T02:48:59.649727",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 78,
+    "risk": 85,
+    "clarity": 88
+  }
+}

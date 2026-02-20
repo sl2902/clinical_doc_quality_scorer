@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_annual_physical_002",
+  "scenario": "annual_physical",
+  "persona": "minimal",
+  "note_text": "**Patient:** James Wilson\n**Age:** 38\n**Gender:** M\n**Occupation:** warehouse worker\n\n**Chief Complaint:**  \nAnnual check-up\n\n**HPI:**  \nRoutine exam, feeling well. Mild hypertension, stable on meds.\n\n**Physical Exam:**  \n- **Vitals:** BP 122/76, HR 68, Temp 98.2\u00b0F  \n- Well-appearing, no distress.\n\n**Assessment:**  \n- Hypertension\n\n**Plan:**  \n- Continue Lisinopril.  \n- Screening labs ordered.  \n- Flu shot given.",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "source_gold_note": "gold_annual_physical_002",
+  "generated_at": "2026-02-14T02:47:37.014786",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 40
+  }
+}

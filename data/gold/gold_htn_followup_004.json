@@ -1,0 +1,20 @@
+{
+  "note_id": "gold_htn_followup_004",
+  "scenario": "htn_followup",
+  "persona": "gold",
+  "note_text": "**Clinical Note**\n\n**Patient Name:** Michael Brown  \n**Patient Age/Gender:** 47/M  \n**Date of Visit:** [Date]  \n**Occupation:** High school teacher\n\n**Chief Complaint:**  \n\"Blood pressure check\"\n\n**History of Present Illness:**  \nMichael Brown is a 47-year-old male with a history of hypertension, returning for a follow-up visit. It has been 4 months since his last appointment. He was initiated on Lisinopril 10mg daily at that time. He reports good adherence to his medication regimen, taking it daily without missed doses and experiencing no side effects. Home blood pressure monitoring over the past 2 weeks shows average readings of 138/86 mmHg. Although he is adherent, his blood pressure is not at the targeted goal of <130/80 mmHg. He exercises by walking 3 times per week for 30 minutes, is trying to reduce sodium intake, and consumes 2-3 beers on weekends. He has no symptoms such as headaches, chest pain, palpitations, dizziness, or leg swelling. Michael denies any concerns with sexual function, including erectile dysfunction.\n\n**Review of Systems:**  \n- Constitutional: No weight loss or fever.  \n- Cardiovascular: No chest pain, palpitations, or edema.  \n- Respiratory: No cough or shortness of breath.  \n- Neurological: No dizziness, headaches, or syncope.  \n- Genitourinary: No erectile dysfunction or urinary symptoms.  \n\n**Past Medical History:**  \n- Hypertension\n\n**Medications:**  \n- Lisinopril 10mg daily\n\n**Allergies:**  \n- No known drug allergies\n\n**Social History:**  \n- Non-smoker  \n- Drinks 2-3 beers on weekends  \n- Exercises by walking 3 times per week for 30 minutes\n\n**Physical Examination:**  \n- **Vital Signs:** BP 142/88 mmHg right arm, 140/86 mmHg left arm (seated, repeated after 5 min rest), HR 74, Weight 192 lbs, BMI 28.3  \n- **General:** Alert, well-appearing, overweight  \n- **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ bilaterally  \n- **Respiratory:** Clear lung fields bilaterally  \n- **Extremities:** No edema  \n- **Fundoscopic:** No papilledema\n\n**Assessment and Plan:**  \n1. **Essential Hypertension, Uncontrolled (ICD-10: I10):**  \n   - Increase Lisinopril to 20mg daily.  \n   - Continue home BP monitoring (record twice daily for 1 week before next visit).  \n   - Lifestyle modifications:  \n     - Implement DASH diet and reduce sodium intake to <2000mg/day.  \n     - Limit alcohol to <2 drinks/day.  \n     - Increase exercise to 5 times per week.  \n   - Return in 6-8 weeks to assess BP response to medication adjustment.\n\n2. **Overweight (ICD-10: E66.3):**  \n   - Set a weight loss goal of 10 lbs over the next 3 months.\n\n3. **Laboratory Follow-up:**  \n   - Reassess labs in 6 months: BMP and lipid panel.  \n   - Consider statin therapy if LDL remains elevated.\n\n4. **Sexual Health:**  \n   - Discussed potential effects of BP medications on erectile function; advised to report any issues.\n\n**Time Spent:**  \n20 minutes spent with the patient, including extensive counseling on lifestyle modifications.\n\n**Billing Level:**  \n99214 (Established patient, moderate complexity)\n\n**Medical Decision Making:**  \nRationale for increasing the dosage of Lisinopril is based on persistently elevated BP readings despite good adherence to current therapy. Discussed cardiovascular risk with the patient, noting a 10-year ASCVD risk of approximately 12%. Emphasized the importance of aggressive blood pressure control considering his risk factors. Decided to escalate the dose of Lisinopril before considering a second antihypertensive agent. Extensively discussed lifestyle modifications to aid in blood pressure management and overall cardiovascular risk reduction.",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "generated_at": "2026-02-14T01:54:12.378426",
+  "ground_truth_scores": {
+    "completeness": 90,
+    "accuracy": 95,
+    "compliance": 85,
+    "risk": 90,
+    "clarity": 92
+  }
+}

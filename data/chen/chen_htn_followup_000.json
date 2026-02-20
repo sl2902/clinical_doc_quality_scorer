@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_htn_followup_000",
+  "scenario": "htn_followup",
+  "persona": "chen",
+  "note_text": "**Patient:** Robert Chen\n**Age:** 42\n**Gender:** M\n**Occupation:** software engineer\n\n**Chief Complaint:**  \nBlood pressure check.\n\n**History of Present Illness:**  \nPatient with hypertension here for follow-up. On Lisinopril for 4 months, takes daily, no missed doses. Home BP avg 138/86 mmHg, higher than target <130/80 mmHg. Walks 3x/week for 30 min, cutting down on salt. Drinks 2-3 beers weekends. No headaches, chest pain, or dizziness. No ED issues noted.\n\n**Review of Systems:**  \n- Cardiovascular: No chest pain, palpitations.  \n- Respiratory, Neurological, Gastrointestinal: No SOB, headaches, abdominal pain.  \n- Musculoskeletal: No joint pain.  \n- Psychiatric: Denies depression/anxiety.  \n- Genitourinary: **(Skipped)**\n\n**Physical Examination:**  \n- Vitals: BP 142/88 and 140/86, HR 74.  \n- Cardiovascular: Regular, no murmurs, pulses 2+ bilaterally.  \n- Respiratory: Clear bilaterally.  \n- Extremities & Fundoscopic: Unremarkable.  \n- **General:** Alert, overweight.\n\n**Assessment and Plan:**  \n1. **Essential Hypertension, uncontrolled:**  \n   - Increase Lisinopril.  \n   - Continue home BP monitoring.  \n   - Discussed BP goals and risk reduction.  \n\n2. **Overweight:**  \n   - Advised DASH diet, reduce sodium, limit alcohol.  \n   - Increase exercise to 5x/week.  \n   - Aim for 10 lbs weight loss in 3 months.\n\n3. **Lipid Panel (borderline):**  \n   - Recheck BMP and lipids in 6 months.  \n\n**Follow-up:**  \nReturn in 6-8 weeks.\n\n**Documentation:**  \nTime spent on lifestyle counseling not recorded.  \nBilling Level: **(Omitted)**",
+  "demographics": {
+    "age": 42,
+    "gender": "M",
+    "occupation": "software engineer",
+    "name": "Robert Chen"
+  },
+  "source_gold_note": "gold_htn_followup_000",
+  "generated_at": "2026-02-14T02:49:43.743726",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 80,
+    "clarity": 85
+  }
+}

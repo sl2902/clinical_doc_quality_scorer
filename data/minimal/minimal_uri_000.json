@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_uri_000",
+  "scenario": "uri",
+  "persona": "minimal",
+  "note_text": "**Patient:** Robert Chen\n**Age:** 42\n**Gender:** M\n**Occupation:** software engineer\n\n**Chief Complaint:**  \nCough, congestion\n\n**HPI:**  \n3 days cough, congestion. No fever, SOB, CP.\n\n**Physical Exam:**  \n- Vitals: Temp 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99% RA  \n- HEENT: Nasal congestion, clear discharge  \n- Lungs: Clear bilaterally  \n\n**Assessment:**  \nAcute viral URI\n\n**Plan:**  \n- Rest, fluids  \n- Pseudoephedrine, dextromethorphan",
+  "demographics": {
+    "age": 42,
+    "gender": "M",
+    "occupation": "software engineer",
+    "name": "Robert Chen"
+  },
+  "source_gold_note": "gold_uri_000",
+  "generated_at": "2026-02-14T02:53:03.059906",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 50
+  }
+}

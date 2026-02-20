@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_annual_physical_009",
+  "scenario": "annual_physical",
+  "persona": "chen",
+  "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**\nAnnual physical exam.\n\n**History of Present Illness:**\nPatient here for routine check-up, no acute issues. Reports feeling generally well. Mild hypertension, managed with meds. No recent ER visits or hospitalizations.\n\n**Review of Systems:**\n- **Constitutional:** No fever or weight change.\n- **Eyes/ENT:** No vision problems, uses reading glasses; no hearing issues.\n- **Cardiovascular/Respiratory:** No chest pain, palpitations, or respiratory symptoms.\n- **GI/GU:** Regular bowel habits, no urinary complaints.\n- **Musculoskeletal/Skin:** Active, no joint pain; skin without new moles.\n- **Neurological/Psychiatric:** No headaches, dizziness; mood stable.\n\n**Physical Examination:**\n- **Vital Signs:** BP 122/76 mmHg, HR 68, Temp 98.2\u00b0F.\n- **General:** Well-appearing, no distress.\n- **HEENT:** Normocephalic, PERRLA, EOMI.\n- **Neck/CV/Respiratory:** Supple, no murmurs, clear lungs.\n- **Abdomen:** Soft, non-tender, normoactive bowel sounds.\n- **Musculoskeletal:** Full ROM.\n- **Neurological:** Alert, oriented, CN II-XII intact.\n- **Psychiatric:** Appropriate affect.\n\n**Assessment:**\n- **Health Maintenance:** Routine preventive care.\n- **Hypertension:** Controlled on current regimen.\n  \n**Plan:**\n- Order lipid panel, glucose, TSH, CBC.\n- Mammogram ordered; Pap/Colonoscopy not due.\n- Influenza vaccine administered; COVID booster discussed.\n- Advise continued Mediterranean diet, exercise.\n- Encourage BP monitoring at home.\n\n**Medications:**\n- Lisinopril, multivitamin, calcium with vitamin D.\n\n**Time Spent:**\nApprox. 40 mins.\n\n**Billing Level:**\n99396 (Preventive visit, established patient).\n\n**Medical Decision Making:**\nPreventive care tailored to age and history. Discussed family history (colon cancer). Reinforced healthy lifestyle choices.",
+  "demographics": {
+    "age": 39,
+    "gender": "F",
+    "occupation": "project manager",
+    "name": "Sarah Johnson"
+  },
+  "source_gold_note": "gold_annual_physical_009",
+  "generated_at": "2026-02-14T02:48:10.702485",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 92,
+    "compliance": 78,
+    "risk": 88,
+    "clarity": 90
+  }
+}

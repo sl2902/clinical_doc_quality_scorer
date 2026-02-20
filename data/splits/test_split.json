@@ -1,0 +1,831 @@
+[
+  {
+    "note_id": "brooks_back_pain_006",
+    "scenario": "back_pain",
+    "persona": "brooks",
+    "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Chief Complaint:**  \nBack pain, severe, 2 weeks.\n\n**HPI:**  \nPt c/o severe LBP, sharp w/ movement, dull at rest. Onset after lifting at work. Pain radiates to L leg, no numbness/tingling. Ibuprofen helps.\n\n**ROS:**  \nMusculoskeletal: LBP, radiculopathy. Neuro: No weakness/numbness. Constitutional/GU: No fever, normal bowel/bladder.\n\n**Physical Exam:**  \nVS: BP 128/82, HR 74, Temp 98.4, RR 14.  \nBack: Tender L3-L5, muscle spasm. Neuro: +SLR L, motor/sensory WNL, reflexes 2+. Gait antalgic.\n\n**Assessment/Plan:**  \nAcute mech LBP, lumbar strain w/ L radiculopathy. Continue ibuprofen, add cyclobenzaprine HS. Avoid heavy lifting, PT referral. Heat/ice therapy. RTC PRN.",
+    "demographics": {
+      "age": 28,
+      "gender": "F",
+      "occupation": "registered nurse",
+      "name": "Maria Garcia"
+    },
+    "source_gold_note": "gold_back_pain_006",
+    "generated_at": "2026-02-14T02:48:55.350227",
+    "ground_truth_scores": {
+      "completeness": 72,
+      "accuracy": 80,
+      "compliance": 65,
+      "risk": 70,
+      "clarity": 75
+    }
+  },
+  {
+    "note_id": "minimal_back_pain_001",
+    "scenario": "back_pain",
+    "persona": "minimal",
+    "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Chief Complaint:**  \n- Back pain, 2 weeks\n\n**HPI:**  \n- Severe sharp pain left lumbar, dull at rest. Started after lifting box. Radiates to left leg, no numbness.\n\n**Physical Exam:**  \n- Vitals: BP 128/82, HR 74, Temp 98.4\u00b0F, RR 14  \n- Tender left L3-L5, limited ROM, positive straight leg raise left.\n\n**Assessment:**  \n- Acute mechanical low back pain, radiculopathy.\n\n**Plan:**  \n- Ibuprofen, rest, no heavy lifting, PT referral.",
+    "demographics": {
+      "age": 51,
+      "gender": "M",
+      "occupation": "sales manager",
+      "name": "David Kim"
+    },
+    "source_gold_note": "gold_back_pain_001",
+    "generated_at": "2026-02-14T02:48:36.610480",
+    "ground_truth_scores": {
+      "completeness": 40,
+      "accuracy": 85,
+      "compliance": 30,
+      "risk": 50,
+      "clarity": 65
+    }
+  },
+  {
+    "note_id": "gold_back_pain_009",
+    "scenario": "back_pain",
+    "persona": "gold",
+    "note_text": "**Clinical Note**\n\n**Patient Name:** Sarah Johnson  \n**Age:** 39 years old  \n**Gender:** Female  \n**Occupation:** Project Manager  \n**Date of Visit:** [Today's Date]\n\n**Chief Complaint:**  \n\"Severe back pain for 1 week with bilateral leg weakness.\"\n\n**History of Present Illness:**  \nSarah Johnson, a 39-year-old established patient, presents with severe acute low back pain for 1 week. The pain is localized to the lower back, primarily in the left lumbar region. She describes the pain as sharp with movement and a dull ache at rest. The severity is rated as 7/10 with movement and 4/10 at rest. The pain is constant, worsening in the morning and after sitting for prolonged periods. It began after lifting a 50-pound box at work with a twisting motion. The pain is exacerbated by bending forward, standing for more than 30 minutes, and sneezing, and is alleviated by lying flat, applying heat, and taking ibuprofen. She reports bilateral leg weakness but denies any radiation of pain to the legs, numbness, tingling, bowel or bladder changes, and fever.\n\n**Review of Systems:**  \n- **Musculoskeletal:** Severe back pain as described, no other joint pain.  \n- **Neurological:** Reports bilateral leg weakness, denies numbness/tingling, no saddle anesthesia, no loss of balance.  \n- **Constitutional:** No fever, no chills, no weight loss.  \n- **GU:** No urinary retention, no incontinence, normal bowel function.\n\n**Past Medical History:**  \n- No chronic back problems reported.\n\n**Medications:**  \n- Ibuprofen 600mg as needed\n\n**Allergies:**  \n- No known drug allergies.\n\n**Social History:**  \n- Occupation: Project Manager  \n- No tobacco use, occasional alcohol consumption, no illicit drug use.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/82 mmHg, HR 74, Temperature 98.4\u00b0F, RR 14  \n- **General:** Alert, uncomfortable when moving but not in severe distress.  \n- **Back:** Tenderness to palpation over left paraspinal muscles at L3-L5, no midline tenderness, no step-off deformity, muscle spasm present.  \n- **Range of Motion:** Flexion limited to 45 degrees (pain-limited), extension 15 degrees (limited), lateral bending 20 degrees bilaterally (limited).  \n- **Neurological:**  \n  - **Straight Leg Raise:** Negative bilaterally (no radicular pain, only local back discomfort at 70 degrees)  \n  - **Motor:** 5/5 strength bilateral hip flexors, knee extensors, ankle dorsiflexion, plantar flexion, great toe extension.  \n  - **Sensory:** Intact to light touch L1-S1 distributions bilaterally.  \n  - **Reflexes:** 2+ patellar and Achilles bilaterally, symmetric, no clonus.  \n  - **Gait:** Antalgic but able to walk without assistance, able to heel walk and toe walk.  \n- **Abdomen:** Soft, non-tender, no costovertebral angle tenderness.\n\n**Assessment and Plan:**  \n- **Assessment:**  \n  - Acute mechanical low back pain, lumbar strain (ICD-10: M54.5)  \n  - Bilateral leg weakness noted, requires further evaluation.  \n  - No red flags for serious pathology, but close follow-up warranted.\n\n- **Plan:**  \n  - Conservative management with close monitoring of symptoms.  \n  - Medications:  \n    - Ibuprofen 600mg three times daily with food for 7-10 days.  \n    - Cyclobenzaprine 5mg at bedtime for muscle spasm (3-5 days, avoid if sedation problematic).  \n  - Activity modification:  \n    - Avoid heavy lifting (>20 lbs) for 2 weeks.  \n    - No prolonged sitting (>1 hour without break).  \n    - Return to normal activities as tolerated (bed rest NOT recommended).  \n    - May continue light duty work if employer accommodates restrictions.  \n  - Physical therapy: Referral for core strengthening, proper body mechanics training, start in 1 week if pain improving.  \n  - Heat/ice therapy: Alternate for 15-20 minutes several times daily.  \n  - Work note: Light duty with 20-pound lifting restriction for 2 weeks.  \n  - Red flag education: Return immediately or go to ER if develops new or worsening symptoms such as increased leg weakness, numbness in groin/inner thighs, loss of bowel/bladder control, or progressively worsening pain.  \n  - Follow-up: Return in 2 weeks if not improving significantly, sooner if worsening or new symptoms.  \n  - Imaging: Will consider lumbar X-rays or MRI if no improvement at 4-6 weeks or if red flags develop.\n\n**Time Spent:**  \n20 minutes including detailed neurological exam and extensive education about natural history and red flags.\n\n**Billing Level:**  \n99214 (Established patient, moderate complexity)\n\n**Medical Decision Making:**  \nComprehensive assessment for red flags conducted (all absent except bilateral leg weakness). Clinical presentation consistent with acute mechanical low back pain/lumbar strain. Discussed natural history and expected course of recovery. Emphasized risk-benefit analysis of medications and importance of activity modification. Educated patient on red flag symptoms requiring urgent evaluation. Follow-up arranged to monitor symptoms closely, with contingency plan for imaging if necessary.",
+    "demographics": {
+      "age": 39,
+      "gender": "F",
+      "occupation": "project manager",
+      "name": "Sarah Johnson"
+    },
+    "generated_at": "2026-02-14T01:57:15.160376",
+    "ground_truth_scores": {
+      "completeness": 85,
+      "accuracy": 95,
+      "compliance": 80,
+      "risk": 90,
+      "clarity": 92
+    }
+  },
+  {
+    "note_id": "minimal_htn_followup_008",
+    "scenario": "htn_followup",
+    "persona": "minimal",
+    "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Chief Complaint:**  \n- BP check  \n\n**HPI:**  \n- Follow-up for hypertension. On Lisinopril 10mg. BP not at goal.  \n\n**Physical Exam:**  \n- BP: 142/88, HR: 74  \n- Alert, no edema  \n\n**Assessment:**  \n- Uncontrolled essential hypertension  \n\n**Plan:**  \n- Increase Lisinopril to 20mg.  \n- Continue BP monitoring, lifestyle changes.",
+    "demographics": {
+      "age": 29,
+      "gender": "F",
+      "occupation": "graphic designer",
+      "name": "Emily Taylor"
+    },
+    "source_gold_note": "gold_htn_followup_008",
+    "generated_at": "2026-02-14T02:51:18.304251",
+    "ground_truth_scores": {
+      "completeness": 40,
+      "accuracy": 85,
+      "compliance": 30,
+      "risk": 50,
+      "clarity": 60
+    }
+  },
+  {
+    "note_id": "brooks_back_pain_007",
+    "scenario": "back_pain",
+    "persona": "brooks",
+    "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Chief Complaint:**  \nBack pain\n\n**HPI:**  \nPt c/o acute lower back pain, left side. Pain sharp with movement, dull at rest. Onset after lifting heavy box. No leg radiation or neuro sx.\n\n**ROS:**  \nBack pain, no leg weakness/numbness, no systemic sx.\n\n**Physical Exam:**  \nVS: BP 128/82, HR 74, Temp 98.4\u00b0F, RR 14.  \nBack: Tender L3-L5, spasm present. ROM limited. Neuro: Strength, sensation, reflexes WNL. Gait antalgic.\n\n**Assessment/Plan:**  \n- Acute lumbar strain, no radiculopathy.  \n- Ibuprofen 600mg TID, Cyclobenzaprine 5mg QHS.  \n- Activity mod: Avoid heavy lifting, limit sitting.  \n- PT referral, heat/ice therapy.  \n- RTC PRN, ER for red flags.",
+    "demographics": {
+      "age": 45,
+      "gender": "F",
+      "occupation": "accountant",
+      "name": "Lisa Anderson"
+    },
+    "source_gold_note": "gold_back_pain_007",
+    "generated_at": "2026-02-14T03:09:26.838448",
+    "ground_truth_scores": {
+      "completeness": 70,
+      "accuracy": 85,
+      "compliance": 60,
+      "risk": 75,
+      "clarity": 80
+    }
+  },
+  {
+    "note_id": "minimal_back_pain_005",
+    "scenario": "back_pain",
+    "persona": "minimal",
+    "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Chief Complaint:**  \n- Back pain\n\n**HPI:**  \n- Acute low back pain, 3 days, post-lifting box. Sharp with movement.\n\n**Physical Exam:**  \n- VS: BP 128/82, HR 74, Temp 98.4\u00b0F  \n- Tender L3-L5, limited ROM.\n\n**Assessment:**  \n- Acute mechanical low back pain\n\n**Plan:**  \n- Ibuprofen, cyclobenzaprine for spasm.  \n- Avoid heavy lifting, start PT if pain improves.",
+    "demographics": {
+      "age": 35,
+      "gender": "F",
+      "occupation": "elementary teacher",
+      "name": "Jane Doe"
+    },
+    "source_gold_note": "gold_back_pain_005",
+    "generated_at": "2026-02-14T02:48:52.890399",
+    "ground_truth_scores": {
+      "completeness": 40,
+      "accuracy": 85,
+      "compliance": 30,
+      "risk": 50,
+      "clarity": 60
+    }
+  },
+  {
+    "note_id": "gold_annual_physical_000",
+    "scenario": "annual_physical",
+    "persona": "gold",
+    "note_text": "**Chief Complaint:**  \n\"Annual physical\"\n\n**History of Present Illness:**  \nRobert Chen is a 42-year-old male presenting for his routine annual preventive health examination. He reports feeling well overall, with a good energy level and no acute complaints. He has mild hypertension, which is well-controlled on medication. There have been no hospitalizations or emergency room visits since his last visit one year ago, and no new diagnoses have been made.\n\n**Review of Systems (Comprehensive):**  \n- **Constitutional:** No fever, chills, or unintentional weight changes.  \n- **Eyes:** No vision changes; last eye exam 1 year ago; wears reading glasses.  \n- **ENT:** No hearing loss or chronic sinus issues.  \n- **Cardiovascular:** No chest pain, palpitations, orthopnea, PND, or edema.  \n- **Respiratory:** No cough, shortness of breath, or wheezing.  \n- **GI:** No abdominal pain, regular bowel movements, no blood in stool, no heartburn.  \n- **GU:** No dysuria, urinary frequency/urgency, erectile dysfunction, or hematuria.  \n- **Musculoskeletal:** No joint pain or back pain; active without limitations.  \n- **Neurological:** No headaches, dizziness, weakness, or numbness.  \n- **Psychiatric:** Mood stable, sleeping well, enjoying activities.  \n- **Endocrine:** No heat/cold intolerance, polyuria, or polydipsia.  \n- **Skin:** No new or changing moles, or rashes.  \n- **Heme/Lymph:** No easy bruising or bleeding, no lymph node swelling.\n\n**Past Medical History:**  \n- Mild hypertension (controlled on medication)\n\n**Medications:**  \n- Lisinopril 10mg daily  \n- Multivitamin daily  \n- Calcium with Vitamin D 600mg/400IU daily\n\n**Allergies:**  \n- Penicillin (rash as a child)\n\n**Family History:**  \n- Mother: Alive, age 72, hypertension, hyperlipidemia  \n- Father: Deceased at age 68 from colon cancer (diagnosed at age 65)  \n- Siblings: One sister, alive and well  \n- No family history of breast cancer, ovarian cancer, heart disease <55, diabetes\n\n**Social History:**  \n- Married, lives with spouse  \n- Works as a software engineer  \n- College educated, financially stable  \n- Good social support system  \n- Never smoker, moderate alcohol use (1 glass of wine with dinner 3-4x/week), no drug use\n\n**Physical Examination (Complete):**  \n- **Vital Signs:** BP 122/76 mmHg (right arm), 120/78 mmHg (left arm), HR 68, RR 14, T 98.2\u00b0F, O2 sat 99% on RA  \n- **Height:** 5'5\", **Weight:** 142 lbs, **BMI:** 23.6 (healthy weight)  \n- **General:** Well-appearing, pleasant, in no distress, appears stated age  \n- **HEENT:** Normocephalic, atraumatic, PERRLA, EOMI, clear conjunctivae, TMs clear, oropharynx clear, thyroid non-palpable  \n- **Neck:** Supple, full ROM, no lymphadenopathy, no JVD, carotid pulses 2+ bilaterally without bruits  \n- **Cardiovascular:** Regular rate and rhythm, S1/S2 normal, no murmurs/rubs/gallops, PMI non-displaced  \n- **Respiratory:** Clear to auscultation bilaterally, good air movement, no wheezes/rales/rhonchi, symmetric expansion  \n- **Abdomen:** Soft, flat, non-distended, non-tender, normoactive bowel sounds, no hepatosplenomegaly, no masses, no hernias  \n- **Breast:** Normal male breast tissue, no gynecomastia, no masses  \n- **Genitourinary:** Normal male external genitalia, testes normal, no masses, no hernias, circumcised  \n- **Musculoskeletal:** Full ROM all major joints, no deformities, normal gait  \n- **Neurological:** Alert and oriented x3, CN II-XII intact, strength 5/5, sensation intact, reflexes 2+, gait steady, Romberg negative  \n- **Skin:** No concerning lesions, no atypical nevi, mild solar changes  \n- **Psychiatric:** Appropriate affect, good eye contact, linear thought process\n\n**Assessment and Plan:**  \n- **Health Maintenance Examination (Z00.00):**  \n  - Screening labs ordered: Lipid panel, fasting glucose, TSH, CBC  \n  - Prostate cancer screening deferred per patient preference  \n  - Testicular cancer: Self-exam technique reviewed  \n  - Vaccinations: Influenza given, COVID-19 booster discussed, Zoster discussed for future  \n  - Bone density not indicated  \n  - Cardiovascular risk: ASCVD 10-year risk <5%, continue current management\n- **Essential Hypertension (I10):**  \n  - Continue Lisinopril 10mg daily  \n  - Encourage home BP monitoring  \n  - Check renal function and electrolytes today\n- **Lifestyle Counseling:**  \n  - Diet adherence excellent, continue Mediterranean diet  \n  - Exercise: Meeting guidelines, encouraged to continue  \n  - Healthy BMI, maintain current weight  \n  - Alcohol: Within recommended limits  \n  - Mental health: Negative screening for depression/anxiety\n- **Preventive Counseling:**  \n  - Continue calcium and Vitamin D supplements  \n  - Sun protection and skin self-exams discussed  \n  - Safety: Seatbelt use and smoke detectors confirmed\n\n**Time Spent:**  \nApproximately 40 minutes face-to-face including comprehensive history, examination, and counseling.\n\n**Billing Level:**  \n99396 (Established patient preventive visit, age 40-64)\n\n**Medical Decision Making:**  \nComprehensive preventive care visit with age-appropriate screening recommendations per USPSTF guidelines. Cardiovascular risk assessed using pooled cohort equations, with <5% 10-year ASCVD risk. Discussed cancer screening with attention to family history, patient educated on continued healthy lifestyle for disease prevention. All screening and preventive care recommendations individualized based on patient preferences and clinical guidelines.",
+    "demographics": {
+      "age": 42,
+      "gender": "M",
+      "occupation": "software engineer",
+      "name": "Robert Chen"
+    },
+    "generated_at": "2026-02-14T01:57:38.507322",
+    "ground_truth_scores": {
+      "completeness": 85,
+      "accuracy": 95,
+      "compliance": 80,
+      "risk": 90,
+      "clarity": 92
+    }
+  },
+  {
+    "note_id": "gold_uri_001",
+    "scenario": "uri",
+    "persona": "gold",
+    "note_text": "**Clinical Note**\n\n**Patient Name:** David Kim  \n**Age:** 51 years old  \n**Gender:** Male  \n**Date:** [Insert Date]  \n**Encounter Type:** Established patient visit  \n\n**Chief Complaint:**  \n\"Cough and congestion for 5 days\"\n\n**History of Present Illness:**  \nDavid Kim, a 51-year-old male, presents with a 5-day history of upper respiratory symptoms. The patient reports a productive cough with clear sputum and nasal congestion accompanied by clear rhinorrhea. He has experienced a sore throat and mild headache, and has felt fatigued, but denies any fever. He reports no high fever (>102\u00b0F), no shortness of breath, and no chest pain. The symptoms began gradually and have been persistent but not worsening. The patient rates the severity as moderate. This presentation is consistent with the ongoing cold/flu season.\n\n**Review of Systems:**  \n- **Constitutional:** Reports fatigue, denies fever or chills.  \n- **HEENT:** Positive for nasal congestion, clear rhinorrhea, sore throat, mild headache. No visual changes, ear pain, or sinus pressure.  \n- **Respiratory:** Positive for cough, denies shortness of breath or wheezing.  \n- **Cardiovascular:** Denies chest pain, palpitations.  \n- **Gastrointestinal:** Denies nausea, vomiting, diarrhea.  \n- **Dermatological:** No rashes or lesions.  \n- **Neurological:** Denies dizziness or confusion.  \n- **Psychiatric:** Denies anxiety or depression.\n\n**Past Medical History:**  \n- No significant past medical history reported.\n\n**Medications:**  \n- None reported.\n\n**Allergies:**  \n- No known drug allergies.\n\n**Social History:**  \n- Occupation: Sales manager.  \n- Non-smoker, occasional alcohol use, exercises regularly.  \n- Lives with family, no recent travel.\n\n**Physical Examination:**  \n- **Vital Signs:** Temperature 98.9\u00b0F, HR 76 bpm, BP 118/72 mmHg, RR 14 breaths/min, O2 sat 99% on room air.  \n- **General:** Patient is alert, in no acute distress.  \n- **HEENT:** Nasal mucosa congested with clear discharge. Pharynx mildly erythematous, no exudates, no tonsillar enlargement.  \n- **Neck:** Supple, no cervical lymphadenopathy.  \n- **Lungs:** Clear to auscultation bilaterally, no wheezing, no rales.  \n- **Cardiovascular:** S1 and S2 present, regular rate and rhythm, no murmurs.  \n- **Skin:** Warm and dry, no rashes.\n\n**Assessment and Plan:**  \n- **Assessment:** Acute viral upper respiratory infection (ICD-10: J06.9).  \n- **Plan:**  \n  - **Supportive Care:** Rest, increase fluid intake to 8 glasses daily, use a humidifier.  \n  - **Symptomatic Treatment:** Pseudoephedrine for nasal congestion, dextromethorphan for cough as needed.  \n  - **Education:** Discussed the viral nature of the infection, the expected duration of symptoms (7-10 days), and the contagious period. Emphasized the importance of hand hygiene to prevent spread.  \n  - **Follow-up:** Return to clinic if symptoms worsen, if fever exceeds 102\u00b0F, if shortness of breath develops, or if symptoms persist beyond 10 days.  \n  - **Antibiotics:** Not indicated as symptoms suggest a viral etiology (clear rhinorrhea, absence of purulent discharge, normal lung examination).\n\n**Time Spent:** Approximately 15 minutes spent on history, examination, and patient counseling.  \n\n**Billing Level:** 99213 (Established patient, low complexity, straightforward medical decision making).",
+    "demographics": {
+      "age": 51,
+      "gender": "M",
+      "occupation": "sales manager",
+      "name": "David Kim"
+    },
+    "generated_at": "2026-02-14T01:53:28.241256",
+    "ground_truth_scores": {
+      "completeness": 85,
+      "accuracy": 95,
+      "compliance": 80,
+      "risk": 75,
+      "clarity": 90
+    }
+  },
+  {
+    "note_id": "brooks_t2dm_001",
+    "scenario": "t2dm",
+    "persona": "brooks",
+    "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Chief Complaint:**  \nDiabetes f/u\n\n**HPI:**  \nPt with 3-yr hx of T2DM. Home glucose 160-220 fasting, 180-250 postprandial. Last HbA1c 9.5%. On Metformin 1000mg BID, tolerable GI upset. Reports occasional foot tingling, ED.\n\n**ROS:**  \nNo wt loss, fatigue, visual changes. Reports foot tingling, ED. No wounds.\n\n**Physical Exam:**  \nVS: BP 128/78, HR 78, Wt 185 lbs, BMI 32.4, Temp 98.6\u00b0F. Gen: Obese, alert. CV: RRR, pulses 2+. Resp: Clear. Ext: No edema, feet WNL.\n\n**Assessment/Plan:**  \n1. T2DM, poor control: Add Semaglutide, cont Metformin. Order HbA1c 3 mos. Lifestyle/diet changes.  \n2. Obesity: Address with DM plan.  \n3. HTN, controlled: Cont Lisinopril.  \n4. Hyperlipidemia: Cont Atorvastatin.  \n5. Preventative: Ophtho referral, order kidney tests, flu vaccine.  \n6. ED: Related to DM, consider PDE5i.\n\n**Follow-up:**  \nRTC PRN",
+    "demographics": {
+      "age": 51,
+      "gender": "M",
+      "occupation": "sales manager",
+      "name": "David Kim"
+    },
+    "source_gold_note": "gold_t2dm_001",
+    "generated_at": "2026-02-14T02:51:22.717810",
+    "ground_truth_scores": {
+      "completeness": 72,
+      "accuracy": 78,
+      "compliance": 65,
+      "risk": 70,
+      "clarity": 68
+    }
+  },
+  {
+    "note_id": "minimal_uri_000",
+    "scenario": "uri",
+    "persona": "minimal",
+    "note_text": "**Patient:** Robert Chen\n**Age:** 42\n**Gender:** M\n**Occupation:** software engineer\n\n**Chief Complaint:**  \nCough, congestion\n\n**HPI:**  \n3 days cough, congestion. No fever, SOB, CP.\n\n**Physical Exam:**  \n- Vitals: Temp 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99% RA  \n- HEENT: Nasal congestion, clear discharge  \n- Lungs: Clear bilaterally  \n\n**Assessment:**  \nAcute viral URI\n\n**Plan:**  \n- Rest, fluids  \n- Pseudoephedrine, dextromethorphan",
+    "demographics": {
+      "age": 42,
+      "gender": "M",
+      "occupation": "software engineer",
+      "name": "Robert Chen"
+    },
+    "source_gold_note": "gold_uri_000",
+    "generated_at": "2026-02-14T02:53:03.059906",
+    "ground_truth_scores": {
+      "completeness": 40,
+      "accuracy": 85,
+      "compliance": 30,
+      "risk": 50,
+      "clarity": 70
+    }
+  },
+  {
+    "note_id": "chen_htn_followup_004",
+    "scenario": "htn_followup",
+    "persona": "chen",
+    "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \nFollow-up for blood pressure management.\n\n**History of Present Illness:**  \n47-year-old male with hypertension, here for follow-up. Initiated on Lisinopril 10mg daily 4 months ago. Takes meds daily, no missed doses, no side effects. Home BP averages 138/86 mmHg. Not at goal <130/80 mmHg. Walks 3x/week, reducing salt, drinks 2-3 beers/weekends. No headaches, chest pain, dizziness, or leg swelling noted.\n\n**Review of Systems:**  \n- Cardiovascular: Denies chest pain, palpitations.  \n- Neurological: No headaches or dizziness.  \n- Respiratory/GU/Constitutional: No cough, SOB, fever, weight change.  \n- Genitourinary: [System Skipped]\n\n**Physical Examination:**  \n- **Vital Signs:** BP 142/88 mmHg right arm, HR 74, BMI 28.3  \n- **General:** Well-appearing, overweight  \n- **Cardiovascular:** Regular rate/rhythm, peripheral pulses 2+  \n- **Respiratory/Extremities:** Unremarkable  \n- **Fundoscopic Exam:** WNL  \n\n**Assessment:**  \n1. **Uncontrolled Hypertension**  \n   - Blood pressure not at target despite adherence.\n\n2. **Overweight**  \n   - Addressed with patient.\n\n3. **Sexual Health Consideration**  \n   - Discussed potential side effects of meds.\n\n**Plan:**  \n- Increase Lisinopril.  \n- Continue home BP monitoring.  \n- Lifestyle: DASH diet, reduce sodium, limit alcohol, increase exercise.  \n- Follow-up in 6-8 weeks to assess response.  \n- Weight loss goal: 10 lbs in 3 months.  \n- Labs in 6 months: BMP, lipid panel.\n\n**Documentation:**  \nTime spent counseling lifestyle changes.  \nBilling Level: 99214 (moderate complexity).",
+    "demographics": {
+      "age": 47,
+      "gender": "M",
+      "occupation": "high school teacher",
+      "name": "Michael Brown"
+    },
+    "source_gold_note": "gold_htn_followup_004",
+    "generated_at": "2026-02-14T02:50:27.303867",
+    "ground_truth_scores": {
+      "completeness": 85,
+      "accuracy": 90,
+      "compliance": 80,
+      "risk": 85,
+      "clarity": 88
+    }
+  },
+  {
+    "note_id": "brooks_uri_006",
+    "scenario": "uri",
+    "persona": "brooks",
+    "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Chief Complaint:**  \nCough and congestion\n\n**HPI:**  \nPt presents with 5-day hx of cough and nasal congestion. Also reports sore throat, mild headache, and fatigue. No fever, SOB, or chest pain.\n\n**ROS:**  \n+fatigue, cough, nasal congestion, sore throat, mild headache. Denies fever, SOB, chest pain, GI symptoms.\n\n**Physical Exam:**  \nVS: Temp 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99% RA. Gen: Alert, NAD. HEENT: Nasal congestion, erythematous pharynx, no exudates. Lungs: Clear. CV: RRR, no murmurs.\n\n**Assessment/Plan:**  \nAcute viral URI. Supportive care: fluids, rest, humidifier. Symptomatic tx: Pseudoephedrine, dextromethorphan. RTC PRN.",
+    "demographics": {
+      "age": 28,
+      "gender": "F",
+      "occupation": "registered nurse",
+      "name": "Maria Garcia"
+    },
+    "source_gold_note": "gold_uri_006",
+    "generated_at": "2026-02-14T02:54:25.482488",
+    "ground_truth_scores": {
+      "completeness": 70,
+      "accuracy": 85,
+      "compliance": 65,
+      "risk": 60,
+      "clarity": 75
+    }
+  },
+  {
+    "note_id": "chen_uri_007",
+    "scenario": "uri",
+    "persona": "chen",
+    "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Chief Complaint:**  \nCough and congestion for 5 days\n\n**History of Present Illness:**  \nCough x5 days, productive, worse in the morning. Congestion started around the same time. No fever, highest temp 98.9\u00b0F. Sore throat, mild headache, and fatigue present. No chest pain. Symptoms moderate, manageable. No treatment sought yet.\n\n**Review of Systems:**  \n- **Constitutional:** Denies fever, chills, weight loss. Reports fatigue.  \n- **HEENT/Respiratory:** Nasal congestion, clear discharge, sore throat. Productive cough, no SOB.  \n- **Cardiovascular/Neurological/Skin:** No chest pain, headaches mild. No rash.  \n- **Gastrointestinal:** Not applicable.  \n\n**Physical Examination:**  \n- **Vital Signs:** T 98.9\u00b0F, HR 76 bpm, BP 118/72 mmHg, RR 14, O2 99% RA.  \n- **HEENT:** Nasal mucosa congested, clear discharge. Throat slightly red, no tonsil enlargement.  \n- **Neck/Lungs:** Supple, no lymphadenopathy. Lungs CTA bilaterally.  \n- **Cardiovascular:** Regular rate/rhythm, no m/g.  \n- **General:** Grossly intact.\n\n**Assessment:**  \nAcute viral upper respiratory infection with mild sinusitis.\n\n**Plan:**  \n1. Supportive care: Rest, fluids, humidifier suggested.  \n2. Symptomatic relief: Pseudoephedrine for congestion, dextromethorphan for cough.  \n3. Education: Viral infection, no antibiotics. Stress hand hygiene.  \n4. Monitoring: Return if symptoms worsen or persist beyond 10 days, fever >102\u00b0F, or SOB develops.  \n5. Duration: Symptoms usually resolve in 7-10 days.\n\n**Time Spent:**  \n15 minutes on history, exam, and counseling.\n\n**Medical Decision Making:**  \nDiagnosis of viral etiology due to clear rhinorrhea, lack of purulent discharge, and clear lungs. Antibiotics not needed.",
+    "demographics": {
+      "age": 45,
+      "gender": "F",
+      "occupation": "accountant",
+      "name": "Lisa Anderson"
+    },
+    "source_gold_note": "gold_uri_007",
+    "generated_at": "2026-02-14T02:53:46.975608",
+    "ground_truth_scores": {
+      "completeness": 85,
+      "accuracy": 92,
+      "compliance": 78,
+      "risk": 80,
+      "clarity": 88
+    }
+  },
+  {
+    "note_id": "minimal_annual_physical_001",
+    "scenario": "annual_physical",
+    "persona": "minimal",
+    "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Chief Complaint:**  \nAnnual physical  \n\n**HPI:**  \nNo acute complaints. Mild hypertension, BP elevated today.  \n\n**Physical Exam:**  \n- **Vital Signs:** BP 132/84, HR 68  \n- Well-appearing, no distress  \n\n**Assessment:**  \n- Essential hypertension  \n\n**Plan:**  \n- Consider increasing Lisinopril if BP stays high.  \n- Home BP monitoring advised.  \n- Annual labs ordered: renal function, electrolytes.",
+    "demographics": {
+      "age": 51,
+      "gender": "M",
+      "occupation": "sales manager",
+      "name": "David Kim"
+    },
+    "source_gold_note": "gold_annual_physical_001",
+    "generated_at": "2026-02-14T02:47:34.918709",
+    "ground_truth_scores": {
+      "completeness": 35,
+      "accuracy": 80,
+      "compliance": 30,
+      "risk": 40,
+      "clarity": 70
+    }
+  },
+  {
+    "note_id": "minimal_htn_followup_006",
+    "scenario": "htn_followup",
+    "persona": "minimal",
+    "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Chief Complaint:**  \nBP check  \n\n**HPI:**  \nHx of HTN. On Lisinopril 10mg daily. BP at home avg 138/86. No side effects.  \n\n**Physical Exam:**  \n- BP: 142/88 R arm, 140/86 L arm  \n- HR: 74  \n- Overweight, alert  \n\n**Assessment:**  \n- Uncontrolled hypertension  \n- Overweight  \n\n**Plan:**  \n- Increase Lisinopril to 20mg daily  \n- Monitor BP twice daily, follow-up in 6-8 weeks",
+    "demographics": {
+      "age": 28,
+      "gender": "F",
+      "occupation": "registered nurse",
+      "name": "Maria Garcia"
+    },
+    "source_gold_note": "gold_htn_followup_006",
+    "generated_at": "2026-02-14T02:50:34.061391",
+    "ground_truth_scores": {
+      "completeness": 40,
+      "accuracy": 85,
+      "compliance": 30,
+      "risk": 50,
+      "clarity": 70
+    }
+  },
+  {
+    "note_id": "brooks_uri_000",
+    "scenario": "uri",
+    "persona": "brooks",
+    "note_text": "**Patient:** Robert Chen\n**Age:** 42\n**Gender:** M\n**Occupation:** software engineer\n\n**CC:**  \nCough and congestion\n\n**HPI:**  \nPt with cough, nasal congestion, sore throat, and mild headache. Denies fever, SOB, or chest pain. No impact on daily activities.\n\n**ROS:**  \nDenies fever, chills, SOB, CP, N/V/D, myalgias. Reports congestion, cough, sore throat, mild HA.\n\n**PE:**  \nVS: T 98.9, HR 76, BP 118/72, RR 14, O2 sat 99% RA.  \nGen: Alert, NAD.  \nHEENT: Congested nasal mucosa, clear discharge, mild pharyngeal erythema.  \nLungs: CTA bilat.  \nCV: RRR, no murmurs.\n\n**Assessment/Plan:**  \nAcute viral URI.  \n- Rest, fluids, humidifier.  \n- Pseudoephedrine and dextromethorphan for sx relief.  \n- Educate on viral nature, no abx needed.  \n\n**Follow-up:**  \nRTC PRN.",
+    "demographics": {
+      "age": 42,
+      "gender": "M",
+      "occupation": "software engineer",
+      "name": "Robert Chen"
+    },
+    "source_gold_note": "gold_uri_000",
+    "generated_at": "2026-02-14T02:52:51.386689",
+    "ground_truth_scores": {
+      "completeness": 72,
+      "accuracy": 85,
+      "compliance": 65,
+      "risk": 70,
+      "clarity": 78
+    }
+  },
+  {
+    "note_id": "chen_annual_physical_003",
+    "scenario": "annual_physical",
+    "persona": "chen",
+    "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Clinical Note**\n\n**Chief Complaint:** Annual physical examination\n\n**History of Present Illness:**\nThe patient presents for routine annual check-up. Generally feels well, but mentions occasional fatigue. Attributes tiredness to job stress. No major health changes last year. Has mild hypertension, stable on medication. No acute issues reported.\n\n**Review of Systems:**\n- **Constitutional:** Occasionally tired. No fever or weight loss.\n- **Eyes/Ears/Throat:** Vision stable, wears reading glasses. No hearing loss.\n- **Cardiovascular/Respiratory:** No chest pain, palpitations, cough, or SOB.\n- **Gastrointestinal/Genitourinary:** Normal bowel/urinary habits. No abdominal pain.\n- **Musculoskeletal/Neurological:** No joint pain. No headaches, dizziness.\n- **Psychiatric/Endocrine/Skin:** Mood stable, no rash, no heat/cold intolerance.\n\n**Current Medications:**\n- Lisinopril, multivitamin, calcium/vitamin D\n\n**Family History:**\n- Mother, hypertension. Father, colon cancer. Sister healthy.\n\n**Physical Examination:**\n- **Vital Signs:** BP 122/76, HR 68, Temp 98.2\u00b0F\n- **General:** Well-appearing, pleasant\n- **HEENT:** PERRLA, EOMI\n- **Cardiovascular:** Regular rhythm, no murmurs\n- **Respiratory:** Clear auscultation\n- **Abdomen:** Soft, normoactive bowel sounds\n- **Musculoskeletal:** Full ROM\n- **Skin:** No lesions\n\n**Assessment and Plan:**\n- **Hypertension:** Continue current meds, monitor BP at home.\n- **Health Maintenance:** Order labs (lipid panel, glucose, TSH, CBC). Discuss colonoscopy due to family history.\n- **Fatigue:** Consider vitamin D supplementation.\n- **Lifestyle:** Continue diet and exercise. \n- **Preventive Counseling:** Sun protection discussed, vaccine updates offered.\n\n**Medical Decision Making:**\nPreventive care visit with labs ordered to evaluate fatigue. Discussed family history of colon cancer. Recommendations provided for lifestyle maintenance.\n\n**Time Spent:** Approximately 40 minutes",
+    "demographics": {
+      "age": 33,
+      "gender": "M",
+      "occupation": "restaurant manager",
+      "name": "Carlos Rodriguez"
+    },
+    "source_gold_note": "gold_annual_physical_003",
+    "generated_at": "2026-02-14T02:47:45.823056",
+    "ground_truth_scores": {
+      "completeness": 82,
+      "accuracy": 90,
+      "compliance": 75,
+      "risk": 85,
+      "clarity": 88
+    }
+  },
+  {
+    "note_id": "minimal_annual_physical_007",
+    "scenario": "annual_physical",
+    "persona": "minimal",
+    "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Clinical Note**\n\n- **CC:** Annual physical  \n- **HPI:** Feels well, no acute issues. Mild hypertension, well-controlled. Focus on weight and prediabetes prevention.  \n\n**Physical Exam:**  \n- **Vitals:** BP 122/76, HR 68, Temp 98.2\u00b0F  \n- **General:** Well-appearing, obese  \n\n**Assessment:**  \n- Obesity  \n- Prediabetes concern  \n- Hypertension  \n\n**Plan:**  \n- Diet, exercise counseling.  \n- Fasting glucose test.  \n- Continue Lisinopril.  ",
+    "demographics": {
+      "age": 45,
+      "gender": "F",
+      "occupation": "accountant",
+      "name": "Lisa Anderson"
+    },
+    "source_gold_note": "gold_annual_physical_007",
+    "generated_at": "2026-02-14T02:47:54.215633",
+    "ground_truth_scores": {
+      "completeness": 40,
+      "accuracy": 85,
+      "compliance": 30,
+      "risk": 50,
+      "clarity": 60
+    }
+  },
+  {
+    "note_id": "minimal_uri_004",
+    "scenario": "uri",
+    "persona": "minimal",
+    "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \n- Cough, congestion 10 days\n\n**HPI:**  \n- Productive cough, nasal congestion, yellow-green discharge. Sore throat, mild headache. No SOB or fever.\n\n**Physical Exam:**  \n- VS: T 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99% RA  \n- Nasal congestion, yellow-green discharge. Lungs clear.\n\n**Assessment:**  \n- Viral URI, possible secondary bacterial infection.\n\n**Plan:**  \n- Rest, fluids. Pseudoephedrine, dextromethorphan. Start amoxicillin-clavulanate.",
+    "demographics": {
+      "age": 47,
+      "gender": "M",
+      "occupation": "high school teacher",
+      "name": "Michael Brown"
+    },
+    "source_gold_note": "gold_uri_004",
+    "generated_at": "2026-02-14T02:53:27.008870",
+    "ground_truth_scores": {
+      "completeness": 40,
+      "accuracy": 85,
+      "compliance": 30,
+      "risk": 50,
+      "clarity": 60
+    }
+  },
+  {
+    "note_id": "chen_t2dm_009",
+    "scenario": "t2dm",
+    "persona": "chen",
+    "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**\nDiabetes follow-up\n\n**History of Present Illness:**\nPatient with a 3-year history of diabetes. Fasting glucose 160-220, postprandial 180-250. Last HbA1c was 10.2%. On Metformin, 1000mg BID, some GI upset. No hypoglycemia. Concern about foot ulcer today. History of hypertension and hyperlipidemia. Sedentary lifestyle, struggles with diet, drinks soda. Occasional foot tingling. Irregular menses, not planning pregnancy.\n\n**Review of Systems:**\n- General: No weight loss\n- Eyes/Endocrine: No visual changes, no polyuria, no polydipsia\n- Neurological/Skin: Tingling feet, foot ulcer concern\n\n**Physical Examination:**\n- Vitals: BP 128/78, HR 78, Weight 185 lbs\n- General: Obese, alert\n- Cardiovascular: Regular rhythm, peripheral pulses 2+\n- Respiratory: Clear bilaterally\n- Extremities: No edema, skin intact, pulses palpable\n- Feet: Nails trimmed, no fungal infection, ulcer concern\n\n**Assessment and Plan:**\n1. **Type 2 Diabetes Mellitus, Uncontrolled:**\n   - Add Semaglutide, increase dose after 4 weeks.\n   - Continue Metformin.\n   - HbA1c in 3 months.\n   - Refer to diabetes educator.\n\n2. **Obesity:**\n   - Counseling on diet and exercise.\n   - Aim for 5-10% weight loss.\n\n3. **Hypertension:**\n   - Continue Lisinopril.\n\n4. **Diabetic Complications:**\n   - Ophthalmology referral for overdue exam.\n   - Monitor foot ulcer.\n\n**Vaccinations:**\n- Check flu and pneumococcal status.\n\n**Documentation:**\n- **Time Spent:** Not recorded\n- **Billing Level:** 99214 (moderate complexity)\n\n**Medical Decision Making:**\nAddressed poor glycemic control. GLP-1 agonist added for benefits. Discussed lifestyle changes and referred for further education.",
+    "demographics": {
+      "age": 39,
+      "gender": "F",
+      "occupation": "project manager",
+      "name": "Sarah Johnson"
+    },
+    "source_gold_note": "gold_t2dm_009",
+    "generated_at": "2026-02-14T02:53:09.103315",
+    "ground_truth_scores": {
+      "completeness": 85,
+      "accuracy": 90,
+      "compliance": 75,
+      "risk": 80,
+      "clarity": 85
+    }
+  },
+  {
+    "note_id": "brooks_uri_009",
+    "scenario": "uri",
+    "persona": "brooks",
+    "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**  \nCough and congestion\n\n**HPI:**  \nPt with 10-day hx of cough and congestion. Reports productive cough, nasal discharge now purulent. No SOB or high fever.\n\n**ROS:**  \nFatigue, HA, sore throat, congestion. No SOB, CP, or GI sx. No neuro/psych issues.\n\n**Physical Exam:**  \nVS: Temp 98.9, HR 76, BP 118/72, RR 14, O2 99%.  \nGen: Alert, NAD. HEENT: Congested, purulent discharge. Lungs: Clear. CVS: RRR, no murmurs.\n\n**Assessment/Plan:**  \n- Acute URI with possible bacterial infection.  \n- Supportive care, pseudoephedrine, dextromethorphan.  \n- Start Amox 500 mg TID x 7 days.  \n- RTC or f/u PRN.",
+    "demographics": {
+      "age": 39,
+      "gender": "F",
+      "occupation": "project manager",
+      "name": "Sarah Johnson"
+    },
+    "source_gold_note": "gold_uri_009",
+    "generated_at": "2026-02-14T02:54:14.017040",
+    "ground_truth_scores": {
+      "completeness": 72,
+      "accuracy": 78,
+      "compliance": 65,
+      "risk": 70,
+      "clarity": 75
+    }
+  },
+  {
+    "note_id": "brooks_uri_005",
+    "scenario": "uri",
+    "persona": "brooks",
+    "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Chief Complaint:**  \nCough and congestion\n\n**HPI:**  \nPt with mild cough, nasal congestion, clear rhinorrhea, sore throat, mild headache, fatigue. No fever >102\u00b0F, SOB, or CP.\n\n**ROS:**  \nFatigue, congestion, cough, sore throat, headache. No fever, SOB, CP, GI issues, skin rashes.\n\n**Physical Exam:**  \nTemp 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99%. Alert, HEENT congestion, throat red, lungs clear, heart RRR.\n\n**Assessment:**  \nViral URI, mild\n\n**Plan:**  \nSupportive care, symptomatic tx with pseudoephedrine, dextromethorphan. RTC PRN",
+    "demographics": {
+      "age": 35,
+      "gender": "F",
+      "occupation": "elementary teacher",
+      "name": "Jane Doe"
+    },
+    "source_gold_note": "gold_uri_005",
+    "generated_at": "2026-02-14T02:53:36.749280",
+    "ground_truth_scores": {
+      "completeness": 70,
+      "accuracy": 85,
+      "compliance": 65,
+      "risk": 60,
+      "clarity": 75
+    }
+  },
+  {
+    "note_id": "gold_t2dm_003",
+    "scenario": "t2dm",
+    "persona": "gold",
+    "note_text": "**Clinical Note**\n\n**Patient Name:** Carlos Rodriguez  \n**Age:** 33 years  \n**Gender:** Male  \n**Occupation:** Restaurant Manager  \n**Date of Visit:** [Insert Date]  \n**BMI:** 32.4  \n\n**Chief Complaint:**  \nDiabetes follow-up.\n\n**History of Present Illness:**  \nCarlos Rodriguez is a 33-year-old male with a 3-year history of Type 2 Diabetes Mellitus, presenting for routine diabetes management. His last HbA1c, 3 months ago, was 8.5%, indicating uncontrolled diabetes. He reports home glucose readings of 160-220 mg/dL fasting and 180-250 mg/dL postprandial. He is currently on Metformin 1000mg twice daily with meals and reports occasional gastrointestinal upset but is tolerating the medication. He denies any episodes of hypoglycemia. He last had an eye exam 8 months ago, which showed no retinopathy, and a foot exam was performed today. He also has a history of hypertension, controlled on Lisinopril, and hyperlipidemia, managed with Atorvastatin. Lifestyle factors include a sedentary job with minimal exercise, struggles with portion control, and daily soda consumption. He denies polyuria, polydipsia, weight loss, and visual changes but reports occasional tingling in his feet. He also mentions occasional erectile dysfunction, which he suspects may be related to diabetes.\n\n**Review of Systems:**  \n- **General:** No fever, chills, or significant weight changes.  \n- **Eyes:** No visual changes reported.  \n- **Cardiovascular:** No chest pain or palpitations.  \n- **Respiratory:** No cough or dyspnea.  \n- **Gastrointestinal:** Occasional GI upset with Metformin, no nausea or vomiting.  \n- **Genitourinary:** Occasional erectile dysfunction.  \n- **Neurological:** Occasional tingling in feet, no headaches.  \n- **Endocrine:** No polyuria or polydipsia.  \n- **Dermatological:** No rashes or lesions.\n\n**Past Medical History:**  \n- Type 2 Diabetes Mellitus, diagnosed 3 years ago  \n- Hypertension  \n- Hyperlipidemia  \n\n**Medications:**  \n- Metformin 1000mg twice daily  \n- Lisinopril 20mg daily  \n- Atorvastatin 20mg daily  \n\n**Allergies:**  \n- No known drug allergies  \n\n**Social History:**  \n- Sedentary occupation as a restaurant manager.  \n- Minimal exercise, struggles with portion control, and consumes soda daily.  \n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/78 mmHg, HR 78, Weight 185 lbs, Temperature 98.6\u00b0F  \n- **General:** Alert, obese, pleasant male.  \n- **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ dorsalis pedis and posterior tibial bilaterally.  \n- **Respiratory:** Clear to auscultation bilaterally.  \n- **Extremities:** Monofilament test shows protective sensation intact bilaterally, skin intact without wounds or calluses, no edema, pedal pulses palpable.  \n- **Feet:** No deformities, nails trimmed, no fungal infection.\n\n**Assessment and Plan:**  \n1. **Type 2 Diabetes Mellitus, uncontrolled (ICD-10: E11.65)**  \n   - Add Semaglutide 0.25mg subcutaneous weekly, increase to 0.5mg after 4 weeks.  \n   - Continue Metformin 1000mg twice daily.  \n   - Order HbA1c in 3 months.  \n   - Referral to ophthalmology for an annual dilated eye exam (overdue).  \n   - Referral to diabetes educator for nutrition counseling.  \n   - Discussed lifestyle modifications: eliminate sugar-sweetened beverages, portion control, and increase physical activity to 150 min/week.  \n\n2. **Obesity (ICD-10: E66.9)**  \n   - Weight loss goal of 5-10% body weight over 6 months.  \n\n3. **Essential Hypertension, controlled (ICD-10: I10)**  \n   - Continue Lisinopril 20mg daily.  \n\n4. **Hyperlipidemia (ICD-10: E78.5)**  \n   - Continue Atorvastatin 20mg daily.  \n\n5. **Erectile Dysfunction**  \n   - Discussed possible relation to diabetes and vascular health. May consider PDE5 inhibitors if persistent.\n\n- **Vaccinations:** Ensure flu vaccine, check pneumococcal status.  \n- **Return visit:** In 6 weeks to assess tolerance and response to Semaglutide.  \n- **Patient education:** Glucose targets, HbA1c goal, lifestyle modifications, Semaglutide injection technique, and potential side effects.\n\n**Time Spent:** 25 minutes with extensive medication counseling and lifestyle education.  \n\n**Billing Level:** 99214 (Established patient, moderate to high complexity due to uncontrolled chronic disease).\n\n**Medical Decision Making:**  \nReviewed glycemic control with HbA1c 8.5%, above goal despite Metformin. Cardiovascular risk elevated due to diabetes, obesity, and age. Decision to add GLP-1 agonist for dual benefit of glucose control and weight loss, low hypoglycemia risk, and cardiovascular benefits. Addressed barriers to lifestyle change, including work schedule and dietary habits. Screening for complications is current except for ophthalmology (referral placed).",
+    "demographics": {
+      "age": 33,
+      "gender": "M",
+      "occupation": "restaurant manager",
+      "name": "Carlos Rodriguez"
+    },
+    "generated_at": "2026-02-14T01:55:01.835635",
+    "ground_truth_scores": {
+      "completeness": 92,
+      "accuracy": 95,
+      "compliance": 90,
+      "risk": 93,
+      "clarity": 94
+    }
+  },
+  {
+    "note_id": "gold_uri_007",
+    "scenario": "uri",
+    "persona": "gold",
+    "note_text": "**Clinical Note**\n\n**Patient Name:** Lisa Anderson  \n**Age:** 45 years  \n**Gender:** Female  \n**Occupation:** Accountant  \n\n**Date of Encounter:** [Today's Date]  \n\n**Chief Complaint:**  \n\"Cough and congestion for 5 days\"\n\n**History of Present Illness:**  \nLisa Anderson is a 45-year-old female presenting with symptoms consistent with an upper respiratory infection. The symptoms began 5 days ago, characterized by a productive cough and nasal congestion. She reports clear rhinorrhea and associated symptoms of a sore throat, mild headache, and fatigue. She denies having a fever, with her highest recorded temperature being 98.9\u00b0F. There are no red flag symptoms such as high fever over 102\u00b0F, shortness of breath, or chest pain. The severity of her symptoms is moderate, and she also notes the onset of mild sinusitis. The symptoms are bothersome but manageable, and she has not sought any prior treatment.\n\n**Review of Systems:**  \n- **Constitutional:** Denies significant fever, chills, or weight loss. Reports fatigue.  \n- **HEENT:** Reports nasal congestion, clear rhinorrhea, and sore throat. Denies ear pain or vision changes.  \n- **Respiratory:** Reports productive cough, denies shortness of breath or wheezing.  \n- **Cardiovascular:** Denies chest pain or palpitations.  \n- **Gastrointestinal:** Denies nausea, vomiting, or diarrhea.  \n- **Neurological:** Reports mild headache, denies dizziness or focal neurological deficits.  \n- **Skin:** Denies rash or lesions.  \n\n**Past Medical History:**  \nNo significant medical history.\n\n**Medications:**  \nNone currently.\n\n**Allergies:**  \nNo known drug allergies.\n\n**Social History:**  \n- **Tobacco use:** Never smoker.  \n- **Alcohol use:** Occasional, socially.  \n- **Illicit drug use:** Denies any use.  \n- **Exercise:** Engages in moderate physical activity 3 times per week.  \n\n**Physical Examination:**  \n- **Vital Signs:** Temperature 98.9\u00b0F, Heart Rate 76 bpm, Blood Pressure 118/72 mmHg, Respiratory Rate 14 breaths/min, O2 saturation 99% on room air.  \n- **General:** Alert and oriented, in no acute distress.  \n- **HEENT:** Nasal mucosa is congested with clear discharge. Pharynx is mildly erythematous without exudates, and there is no tonsillar enlargement.  \n- **Neck:** Supple, no cervical lymphadenopathy.  \n- **Lungs:** Clear to auscultation bilaterally, no wheezing or rales noted.  \n- **Cardiovascular:** Regular rate and rhythm, no murmurs or gallops.  \n\n**Assessment and Plan:**  \n**Assessment:**  \n1. Acute viral upper respiratory infection with mild sinusitis (ICD-10: J06.9)\n\n**Plan:**  \n1. Supportive care: Advise rest, increased fluid intake to at least 8 glasses of water daily, and use a humidifier to alleviate symptoms.  \n2. Symptomatic treatment: Recommend pseudoephedrine for nasal congestion and dextromethorphan to manage cough.  \n3. Educate patient: Discuss the viral nature of the infection, emphasizing that antibiotics are not indicated due to the viral etiology. Explain the contagious period and the importance of hand hygiene to prevent spread.  \n4. Monitor symptoms: Advise returning to the clinic if symptoms worsen, if a fever over 102\u00b0F develops, if shortness of breath occurs, or if symptoms persist beyond 10 days.  \n5. Expected duration: Inform the patient that symptoms typically resolve within 7-10 days.  \n\n**Time Spent:**  \nApproximately 15 minutes were spent on history taking, physical examination, and counseling the patient regarding the management and expectations of her condition.\n\n**Medical Decision Making:**  \nThe decision for a viral vs. bacterial diagnosis was based on the presence of clear rhinorrhea, absence of purulent discharge, and normal lung auscultation findings. Antibiotics are not indicated as the clinical presentation is consistent with a viral etiology.",
+    "demographics": {
+      "age": 45,
+      "gender": "F",
+      "occupation": "accountant",
+      "name": "Lisa Anderson"
+    },
+    "generated_at": "2026-02-14T01:53:51.806370",
+    "ground_truth_scores": {
+      "completeness": 78,
+      "accuracy": 85,
+      "compliance": 70,
+      "risk": 80,
+      "clarity": 90
+    }
+  },
+  {
+    "note_id": "gold_uri_008",
+    "scenario": "uri",
+    "persona": "gold",
+    "note_text": "**Clinical Note**\n\n**Patient Name:** Emily Taylor  \n**DOB:** [Date of Birth]  \n**Date of Visit:** [Today's Date]  \n**Age:** 29 years  \n**Gender:** Female  \n**Occupation:** Graphic Designer\n\n---\n\n**Chief Complaint:**  \n\"Cough and congestion for 5 days\"\n\n---\n\n**History of Present Illness:**  \nEmily Taylor, a 29-year-old female, presents to the clinic with complaints of a cough and nasal congestion for the past 5 days. The cough is productive with clear sputum. She reports nasal congestion and clear rhinorrhea. Associated symptoms include a mild sore throat, a mild headache, and fatigue. She denies fever, with her temperature remaining below 102\u00b0F. She also denies shortness of breath and chest pain. Emily describes her symptoms as mild in severity and reports no significant change or worsening over the past four days. The onset of symptoms was gradual, coinciding with the current cold and flu season. No treatments have been initiated prior to this visit.\n\n**Review of Systems:**  \n- **Constitutional:** Denies fever, chills, weight loss. Reports fatigue.  \n- **HEENT:** Reports nasal congestion, clear rhinorrhea, and sore throat. Denies ear pain or sinus pressure.  \n- **Respiratory:** Reports cough with clear sputum. Denies shortness of breath or wheezing.  \n- **Cardiovascular:** Denies chest pain or palpitations.  \n- **Gastrointestinal:** Denies nausea, vomiting, or diarrhea.  \n- **Neurological:** Reports mild headache. Denies dizziness or syncope.  \n- **Musculoskeletal:** Denies joint pain or muscle aches.  \n- **Skin:** Denies rash or itching.  \n\n**Past Medical History:**  \n- No significant medical history.\n\n**Medications:**  \n- None reported.\n\n**Allergies:**  \n- No known drug allergies.\n\n**Social History:**  \n- Emily is a non-smoker and does not consume alcohol regularly. She works as a graphic designer and lives alone. No recent travel or known sick contacts.\n\n---\n\n**Physical Examination:**  \n- **Vital Signs:** Temperature 98.9\u00b0F, Heart Rate 76 bpm, Blood Pressure 118/72 mmHg, Respiratory Rate 14 breaths/min, O2 saturation 99% on room air.  \n- **General:** Alert and oriented, no acute distress.  \n- **HEENT:**  \n  - Head: Normocephalic, atraumatic.  \n  - Eyes: Conjunctivae clear, pupils equal, round, and reactive to light.  \n  - Ears: Tympanic membranes clear bilaterally.  \n  - Nose: Nasal mucosa congested with clear discharge.  \n  - Throat: Pharynx mildly erythematous, no exudates, no tonsillar enlargement.  \n- **Neck:** Supple, no cervical lymphadenopathy.  \n- **Lungs:** Clear to auscultation bilaterally, no wheezing, no rales.  \n- **Heart:** Regular rate and rhythm, no murmurs, gallops, or rubs.  \n- **Skin:** Warm and dry, no rashes.\n\n---\n\n**Assessment and Plan:**  \n**Assessment:**  \n- Acute viral upper respiratory infection (ICD-10: J06.9)  \n  - Mild severity, duration 4 days, no complications noted.\n\n**Plan:**  \n1. **Supportive Care:**  \n   - Encourage rest and increase fluid intake to at least 8 glasses of water daily.  \n   - Use a humidifier to alleviate congestion symptoms.\n\n2. **Symptomatic Treatment:**  \n   - Pseudoephedrine as needed for nasal congestion.  \n   - Dextromethorphan as needed for cough.\n\n3. **Patient Education:**  \n   - Discussed the viral nature of the infection, no antibiotics indicated due to absence of purulent nasal discharge, and normal lung exam findings.  \n   - Advised on the contagious period and importance of hand hygiene.  \n\n4. **Follow-up:**  \n   - Return to clinic if symptoms worsen, develop fever >102\u00b0F, shortness of breath, or if symptoms persist beyond 10 days.  \n   - Expected symptom duration is 7-10 days.\n\n---\n\n**Time Spent:**  \nApproximately 15 minutes spent on history, examination, and patient counseling.\n\n**Billing Level:**  \n99213 (Established patient, low complexity, straightforward medical decision making)",
+    "demographics": {
+      "age": 29,
+      "gender": "F",
+      "occupation": "graphic designer",
+      "name": "Emily Taylor"
+    },
+    "generated_at": "2026-02-14T01:53:50.768937",
+    "ground_truth_scores": {
+      "completeness": 90,
+      "accuracy": 95,
+      "compliance": 85,
+      "risk": 88,
+      "clarity": 92
+    }
+  },
+  {
+    "note_id": "chen_uri_008",
+    "scenario": "uri",
+    "persona": "chen",
+    "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Clinical Note**\n\n**Chief Complaint:**  \n\"Cough and congestion\"\n\n---\n\n**History of Present Illness:**  \nPatient reports cough x5 days, productive with clear sputum, worse in the morning. Nasal congestion and clear rhinorrhea present. Mild sore throat and headache noted. Fatigue reported. Denies fever >102\u00b0F, shortness of breath, or chest pain. Symptoms began gradually, possibly linked to cold season exposure. No prior treatment sought.\n\n**Review of Systems:**  \n- **Constitutional:** Denies fever, chills. Fatigue present.\n- **HEENT/Respiratory:** Nasal congestion, clear rhinorrhea, sore throat. Cough with clear sputum. No ear pain, sinus pressure, shortness of breath, or wheezing.\n- **Gastrointestinal/Neurological:** Denies nausea, vomiting, diarrhea. Mild headache. No dizziness.\n- **Musculoskeletal/Skin:** Denies joint pain, rash.\n\n**Physical Examination:**  \n- **Vital Signs:** Temperature 98.9\u00b0F, Heart Rate 76 bpm, Blood Pressure 118/72 mmHg, Respiratory Rate 14 breaths/min, O2 saturation 99%.\n- **HEENT:** Nasal mucosa congested, clear discharge. Pharynx mildly erythematous, no exudates.\n- **Lungs:** Clear to auscultation, no wheezing or rales.\n- **Heart/Skin:** Regular rate/rhythm, skin warm/dry.\n\n---\n\n**Assessment and Plan:**  \n**Assessment:**  \n- Viral URI\n\n**Plan:**  \n1. **Supportive Care:**  \n   - Rest and hydration advised.\n   - Humidifier use recommended.\n\n2. **Symptomatic Treatment:**  \n   - Pseudoephedrine for congestion.\n   - Dextromethorphan for cough.\n\n3. **Patient Education:**  \n   - Discussed viral nature, no antibiotics needed.\n   - Importance of hand hygiene stressed.\n\n4. **Follow-up:**  \n   - Return if symptoms worsen or persist >10 days.\n\n**Medications:**  \n- None reported.\n\n**Allergies:**  \n- No known drug allergies.\n\n**Time Spent:**  \nApproximately 15 minutes on history and exam.\n\n**Billing Level:**  \n99213",
+    "demographics": {
+      "age": 29,
+      "gender": "F",
+      "occupation": "graphic designer",
+      "name": "Emily Taylor"
+    },
+    "source_gold_note": "gold_uri_008",
+    "generated_at": "2026-02-14T02:54:00.407990",
+    "ground_truth_scores": {
+      "completeness": 82,
+      "accuracy": 90,
+      "compliance": 75,
+      "risk": 85,
+      "clarity": 88
+    }
+  },
+  {
+    "note_id": "minimal_uri_001",
+    "scenario": "uri",
+    "persona": "minimal",
+    "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Chief Complaint:**  \n- Cough, congestion\n\n**HPI:**  \n- 5-day cough, nasal congestion. No fever, SOB, chest pain.\n\n**Physical Exam:**  \n- Vitals: T 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99% RA.  \n- Lungs clear, nasal mucosa congested.\n\n**Assessment:**  \n- Viral URI\n\n**Plan:**  \n- Rest, fluids, humidifier.  \n- Pseudoephedrine, dextromethorphan PRN.",
+    "demographics": {
+      "age": 51,
+      "gender": "M",
+      "occupation": "sales manager",
+      "name": "David Kim"
+    },
+    "source_gold_note": "gold_uri_001",
+    "generated_at": "2026-02-14T02:53:05.411186",
+    "ground_truth_scores": {
+      "completeness": 40,
+      "accuracy": 85,
+      "compliance": 30,
+      "risk": 50,
+      "clarity": 60
+    }
+  },
+  {
+    "note_id": "gold_t2dm_002",
+    "scenario": "t2dm",
+    "persona": "gold",
+    "note_text": "**Clinical Note**\n\n**Patient Name:** James Wilson  \n**Date of Visit:** [Insert Date]  \n**Age:** 38  \n**Gender:** Male  \n**Occupation:** Warehouse Worker  \n**BMI:** 32.4  \n\n**Chief Complaint:**  \n\"Diabetes follow-up\"\n\n**History of Present Illness:**  \nJames Wilson is a 38-year-old male with a 3-year history of Type 2 Diabetes Mellitus presenting for routine management. His last HbA1c was 7.8%, showing improvement from 8.2% three months ago. He reports home glucose readings between 160-220 mg/dL fasting and 180-250 mg/dL postprandial. He is currently on Metformin 1000mg twice daily and adheres to this regimen despite occasional gastrointestinal upset. He denies any hypoglycemic episodes. Screening for diabetic complications includes a foot exam today and an eye exam 8 months ago revealing mild retinopathy. He also has controlled hypertension on Lisinopril and hyperlipidemia managed with Atorvastatin. His lifestyle includes a sedentary job, minimal exercise, frequent soda consumption, and struggles with portion control. He experiences occasional erectile dysfunction, likely related to his diabetes.\n\n**Review of Systems:**  \n- **General:** No fever, chills, or fatigue.  \n- **Endocrine:** No polyuria, no polydipsia.  \n- **Neurological:** Reports occasional tingling in feet.  \n- **Ophthalmologic:** No recent visual changes.  \n- **Genitourinary:** Occasional erectile dysfunction.  \n- **Gastrointestinal:** Occasional GI upset from Metformin.  \n- **Respiratory/Cardiovascular:** Denies chest pain, shortness of breath.  \n- **Integumentary:** No skin changes or wounds.  \n\n**Past Medical History:**  \n- Type 2 Diabetes Mellitus  \n- Hypertension  \n- Hyperlipidemia  \n\n**Medications:**  \n- Metformin 1000mg twice daily  \n- Lisinopril 20mg daily  \n- Atorvastatin 20mg daily  \n\n**Allergies:**  \n- No known drug allergies\n\n**Social History:**  \n- Occupation: Warehouse worker  \n- Lifestyle: Sedentary, minimal exercise  \n- Diet: Frequent soda consumption, struggles with portion control  \n- Tobacco/Alcohol: Denies use\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/78 mmHg, HR 78, Weight 185 lbs, BMI 32.4, Temperature 98.6\u00b0F  \n- **General:** Alert, obese, pleasant  \n- **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ dorsalis pedis and posterior tibial bilaterally  \n- **Respiratory:** Clear to auscultation bilaterally  \n- **Extremities:** Monofilament test shows protective sensation intact bilaterally, skin intact without wounds or calluses, no edema, pedal pulses palpable  \n- **Feet:** No deformities, nails trimmed, no fungal infection  \n\n**Assessment and Plan:**  \n1. **Type 2 Diabetes Mellitus, improving control (ICD-10: E11.65):**  \n   - Add Semaglutide 0.25mg subcutaneous weekly, increase to 0.5mg after 4 weeks.  \n   - Continue Metformin 1000mg twice daily.  \n   - Order HbA1c in 3 months.  \n   - Referral to diabetes educator for nutrition counseling.  \n   - Lifestyle counseling: Eliminate sugar-sweetened beverages, portion control, increase physical activity to 150 min/week.  \n   - Weight loss goal: 5-10% body weight over 6 months.  \n   - Patient education on glucose targets and Semaglutide injection technique.  \n\n2. **Obesity (ICD-10: E66.9):**  \n   - Addressed through lifestyle modifications and weight loss goal.  \n\n3. **Essential hypertension, controlled (ICD-10: I10):**  \n   - Continue Lisinopril 20mg daily.  \n\n4. **Hyperlipidemia (ICD-10: E78.5):**  \n   - Continue Atorvastatin 20mg daily.  \n\n5. **Complication screenings:**  \n   - Order annual kidney function tests (BMP, urinalysis with microalbumin).  \n   - Referral to ophthalmology for annual dilated eye exam due to noted mild retinopathy.  \n\n6. **Erectile dysfunction:**  \n   - Discussed potential improvement with better glucose control. Consider PDE5 inhibitors if persistent.  \n\n7. **Vaccinations:**  \n   - Ensure flu vaccine, check pneumococcal status.  \n\n**Time Spent:** 25 minutes with extensive medication counseling and lifestyle education.\n\n**Billing Level:** 99214 (Established patient, moderate to high complexity due to uncontrolled chronic disease)\n\n**Medical Decision Making:**  \nDiscussed the improvement in glycemic control with HbA1c reduction but still above goal, necessitating the addition of Semaglutide for further management. Addressed cardiovascular risk factors and lifestyle barriers. Reviewed and ordered necessary screenings and referrals for comprehensive diabetes management.",
+    "demographics": {
+      "age": 38,
+      "gender": "M",
+      "occupation": "warehouse worker",
+      "name": "James Wilson"
+    },
+    "generated_at": "2026-02-14T01:55:59.077924",
+    "ground_truth_scores": {
+      "completeness": 92,
+      "accuracy": 95,
+      "compliance": 90,
+      "risk": 88,
+      "clarity": 93
+    }
+  },
+  {
+    "note_id": "chen_back_pain_009",
+    "scenario": "back_pain",
+    "persona": "chen",
+    "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**  \nSevere back pain for 1 week, bilateral leg weakness.\n\n**History of Present Illness:**  \nPatient presents with severe low back pain lasting for a week. Pain is localized to the left lumbar region, sharp with movement, dull at rest. Rates pain 7/10 when moving, 4/10 at rest. Aggravated in the morning and after prolonged sitting. Began post lifting a heavy box. Alleviated by lying down, heat, ibuprofen. Reports leg weakness, denies radiation, bowel/bladder issues.\n\n**Review of Systems:**  \n- **Musculoskeletal:** Severe low back pain, denies other joint pain.  \n- **Neurological:** Bilateral leg weakness, denies numbness/tingling.  \n- **Constitutional/GU:** No fever, no urinary or bowel changes.  \n- **Skipped System:** Not assessed.\n\n**Physical Exam:**  \n- **Back:** Tender over left paraspinal muscles, spasm noted.  \n- **Neurological:**  \n  - Motor strength 5/5 in lower extremities.  \n  - Sensory intact.  \n  - Reflexes 2+ and symmetric.  \n  - Gait antalgic but stable.\n- **Vital Signs/General:** WNL, patient uncomfortable.  \n- **Abdomen:** Unremarkable.\n\n**Assessment and Plan:**  \n- **Assessment:** Acute mechanical low back pain, lumbar strain. Bilateral leg weakness to be monitored.  \n- **Plan:**  \n  - Continue ibuprofen, add Cyclobenzaprine for muscle spasm.  \n  - Avoid heavy lifting, modify activities.  \n  - Physical therapy referral for core strengthening.  \n  - Educate on red flag symptoms.  \n  - Follow-up if symptoms persist.  \n  - Consider imaging if no improvement in 4-6 weeks.\n\n**Documentation:**  \n- Time Spent: 20 minutes.  \n- **Billing Level:** 99214.",
+    "demographics": {
+      "age": 39,
+      "gender": "F",
+      "occupation": "project manager",
+      "name": "Sarah Johnson"
+    },
+    "source_gold_note": "gold_back_pain_009",
+    "generated_at": "2026-02-14T02:49:25.045127",
+    "ground_truth_scores": {
+      "completeness": 82,
+      "accuracy": 90,
+      "compliance": 75,
+      "risk": 85,
+      "clarity": 80
+    }
+  },
+  {
+    "note_id": "minimal_t2dm_003",
+    "scenario": "t2dm",
+    "persona": "minimal",
+    "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Chief Complaint:**  \nDiabetes follow-up\n\n**HPI:**  \n3-yr Type 2 DM, last HbA1c 8.5%. Glucose 160-250 mg/dL. On Metformin, GI upset. No hypoglycemia. Tingling feet, ED.\n\n**Physical Exam:**  \n- Vitals: BP 128/78, HR 78  \n- Alert, obese, clear lungs, pulses 2+ bilaterally.\n\n**Assessment:**  \n- Uncontrolled Type 2 DM  \n- Obesity  \n- Hypertension  \n- Hyperlipidemia  \n- ED\n\n**Plan:**  \n- Add Semaglutide, continue Metformin.  \n- Lifestyle: no soda, portion control, exercise.  \n- Ophthalmology referral.",
+    "demographics": {
+      "age": 33,
+      "gender": "M",
+      "occupation": "restaurant manager",
+      "name": "Carlos Rodriguez"
+    },
+    "source_gold_note": "gold_t2dm_003",
+    "generated_at": "2026-02-14T02:51:55.357318",
+    "ground_truth_scores": {
+      "completeness": 40,
+      "accuracy": 85,
+      "compliance": 30,
+      "risk": 50,
+      "clarity": 60
+    }
+  },
+  {
+    "note_id": "gold_t2dm_006",
+    "scenario": "t2dm",
+    "persona": "gold",
+    "note_text": "**Clinical Note**\n\n**Patient Name:** Maria Garcia  \n**Age:** 28 years  \n**Gender:** Female  \n**Date of Visit:** [Insert Date]  \n**Occupation:** Registered Nurse  \n**BMI:** 32.4  \n\n**Chief Complaint:**  \n\"Diabetes follow-up\"\n\n**History of Present Illness:**  \nMaria Garcia is a 28-year-old female with a 3-year history of Type 2 Diabetes Mellitus, presenting for routine management. Her diabetes is currently poorly controlled with an HbA1c of 9.5%. She reports fasting glucose readings between 160-220 mg/dL and postprandial readings between 180-250 mg/dL. Maria is currently on Metformin 1000mg twice daily, which she takes consistently, but reports occasional gastrointestinal upset that she is managing. She denies any episodes of hypoglycemia. Her last eye examination was 8 months ago and showed no retinopathy. Today's foot exam was normal. She has hypertension, well-controlled on Lisinopril, and hyperlipidemia on Atorvastatin. Maria leads a sedentary lifestyle, engages in minimal exercise, struggles with portion control, and consumes soda daily. She denies polyuria, polydipsia, weight loss, or visual changes but notes occasional tingling in her feet. No history of gestational diabetes and she is not currently planning pregnancy. Her menstrual cycles are regular.\n\n**Review of Systems:**  \n- **General:** No fevers, fatigue; reports occasional tingling in feet.\n- **HEENT:** No visual changes, recent eye exam normal.\n- **Cardiovascular:** No chest pain, palpitations.\n- **Respiratory:** No cough, shortness of breath.\n- **Gastrointestinal:** Occasional GI upset with Metformin.\n- **Genitourinary:** No polyuria, polydipsia.\n- **Musculoskeletal:** No joint pain.\n- **Neurological:** Occasional tingling in feet.\n- **Endocrine:** No weight loss.\n- **Skin:** No wounds or calluses on feet.\n\n**Past Medical History:**  \n- Type 2 Diabetes Mellitus, 3 years  \n- Hypertension  \n- Hyperlipidemia  \n\n**Medications:**  \n- Metformin 1000mg twice daily  \n- Lisinopril 20mg daily  \n- Atorvastatin 20mg daily  \n\n**Allergies:**  \nNo known drug allergies.\n\n**Social History:**  \n- Occupation: Registered Nurse  \n- Lifestyle: Sedentary, minimal exercise  \n- Diet: Struggles with portion control, drinks soda daily  \n- Tobacco/Alcohol/Drug use: Denies  \n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/78 mmHg, HR 78, Weight 185 lbs, BMI 32.4, Temperature 98.6\u00b0F  \n- **General:** Alert, obese, pleasant demeanor  \n- **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ bilaterally  \n- **Respiratory:** Clear to auscultation bilaterally  \n- **Extremities:** Monofilament test shows protective sensation intact, skin intact, no edema  \n- **Feet:** No deformities, nails trimmed, no fungal infection  \n\n**Assessment and Plan:**  \n1. **Type 2 Diabetes Mellitus, poorly controlled (ICD-10: E11.65)**\n   - Add Semaglutide 0.25mg subcutaneous weekly, increase to 0.5mg after 4 weeks.\n   - Continue Metformin 1000mg twice daily.\n   - Order HbA1c in 3 months.\n   - Referral to diabetes educator for nutrition counseling.\n   - Lifestyle counseling to eliminate sugar-sweetened beverages, portion control, and increase physical activity to 150 min/week.\n   - Weight loss goal: 5-10% body weight over 6 months.\n   - Patient education on new medication, glucose targets, and lifestyle modifications.\n\n2. **Obesity (ICD-10: E66.9)**\n   - Lifestyle modifications as above for weight management.\n\n3. **Essential Hypertension, controlled (ICD-10: I10)**\n   - Continue Lisinopril 20mg daily.\n\n4. **Hyperlipidemia (ICD-10: E78.5)**\n   - Continue Atorvastatin 20mg daily.\n\n5. **Preventive Care:**\n   - Referral to ophthalmology for annual dilated eye exam.\n   - Order annual kidney function tests.\n   - Ensure flu vaccination and check pneumococcal vaccine status.\n   - Discuss contraception given medication changes.\n\n**Time Spent:**  \n25 minutes with extensive medication counseling and lifestyle education.\n\n**Billing Level:**  \n99214 (Established patient, moderate to high complexity due to uncontrolled chronic disease)\n\n**Medical Decision Making:**  \nMaria's diabetes management is challenging due to elevated HbA1c of 9.5% despite Metformin. Added Semaglutide for its dual benefit in glucose control and weight management, and discussed potential side effects and injection technique. Emphasized importance of lifestyle changes in managing diabetes and reducing cardiovascular risk. Addressed barriers related to her work schedule and dietary habits. Screening for complications is up-to-date except for ophthalmology, for which a referral has been placed. Discussed contraception due to potential pregnancy contraindications with current treatment plan.",
+    "demographics": {
+      "age": 28,
+      "gender": "F",
+      "occupation": "registered nurse",
+      "name": "Maria Garcia"
+    },
+    "generated_at": "2026-02-14T01:56:20.469557",
+    "ground_truth_scores": {
+      "completeness": 92,
+      "accuracy": 95,
+      "compliance": 90,
+      "risk": 88,
+      "clarity": 94
+    }
+  },
+  {
+    "note_id": "minimal_back_pain_008",
+    "scenario": "back_pain",
+    "persona": "minimal",
+    "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n- **CC:** Back pain 5 days  \n- **HPI:** Acute low back pain, sharp with movement, dull at rest. Started after lifting heavy box, worsens with bending, improves with ibuprofen.  \n- **PE:**  \n  * **Vitals:** BP 128/82, HR 74, Temp 98.4\u00b0F  \n  * **Back:** Tender L3-L5, muscle spasm, limited ROM.  \n- **Assessment:** Acute mechanical low back pain  \n- **Plan:** Ibuprofen, avoid heavy lifting, consider PT if pain persists.",
+    "demographics": {
+      "age": 29,
+      "gender": "F",
+      "occupation": "graphic designer",
+      "name": "Emily Taylor"
+    },
+    "source_gold_note": "gold_back_pain_008",
+    "generated_at": "2026-02-14T02:49:14.497176",
+    "ground_truth_scores": {
+      "completeness": 40,
+      "accuracy": 85,
+      "compliance": 30,
+      "risk": 50,
+      "clarity": 70
+    }
+  },
+  {
+    "note_id": "gold_back_pain_005",
+    "scenario": "back_pain",
+    "persona": "gold",
+    "note_text": "**Clinical Note**\n\n**Patient Name:** Jane Doe  \n**Age:** 35 years  \n**Gender:** Female  \n**Occupation:** Elementary Teacher  \n**Date of Visit:** [Insert Date]\n\n**Chief Complaint:**  \n\"Back pain for 3 days\"\n\n**History of Present Illness:**  \nJane Doe is a 35-year-old female presenting with acute low back pain. The pain is located in the lower back, lumbar region, primarily on the left side. The quality of the pain is described as sharp with movement and a dull ache at rest. Severity is moderate, rated 7/10 with movement and 4/10 at rest. The pain began 3 days ago after lifting a 50-pound box at work with a twisting motion. The pain is constant, worsening in the morning and after prolonged sitting. The pain is exacerbated by bending forward, standing for more than 30 minutes, and sneezing. It is alleviated by lying flat, applying heat, and taking ibuprofen. There is no radiation to the legs, and no associated numbness, tingling, weakness, or changes in bowel or bladder function.\n\n**Review of Systems:**  \n- **Musculoskeletal:** Back pain as described, no other joint pain.  \n- **Neurological:** No weakness in legs, no numbness or tingling, no saddle anesthesia, no loss of balance.  \n- **Constitutional:** No fever, no chills, no weight loss.  \n- **GU:** No urinary retention, no incontinence, normal bowel function.\n\n**Past Medical History:**  \n- Last physical examination was 3 months ago.  \n- No history of chronic back problems.\n\n**Medications:**  \n- Ibuprofen as needed for pain.\n\n**Allergies:**  \n- No known drug allergies.\n\n**Social History:**  \n- Occupation: Elementary teacher.  \n- No tobacco or illicit drug use.  \n- Occasional alcohol consumption.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/82 mmHg, HR 74, Temperature 98.4\u00b0F, RR 14.  \n- **General:** Alert, uncomfortable with movement but not in severe distress.  \n- **Back:** Tenderness over left paraspinal muscles at L3-L5, no midline tenderness, muscle spasm present.  \n- **Range of Motion:** Flexion limited to 45 degrees (pain-limited), extension 15 degrees (limited), lateral bending 20 degrees bilaterally (limited).  \n- **Neurological:**  \n  * Straight leg raise: Negative bilaterally (no radicular pain, only local back discomfort at 70 degrees).  \n  * Motor: 5/5 strength in bilateral hip flexors, knee extensors, ankle dorsiflexion, plantar flexion, great toe extension.  \n  * Sensory: Intact to light touch L1-S1 distributions bilaterally.  \n  * Reflexes: 2+ patellar and Achilles bilaterally, symmetric, no clonus.  \n  * Gait: Antalgic but able to walk without assistance, able to heel walk and toe walk.  \n- **Abdomen:** Soft, non-tender, no costovertebral angle tenderness.\n\n**Assessment and Plan:**  \n- **Assessment:** Acute mechanical low back pain, lumbar strain (ICD-10: M54.5). No radiculopathy. No red flags for serious pathology.\n  \n- **Plan:**  \n  * **Medications:**  \n    - Ibuprofen 600mg three times daily with food for 7-10 days.  \n    - Cyclobenzaprine 5mg at bedtime for muscle spasm (3-5 days, avoid if sedation problematic).  \n  * **Activity Modification:**  \n    - Avoid heavy lifting (>20 lbs) for 2 weeks.  \n    - No prolonged sitting (>1 hour without break).  \n    - Return to normal activities as tolerated (bed rest NOT recommended).  \n    - May continue light duty work if employer accommodates restrictions.  \n  * **Physical Therapy:** Referral for core strengthening, proper body mechanics training, to start in 1 week if pain improving.  \n  * **Heat/Ice Therapy:** Alternate for 15-20 minutes several times daily.  \n  * **Expected Course:** Most patients improve within 2-4 weeks.  \n  * **Work Note:** Light duty with 20-pound lifting restriction for 2 weeks.  \n  * **Red Flag Education:** Return immediately or go to ER if develops leg weakness, numbness in groin/inner thighs, loss of bowel/bladder control, or progressively worsening pain.  \n  * **Follow-Up:** Return in 2 weeks if not improving significantly, sooner if worsening or new symptoms.  \n  * **Imaging:** Will order lumbar X-rays or MRI only if no improvement at 4-6 weeks or if red flags develop.\n\n**Time Spent:** 20 minutes, including detailed neurological exam and extensive education about natural history and red flags.\n\n**Billing Level:** 99214 (Established patient, moderate complexity)\n\n**Medical Decision Making:**  \nA comprehensive assessment for red flags was conducted, all absent. Clinical presentation consistent with acute mechanical low back pain/lumbar strain. No indication for imaging per evidence-based guidelines (no red flags, duration <4 weeks, no radiculopathy). Discussed natural history (90% improve within 4-6 weeks). Risk-benefit analysis of medications (NSAIDs effective, short-term muscle relaxant for severe spasm). Emphasized activity modification and return to normal activities as tolerated (bed rest increases recovery time). Patient educated extensively on red flag symptoms requiring urgent evaluation.",
+    "demographics": {
+      "age": 35,
+      "gender": "F",
+      "occupation": "elementary teacher",
+      "name": "Jane Doe"
+    },
+    "generated_at": "2026-02-14T01:57:13.729067",
+    "ground_truth_scores": {
+      "completeness": 85,
+      "accuracy": 95,
+      "compliance": 80,
+      "risk": 90,
+      "clarity": 92
+    }
+  },
+  {
+    "note_id": "brooks_uri_007",
+    "scenario": "uri",
+    "persona": "brooks",
+    "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Chief Complaint:**  \nCough and congestion.\n\n**HPI:**  \nPt presents with cough, congestion, clear rhinorrhea, sore throat, mild HA, and fatigue. Denies fever, SOB, or CP. Symptoms are moderate, no prior tx.\n\n**ROS:**  \n+ fatigue, nasal congestion, sore throat, productive cough, mild HA. Denies fever, SOB, CP, GI symptoms, neuro deficits, rash.\n\n**Physical Exam:**  \nVS: T 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99% RA. Gen: Alert, NAD. HEENT: Nasal congestion, pharynx mildly erythematous. Lungs: Clear bilat. CV: RRR, no murmurs. Neck: No LAD.\n\n**Assessment/Plan:**  \n1. Acute viral URI w/ mild sinusitis.  \n   - Supportive care: Rest, fluids, humidifier.  \n   - Symptomatic tx: Pseudoephedrine, dextromethorphan.  \n   - Educate on viral nature, hand hygiene.  \n\n**Follow-up:**  \nRTC PRN.",
+    "demographics": {
+      "age": 45,
+      "gender": "F",
+      "occupation": "accountant",
+      "name": "Lisa Anderson"
+    },
+    "source_gold_note": "gold_uri_007",
+    "generated_at": "2026-02-14T02:53:56.322652",
+    "ground_truth_scores": {
+      "completeness": 70,
+      "accuracy": 85,
+      "compliance": 65,
+      "risk": 60,
+      "clarity": 75
+    }
+  },
+  {
+    "note_id": "brooks_htn_followup_002",
+    "scenario": "htn_followup",
+    "persona": "brooks",
+    "note_text": "**Patient:** James Wilson\n**Age:** 38\n**Gender:** M\n**Occupation:** warehouse worker\n\n**Chief Complaint:**  \nBP check\n\n**HPI:**  \nPt with hx of HTN on Lisinopril 10mg daily, inconsistent adherence. Home BP avg 138/86. No med side effects. Trying lifestyle changes: walking, less sodium, limited alcohol.\n\n**ROS:**  \nNo fatigue, CP, SOB, dizziness, or ED. WNL otherwise.\n\n**Physical Exam:**  \nBP 142/88, HR 74, Wt 192 lbs, BMI 28.3. Gen: Alert, overweight. CV: Reg rhythm, no murmurs. Resp: Clear. Ext: No edema.\n\n**Assessment/Plan:**  \n1. HTN, uncontrolled: Increase Lisinopril to 20mg. Continue home BP checks. Lifestyle advice: DASH diet, more exercise, weight loss.\n2. Overweight: Discussed weight management.\n3. Sexual health: Discussed potential med effects.\n\nRTC PRN",
+    "demographics": {
+      "age": 38,
+      "gender": "M",
+      "occupation": "warehouse worker",
+      "name": "James Wilson"
+    },
+    "source_gold_note": "gold_htn_followup_002",
+    "generated_at": "2026-02-14T02:50:03.033017",
+    "ground_truth_scores": {
+      "completeness": 65,
+      "accuracy": 70,
+      "compliance": 60,
+      "risk": 68,
+      "clarity": 72
+    }
+  },
+  {
+    "note_id": "brooks_t2dm_000",
+    "scenario": "t2dm",
+    "persona": "brooks",
+    "note_text": "**Patient:** Robert Chen\n**Age:** 42\n**Gender:** M\n**Occupation:** software engineer\n\n**Chief Complaint:**  \nDiabetes f/u\n\n**HPI:**  \nPt with 3-yr hx Type 2 DM, on Metformin 1000mg BID, last HbA1c 8.2%. Home glucose elevated, fasting 160-220, postprandial 180-250. Occasional GI upset, tingling in feet, and ED noted.\n\n**ROS:**  \nNo wt loss, visual changes, or CP. GI upset from Metformin, occasional ED, tingling in feet. No skin issues.\n\n**Physical Exam:**  \nBP 128/78, HR 78, BMI 32.4. Gen: Alert, obese. CV: RRR, pulses 2+. Resp: CTAB. Ext: Monofilament intact, no edema.\n\n**Assessment/Plan:**  \n1. Type 2 DM, uncontrolled: Add Semaglutide, continue Metformin, order HbA1c, refer to diabetes educator.  \n2. Obesity: Lifestyle counseling, wt loss goal.  \n3. HTN: Continue Lisinopril.  \n4. Hyperlipidemia: Continue Atorvastatin.  \n5. Neuropathy symptoms: Monitor.  \n6. ED: Discussed, consider PDE5 inhibitors.  \n7. Preventive care: Ophthalmology referral, kidney tests, ensure vaccines.\n\n**Follow-up:**  \nRTC PRN",
+    "demographics": {
+      "age": 42,
+      "gender": "M",
+      "occupation": "software engineer",
+      "name": "Robert Chen"
+    },
+    "source_gold_note": "gold_t2dm_000",
+    "generated_at": "2026-02-14T02:51:54.964652",
+    "ground_truth_scores": {
+      "completeness": 72,
+      "accuracy": 78,
+      "compliance": 65,
+      "risk": 70,
+      "clarity": 68
+    }
+  },
+  {
+    "note_id": "minimal_back_pain_009",
+    "scenario": "back_pain",
+    "persona": "minimal",
+    "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**  \n- Severe back pain, leg weakness\n\n**HPI:**  \n- 1 week of sharp low back pain, worsens with movement, began after lifting, bilateral leg weakness.\n\n**Physical Exam:**  \n- Vital Signs: BP 128/82, HR 74, Temp 98.4\u00b0F  \n- Tender left lumbar region, limited ROM, antalgic gait.\n\n**Assessment:**  \n- Acute mechanical low back pain, lumbar strain\n\n**Plan:**  \n- Ibuprofen, muscle relaxant, heat therapy, PT referral. Avoid lifting, modify activity.",
+    "demographics": {
+      "age": 39,
+      "gender": "F",
+      "occupation": "project manager",
+      "name": "Sarah Johnson"
+    },
+    "source_gold_note": "gold_back_pain_009",
+    "generated_at": "2026-02-14T02:49:28.355413",
+    "ground_truth_scores": {
+      "completeness": 40,
+      "accuracy": 85,
+      "compliance": 30,
+      "risk": 50,
+      "clarity": 60
+    }
+  },
+  {
+    "note_id": "gold_uri_006",
+    "scenario": "uri",
+    "persona": "gold",
+    "note_text": "**Clinical Note**\n\n**Patient Name:** Maria Garcia  \n**Date of Visit:** [Insert Date]  \n**Patient ID:** [Insert ID]  \n**Age:** 28  \n**Gender:** Female  \n**Occupation:** Registered Nurse  \n\n**Chief Complaint:**  \n\"Cough and congestion for 5 days\"\n\n**History of Present Illness:**  \nMaria Garcia is a 28-year-old female, established patient, presenting with a 5-day history of upper respiratory symptoms. The patient reports a productive cough and nasal congestion, accompanied by clear rhinorrhea. She has also experienced a sore throat, mild headache, and fatigue. She denies any fever, with the highest recorded temperature being 98.9\u00b0F. Maria confirms no high fever (>102\u00b0F), shortness of breath, or chest pain, which are considered red flag symptoms. The severity of symptoms is moderate, affecting her daily activities but not incapacitating. She works as a registered nurse and has been exposed to patients with similar symptoms during the current cold/flu season.\n\n**Review of Systems:**  \n- **General:** Reports fatigue, denies fever or chills.  \n- **HEENT:** Positive for sore throat, nasal congestion, and clear rhinorrhea. Denies ear pain or sinus pressure.  \n- **Respiratory:** Positive for productive cough. Denies shortness of breath or wheezing.  \n- **Cardiovascular:** Denies chest pain or palpitations.  \n- **Gastrointestinal:** Denies nausea, vomiting, or diarrhea.  \n- **Neurological:** Positive for mild headache. Denies dizziness or confusion.  \n- **Musculoskeletal:** Denies myalgias or joint pain.  \n- **Dermatological:** Denies rash or skin changes.\n\n**Past Medical History:**  \n- No significant past medical history.\n\n**Medications:**  \n- None reported.\n\n**Allergies:**  \n- No known drug allergies.\n\n**Social History:**  \n- Occupation: Registered Nurse  \n- Non-smoker, occasional alcohol consumption  \n- Regular physical activity\n\n**Physical Examination:**  \n- **Vital Signs:** Temperature: 98.9\u00b0F, HR: 76 bpm, BP: 118/72 mmHg, RR: 14 breaths/min, O2 saturation: 99% on room air.  \n- **General:** Alert, well-nourished female in no acute distress.  \n- **HEENT:** Nasal mucosa shows congestion with clear discharge. Pharynx mildly erythematous, no exudates, no tonsillar enlargement.  \n- **Neck:** Supple, no cervical lymphadenopathy.  \n- **Lungs:** Clear to auscultation bilaterally, no wheezes or rales.  \n- **Cardiovascular:** Regular rate and rhythm, no murmurs or extra heart sounds.  \n\n**Assessment and Plan:**  \n**Diagnosis:** Acute viral upper respiratory infection (ICD-10: J06.9)  \n1. **Education and Counseling:**  \n   - Discussed the viral nature of the infection, emphasizing that antibiotics are not indicated due to the absence of bacterial infection markers such as purulent discharge or abnormal lung findings.  \n   - Explained the contagious nature of viral infections and the importance of hand hygiene to prevent spread.  \n2. **Treatment Plan:**  \n   - Supportive care: Rest and increase fluid intake to at least 8 glasses of water per day. Use a humidifier to ease congestion.  \n   - Symptomatic treatment: Pseudoephedrine for nasal congestion and dextromethorphan for cough relief.  \n   - Advised to monitor symptoms and return if symptoms worsen, develop a fever >102\u00b0F, experience shortness of breath, or if symptoms persist beyond 10 days.  \n3. **Follow-up:**  \n   - Expected symptom duration is 7-10 days. Schedule follow-up if no improvement or for persistent symptoms beyond this period.\n\n**Time Spent:**  \nApproximately 15 minutes spent on history taking, physical examination, and patient counseling.  \n\n**Billing Level:**  \n99213 for an established patient with low complexity and straightforward medical decision-making.  \n\n**Signature:**  \nDr. Elizabeth Martinez, MD  \nBoard-Certified Family Medicine Physician",
+    "demographics": {
+      "age": 28,
+      "gender": "F",
+      "occupation": "registered nurse",
+      "name": "Maria Garcia"
+    },
+    "generated_at": "2026-02-14T01:53:53.640670",
+    "ground_truth_scores": {
+      "completeness": 92,
+      "accuracy": 95,
+      "compliance": 90,
+      "risk": 93,
+      "clarity": 94
+    }
+  },
+  {
+    "note_id": "gold_t2dm_008",
+    "scenario": "t2dm",
+    "persona": "gold",
+    "note_text": "**Clinical Note**\n\n**Patient Name:** Emily Taylor  \n**Age:** 29 years  \n**Gender:** Female  \n**Occupation:** Graphic Designer  \n**BMI:** 32.4  \n\n**Chief Complaint:**  \n\"Diabetes follow-up\"\n\n**History of Present Illness:**  \nEmily Taylor is a 29-year-old female with a 3-year history of Type 2 Diabetes Mellitus, currently uncontrolled with an HbA1c of 8.5%, returning for routine management. She is currently on Metformin 1000mg twice daily. Home glucose readings indicate fasting levels between 160-220 mg/dL and postprandial levels between 180-250 mg/dL. She reports adherence to her medication regimen but experiences occasional gastrointestinal upset, which she is tolerating. No episodes of hypoglycemia have been reported. Last eye exam was conducted 8 months ago, revealing no retinopathy. A foot exam was completed today. Her comorbid conditions include controlled hypertension managed with Lisinopril and hyperlipidemia managed with Atorvastatin. Emily has a sedentary lifestyle due to her desk job, engages in minimal physical activity, struggles with portion control, and consumes soda daily. She reports occasional tingling in her feet but no polyuria, polydipsia, weight loss, or visual changes. She had gestational diabetes during pregnancy but is not currently planning another pregnancy. Her menstrual cycles are irregular, likely related to obesity and insulin resistance.\n\n**Review of Systems:**  \n- **Constitutional:** No recent weight loss or fever.  \n- **Eyes:** No visual changes.  \n- **Endocrine:** No polyuria or polydipsia.  \n- **Neurological:** Reports occasional tingling in feet.  \n- **Integumentary:** No skin changes or wounds.  \n\n**Past Medical History:**  \n- Type 2 Diabetes Mellitus, diagnosed 3 years ago  \n- Hypertension  \n- Hyperlipidemia  \n- History of gestational diabetes  \n\n**Medications:**  \n- Metformin 1000mg twice daily  \n- Lisinopril 20mg daily  \n- Atorvastatin 20mg daily  \n\n**Allergies:**  \nNo known drug allergies\n\n**Social History:**  \n- Occupation: Graphic Designer, sedentary work environment  \n- Lifestyle: Minimal exercise, struggles with portion control, consumes soda daily  \n- Pregnancy: Not currently planning another pregnancy  \n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/78 mmHg, HR 78, Weight 185 lbs, BMI 32.4, Temp 98.6\u00b0F  \n- **General:** Alert, obese, pleasant demeanor  \n- **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ dorsalis pedis and posterior tibial bilaterally  \n- **Respiratory:** Clear to auscultation bilaterally  \n- **Extremities:** Monofilament test shows protective sensation intact bilaterally, skin intact without wounds or calluses, no edema, pedal pulses palpable  \n- **Feet:** No deformities, nails trimmed, no fungal infection  \n\n**Assessment and Plan:**  \n1. **Type 2 Diabetes Mellitus, uncontrolled (ICD-10: E11.65):**  \n   - Add Semaglutide (GLP-1 agonist) 0.25mg subcutaneous weekly, increase to 0.5mg after 4 weeks.  \n   - Continue Metformin 1000mg twice daily.  \n   - Order HbA1c in 3 months.  \n   - Referral to diabetes educator for nutrition counseling.  \n   - Lifestyle modifications: eliminate sugar-sweetened beverages, use smaller plates, increase physical activity to 150 min/week (start with 10-minute walks after meals).  \n   - Weight loss goal: 5-10% body weight (9-18 lbs) over 6 months.  \n   - Patient education on glucose targets, HbA1c goal, lifestyle modifications, injection technique for Semaglutide, and possible side effects.  \n\n2. **Obesity (ICD-10: E66.9):** Addressed with lifestyle and medication plan as above.  \n\n3. **Essential Hypertension, controlled (ICD-10: I10):**  \n   - Continue Lisinopril 20mg daily.  \n\n4. **Hyperlipidemia (ICD-10: E78.5):**  \n   - Continue Atorvastatin 20mg daily.  \n\n5. **Preventive Care:**  \n   - Order annual kidney function (BMP, urinalysis with microalbumin).  \n   - Referral to ophthalmology for overdue annual dilated eye exam.  \n   - Check vaccination status for flu and pneumococcal vaccines.  \n\n6. **Pregnancy Planning:**  \n   - Discussed need for reliable contraception while on diabetes medications.  \n   - If planning pregnancy, HbA1c should be <6.5% prior to conception; discussed preconception counseling.  \n   - GLP-1 agonists contraindicated in pregnancy (discontinue if pregnancy planned or occurs).  \n\n**Time Spent:** 25 minutes with extensive medication counseling and lifestyle education.\n\n**Billing Level:** 99214 (Established patient, moderate to high complexity due to uncontrolled chronic disease)\n\n**Medical Decision Making:**  \nAssessment of glycemic control revealed an HbA1c of 8.5%, indicating poor control despite Metformin therapy. Cardiovascular risk is elevated due to diabetes, obesity, and age. Decision made to initiate Semaglutide for its dual benefit in glycemic control and weight loss, with a low risk of hypoglycemia and potential cardiovascular benefits. Patient educated on injection technique and anticipated side effects. Addressed barriers to lifestyle change, including work schedule and dietary habits. Screening for complications is current except for ophthalmology, for which a referral was placed.",
+    "demographics": {
+      "age": 29,
+      "gender": "F",
+      "occupation": "graphic designer",
+      "name": "Emily Taylor"
+    },
+    "generated_at": "2026-02-14T01:56:24.881776",
+    "ground_truth_scores": {
+      "completeness": 90,
+      "accuracy": 95,
+      "compliance": 85,
+      "risk": 92,
+      "clarity": 88
+    }
+  },
+  {
+    "note_id": "minimal_htn_followup_003",
+    "scenario": "htn_followup",
+    "persona": "minimal",
+    "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Chief Complaint:**  \nBP check\n\n**HPI:**  \nHx HTN. On Lisinopril 10mg. BP 138/86 avg. Trying DASH diet, exercise.\n\n**Physical Exam:**  \n- **Vital Signs:** BP 142/88, HR 74  \n- **General:** Alert, overweight\n\n**Assessment:**  \n- Uncontrolled HTN  \n- Overweight\n\n**Plan:**  \n- Increase Lisinopril to 20mg.  \n- Encourage more exercise, DASH diet. Return 6-8 weeks.",
+    "demographics": {
+      "age": 33,
+      "gender": "M",
+      "occupation": "restaurant manager",
+      "name": "Carlos Rodriguez"
+    },
+    "source_gold_note": "gold_htn_followup_003",
+    "generated_at": "2026-02-14T02:50:18.901825",
+    "ground_truth_scores": {
+      "completeness": 40,
+      "accuracy": 85,
+      "compliance": 30,
+      "risk": 50,
+      "clarity": 60
+    }
+  }
+]

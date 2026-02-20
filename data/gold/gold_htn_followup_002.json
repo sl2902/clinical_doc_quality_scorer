@@ -1,0 +1,20 @@
+{
+  "note_id": "gold_htn_followup_002",
+  "scenario": "htn_followup",
+  "persona": "gold",
+  "note_text": "**Clinical Note**\n\n**Chief Complaint:**  \n\"Blood pressure check\"\n\n**History of Present Illness:**  \nJames Wilson is a 38-year-old male warehouse worker with a diagnosis of hypertension, presenting for a routine follow-up. He was started on Lisinopril 10mg daily 4 months ago. Since then, he reports variable adherence to his medication regimen, occasionally missing doses. He denies any side effects from the medication. Home blood pressure monitoring over the past 2 weeks shows average readings of 138/86 mmHg, indicating some improvement, but not yet at target levels. He is attempting lifestyle modifications, including walking 3 times a week for 30 minutes, reducing sodium intake, and limiting alcohol consumption to 2-3 beers on weekends.\n\n**Review of Systems:**  \n- Constitutional: No fatigue or weight changes\n- Cardiovascular: No chest pain, palpitations, or leg swelling\n- Respiratory: No shortness of breath\n- Neurological: No headaches or dizziness\n- Genitourinary: No erectile dysfunction or concerns related to medication\n\n**Past Medical History:**  \n- Essential hypertension\n\n**Medications:**  \n- Lisinopril 10mg daily\n\n**Allergies:**  \n- No known drug allergies\n\n**Social History:**  \n- Occupation: Warehouse worker\n- Lifestyle: Walks 3x/week, trying to reduce sodium intake, drinks 2-3 beers on weekends\n- Smoking: Denies\n- Substance use: Denies\n\n**Physical Examination:**  \n- Vital Signs: BP 142/88 mmHg right arm, 140/86 mmHg left arm (seated, repeated after 5 min rest), HR 74, Weight 192 lbs, BMI 28.3\n- General: Alert, well-appearing, overweight\n- Cardiovascular: Regular rate and rhythm, no murmurs, peripheral pulses 2+ bilaterally\n- Respiratory: Clear lung fields bilaterally\n- Extremities: No edema\n- Fundoscopic: No papilledema\n\n**Assessment and Plan:**  \n1. **Essential hypertension, uncontrolled (ICD-10: I10)**\n   - Increase Lisinopril to 20mg daily for better BP control\n   - Continue home BP monitoring, record readings twice daily for 1 week before next visit\n   - Lifestyle counseling: DASH diet, reduce sodium to <2000mg/day, limit alcohol to <2 drinks/day, increase exercise to 5x/week\n   - Weight loss goal: Lose 10 lbs over 3 months\n   - Recheck labs in 6 months: BMP, lipid panel\n   - Consider statin if LDL remains elevated at next visit\n\n2. **Overweight (ICD-10: E66.3)**\n   - Discussed weight management strategies and set a target for gradual weight reduction\n\n3. **Sexual health**\n   - Discussed potential effects of BP medications on erectile function, instructed to report any concerns\n\n- Return in 6-8 weeks to assess BP response to medication increase\n- Patient education provided on the importance of medication adherence and cardiovascular risk reduction\n\n**Time Spent:**  \n20 minutes spent with extensive counseling on lifestyle modifications.\n\n**Billing Level:**  \n99214 (Established patient, moderate complexity)\n\n**Medical Decision Making:**  \n- Rationale for increasing Lisinopril dose based on persistently elevated BP despite some improvement. Cardiovascular risk assessment (10-year ASCVD risk ~12%). Discussed need for aggressive BP control given risk factors. Considered adding a second agent but will try a higher dose of the current medication first. Discussed lifestyle modifications at length.",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "generated_at": "2026-02-14T01:54:13.381664",
+  "ground_truth_scores": {
+    "completeness": 92,
+    "accuracy": 95,
+    "compliance": 90,
+    "risk": 93,
+    "clarity": 94
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_t2dm_001",
+  "scenario": "t2dm",
+  "persona": "chen",
+  "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Clinical Note**\n\n**Chief Complaint:**  \nDiabetes follow-up\n\n**History of Present Illness:**  \n51-year-old male with 3-year history of T2DM. Glucose readings 160-220 fasting, 180-250 post-meal. HbA1c 9.5%. On Metformin, GI upset noted, tolerable. No hypoglycemia. Last eye exam 8 months ago, normal. Foot exam today unremarkable. Sedentary job, portion control issues, soda drinker. Reports tingling in feet, occasional ED.\n\n**Review of Systems:**  \n- **Constitutional:** No weight loss/fatigue.  \n- **Eyes/Endocrine/Neurological/Genitourinary/Dermatological:** No visual changes, no polydipsia/polyuria, tingling in feet. Occasional erectile dysfunction. No wounds.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/78, HR 78, Wt 185 lbs, BMI 32.4, Temp 98.6\u00b0F  \n- **General:** Obese, pleasant.  \n- **Cardiovascular:** Regular rate and rhythm, pulses 2+ dorsalis pedis/posterior tibial.  \n- **Respiratory:** Clear bilaterally.  \n- **Extremities:** Monofilament test intact, skin intact, no edema.  \n- **Feet:** Nails trimmed, no fungal infection.  \n- **Other Systems:** Grossly intact.\n\n**Assessment and Plan:**  \n1. **Type 2 Diabetes Mellitus, poorly controlled:**  \n   - Start Semaglutide weekly.  \n   - Continue Metformin.  \n   - HbA1c in 3 months.  \n   - Diabetes educator referral for nutrition.  \n   - Lifestyle advice: Cut sugary drinks, portion control, increase activity.  \n   - Weight loss target: 5-10% in 6 months.\n\n2. **Obesity:**  \n   - Address with diabetes plan.\n\n3. **Essential hypertension:**  \n   - Continue Lisinopril.\n\n4. **Hyperlipidemia:**  \n   - Continue Atorvastatin.\n\n5. **Preventative Care:**  \n   - Ophthalmology referral for eye exam.  \n   - Order kidney function tests.  \n   - Ensure vaccination status.\n\n6. **Erectile Dysfunction:**  \n   - Discussed diabetes impact, consider PDE5 inhibitors if persistent.\n\n**Time Spent:**  \n25 minutes with patient education on medications and lifestyle.\n\n**Billing Level:**  \n99214 (Moderate complexity due to uncontrolled diabetes).\n\n**Medical Decision Making:**  \nHbA1c at 9.5% shows poor control. Adding GLP-1 agonist for better management and weight loss. Emphasized lifestyle changes. Screening current except for eye exam.",
+  "demographics": {
+    "age": 51,
+    "gender": "M",
+    "occupation": "sales manager",
+    "name": "David Kim"
+  },
+  "source_gold_note": "gold_t2dm_001",
+  "generated_at": "2026-02-14T02:51:29.260968",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 80,
+    "risk": 85,
+    "clarity": 88
+  }
+}

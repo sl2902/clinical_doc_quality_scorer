@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_back_pain_003",
+  "scenario": "back_pain",
+  "persona": "brooks",
+  "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Chief Complaint:**  \nBack pain\n\n**HPI:**  \nPt with low back pain, left-sided. Pain sharp with movement, dull at rest. Started after lifting at work. Some right leg tingling, no weakness/numbness.\n\n**ROS:**  \nMusculoskeletal: back pain, Neuro: tingling right leg, no weakness/numbness. Constitutional/GU: No fever, chills, urinary/bowel issues.\n\n**Physical Exam:**  \nVS: BP 128/82, HR 74, Temp 98.4, RR 14.  \nBack: Tender L3-L5, muscle spasm. ROM limited by pain. Neuro WNL, gait antalgic.\n\n**Assessment and Plan:**  \n- Acute low back pain, lumbar strain. Mild radiculopathy. No red flags.\n- Ibuprofen, cyclobenzaprine. Avoid heavy lifting, prolonged sitting. PT referral.\n- Heat/ice. Light duty work note.  \n- RTC PRN.",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "source_gold_note": "gold_back_pain_003",
+  "generated_at": "2026-02-14T02:49:02.618721",
+  "ground_truth_scores": {
+    "completeness": 70,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 72,
+    "clarity": 68
+  }
+}

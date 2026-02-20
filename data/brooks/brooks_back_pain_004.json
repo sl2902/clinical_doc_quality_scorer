@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_back_pain_004",
+  "scenario": "back_pain",
+  "persona": "brooks",
+  "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \nBack pain, leg weakness.\n\n**HPI:**  \nPt with 1-week hx of severe low back pain after lifting at work. Pain sharp with movement, dull at rest; worse in AM and sitting. Bilateral leg weakness noted. No bowel/bladder changes.\n\n**ROS:**  \nMSK: Back pain, leg weakness. Neuro: Weakness, no numbness/tingling. General: No fever.\n\n**Physical Exam:**  \nVS: BP 128/82, HR 74, Temp 98.4, RR 14. Back tender L3-L5, muscle spasm. Neuro: 4/5 strength hips/knees/ankles, reflexes 2+, gait antalgic. Abd: WNL.\n\n**Assessment/Plan:**  \n- Acute mechanical low back pain, lumbar strain.  \n- Ibuprofen, cyclobenzaprine.  \n- Activity modification, PT referral, heat/ice.  \n- No imaging now; monitor for red flags.  \n- Work note: Light duty, 20 lb limit.  \n- RTC PRN.",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "source_gold_note": "gold_back_pain_004",
+  "generated_at": "2026-02-14T02:48:44.597552",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 74
+  }
+}

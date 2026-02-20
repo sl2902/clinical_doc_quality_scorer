@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_t2dm_004",
+  "scenario": "t2dm",
+  "persona": "brooks",
+  "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \nDiabetes f/u  \n\n**HPI:**  \n47 y/o male with poorly controlled T2DM, HbA1c 10.2%. Fasting glucose 160-220, postprandial 180-250. On Metformin 1000mg BID, GI upset noted. Occasional foot tingling, no hypoglycemia. Reports erectile dysfunction, sedentary lifestyle, daily soda.  \n\n**ROS:**  \nNo fatigue/weight loss, no visual changes. Tingling in feet, GI upset with Metformin. ED, foot ulcer concern.  \n\n**Physical Exam:**  \nBP 128/78, HR 78, BMI 32.4. Alert, obese. CV: RRR, pulses 2+. Lungs clear. Extremities and feet WNL, no ulcers.  \n\n**Assessment/Plan:**  \n1. T2DM uncontrolled: Start Semaglutide, continue Metformin. Order HbA1c in 3 mos. Educate on nutrition.  \n2. Obesity: Advise lifestyle changes, 5-10% weight loss goal.  \n3. HTN controlled: Continue Lisinopril.  \n4. Hyperlipidemia: Continue Atorvastatin.  \n5. Foot care: Evaluate for ulcer, educate on care.  \n6. ED: Discuss diabetes link, consider PDE5 inhibitors.  \n7. Preventive: Ensure vaccines, refer ophthalmology, check kidneys.  \n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "source_gold_note": "gold_t2dm_004",
+  "generated_at": "2026-02-14T02:51:52.322017",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 68
+  }
+}

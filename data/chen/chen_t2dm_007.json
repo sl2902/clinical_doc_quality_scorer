@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_t2dm_007",
+  "scenario": "t2dm",
+  "persona": "chen",
+  "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Chief Complaint:**  \nDiabetes follow-up.\n\n**History of Present Illness:**  \n45-year-old female with Type 2 Diabetes Mellitus for 3 years. HbA1c improved from 8.2% to 7.8%. Home glucose 160-220 mg/dL fasting, 180-250 mg/dL postprandial. On Metformin 1000mg BID; tolerates with some GI upset. No hypoglycemia. Eye exam 8 months ago showed mild retinopathy; foot exam today normal. Reports tingling in feet. Sedentary job, minimal exercise, daily soda. Irregular menses, likely obesity/insulin resistance.\n\n**Review of Systems:**  \n- **General:** No weight loss.  \n- **Eyes/Neurological:** No visual changes, occasional tingling in feet.  \n- **Endocrine:** Denies polyuria, polydipsia.  \n- **Skin:** No wounds.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/78, HR 78, Weight 185 lbs, BMI 32.4  \n- **General:** Alert, obese, pleasant  \n- **Cardiovascular/Respiratory:** Regular rate, clear lungs  \n- **Extremities:** Protective sensation intact, no edema  \n- **Feet:** Unremarkable\n\n**Assessment and Plan:**  \n1. **Type 2 Diabetes Mellitus:**  \n   - Add Semaglutide, titrate dose in 4 weeks.  \n   - Continue Metformin.  \n   - HbA1c recheck in 3 months.  \n   - Referral for nutrition counseling.  \n   - Lifestyle: Increase activity, reduce soda.  \n   - Weight loss goal 5-10%.\n\n2. **Obesity:**  \n   - Addressed diet and exercise.\n\n3. **Essential Hypertension:**  \n   - Continue Lisinopril.\n\n4. **Hyperlipidemia:**  \n   - Continue Atorvastatin.\n\n5. **Mild Retinopathy:**  \n   - Ophthalmology referral.\n\n**Time Spent:**  \n25 minutes\n\n**Medical Decision Making:**  \nImproved glycemic control. Initiated GLP-1 agonist for further management. Discussed lifestyle changes.",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "source_gold_note": "gold_t2dm_007",
+  "generated_at": "2026-02-14T02:52:29.473352",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 85,
+    "clarity": 80
+  }
+}

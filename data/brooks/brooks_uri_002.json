@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_uri_002",
+  "scenario": "uri",
+  "persona": "brooks",
+  "note_text": "**Patient:** James Wilson\n**Age:** 38\n**Gender:** M\n**Occupation:** warehouse worker\n\n**Chief Complaint:**  \nCough and congestion\n\n**HPI:**  \nPt with 5-day hx of productive cough, nasal congestion, sore throat, mild HA, and fatigue. Denies fever, SOB, or CP. No meds taken.\n\n**ROS:**  \nFatigue, nasal congestion, rhinorrhea, sore throat, HA, cough. Denies fever, SOB, CP, GI sx, dizziness, rash.\n\n**Physical Exam:**  \nVS: T 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99% RA. Alert, no distress. HEENT: Congested nasal mucosa, mild pharynx erythema. Lungs clear. CV: RRR.\n\n**Assessment/Plan:**  \nAcute viral URI, mild sinusitis. Supportive care: rest, fluids, humidifier. Symptomatic tx: Pseudoephedrine, Dextromethorphan PRN. RTC PRN.",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "source_gold_note": "gold_uri_002",
+  "generated_at": "2026-02-14T02:53:11.803621",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 85,
+    "compliance": 60,
+    "risk": 70,
+    "clarity": 78
+  }
+}

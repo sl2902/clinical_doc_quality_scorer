@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_t2dm_005",
+  "scenario": "t2dm",
+  "persona": "brooks",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Chief Complaint:**  \nDiabetes f/u\n\n**HPI:**  \nPt with Type 2 DM, hx 3 yrs, here for routine mgmt. Last A1c 8.2%. Fasting glucose 160-220, postprandial 180-250. On Metformin 1000mg BID, occasional GI upset. Reports tingling in feet.\n\n**ROS:**  \nNo weight loss, fatigue. Tingling feet, no other neuro sx. No polyuria/polydipsia. Occasional GI upset. No skin changes.\n\n**Physical Exam:**  \nVS: BP 128/78, HR 78, Temp 98.6, Wt 185 lbs, BMI 32.4  \nGen: Alert, obese. CV: RRR, pulses 2+ bilaterally. Resp: CTA bilat. Ext: Monofilament normal, skin intact.\n\n**Assessment and Plan:**  \n1. Type 2 DM, uncontrolled: Add Semaglutide, continue Metformin, order A1c in 3 mos, refer to diabetes educator.  \n2. Obesity: Lifestyle counseling, increase activity.  \n3. HTN, controlled: Continue Lisinopril.  \n4. Hyperlipidemia: Continue Atorvastatin.  \n5. Neuropathy sx: Monitor.  \n6. Preventive: Ophthalmology referral, kidney tests, vaccines.\n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_t2dm_005",
+  "generated_at": "2026-02-14T02:52:03.360535",
+  "ground_truth_scores": {
+    "completeness": 70,
+    "accuracy": 75,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 72
+  }
+}

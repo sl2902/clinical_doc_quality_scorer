@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_back_pain_004",
+  "scenario": "back_pain",
+  "persona": "minimal",
+  "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \n- Back pain, leg weakness\n\n**HPI:**  \n- 1-week sharp low back pain, worse with movement. Lifting injury. Bilateral leg weakness.\n\n**Physical Exam:**  \n- Vitals: BP 128/82, HR 74, Temp 98.4\u00b0F  \n- Findings: Tender L3-L5, muscle spasm, limited ROM.\n\n**Assessment:**  \n- Acute mechanical low back pain, lumbar strain\n\n**Plan:**  \n- Ibuprofen, cyclobenzaprine.  \n- Avoid heavy lifting, PT referral.",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "source_gold_note": "gold_back_pain_004",
+  "generated_at": "2026-02-14T02:48:49.513430",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 40
+  }
+}

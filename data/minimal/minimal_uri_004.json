@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_uri_004",
+  "scenario": "uri",
+  "persona": "minimal",
+  "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \n- Cough, congestion 10 days\n\n**HPI:**  \n- Productive cough, nasal congestion, yellow-green discharge. Sore throat, mild headache. No SOB or fever.\n\n**Physical Exam:**  \n- VS: T 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99% RA  \n- Nasal congestion, yellow-green discharge. Lungs clear.\n\n**Assessment:**  \n- Viral URI, possible secondary bacterial infection.\n\n**Plan:**  \n- Rest, fluids. Pseudoephedrine, dextromethorphan. Start amoxicillin-clavulanate.",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "source_gold_note": "gold_uri_004",
+  "generated_at": "2026-02-14T02:53:27.008870",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 50
+  }
+}

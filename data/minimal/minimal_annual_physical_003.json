@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_annual_physical_003",
+  "scenario": "annual_physical",
+  "persona": "minimal",
+  "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Chief Complaint:** Annual physical\n\n**HPI:** Reports feeling well, occasional fatigue due to job.\n\n**Physical Exam:**\n- **Vital Signs:** BP 122/76, HR 68, Temp 98.2\u00b0F\n- Well-appearing\n\n**Assessment:**\n- Mild hypertension\n\n**Plan:**\n- Continue Lisinopril\n- Order labs: Lipid panel, glucose, TSH\n- Encourage home BP monitoring",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "source_gold_note": "gold_annual_physical_003",
+  "generated_at": "2026-02-14T02:47:39.676816",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 40
+  }
+}

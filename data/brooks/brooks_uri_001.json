@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_uri_001",
+  "scenario": "uri",
+  "persona": "brooks",
+  "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Chief Complaint:**  \nCough and congestion x5 days\n\n**HPI:**  \nPt with upper resp symptoms: productive cough, nasal congestion, sore throat, mild HA, fatigue, no fever. Symptoms mod, consistent with cold/flu season.\n\n**ROS:**  \n+Fatigue, nasal congestion, sore throat, mild HA, cough. Denies fever, SOB, CP, GI sx, rashes.\n\n**PMH:**  \nNone significant.\n\n**Medications:**  \nNone.\n\n**Allergies:**  \nNKDA.\n\n**Social History:**  \nNon-smoker, occasional EtOH, exercises, lives with family.\n\n**Physical Exam:**  \nVS: Temp 98.9, HR 76, BP 118/72, RR 14, O2 99% RA.  \nGen: Alert, NAD.  \nHEENT: Congested nasal mucosa, mild pharynx erythema.  \nLungs: CTA bilat.  \nCV: RRR, no murmurs.  \nSkin: WNL.\n\n**Assessment and Plan:**  \n- Acute viral URI.  \n- Rest, fluids, humidifier.  \n- Pseudoephedrine, dextromethorphan prn.  \n- RTC PRN.",
+  "demographics": {
+    "age": 51,
+    "gender": "M",
+    "occupation": "sales manager",
+    "name": "David Kim"
+  },
+  "source_gold_note": "gold_uri_001",
+  "generated_at": "2026-02-14T02:52:58.758962",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 75
+  }
+}

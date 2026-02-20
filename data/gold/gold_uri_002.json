@@ -1,0 +1,20 @@
+{
+  "note_id": "gold_uri_002",
+  "scenario": "uri",
+  "persona": "gold",
+  "note_text": "**Clinical Note**\n\n**Patient Name:** James Wilson  \n**Date of Visit:** [Insert Date]  \n**Age:** 38 years  \n**Gender:** Male  \n**Occupation:** Warehouse Worker  \n\n**Chief Complaint:**  \n\"Cough and congestion for 5 days\"\n\n**History of Present Illness:**  \nJames Wilson, a 38-year-old male warehouse worker, presents with symptoms of an upper respiratory infection that began 5 days ago. He reports a productive cough and nasal congestion accompanied by clear rhinorrhea. Additionally, he experiences a sore throat, mild headache, and fatigue but denies fever, with a temperature recorded at 98.9\u00b0F. He specifically denies any high fever (>102\u00b0F), shortness of breath, or chest pain. The severity of symptoms is described as moderate, and he notes mild sinus pressure, suggestive of mild sinusitis. James reports no significant alleviating factors but states that symptoms are most bothersome in the morning and evening. He has not taken any medication prior to the visit.\n\n**Review of Systems:**  \n- **Constitutional:** Negative for fever or chills. Reports fatigue.  \n- **HEENT:** Positive for nasal congestion, clear rhinorrhea, sore throat, and mild headache.  \n- **Respiratory:** Positive for productive cough, negative for shortness of breath.  \n- **Cardiovascular:** Negative for chest pain.  \n- **Gastrointestinal:** Negative for nausea, vomiting, or diarrhea.  \n- **Neurological:** Negative for dizziness or confusion.  \n- **Integumentary:** Negative for rash.\n\n**Past Medical History:**  \n- No significant medical history.\n\n**Medications:**  \n- None currently.\n\n**Allergies:**  \n- No known drug allergies.\n\n**Social History:**  \n- Non-smoker.  \n- Drinks alcohol socially.  \n- Lives with spouse and two children.  \n- Works as a warehouse worker.\n\n**Physical Examination:**  \n- **Vital Signs:** Temperature 98.9\u00b0F, Heart Rate 76 bpm, Blood Pressure 118/72 mmHg, Respiratory Rate 14 breaths/min, Oxygen Saturation 99% on room air.  \n- **General:** Alert, in no acute distress.  \n- **HEENT:** Nasal mucosa congested with clear discharge; pharynx mildly erythematous without exudates; no tonsillar enlargement.  \n- **Neck:** Supple, no lymphadenopathy.  \n- **Lungs:** Clear to auscultation bilaterally; no wheezing or rales.  \n- **Cardiovascular:** Regular rate and rhythm; no murmurs.\n\n**Assessment and Plan:**  \n- **Diagnosis:** Acute viral upper respiratory infection with mild sinusitis (ICD-10: J06.9).  \n- **Plan:**  \n  - **Supportive care:** Encourage rest and increased fluid intake to at least 8 glasses daily. Use a humidifier in the bedroom.  \n  - **Symptomatic treatment:**  \n    - Pseudoephedrine as needed for nasal congestion.  \n    - Dextromethorphan as needed for cough.  \n  - **Patient Education:** Discussed the viral nature of his symptoms, emphasizing that antibiotics are not indicated due to the absence of purulent discharge and normal lung examination. Educated about the expected duration of 7-10 days and advised on the contagious period and the importance of hand hygiene.  \n  - **Follow-up:** Instructed to return if symptoms worsen, develop a fever >102\u00b0F, experience shortness of breath, or if symptoms persist beyond 10 days.\n\n**Time Spent:**  \nApproximately 15 minutes were spent on history taking, examination, and patient counseling.",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "generated_at": "2026-02-14T01:53:27.937730",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 95,
+    "compliance": 80,
+    "risk": 90,
+    "clarity": 92
+  }
+}

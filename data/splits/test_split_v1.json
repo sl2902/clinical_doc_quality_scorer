@@ -1,0 +1,683 @@
+[
+  {
+    "note_id": "chen_annual_physical_006",
+    "persona": "chen",
+    "scenario": "annual_physical",
+    "note_text": "**Patient Name:** [Patient Name]\n**Patient ID:** [Patient ID]\n**Date of Service:** [Date]\n\n**Chief Complaint:** Annual physical\n\n**History of Present Illness:**\nPatient presents for routine annual preventive health examination. No acute complaints.\n\n**Review of Systems:**\n*   **Constitutional:** No fever, chills, no unintentional weight changes.\n*   **Eyes:** No vision changes, last eye exam 1 year ago (wears reading glasses).\n*   **ENT:** No hearing loss, no chronic sinus issues.\n*   **Cardiovascular:** No chest pain, no palpitations, no orthopnea, no PND, no edema.\n*   **Respiratory:** No cough, no shortness of breath, no wheezing.\n*   **GI:** No abdominal pain, regular bowel movements, no blood in stool, no heartburn.\n*   **GU:** No dysuria, no urinary frequency/urgency, menstrual periods regular (still menstruating).\n*   **Musculoskeletal:** No joint pain, no back pain, active without limitations.\n*   **Neurological:** No headaches, no dizziness, no weakness/numbness.\n*   **Psychiatric:** Mood stable, sleeping well, enjoying activities.\n*   **Endocrine:** No heat/cold intolerance, no polyuria/polydipsia.\n*   **Skin:** No new or changing moles, no rashes.\n*   **Heme/Lymph:** No easy bruising or bleeding, no lymph node swelling.\n\n**Past Medical History:**\n*   Mild hypertension (controlled on medication)\n\n**Medications:**\n*   Lisinopril 10mg daily\n*   Multivitamin daily\n*   Calcium with Vitamin D 600mg/400IU daily\n\n**Allergies:**\n*   Penicillin (rash as a child)\n\n**Family History:**\n*   Mother: Alive, age 72, hypertension, hyperlipidemia\n*   Father: Deceased age 68 from colon cancer (diagnosed age 65)\n*   Siblings: One sister, alive and well\n*   No family history of breast cancer, ovarian cancer, heart disease <55, diabetes\n\n**Social History:**\n*   Married, lives with spouse\n*   Works as accountant (desk job)\n*   College educated\n*   Financially stable\n*   Good social support system\n*   No tobacco, moderate alcohol, no drugs\n*   Diet: Mediterranean-style, eats vegetables daily, cooks at home 5x/week\n*   Exercise: Walks 4x/week for 45 minutes, does yoga 1x/week\n*   Sleep: 7-8 hours nightly, no snoring per partner\n*   Stress: Moderate work stress, manages well\n\n**Safety:**\n*   Wears seatbelt\n*   Smoke detectors in home\n*   No firearms\n\n**Mental Health:**\n*   PHQ-2 score 0 (negative depression screen), low anxiety\n\n**Physical Examination:**\n*   **Vital Signs:** BP 122/76 mmHg (right arm), 120/78 mmHg (left arm), HR 68, RR 14, Temperature 98.2\\u00b0F, O2 sat 99% on RA\n*   **Height:** 5'5\", Weight: 142 lbs, BMI: 23.6 (healthy weight)\n*   **General:** Well-appearing, pleasant, in no distress, appears stated age\n*   **HEENT:** Normocephalic, atraumatic, PERRLA, EOMI, conjunctivae clear, TMs clear bilaterally, oropharynx clear without erythema or exudates, thyroid non-palpable\n*   **Neck:** Supple, full ROM, no lymphadenopathy, no JVD, carotid pulses 2+ bilaterally without bruits\n*   **Cardiovascular:** Regular rate and rhythm, S1/S2 normal, no murmurs/rubs/gallops, PMI non-displaced\n*   **Respiratory:** Clear to auscultation bilaterally, good air movement, no wheezes/rales/rhonchi, symmetric expansion\n*   **Abdomen:** Soft, flat, non-distended, non-tender, normoactive bowel sounds all quadrants, no hepatosplenomegaly, no masses, no hernias\n*   **Breast:** No masses, no skin changes, no nipple discharge, no lymphadenopathy (axillary, supraclavicular, infraclavicular)\n*   **Musculoskeletal:** Full ROM all major joints, no deformities",
+    "ground_truth_scores": {
+      "completeness": 60,
+      "accuracy": 90,
+      "compliance": 70,
+      "risk": 90,
+      "clarity": 90
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "moderate",
+        "description": "Missing patient education regarding lifestyle modifications based on risk factors like mild HTN."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "low",
+        "description": "Lack of explicit billing justification; although it is implied by the visit type, explicitly stating 'For preventative care services according to USPSTF guidelines' would improve compliance."
+      }
+    ],
+    "generated_at": "2026-02-06T01:38:04.001209"
+  },
+  {
+    "note_id": "brooks_back_pain_001",
+    "persona": "brooks",
+    "scenario": "back_pain",
+    "note_text": "**Patient Name:** [Patient Name]\n**Patient ID:** [Patient ID]\n**Date of Service:** 2024-02-29\n\n**Chief Complaint:** Back pain for 3 days\n\n**History of Present Illness (HPI):**\n\n*   Lower back, lumbar region, primarily left-sided.\n*   Sharp with movement, dull ache at rest.\n*   7/10 with movement, 4/10 at rest.\n*   Onset 3 days ago.\n*   Constant, worse in morning and after sitting for prolonged periods.\n*   Lifting a 50-pound box at work with twisting motion.\n*   No radiation to legs, no numbness, no tingling, no weakness, no bowel/bladder changes, no fever.\n\n**Review of Systems:**\n\n*   Musculoskeletal: Back pain as described, no other joint pain.\n*   Neurological: No weakness in legs, no numbness/tingling, no saddle anesthesia, no loss of balance.\n*   Constitutional: No fever, no chills, no weight loss.\n*   GU: No urinary retention, no incontinence, normal bowel function.\n\n**Past Medical History:**\n\n*   None reported\n\n**Medications:**\n\n*   None reported\n\n**Allergies:**\n\n*   None reported\n\n**Social History:**\n\n*   Warehouse worker\n*   No smoking history\n*   Drinks alcohol occasionally\n\n**Physical Examination:**\n\n*   **Vital Signs:** BP 128/82 mmHg, HR 74, Temperature 98.4u00b0F, RR 14.\n*   **General:** Alert, uncomfortable when moving but not in severe distress.\n*   **Back:** Tenderness to palpation over left paraspinal muscles at L3-L5, no midline tenderness, no step-off deformity, muscle spasm present.\n*   **Range of Motion:** Flexion limited to 45 degrees (pain-limited), extension 15 degrees (limited), lateral bending 20 degrees bilaterally (limited).\n*   **Neurological:**\n    *   Straight leg raise: Negative bilaterally (no radicular pain, only local back discomfort at 70 degrees).\n    *   Motor: 5/5 strength bilateral hip flexors, knee extensors, ankle dorsiflexion, plantar flexion, great toe extension.\n    *   Sensory: Intact to light touch L1-S1 distributions bilaterally.\n    *   Reflexes: 2+ patellar and Achilles bilaterally, symmetric, no clonus.\n    *   Gait: Antalgic but able to walk without assistance, able to heel walk and toe walk.\n*   **Abdomen:** Soft, non-tender, no costovertebral angle tenderness.\n\n**Assessment and Plan:**\n\n*   **Assessment:** Acute mechanical low back pain, lumbar strain (ICD-10: M54.5). No radiculopathy. No red flags for serious pathology.\n*   **Plan:**\n    *   **Conservative management:** No imaging indicated (absence of red flags, duration <4 weeks per guidelines).\n    *   **Medications:**\n        *   Ibuprofen 600mg three times daily with food for 7-10 days.\n        *   Cyclobenzaprine 5mg at bedtime for muscle spasm (3-5 days, avoid if sedation problematic).\n    *   **Activity modification:**\n        *   Avoid heavy lifting (>20 lbs) for 2 weeks.\n        *   No prolonged sitting (>1 hour without break).\n        *   Return to normal activities as tolerated (bed rest NOT recommended).\n        *   May continue light duty work if employer accommodates restrictions.\n    *   **Physical therapy:** Referral for core strengthening, proper body mechanics training, start in 1 week if pain improving.\n    *   **Heat/ice therapy:** Alternate for 15-20 minutes several times daily.\n    *   **Expected course:** Most patients improve within 2-4 weeks.\n    *   **Work note:** Light duty with 20-pound lifting restriction for 2 weeks.\n    *   **Red flag education:** Return immediately or go to ER if develops leg weakness, numbness in groin/inner thighs, loss of bowel/bladder control, or progressively worsening pain.\n    *   f/u PRN",
+    "ground_truth_scores": {
+      "completeness": 55,
+      "accuracy": 95,
+      "compliance": 80,
+      "risk": 95,
+      "clarity": 95
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "major",
+        "description": "The 'f/u PRN' is vague; it should be more specific about follow up instructions."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "minor",
+        "description": "Consider adding a statement regarding potential need for further investigation based on response to treatment."
+      }
+    ],
+    "generated_at": "2026-02-06T00:44:41.840867"
+  },
+  {
+    "note_id": "chen_htn_followup_008",
+    "persona": "chen",
+    "scenario": "htn_followup",
+    "note_text": "**Patient Name:** [Patient Name - To be filled in]\n**Patient ID:** [Patient ID - To be filled in]\n**Date:** 2024-02-29\n\n**Chief Complaint:** Blood pressure check\n\n**History of Present Illness:**\n\n*   **Chief Complaint:** Patient presents for routine follow-up of hypertension.\n*   **Onset:** Chronic, gradual.\n*   **Location:** Primarily in the upper extremities.\n*   **Duration:** 4 months.\n*   **Character:** Asymptomatic, with occasional mild headache.\n*   **Aggravating Factors:** None reported.\n*   **Relieving Factors:** None reported.\n*   **Timing:** Occurs intermittently throughout the day.\n*   **Exacerbating Factors:** None reported.\n*   **Associated Symptoms:** None reported.\n\n**Review of Systems:**\n\n*   **General:** Denies fever, chills, weight loss, or fatigue.\n*   **Cardiovascular:** Denies chest pain, palpitations, shortness of breath, or leg swelling.\n*   **Respiratory:** Denies cough, wheezing, or shortness of breath.\n*   **Gastrointestinal:** Denies nausea, vomiting, diarrhea, or abdominal pain.\n*   **Genitourinary:** Denies dysuria, frequency, or urgency.\n*   **Neurological:** Denies headache, dizziness, or vision changes.\n*   **Musculoskeletal:** Denies joint pain or muscle weakness.\n*   **Skin:** Denies rash or itching.\n*   **Psychiatric:** Denies depression, anxiety, or psychosis.\n\n**Past Medical History:**\n\n*   Hypertension, diagnosed 2 years ago.\n\n**Medications:**\n\n*   Lisinopril 10mg daily\n\n**Allergies:**\n\n*   NKDA (No Known Drug Allergies)\n\n**Social History:**\n\n*   **Occupation:** Sales manager\n*   **Smoking:** Non-smoker\n*   **Alcohol:** Drinks 2-3 beers on weekends\n*   **Exercise:** Walks 3x/week for 30 minutes\n*   **Diet:** Trying to reduce sodium intake\n\n**Physical Examination:**\n\n*   **Vital Signs:** BP 142/88 mmHg right arm, 140/86 mmHg left arm (seated, repeated after 5 min rest), HR 74, Weight 192 lbs, BMI 28.3\n*   **General:** Alert, well-appearing, overweight\n*   **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ bilaterally\n*   **Respiratory:** Clear lung fields bilaterally\n*   **Extremities:** No edema\n*   **Fundoscopic:** No papilledema (if performed)\n\n**Assessment:**\n\n*   Essential hypertension, uncontrolled (ICD-10: I10)\n*   Overweight (ICD-10: E66.3)\n\n**Lab Results:**\n\n*   Basic metabolic panel: Creatinine 0.9 mg/dL, eGFR >90, Potassium 4.2 mEq/L (all normal)\n*   Lipid panel: Total cholesterol 215 mg/dL, LDL 138 mg/dL, HDL 42 mg/dL, Triglycerides 175 mg/dL (borderline)\n\n**Plan:**\n\n*   Increase Lisinopril to 20mg daily\n*   Continue home BP monitoring (record twice daily for 1 week before next visit)\n*   Lifestyle counseling: DASH diet, reduce sodium to <2000mg/day, limit alcohol to <2 drinks/day, increase exercise to 5x/week\n*   Weight loss goal: Lose 10 lbs over 3 months\n*   Recheck labs in 6 months: BMP, lipid panel\n*   Consider statin if LDL remains elevated at next visit\n*   Return in 6-8 weeks to assess BP response to medication increase\n*   Patient education: Target BP <130/80, importance of medication adherence, cardiovascular risk reduction\n\n**Time Spent:** 20 minutes\n**Billing Level:** 99214\n**Medical Decision Making:**\n\nThe patient's blood pressure remains uncontrolled despite adherence to Lisinopril 10mg daily. The average home BP readings are 138/86 mmHg. Given the persistent elevation and the patient's risk factors (hypertension, overweight, borderline dyslipidemia), increasing the Lisinopril dose to 20mg daily is indicated to achieve target BP <130/80",
+    "ground_truth_scores": {
+      "completeness": 50,
+      "accuracy": 90,
+      "compliance": 50,
+      "risk": 90,
+      "clarity": 90
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "major",
+        "description": "Missing patient education regarding specific lifestyle modifications beyond general advice."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "moderate",
+        "description": "Lack of explicit billing justification; while it states 'the patient's blood pressure remains uncontrolled', a more direct link between this observation and the chosen action would strengthen compliance."
+      }
+    ],
+    "generated_at": "2026-02-06T00:01:44.962007"
+  },
+  {
+    "note_id": "brooks_htn_followup_009",
+    "persona": "brooks",
+    "scenario": "htn_followup",
+    "note_text": "**Patient:** John Doe\n**Date:** 2024-02-29\n**Time:** 10:00 AM\n**Provider:** Dr. Elizabeth Martinez\n\n**Chief Complaint:** HTN f/u. On Lisinopril 10mg x4mo. Home BP avg 138/86. Walks 3x/wk.\n\n**History of Present Illness:**\n\nPt presents for HTN f/u. On Lisinopril 10mg x4mo. Home BP avg 138/86. Walks 3x/wk.\n\n**Review of Systems:**\n\nCV/Resp/GI: negative. Denies HA, dizziness, edema.\n\n**Past Medical History:**\n\nHTN, OW\n\n**Medications:**\n\nLisinopril 10mg x4\n\n**Allergies:**\n\nNKDA\n\n**Social History:**\n\nMarried, works as a sales manager. Walks 3x/wk. Trying to reduce sodium intake. Drinks 2-3 beers on weekends.\n\n**Physical Examination:**\n\nVitals: BP 142/88 mmHg RA, 140/86 mmHg LA (seated, repeated after 5 min rest), HR 74, Weight 192 lbs, BMI 28.3. General: Alert, well-appearing, OW. Cardiovascular: Regular rate and rhythm, no murmurs, peripheral pulses 2+ bilaterally. Respiratory: Clear lung fields bilaterally. Extremities: No edema. Fundoscopic: No papilledema (if performed).\n\n**Assessment:**\n\nEssential HTN, uncontrolled (ICD-10: I10)\nOW (ICD-10: E66.3)\n\n**Lab Results:**\n\nBMP: Creatinine 0.9 mg/dL, eGFR >90, Potassium 4.2 mEq/L (all normal)\nLipid panel: Total cholesterol 215 mg/dL, LDL 138 mg/dL, HDL 42 mg/dL, Triglycerides 175 mg/dL (borderline)\n\n**Plan:**\n\n1. Increase Lisinopril to 20mg x1.\n2. Continue home BP monitoring (record twice daily for 1 week before next visit).\n3. Lifestyle counseling: DASH diet, reduce sodium to <2000mg/day, limit alcohol to <2 drinks/day, increase exercise to 5x/week.\n4. Weight loss goal: Lose 10 lbs over 3 months.\n5. Recheck labs in 6 months: BMP, lipid panel.\n6. Consider statin if LDL remains elevated at next visit.\n7. f/u PRN.\n8. Patient education: Target BP <130/80, importance of medication adherence, cardiovascular risk reduction.",
+    "ground_truth_scores": {
+      "completeness": 45,
+      "accuracy": 95,
+      "compliance": 45,
+      "risk": 90,
+      "clarity": 90
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "major",
+        "description": "Missing patient education regarding specific goals like reducing salt intake by X amount each day."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "moderate",
+        "description": "Lack of explicit billing justification; although the level appears appropriate based on time spent, some detail could improve clarity."
+      }
+    ],
+    "generated_at": "2026-02-06T00:03:27.052095"
+  },
+  {
+    "note_id": "chen_htn_followup_004",
+    "persona": "chen",
+    "scenario": "htn_followup",
+    "note_text": "**Patient:** John Smith\n**Date:** 2024-02-29\n**Time:** 10:00 AM\n**Provider:** Dr. Elizabeth Martinez\n\n**Chief Complaint:** Blood pressure check\n\n**History of Present Illness:**\nThe patient is a 58-year-old male presenting for a routine follow-up visit for his hypertension. He reports that he is here for a blood pressure check. He states he has been taking Lisinopril 10mg daily as prescribed. He denies any new symptoms, such as headaches, chest pain, palpitations, dizziness, or leg swelling. He reports taking his medication consistently and has not experienced any side effects. He has been monitoring his blood pressure at home and reports an average reading of 138/86 mmHg over the past two weeks. He states that he is trying to reduce his sodium intake and is walking 3 times a week for 30 minutes. He drinks 2-3 beers on weekends.\n\n**Review of Systems:**\nNegative for any new or worsening symptoms.\n\n**Past Medical History:**\nHypertension (diagnosed 5 years ago), Overweight (diagnosed 5 years ago)\n\n**Medications:**\nLisinopril 10mg daily\n\n**Allergies:**\nNKDA\n\n**Social History:**\nMarried, works as a sales manager. He walks 3 times a week for 30 minutes. He is trying to reduce his sodium intake. He drinks 2-3 beers on weekends.\n\n**Physical Examination:**\n*   **Vital Signs:** BP 142/88 mmHg right arm, 140/86 mmHg left arm (seated, repeated after 5 min rest), HR 74, Weight 192 lbs, BMI 28.3\n*   **General:** Alert, well-appearing, overweight.\n*   **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ bilaterally.\n*   **Respiratory:** Clear lung fields bilaterally.\n*   **Extremities:** No edema.\n\n**Assessment:**\n*   Essential hypertension, uncontrolled (ICD-10: I10)\n*   Overweight (ICD-10: E66.3)\n\n**Lab Results:**\n*   Basic metabolic panel: Creatinine 0.9 mg/dL, eGFR >90, Potassium 4.2 mEq/L (all normal)\n*   Lipid panel: Total cholesterol 215 mg/dL, LDL 138 mg/dL, HDL 42 mg/dL, Triglycerides 175 mg/dL (borderline)\n\n**Plan:**\n*   Increase Lisinopril to 20mg daily.\n*   Continue home BP monitoring (record twice daily for 1 week before next visit).\n*   Lifestyle counseling: DASH diet, reduce sodium to <2000mg/day, limit alcohol to <2 drinks/day, increase exercise to 5x/week.\n*   Weight loss goal: Lose 10 lbs over 3 months.\n*   Recheck labs in 6 months: BMP, lipid panel.\n*   Consider statin if LDL remains elevated at next visit.\n*   Return in 6-8 weeks to assess BP response to medication increase.\n*   Patient education: Target BP <130/80, importance of medication adherence, cardiovascular risk reduction.\n\n**Time Spent:** 20 minutes\n**Billing Level:** 99214\n**Medical Decision Making:**\nThe patient's blood pressure remains uncontrolled despite adherence to Lisinopril 10mg daily. His average home BP readings are 138/86 mmHg, which is above the target of <130/80 mmHg. Given his elevated LDL cholesterol (138 mg/dL) and borderline triglycerides (175 mg/dL), he is at increased risk for cardiovascular events. Lifestyle modifications are crucial for managing hypertension and improving overall cardiovascular health. I have discussed the importance of a DASH diet, reducing sodium intake, limiting alcohol consumption, and increasing exercise. I have also discussed the importance of weight loss. I have explained the rationale for increasing the Lisinopril dose to 20mg daily, as this is a reasonable step to further control his blood pressure. I have also discussed the potential benefits of a statin medication if his LDL cholesterol remains elevated at his next visit. I have provided extensive counseling on lifestyle modifications, as this is a key component of his treatment plan. I have also reviewed his lab results",
+    "ground_truth_scores": {
+      "completeness": 45,
+      "accuracy": 95,
+      "compliance": 65,
+      "risk": 90,
+      "clarity": 90
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "important",
+        "description": "Patient Education Missing - The note lacks specific information about what was taught regarding medication adherence."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "suggestion",
+        "description": "Lack of Billing Justification - While it mentions 'time spent', there isn't explicit mention of why a level III encounter code would be appropriate."
+      }
+    ],
+    "generated_at": "2026-02-05T23:48:01.819739"
+  },
+  {
+    "note_id": "chen_uri_003",
+    "persona": "chen",
+    "scenario": "uri",
+    "note_text": "**Patient:** Jane Doe\n**Date:** 2024-10-27\n**Time:** 10:30 AM\n**Provider:** Dr. Elizabeth Martinez\n\n**Chief Complaint:** Cough and congestion for 5 days\n\n**History of Present Illness:**\n\n*   **Onset:** 5 days ago\n*   **Location:** Upper respiratory tract\n*   **Duration:** 5 days\n*   **Character:** Productive cough, nasal congestion, clear rhinorrhea\n*   **Aggravating Factors:** Not specified\n*   **Relieving Factors:** Not specified\n*   **Timing:** Various times\n*   **Severity:** Mild\n\n**Review of Systems:**\n\n*   **General:** Denies fever, chills, or weight loss.\n*   **HEENT:** Denies headache, ear pain, or vision changes. Reports mild sore throat.\n*   **Respiratory:** Reports cough, congestion, and rhinorrhea. Denies shortness of breath or chest pain.\n*   **Cardiovascular:** Denies chest pain, palpitations, or edema.\n*   **Gastrointestinal:** Denies nausea, vomiting, diarrhea, or abdominal pain.\n*   **Genitourinary:** Denies dysuria, frequency, or urgency.\n*   **Musculoskeletal:** Denies joint pain or muscle aches.\n*   **Neurological:** Denies dizziness, headache, or seizures.\n*   **Skin:** Denies rash or itching.\n*   **Psychiatric:** Denies anxiety or depression.\n\n**Past Medical History:**\n\n*   None reported.\n\n**Medications:**\n\n*   None reported.\n\n**Allergies:**\n\n*   None reported.\n\n**Social History:**\n\n*   Elementary school teacher.\n*   Reports no smoking or alcohol use.\n*   Reports occasional caffeine consumption.\n\n**Physical Examination:**\n\n*   **Vital Signs:** Temperature 98.9u00b0F, HR 76, BP 118/72, RR 14, O2 sat 99% on room air.\n*   **General:** Alert, oriented, and in no acute distress.\n*   **HEENT:** Nasal mucosa congested with clear discharge. Pharynx mildly erythematous without exudates. No tonsillar enlargement.\n*   **Neck:** Supple, no lymphadenopathy.\n*   **Lungs:** Clear to auscultation bilaterally, no wheezing, no rales.\n*   **Cardiovascular:** Regular rate and rhythm, no murmurs.\n\n**Assessment and Plan:**\n\n*   **Assessment:** Acute viral upper respiratory infection (URI).\n*   **Plan:**\n    *   Supportive care: Rest, increase fluid intake to 8 glasses daily, use a humidifier.\n    *   Symptomatic treatment: Pseudoephedrine 30mg PRN for congestion, dextromethorphan 10mg PRN for cough.\n    *   Return if symptoms worsen, fever >102u00b0F, shortness of breath, or symptoms persist >10 days.\n    *   Expected duration: 7-10 days.\n    *   No antibiotics indicated due to viral etiology.\n    *   Educated patient on contagious period and importance of hand hygiene.\n\n**Time Spent:** 15 minutes\nBilling Level: 2",
+    "ground_truth_scores": {
+      "completeness": 50,
+      "accuracy": 90,
+      "compliance": 40,
+      "risk": 90,
+      "clarity": 90
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "major",
+        "description": "The plan section lacks specific information about when to return for follow up."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "moderate",
+        "description": "There is not enough detail provided regarding what constitutes 'worsening' symptoms that would warrant an immediate return visit."
+      }
+    ],
+    "generated_at": "2026-02-05T23:10:18.212252"
+  },
+  {
+    "note_id": "gold_back_pain_001",
+    "persona": "gold",
+    "scenario": "back_pain",
+    "note_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]\n**Patient ID:** [Patient ID]\n**Date of Service:** 2024-02-29\n\n**Chief Complaint:** Back pain for 3 days\n\n**History of Present Illness (HPI):**\n\n*   **Location:** Lower back, lumbar region, primarily left-sided.\n*   **Quality:** Sharp with movement, dull ache at rest.\n*   **Severity:** 7/10 with movement, 4/10 at rest.\n*   **Duration:** Onset 3 days ago.\n*   **Timing:** Constant, worse in morning and after sitting for prolonged periods.\n*   **Context:** Started after lifting a 50-pound box at work with twisting motion.\n*   **Modifying factors:** Worse with bending forward, standing >30 minutes, sneezing. Better with lying flat, heat application, ibuprofen.\n*   **Associated symptoms:** No radiation to legs, no numbness, no tingling, no weakness, no bowel/bladder changes, no fever.\n\n**Review of Systems:**\n\n*   **Musculoskeletal:** Back pain as described, no other joint pain.\n*   **Neurological:** No weakness in legs, no numbness/tingling, no saddle anesthesia, no loss of balance.\n*   **Constitutional:** No fever, no chills, no weight loss.\n*   **GU:** No urinary retention, no incontinence, normal bowel function.\n\n**Past Medical History:**\n\n*   None reported\n\n**Medications:**\n\n*   None reported\n\n**Allergies:**\n\n*   None reported\n\n**Social History:**\n\n*   Warehouse worker\n*   No smoking history\n*   Drinks alcohol occasionally\n\n**Physical Examination:**\n\n*   **Vital Signs:** BP 128/82 mmHg, HR 74, Temperature 98.4\u00b0F, RR 14.\n*   **General:** Alert, uncomfortable when moving but not in severe distress.\n*   **Back:** Tenderness to palpation over left paraspinal muscles at L3-L5, no midline tenderness, no step-off deformity, muscle spasm present.\n*   **Range of Motion:** Flexion limited to 45 degrees (pain-limited), extension 15 degrees (limited), lateral bending 20 degrees bilaterally (limited).\n*   **Neurological:**\n    *   Straight leg raise: Negative bilaterally (no radicular pain, only local back discomfort at 70 degrees).\n    *   Motor: 5/5 strength bilateral hip flexors, knee extensors, ankle dorsiflexion, plantar flexion, great toe extension.\n    *   Sensory: Intact to light touch L1-S1 distributions bilaterally.\n    *   Reflexes: 2+ patellar and Achilles bilaterally, symmetric, no clonus.\n    *   Gait: Antalgic but able to walk without assistance, able to heel walk and toe walk.\n*   **Abdomen:** Soft, non-tender, no costovertebral angle tenderness.\n\n**Assessment and Plan:**\n\n*   **Assessment:** Acute mechanical low back pain, lumbar strain (ICD-10: M54.5). No radiculopathy. No red flags for serious pathology.\n*   **Plan:**\n    *   **Conservative management:** No imaging indicated (absence of red flags, duration <4 weeks per guidelines).\n    *   **Medications:**\n        *   Ibuprofen 600mg three times daily with food for 7-10 days.\n        *   Cyclobenzaprine 5mg at bedtime for muscle spasm (3-5 days, avoid if sedation problematic).\n    *   **Activity modification:**\n        *   Avoid heavy lifting (>20 lbs) for 2 weeks.\n        *   No prolonged sitting (>1 hour without break).\n        *   Return to normal activities as tolerated (bed rest NOT recommended).\n        *   May continue light duty work if employer accommodates restrictions.\n    *   **Physical therapy:** Referral for core strengthening, proper body mechanics training, start in 1 week if pain improving.\n    *   **Heat/ice therapy:** Alternate for 15-20 minutes several times daily.\n    *   **Expected course:** Most patients improve within 2-4 weeks.\n    *   **Work note:** Light duty with 20-pound lifting restriction for 2 weeks.\n    *   **Red flag education:** Return immediately or go to ER if develops leg weakness, numbness in groin/inner thighs, loss of bowel/bladder control, or progressively worsening pain.\n    *",
+    "ground_truth_scores": {
+      "completeness": 95,
+      "accuracy": 95,
+      "compliance": 90,
+      "risk": 95,
+      "clarity": 90
+    },
+    "quality_issues": [],
+    "generated_at": "2026-02-06T16:54:30.149572"
+  },
+  {
+    "note_id": "chen_annual_physical_009",
+    "persona": "chen",
+    "scenario": "annual_physical",
+    "note_text": "**Patient Name:** [Patient Name]\n**Patient ID:** [Patient ID]\n**Date of Service:** [Date]\n\n**Chief Complaint:** Annual physical\n\n**History of Present Illness:**\n\nPatient presents for routine annual preventive health examination. No acute complaints. Feels well overall, energy level good.\n\n**Review of Systems:**\n\n*   **Constitutional:** No fever, chills, no unintentional weight changes.\n*   **Eyes:** No vision changes, last eye exam 1 year ago (wears reading glasses).\n*   **ENT:** No hearing loss, no chronic sinus issues.\n*   **Cardiovascular:** No chest pain, no palpitations, no orthopnea, no PND, no edema.\n*   **Respiratory:** No cough, no shortness of breath, no wheezing.\n*   **GI:** No abdominal pain, regular bowel movements, no blood in stool, no heartburn.\n*   **GU:** No dysuria, no urinary frequency/urgency, menstrual periods regular (still menstruating).\n*   **Musculoskeletal:** No joint pain, no back pain, active without limitations.\n*   **Neurological:** No headaches, no dizziness, no weakness/numbness.\n*   **Psychiatric:** Mood stable, sleeping well, enjoying activities.\n*   **Endocrine:** No heat/cold intolerance, no polyuria/polydipsia.\n*   **Skin:** No new or changing moles, no rashes.\n*   **Heme/Lymph:** No easy bruising or bleeding, no lymph node swelling.\n\n**Past Medical History:**\n\n*   Mild hypertension (controlled on medication)\n\n**Medications:**\n\n*   Lisinopril 10mg daily\n*   Multivitamin daily\n*   Calcium with Vitamin D 600mg/400IU daily\n\n**Allergies:**\n\n*   Penicillin (rash as a child)\n\n**Family History:**\n\n*   Mother: Alive, age 72, hypertension, hyperlipidemia\n*   Father: Deceased age 68 from colon cancer (diagnosed age 65)\n*   Siblings: One sister, alive and well\n*   No family history of breast cancer, ovarian cancer, heart disease <55, diabetes\n\n**Social History:**\n\n*   Married, lives with spouse\n*   Works as accountant (desk job)\n*   College educated\n*   Financially stable\n*   Good social support system\n*   No tobacco, moderate alcohol, no drugs\n*   Diet: Mediterranean-style, eats vegetables daily, cooks at home 5x/week\n*   Exercise: Walks 4x/week for 45 minutes, does yoga 1x/week\n*   Sleep: 7-8 hours nightly, no snoring per partner\n*   Stress: Moderate work stress, manages well\n\n**Physical Examination:**\n\n*   **Vital Signs:** BP 122/76 mmHg (right arm), 120/78 mmHg (left arm), HR 68, RR 14, Temperature 98.2u00b0F, O2 sat 99% on RA\n*   **Height:** 5'5\", Weight: 142 lbs, BMI: 23.6 (healthy weight)\n*   **General:** Well-appearing, pleasant, in no distress, appears stated age\n*   **HEENT:** Normocephalic, atraumatic, PERRLA, EOMI, conjunctivae clear, TMs clear bilaterally, oropharynx clear without erythema or exudates, thyroid non-palpable\n*   **Neck:** Supple, full ROM, no lymphadenopathy, no JVD, carotid pulses 2+ bilaterally without bruits\n*   **Cardiovascular:** Regular rate and rhythm, S1/S2 normal, no murmurs/rubs/gallops, PMI non-displaced\n*   **Respiratory:** Clear to auscultation bilaterally, good air movement, no wheezes/rales/rhonchi, symmetric expansion\n*   **Abdomen:** Soft, flat, non-distended, non-tender, normoactive bowel sounds all quadrants, no hepatosplenomegaly, no masses, no hernias\n*   **Breast:** No masses, no skin changes, no nipple discharge, no lymphadenopathy (axillary, supraclavicular, infraclavicular)\n*   **Musculoskeletal:** Full ROM all major joints, no deformities, no joint swelling or tenderness, normal gait\n*   **Neurological:** Alert and oriented x3, CN II-XII intact, strength 5/5 all extremities, sensation intact",
+    "ground_truth_scores": {
+      "completeness": 55,
+      "accuracy": 100,
+      "compliance": 55,
+      "risk": 100,
+      "clarity": 95
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "major",
+        "description": "The note is missing information about any preventative services provided during this visit."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "moderate",
+        "description": "There are some minor inconsistencies between what was documented here versus other parts of the record."
+      }
+    ],
+    "generated_at": "2026-02-06T01:48:26.280028"
+  },
+  {
+    "note_id": "chen_t2dm_006",
+    "persona": "chen",
+    "scenario": "t2dm",
+    "note_text": "**Patient Name:** [Patient Name]\n**Patient ID:** [Patient ID]\n**Date of Service:** [Date]\n\n**Chief Complaint:** Diabetes follow-up\n\n**History of Present Illness:**\nThe patient is a 52-year-old female presenting for routine follow-up of her Type 2 Diabetes Mellitus. She reports that her diabetes has been present for 3 years. She states that her glucose readings are typically between 160-220 mg/dL fasting and 180-250 mg/dL postprandial. She takes Metformin 1000mg twice daily with meals and reports occasional GI upset, but is tolerating it. She denies any episodes of hypoglycemia. She reports no diabetic complications, except for an eye exam 8 months ago, which was normal, and a foot exam today. She denies any polyuria, polydipsia, weight loss, or visual changes. She reports occasional tingling in her feet.\n\n**Review of Systems:**\nNegative for fever, chills, cough, shortness of breath, chest pain, abdominal pain, nausea, vomiting, diarrhea, constipation, urinary symptoms, headache, dizziness, or changes in vision.\n\n**Past Medical History:**\nType 2 Diabetes Mellitus (3 years), Hypertension (controlled), Hyperlipidemia (controlled).\n\n**Medications:**\n- Metformin 1000mg twice daily\n- Lisinopril 20mg daily\n- Atorvastatin 20mg daily\n\n**Allergies:**\nNKDA\n\n**Social History:**\nSedentary job, minimal exercise, struggles with portion control, drinks soda daily.\n\n**Physical Examination:**\nVitals: BP 128/78 mmHg, HR 78, Weight 185 lbs, BMI 32.4, Temperature 98.6u00b0F. General: Alert, obese, pleasant. Cardiovascular: Regular rate and rhythm, no murmurs, peripheral pulses 2+ dorsalis pedis and posterior tibial bilaterally. Respiratory: Clear to auscultation bilaterally. Extremities: Monofilament test shows protective sensation intact bilaterally, skin intact without wounds or calluses, no edema, pedal pulses palpable. Feet: No deformities, nails trimmed, no fungal infection.\n\n**Assessment:**\n- Type 2 Diabetes Mellitus, uncontrolled (E11.65)\n- Obesity (E66.9)\n- Essential hypertension, controlled (I10)\n- Hyperlipidemia (E78.5)\n\n**Plan:**\n1. Add Semaglutide (GLP-1 agonist) 0.25mg subcutaneous weekly, increase to 0.5mg after 4 weeks (dual benefit: glucose control + weight loss).\n2. Continue Metformin 1000mg twice daily.\n3. Continue Lisinopril and Atorvastatin.\n4. Order HbA1c in 3 months.\n5. Order annual kidney function (BMP, urinalysis with microalbumin) in 3 months.\n6. Referral to ophthalmology for annual dilated eye exam (overdue).\n7. Referral to diabetes educator for nutrition counseling.\n8. Lifestyle counseling: Eliminate sugar-sweetened beverages, portion control (use smaller plates), increase physical activity to 150 min/week (start with 10-min walks after meals).\n9. Weight loss goal: 5-10% body weight (9-18 lbs) over 6 months.\n10. Vaccinations: Ensure flu vaccine, check pneumococcal status.\n11. Return in 6 weeks to assess Semaglutide tolerance and early response.\n12. Patient education: Glucose targets (fasting <130, postprandial <180), HbA1c goal <7%, importance of lifestyle modifications, how to inject Semaglutide, possible side effects (nausea).\n\n**Time Spent:** 25 minutes\n**Billing Level:** 99214\n**Medical Decision Making:**\nThe patient's HbA1c of 8.2% indicates uncontrolled diabetes despite Metformin. Given her obesity and cardiovascular risk factors, adding a GLP-1 agonist (Semaglutide) is appropriate for dual glucose control and weight loss. The low risk of hypoglycemia with GLP-1 agonists is a significant advantage. I discussed the injection technique and potential side effects (nausea) with the patient. I addressed her barriers to lifestyle changes, including her work schedule and dietary habits. I ordered an ophthalmology referral due to the overdue",
+    "ground_truth_scores": {
+      "completeness": 95,
+      "accuracy": 95,
+      "compliance": 95,
+      "risk": 95,
+      "clarity": 95
+    },
+    "quality_issues": [],
+    "generated_at": "2026-02-06T00:29:15.990361"
+  },
+  {
+    "note_id": "brooks_back_pain_009",
+    "persona": "brooks",
+    "scenario": "back_pain",
+    "note_text": "**Patient:** [Patient Name]\n**Date:** 2024-02-29\n**Time:** 10:30 AM\n**Medical Record Number:** [MRN]\n\n**Chief Complaint:** Back pain for 3 days\n\n**History of Present Illness:**\nPt presents w/ acute low back pain for 3 days. Pain started after lifting 50lb box w/ twisting motion. Pain described as sharp w/ movement, dull ache at rest. Pain located in lower back, primarily on left side. Pain 7/10 w/ movement, 4/10 at rest. Pain constant, worse in AM & prolonged sitting. Denies radiation to legs, numbness, tingling, or weakness. Denies bowel/bladder changes, fever, chills. No hx of chronic back problems.\n\n**Review of Systems:**\n*   **Musculoskeletal:** Back pain as described. No other joint pain.\n*   **Neurological:** No weakness in legs, no numbness/tingling, no saddle anesthesia, no loss of balance.\n*   **Constitutional:** No fever, no chills, no weight loss.\n*   **GU:** No urinary retention, no incontinence, normal bowel function.\n\n**Past Medical History:**\nNone reported.\n\n**Medications:**\nNone reported.\n\n**Allergies:**\nNone reported.\n\n**Social History:**\nWorks as warehouse worker. Denies smoking/illicit drug use.\n\n**Physical Examination:**\n*   **Vitals:** BP 128/82 mmHg, HR 74, Temp 98.4u00b0F, RR 14\n*   **General:** Alert, uncomfortable moving, not in severe distress.\n*   **Back:** Tenderness L3-L5, left paraspinal muscles, no midline tenderness, no step-off deformity, muscle spasm present.\n*   **Range of Motion:** Flexion 45u00b0 (pain-limited), extension 15u00b0 (limited), lateral bending 20u00b0 bilaterally (limited).\n*   **Neurological:**\n    *   Straight leg raise: Negative bilaterally (no radicular pain, only local back discomfort at 70u00b0).\n    *   Motor: 5/5 strength bilateral hip flexors, knee extensors, ankle dorsiflexion, plantar flexion, great toe extension.\n    *   Sensory: Intact to light touch L1-S1 distributions bilaterally.\n    *   Reflexes: 2+ patellar and Achilles bilaterally, symmetric, no clonus.\n    *   Gait: Antalgic, able to walk without assistance, able to heel walk and toe walk.\n*   **Abdomen:** Soft, non-tender, no CVA tenderness.\n\n**Assessment and Plan:**\nAssessment: Acute mechanical low back pain, lumbar strain (ICD-10: M54.5). No radiculopathy. No red flags for serious pathology.\nPlan:\n*   Conservative management: No imaging indicated (absence of red flags, duration <4 weeks per guidelines).\n*   Medications:\n    *   Ibuprofen 600mg three times daily with food for 7-10 days.\n    *   Cyclobenzaprine 5mg at bedtime for muscle spasm (3-5 days, avoid if sedation problematic).\n*   Activity modification:\n    *   Avoid heavy lifting (>20 lbs) for 2 weeks.\n    *   No prolonged sitting (>1 hour without break).\n    *   Return to normal activities as tolerated (bed rest NOT recommended).\n    *   May continue light duty work if employer accommodates restrictions.\n    *   Physical therapy: Referral for core strengthening, proper body mechanics training, start in 1 week if pain improving.\n    *   Heat/ice therapy: Alternate for 15-20 minutes several times daily.\n*   Expected course: Most patients improve within 2-4 weeks.\n*   Work note: Light duty with 20-pound lifting restriction for 2 weeks.\n*   Red flag education: Return immediately or go to ER if develops leg weakness, numbness in groin/inner thighs, loss of bowel/bladder control, or progressively worsening pain.\n*   Follow-up: f/u PRN",
+    "ground_truth_scores": {
+      "completeness": 55,
+      "accuracy": 95,
+      "compliance": 60,
+      "risk": 95,
+      "clarity": 95
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "major",
+        "description": "Lack of specific instructions regarding return to work duties beyond general advice."
+      },
+      {
+        "dimension": "complaint",
+        "severity": "moderate",
+        "description": "No mention of providing an updated job description or ensuring appropriate workstation setup."
+      }
+    ],
+    "generated_at": "2026-02-06T01:12:12.281917"
+  },
+  {
+    "note_id": "chen_htn_followup_007",
+    "persona": "chen",
+    "scenario": "htn_followup",
+    "note_text": "**Patient:** John Smith\n**Date:** 2024-02-29\n**Time:** 10:00 AM\n**Provider:** Dr. Elizabeth Martinez\n\n**Chief Complaint:** Blood pressure check\n\n**History of Present Illness:**\nThe patient is a 58-year-old male presenting for a routine follow-up visit for hypertension. He reports that he was started on Lisinopril 10mg daily approximately 4 months ago. He states that he has been taking the medication as prescribed and has not experienced any significant side effects. He reports that he has been monitoring his blood pressure at home and that his average readings have been around 138/86 mmHg over the past two weeks. He states that he is trying to reduce his sodium intake.\n\n**Review of Systems:**\nNegative for headaches, chest pain, palpitations, dizziness, or leg swelling.\n\n**Past Medical History:**\nHypertension (diagnosed 5 years ago)\n\n**Medications:**\nLisinopril 10mg daily\n\n**Allergies:**\nNKDA\n\n**Social History:**\nWorks as a sales manager. Walks 3 times per week for 30 minutes. Drinks 2-3 beers on weekends.\n\n**Physical Examination:**\n*   **Vital Signs:** BP 142/88 mmHg (right arm), 140/86 mmHg (left arm) (seated, repeated after 5 minutes rest), HR 74, Weight 192 lbs, BMI 28.3\n*   **General:** Alert, well-appearing, overweight.\n*   **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ bilaterally.\n*   **Respiratory:** Clear lung fields bilaterally.\n*   **Extremities:** No edema.\n\n**Assessment:**\n*   Essential hypertension, uncontrolled (ICD-10: I10)\n*   Overweight (ICD-10: E66.3)\n\n**Lab Results:**\n*   Basic metabolic panel: Creatinine 0.9 mg/dL, eGFR >90, Potassium 4.2 mEq/L (all normal)\n*   Lipid panel: Total cholesterol 215 mg/dL, LDL 138 mg/dL, HDL 42 mg/dL, Triglycerides 175 mg/dL (borderline)\n\n**Plan:**\n*   Increase Lisinopril to 20mg daily\n*   Continue home BP monitoring (record twice daily for 1 week before next visit)\n*   Lifestyle counseling: DASH diet, reduce sodium to <2000mg/day, limit alcohol to <2 drinks/day, increase exercise to 5x/week\n*   Weight loss goal: Lose 10 lbs over 3 months\n*   Recheck labs in 6 months: BMP, lipid panel\n*   Consider statin if LDL remains elevated at next visit\n*   Return in 6-8 weeks to assess BP response to medication increase\n*   Patient education: Target BP <130/80, importance of medication adherence, cardiovascular risk reduction\n*   Time spent: 20 minutes\n*   Billing Level: 99214",
+    "ground_truth_scores": {
+      "completeness": 55,
+      "accuracy": 95,
+      "compliance": 80,
+      "risk": 95,
+      "clarity": 95
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "major",
+        "description": "Missing patient education regarding specific goals related to lifestyle changes."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "minor",
+        "description": "Lack of explicit billing justification beyond standard services."
+      }
+    ],
+    "generated_at": "2026-02-05T23:58:17.497173"
+  },
+  {
+    "note_id": "chen_t2dm_007",
+    "persona": "chen",
+    "scenario": "t2dm",
+    "note_text": "**Patient Name:** [Patient Name]\n**Patient ID:** [Patient ID]\n**Date of Service:** 2024-02-29\n\n**Chief Complaint:** Diabetes follow-up\n\n**History of Present Illness:**\n\nThe patient is a 52-year-old female presenting for routine follow-up of her Type 2 Diabetes Mellitus. She reports that her current glucose control is suboptimal, with home glucose readings ranging from 160-220 mg/dL fasting and 180-250 mg/dL postprandial. She takes Metformin 1000mg twice daily with meals and reports occasional GI upset. She denies any episodes of hypoglycemia. She last had an eye exam 8 months ago, which was normal, and a foot exam today. She denies any polyuria, polydipsia, weight loss, or visual changes. She reports occasional tingling in her feet.\n\n**Review of Systems:**\n\n*   General: Negative for acute illness.\n*   Cardiovascular: Negative for chest pain, shortness of breath, or palpitations.\n*   Respiratory: Negative for cough, wheezing, or dyspnea.\n*   Gastrointestinal: Negative for abdominal pain, nausea, vomiting, or diarrhea.\n*   Neurological: Negative for headache, dizziness, or weakness.\n*   Musculoskeletal: Negative for joint pain or muscle weakness.\n*   Skin: Negative for rash, itching, or lesions.\n*   Genitourinary: Negative for dysuria, frequency, or urgency.\n*   Psychiatric: Negative for depression or anxiety.\n\n**Past Medical History:**\n\n*   Type 2 Diabetes Mellitus (3 years duration)\n*   Hypertension (controlled on Lisinopril)\n*   Hyperlipidemia (controlled on Atorvastatin)\n\n**Medications:**\n\n*   Metformin 1000mg twice daily\n*   Lisinopril 20mg daily\n*   Atorvastatin 20mg daily\n\n**Allergies:**\n\n*   NKDA (No Known Drug Allergies)\n\n**Social History:**\n\n*   Occupation: Office administrator\n*   Sedentary job\n*   Minimal exercise\n*   Struggles with portion control\n*   Drinks soda daily\n\n**Physical Examination:**\n\n*   **Vitals:** BP 128/78 mmHg, HR 78, Weight 185 lbs, BMI 32.4, Temperature 98.6u00b0F\n*   **General:** Alert, obese, pleasant\n*   **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ dorsalis pedis and posterior tibial bilaterally\n*   **Respiratory:** Clear to auscultation bilaterally\n*   **Extremities:** Monofilament test shows protective sensation intact bilaterally, skin intact without wounds or calluses, no edema, pedal pulses palpable\n*   **Feet:** No deformities, nails trimmed, no fungal infection\n\n**Assessment:**\n\n*   Type 2 Diabetes Mellitus, uncontrolled (ICD-10: E11.65)\n*   Obesity (ICD-10: E66.9)\n*   Essential hypertension, controlled (ICD-10: I10)\n*   Hyperlipidemia (ICD-10: E78.5)\n\n**Plan:**\n\n1.  **Add Semaglutide (GLP-1 agonist) 0.25mg subcutaneous weekly, increase to 0.5mg after 4 weeks (dual benefit: glucose control + weight loss).**\n2.  **Continue Metformin 1000mg twice daily.**\n3.  **Continue Lisinopril and Atorvastatin (unchanged).**\n4.  **Order HbA1c in 3 months.**\n5.  **Order annual kidney function (BMP, urinalysis with microalbumin).**\n6.  **Referral to ophthalmology for annual dilated eye exam (overdue).**\n7.  **Referral to diabetes educator for nutrition counseling.**\n8.  **Lifestyle counseling: Eliminate sugar-sweetened beverages, portion control (use smaller plates), increase physical activity to 150 min/week (start with 10-min walks after meals).**\n9.  **Weight loss goal: 5-10% body weight (9-18 lbs) over 6 months.**\n10. **Vaccinations: Ensure flu vaccine, check pneumococcal status.**\n11. **Return in 6 weeks to assess Semaglutide tolerance and early response.**\n12.",
+    "ground_truth_scores": {
+      "completeness": 85,
+      "accuracy": 95,
+      "compliance": 80,
+      "risk": 95,
+      "clarity": 95
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "suggestive",
+        "description": "Consider adding information about medication adherence strategies."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "questionable",
+        "description": "Lack of specific mention regarding how this visit will be billed out."
+      }
+    ],
+    "generated_at": "2026-02-06T00:32:42.348048"
+  },
+  {
+    "note_id": "gold_back_pain_004",
+    "persona": "gold",
+    "scenario": "back_pain",
+    "note_text": "**Clinical Note**\n\n**Patient:** [Patient Name]\n**Date:** 2024-02-29\n**DOB:** [Patient DOB]\n**Age:** 38\n**Gender:** Male\n**Occupation:** Warehouse worker\n\n**Chief Complaint:** Back pain for 3 days\n\n**History of Present Illness:**\n\n*   **Location:** Lower back, lumbar region, primarily left-sided.\n*   **Quality:** Sharp with movement, dull ache at rest.\n*   **Severity:** 7/10 with movement, 4/10 at rest.\n*   **Duration:** Onset 3 days ago.\n*   **Timing:** Constant, worse in morning and after sitting for prolonged periods.\n*   **Context:** Started after lifting a 50-pound box at work with twisting motion.\n*   **Modifying factors:** Worse with bending forward, standing >30 minutes, sneezing. Better with lying flat, heat application, ibuprofen.\n*   **Associated symptoms:** No radiation to legs, no numbness, no tingling, no weakness, no bowel/bladder changes, no fever.\n\n**Review of Systems:**\n\n*   **Musculoskeletal:** Back pain as described, no other joint pain.\n*   **Neurological:** No weakness in legs, no numbness/tingling, no saddle anesthesia, no loss of balance.\n*   **Constitutional:** No fever, no chills, no weight loss.\n*   **GU:** No urinary retention, no incontinence, normal bowel function.\n\n**Past Medical History:**\n\n*   None reported.\n\n**Medications:**\n\n*   None reported.\n\n**Allergies:**\n\n*   None reported.\n\n**Social History:**\n\n*   No information provided.\n\n**Physical Examination:**\n\n*   **Vital Signs:** BP 128/82 mmHg, HR 74, Temperature 98.4\u00b0F, RR 14.\n*   **General:** Alert, uncomfortable when moving but not in severe distress.\n*   **Back:** Tenderness to palpation over left paraspinal muscles at L3-L5, no midline tenderness, no step-off deformity, muscle spasm present.\n*   **Range of motion:** Flexion limited to 45 degrees (pain-limited), extension 15 degrees (limited), lateral bending 20 degrees bilaterally (limited).\n*   **Neurological:**\n    *   Straight leg raise: Negative bilaterally (no radicular pain, only local back discomfort at 70 degrees).\n    *   Motor: 5/5 strength bilateral hip flexors, knee extensors, ankle dorsiflexion, plantar flexion, great toe extension.\n    *   Sensory: Intact to light touch L1-S1 distributions bilaterally.\n    *   Reflexes: 2+ patellar and Achilles bilaterally, symmetric, no clonus.\n    *   Gait: Antalgic but able to walk without assistance, able to heel walk and toe walk.\n*   **Abdomen:** Soft, non-tender, no costovertebral angle tenderness.\n\n**Assessment and Plan:**\n\n*   **Assessment:** Acute mechanical low back pain, lumbar strain (ICD-10: M54.5). No radiculopathy. No red flags for serious pathology.\n*   **Plan:**\n    *   **Conservative management:** No imaging indicated (absence of red flags, duration <4 weeks per guidelines).\n    *   **Medications:**\n        *   Ibuprofen 600mg three times daily with food for 7-10 days.\n        *   Cyclobenzaprine 5mg at bedtime for muscle spasm (3-5 days, avoid if sedation problematic).\n    *   **Activity modification:**\n        *   Avoid heavy lifting (>20 lbs) for 2 weeks.\n        *   No prolonged sitting (>1 hour without break).\n        *   Return to normal activities as tolerated (bed rest NOT recommended).\n        *   May continue light duty work if employer accommodates restrictions.\n    *   **Physical therapy:** Referral for core strengthening, proper body mechanics training, start in 1 week if pain improving.\n    *   **Heat/ice therapy:** Alternate for 15-20 minutes several times daily.\n    *   **Expected course:** Most patients improve within 2-4 weeks.\n    *   **Work note:** Light duty with 20-pound lifting restriction for 2 weeks.\n    *   **Red flag education:** Return immediately or go to ER if develops leg weakness, numbness in groin/inner thighs, loss of bowel/bladder control, or progressively worsening pain.",
+    "ground_truth_scores": {
+      "completeness": 95,
+      "accuracy": 95,
+      "compliance": 90,
+      "risk": 95,
+      "clarity": 90
+    },
+    "quality_issues": [],
+    "generated_at": "2026-02-06T16:54:30.150994"
+  },
+  {
+    "note_id": "gold_htn_followup_002",
+    "persona": "gold",
+    "scenario": "htn_followup",
+    "note_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]\n**Patient ID:** [Patient ID]\n**Date of Service:** 2024-02-29\n\n**Chief Complaint:** Blood pressure check\n\n**History of Present Illness:**\n\n*   **Reason for Visit:** Routine follow-up for hypertension.\n*   **Onset:** Chronic, present for several years.\n*   **Location:** Primarily in the upper extremities.\n*   **Duration:** Ongoing.\n*   **Character:** Typically elevated, sometimes fluctuating.\n*   **Aggravating Factors:** None reported.\n*   **Relieving Factors:** None reported.\n*   **Timing:** Typically in the morning, often elevated throughout the day.\n*   **Severity:** Moderate, as indicated by home blood pressure monitoring.\n\n**Review of Systems:**\n\n*   **General:** Denies fever, chills, weight loss, or fatigue.\n*   **Cardiovascular:** Denies chest pain, palpitations, shortness of breath, or edema.\n*   **Respiratory:** Denies cough, wheezing, or dyspnea.\n*   **Neurological:** Denies headaches, dizziness, or visual changes.\n*   **Musculoskeletal:** Denies joint pain or muscle weakness.\n*   **Gastrointestinal:** Denies nausea, vomiting, diarrhea, or constipation.\n*   **Genitourinary:** Denies dysuria, frequency, or urgency.\n*   **Endocrine:** Denies excessive thirst, hunger, or heat/cold intolerance.\n*   **Psychiatric:** Denies depression, anxiety, or psychosis.\n\n**Past Medical History:**\n\n*   Hypertension, diagnosed 5 years ago.\n*   Overweight, diagnosed 5 years ago.\n\n**Medications:**\n\n*   Lisinopril 10mg daily\n\n**Allergies:**\n\n*   NKDA (No Known Drug Allergies)\n\n**Social History:**\n\n*   **Smoking:** Non-smoker.\n*   **Alcohol:** Drinks 2-3 beers on weekends.\n*   **Illicit Drugs:** Denies illicit drug use.\n*   **Occupation:** Sales manager.\n*   **Exercise:** Walks 3x/week for 30 minutes.\n*   **Diet:** Trying to reduce sodium intake.\n\n**Physical Examination:**\n\n*   **Vital Signs:** BP 142/88 mmHg (right arm), 140/86 mmHg (left arm) (seated, repeated after 5 min rest), HR 74, Weight 192 lbs, BMI 28.3\n*   **General:** Alert, well-appearing, overweight.\n*   **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ bilaterally.\n*   **Respiratory:** Clear lung fields bilaterally.\n*   **Extremities:** No edema.\n*   **Fundoscopic:** No papilledema (if performed).\n\n**Assessment:**\n\n*   Essential hypertension, uncontrolled (ICD-10: I10)\n*   Overweight (ICD-10: E66.3)\n\n**Lab Results:**\n\n*   Basic metabolic panel: Creatinine 0.9 mg/dL, eGFR >90, Potassium 4.2 mEq/L (all normal)\n*   Lipid panel: Total cholesterol 215 mg/dL, LDL 138 mg/dL, HDL 42 mg/dL, Triglycerides 175 mg/dL (borderline)\n\n**Plan:**\n\n1.  Increase Lisinopril to 20mg daily.\n2.  Continue home BP monitoring (record twice daily for 1 week before next visit).\n3.  Lifestyle counseling: DASH diet, reduce sodium to <2000mg/day, limit alcohol to <2 drinks/day, increase exercise to 5x/week.\n4.  Weight loss goal: Lose 10 lbs over 3 months.\n5.  Recheck labs in 6 months: BMP, lipid panel.\n6.  Consider statin if LDL remains elevated at next visit.\n7.  Return in 6-8 weeks to assess BP response to medication increase.\n8.  Patient education: Target BP <130/80, importance of medication adherence, cardiovascular risk reduction.\n\n**Time Spent:** 20 minutes\n\n**Billing Level:** 99214\n\n**Medical Decision Making:**\n\nThe patient's blood pressure remains uncontrolled despite adherence to Lisinopril 10mg daily. Home blood pressure monitoring indicates average readings of 138/86 mmHg",
+    "ground_truth_scores": {
+      "completeness": 95,
+      "accuracy": 95,
+      "compliance": 90,
+      "risk": 95,
+      "clarity": 90
+    },
+    "quality_issues": [],
+    "generated_at": "2026-02-06T16:54:30.142424"
+  },
+  {
+    "note_id": "chen_uri_007",
+    "persona": "chen",
+    "scenario": "uri",
+    "note_text": "**Patient:** Jane Doe\n**Date:** 2024-02-29\n**Time:** 10:30 AM\n**Provider:** Dr. Elizabeth Martinez\n\n**Chief Complaint:** Cough and congestion for 5 days\n\n**History of Present Illness:**\n\n*   **Onset:** 5 days ago\n*   **Location:** Primarily upper respiratory tract\n*   **Duration:** 5 days\n*   **Character:** Productive cough, nasal congestion, clear rhinorrhea\n*   **Aggravating Factors:** Not reported\n*   **Relieving Factors:** Not reported\n*   **Timing:** Symptoms present throughout the day\n*   **Severity:** Mild to moderate\n\n**Review of Systems:**\n\n*   **General:** Denies fever, chills, or weight loss. Reports mild fatigue.\n*   **HEENT:** Denies sore throat, ear pain, or vision changes. Reports nasal congestion with clear discharge. Reports mild sore throat.\n*   **Cardiovascular:** Denies chest pain, palpitations, or shortness of breath.\n*   **Respiratory:** Denies shortness of breath, wheezing, or chest tightness. Reports productive cough.\n*   **Gastrointestinal:** Denies nausea, vomiting, diarrhea, or abdominal pain.\n*   **Genitourinary:** Denies dysuria, frequency, or urgency.\n*   **Musculoskeletal:** Denies joint pain or muscle aches.\n*   **Neurological:** Denies headache, dizziness, or seizures. Reports mild headache.\n*   **Skin:** Denies rash or itching.\n*   **Psychiatric:** Denies anxiety or depression.\n\n**Past Medical History:**\n\n*   None reported.\n\n**Medications:**\n\n*   None reported.\n\n**Allergies:**\n\n*   No known drug allergies.\n\n**Social History:**\n\n*   Elementary school teacher.\n*   Non-smoker.\n*   Drinks alcohol occasionally.\n*   No illicit drug use.\n\n**Physical Examination:**\n\n*   **Vital Signs:** Temperature 98.9u00b0F, Heart Rate 76 bpm, Blood Pressure 118/72 mmHg, Respiratory Rate 14 breaths/min, Oxygen Saturation 99% on room air.\n*   **General:** Alert, oriented, and in no acute distress.\n*   **HEENT:** Nasal mucosa congested with clear rhinorrhea. Pharynx mildly erythematous without exudates. No tonsillar enlargement.\n*   **Neck:** Supple, no lymphadenopathy.\n*   **Lungs:** Clear to auscultation bilaterally, no wheezing, no rales.\n*   **Cardiovascular:** Regular rate and rhythm, no murmurs.\n\n**Assessment and Plan:**\n\n*   **Assessment:** Acute viral upper respiratory infection (URI).\n*   **Plan:**\n    *   Provide supportive care: rest, increase fluid intake to 8 glasses daily, and use a humidifier.\n    *   Symptomatic treatment: Pseudoephedrine 30 mg PO QID for nasal congestion and Dextromethorphan 15 mg PO QID for cough.\n    *   Instructed patient on the contagious nature of the viral URI and the importance of hand hygiene.\n    *   Advised patient to return if symptoms worsen (e.g., fever >102u00b0F, shortness of breath, persistent symptoms >10 days).\n    *   Expected duration of illness: 7-10 days.\n    *   No antibiotics indicated due to the likely viral etiology.\n    *   Educated patient on signs and symptoms of potential complications.\n\n**Time Spent:** 15 minutes\nBilling Level: 3",
+    "ground_truth_scores": {
+      "completeness": 55,
+      "accuracy": 95,
+      "compliance": 85,
+      "risk": 95,
+      "clarity": 95
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "important",
+        "description": "The plan section lacks specific instructions regarding follow up management such as when to call back."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "suggestion",
+        "description": "Consider adding more details about how to bill this visit."
+      }
+    ],
+    "generated_at": "2026-02-05T23:23:58.414542"
+  },
+  {
+    "note_id": "gold_uri_008",
+    "persona": "gold",
+    "scenario": "uri",
+    "note_text": "**Clinical Note**\n\n**Patient:** Jane Doe\n**Date:** 2024-02-29\n**Time:** 10:15 AM\n**Provider:** Dr. Elizabeth Martinez\n\n**Chief Complaint:** Cough and congestion for 5 days\n\n**History of Present Illness:**\n\n*   **Onset:** 5 days ago\n*   **Location:** Upper respiratory tract\n*   **Duration:** 5 days\n*   **Character:** Productive cough, nasal congestion, clear rhinorrhea\n*   **Aggravating Factors:** Not specified\n*   **Relieving Factors:** Not specified\n*   **Timing:** Continuous\n*   **Severity:** Mild\n\n**Review of Systems:**\n\n*   **General:** Denies fever, chills, or weight loss.\n*   **HEENT:** Denies headache, ear pain, or vision changes. Reports mild sore throat.\n*   **Respiratory:** Denies shortness of breath or chest pain. Reports cough and congestion.\n*   **Cardiovascular:** Denies chest pain, palpitations, or edema.\n*   **Gastrointestinal:** Denies nausea, vomiting, diarrhea, or abdominal pain.\n*   **Genitourinary:** Denies dysuria or urinary frequency.\n*   **Musculoskeletal:** Denies joint pain or muscle aches.\n*   **Neurological:** Denies dizziness, headache, or weakness.\n*   **Skin:** Denies rash or itching.\n*   **Psychiatric:** Denies anxiety or depression.\n\n**Past Medical History:**\n\n*   None reported.\n\n**Medications:**\n\n*   None reported.\n\n**Allergies:**\n\n*   No known drug allergies.\n\n**Social History:**\n\n*   Works as an elementary school teacher.\n*   Reports no tobacco use.\n*   Reports occasional alcohol use (1-2 drinks per week).\n*   Reports no illicit drug use.\n\n**Physical Examination:**\n\n*   **Vital Signs:** Temperature 98.9\u00b0F, Heart Rate 76 bpm, Blood Pressure 118/72 mmHg, Respiratory Rate 14 breaths/min, Oxygen Saturation 99% on room air.\n*   **General:** Alert and oriented, appears comfortable.\n*   **HEENT:** Nasal mucosa congested with clear rhinorrhea. Pharynx mildly erythematous without exudates. No tonsillar enlargement.\n*   **Neck:** Supple, no lymphadenopathy.\n*   **Lungs:** Clear to auscultation bilaterally, no wheezing, no rales.\n*   **Cardiovascular:** Regular rate and rhythm, no murmurs.\n\n**Assessment and Plan:**\n\n*   **Assessment:** Acute viral upper respiratory infection (URI).\n*   **Plan:**\n    *   Recommend supportive care: rest, increase fluid intake to 8 glasses daily, use a humidifier.\n    *   Prescribe pseudoephedrine 30 mg PRN for nasal congestion.\n    *   Prescribe dextromethorphan 15 mg PRN for cough.\n    *   Instruct patient to return if symptoms worsen, develop a fever >102\u00b0F, experience shortness of breath, or symptoms persist beyond 10 days.\n    *   Educated patient on the contagious nature of viral URIs and the importance of hand hygiene.\n    *   Expected duration of illness: 7-10 days.\n    *   No antibiotics indicated due to the likely viral etiology.\n\n**Time Spent:** 15 minutes",
+    "ground_truth_scores": {
+      "completeness": 95,
+      "accuracy": 95,
+      "compliance": 90,
+      "risk": 95,
+      "clarity": 90
+    },
+    "quality_issues": [],
+    "generated_at": "2026-02-06T16:54:30.140962"
+  },
+  {
+    "note_id": "brooks_t2dm_009",
+    "persona": "brooks",
+    "scenario": "t2dm",
+    "note_text": "**Patient Name:** [Patient Name]\n**Patient ID:** [Patient ID]\n**Date of Service:** 2024-02-29\n\n**Chief Complaint:** Diabetes follow-up\n\n**History of Present Illness:**\nThe patient is a 52-year-old female presenting for routine follow-up of her Type 2 Diabetes Mellitus. She reports that her current glucose control is suboptimal, with home glucose readings ranging from 160-220 mg/dL fasting and 180-250 mg/dL postprandial. She is currently taking Metformin 1000mg twice daily with meals and reports occasional gastrointestinal upset, but is tolerating it. She denies any episodes of hypoglycemia. She reports no visual changes, tingling in her feet, or wounds. Her last eye exam was 8 months ago, and she reports no foot problems.\n\n**Review of Systems:**\n*   **General:** Denies fever, chills, fatigue, or weight loss.\n*   **Cardiovascular:** Denies chest pain, palpitations, or shortness of breath.\n*   **Respiratory:** Denies cough, wheezing, or dyspnea.\n*   **Gastrointestinal:** Denies nausea, vomiting, diarrhea, or constipation.\n*   **Genitourinary:** Denies dysuria, frequency, or urgency.\n*   **Neurological:** Denies headache, dizziness, or numbness/tingling.\n*   **Musculoskeletal:** Denies joint pain or muscle weakness.\n*   **Skin:** Denies rash, itching, or lesions.\n*   **Psychiatric:** Denies depression, anxiety, or suicidal ideation.\n\n**Past Medical History:**\n*   Type 2 Diabetes Mellitus (3 years duration)\n*   Hypertension (controlled on Lisinopril)\n*   Hyperlipidemia (controlled on Atorvastatin)\n\n**Medications:**\n*   Metformin 1000mg twice daily\n*   Lisinopril 20mg daily\n*   Atorvastatin 20mg daily\n\n**Allergies:**\n*   NKDA\n\n**Social History:**\n*   Occupation: Office administrator\n*   BMI: 32.4 (Obese)\n*   Sedentary job\n*   Minimal exercise\n*   Struggles with portion control\n*   Drinks soda daily\n*   No smoking history\n*   Drinks alcohol occasionally (1-2 glasses of wine per week)\n\n**Physical Examination:**\n*   **Vitals:** BP 128/78 mmHg, HR 78, Weight 185 lbs, BMI 32.4, Temperature 98.6\\u00b0F\n*   **General:** Alert, obese, pleasant\n*   **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ dorsalis pedis and posterior tibial bilaterally\n*   **Respiratory:** Clear to auscultation bilaterally\n*   **Extremities:** Monofilament test shows protective sensation intact bilaterally, skin intact without wounds or calluses, no edema, pedal pulses palpable\n*   **Feet:** No deformities, nails trimmed, no fungal infection\n\n**Assessment:**\n*   Type 2 Diabetes Mellitus, uncontrolled (ICD-10: E11.65)\n*   Obesity (ICD-10: E66.9)\n*   Essential hypertension, controlled (ICD-10: I10)\n*   Hyperlipidemia (ICD-10: E78.5)\n\n**Plan:**\n1.  **Add Semaglutide (GLP-1 agonist) 0.25mg subcutaneous weekly, increase to 0.5mg after 4 weeks (dual benefit: glucose control + weight loss).**\n2.  **Continue Metformin 1000mg twice daily.**\n3.  **Continue Lisinopril and Atorvastatin (unchanged).**\n4.  **Order HbA1c in 3 months.**\n5.  **Order annual kidney function (BMP, urinalysis with microalbumin).**\n6.  **Referral to ophthalmology for annual dilated eye exam (overdue).**\n7.  **Referral to diabetes educator for nutrition counseling.**\n8.  **Lifestyle counseling: Eliminate sugar-sweetened beverages, portion control (use smaller plates), increase physical activity to 150 min/week (start with 10-min walks after meals).**\n9.  **Weight loss goal: 5-10% body weight (9-18 lbs)",
+    "ground_truth_scores": {
+      "completeness": 45,
+      "accuracy": 95,
+      "compliance": 50,
+      "risk": 90,
+      "clarity": 90
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "major",
+        "description": "Lack of specific details about how lifestyle modifications will be implemented."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "moderate",
+        "description": "Incomplete plan regarding medication refills."
+      }
+    ],
+    "generated_at": "2026-02-06T00:37:51.490239"
+  },
+  {
+    "note_id": "chen_t2dm_002",
+    "persona": "chen",
+    "scenario": "t2dm",
+    "note_text": "**Patient Name:** [Patient Name]\n**Patient ID:** [Patient ID]\n**Date:** October 26, 2023\n\n**Chief Complaint:** Diabetes follow-up\n\n**History of Present Illness:**\n\nThe patient is a 52-year-old female presenting for routine follow-up of her Type 2 Diabetes Mellitus. She reports that she is primarily concerned about her blood sugar control. She states that her home glucose readings have been consistently elevated, ranging from 160-220 mg/dL fasting and 180-250 mg/dL postprandial. She reports taking Metformin 1000mg twice daily with meals and tolerating it well, except for occasional gastrointestinal upset. She denies any episodes of hypoglycemia. She reports that her last eye exam was 8 months ago and that she is concerned about her diabetic complications. She denies any visual changes or foot pain.\n\n**Review of Systems:**\n\n*   **General:** Denies fever, chills, fatigue, or weight loss.\n*   **Cardiovascular:** Denies chest pain, palpitations, or shortness of breath.\n*   **Respiratory:** Denies cough, wheezing, or dyspnea.\n*   **Gastrointestinal:** Denies nausea, vomiting, diarrhea, or constipation.\n*   **Genitourinary:** Denies dysuria, frequency, or urgency.\n*   **Neurological:** Denies headache, dizziness, or numbness/tingling.\n*   **Musculoskeletal:** Denies joint pain or muscle weakness.\n*   **Skin:** Denies rash, itching, or lesions.\n*   **Psychiatric:** Denies depression, anxiety, or suicidal ideation.\n\n**Past Medical History:**\n\n*   Type 2 Diabetes Mellitus, diagnosed 3 years ago.\n*   Hypertension, controlled on Lisinopril 20mg daily.\n*   Hyperlipidemia, controlled on Atorvastatin 20mg daily.\n\n**Medications:**\n\n*   Metformin 1000mg twice daily\n*   Lisinopril 20mg daily\n*   Atorvastatin 20mg daily\n\n**Allergies:**\n\n*   NKDA\n\n**Social History:**\n\n*   Occupation: Office administrator\n*   Lives at home with her spouse.\n*   Sedentary job with minimal exercise.\n*   Struggles with portion control.\n*   Drinks soda daily.\n*   No smoking history.\n*   Drinks alcohol occasionally (1-2 glasses of wine per week).\n\n**Physical Examination:**\n\n*   **Vitals:** BP 128/78 mmHg, HR 78 bpm, Weight 185 lbs, BMI 32.4, Temperature 98.6\\u00b0F\n*   **General:** Alert, obese female, pleasant demeanor.\n*   **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ dorsalis pedis and posterior tibial bilaterally.\n*   **Respiratory:** Clear to auscultation bilaterally.\n*   **Extremities:** Monofilament test shows protective sensation intact bilaterally. Skin intact without wounds or calluses. No edema. Pedal pulses palpable.\n*   **Feet:** No deformities, nails trimmed, no fungal infection.\n\n**Assessment:**\n\n*   Type 2 Diabetes Mellitus, uncontrolled (ICD-10: E11.65)\n*   Obesity (ICD-10: E66.9)\n*   Essential hypertension, controlled (ICD-10: I10)\n*   Hyperlipidemia (ICD-10: E78.5)\n\n**Lab Results:**\n\n*   HbA1c: 8.2%\n*   Fasting glucose: 178 mg/dL\n*   BMP: Creatinine 0.8 mg/dL, eGFR >90, all normal\n*   Lipid panel: LDL 95 mg/dL (at goal on statin), HDL 48 mg/dL, Triglycerides 165 mg/dL\n*   Urinalysis: No microalbuminuria\n\n**Plan:**\n\n1.  **Add Semaglutide (GLP-1 agonist) 0.25mg subcutaneous weekly, increase to 0.5mg after 4 weeks (dual benefit: glucose control + weight loss).**\n2.  **Continue Metformin 1000mg twice daily.**\n3.  **Continue Lisinopril and Atorvastatin.**\n4.  **Order HbA1c in",
+    "ground_truth_scores": {
+      "completeness": 50,
+      "accuracy": 95,
+      "compliance": 40,
+      "risk": 90,
+      "clarity": 95
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "major",
+        "description": "Lack of Patient Education regarding medication side effects, diet modifications, lifestyle recommendations."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "moderate",
+        "description": "Billing justification missing."
+      }
+    ],
+    "generated_at": "2026-02-06T00:15:30.145999"
+  },
+  {
+    "note_id": "brooks_back_pain_004",
+    "persona": "brooks",
+    "scenario": "back_pain",
+    "note_text": "**Patient:** [Patient Name]\n**Date:** 2024-02-29\n**DOB:** [Patient DOB]\n**Age:** 38\n**Gender:** Male\n**Occupation:** Warehouse worker\n\n**Chief Complaint:** Back pain for 3 days\n\n**History of Present Illness:**\n\n*   Lower back, lumbar region, primarily left-sided.\n*   Sharp with movement, dull ache at rest.\n*   7/10 with movement, 4/10 at rest.\n*   Onset 3 days ago.\n*   Constant, worse in morning and after sitting for prolonged periods.\n*   Started after lifting a 50-pound box at work with twisting motion.\n*   Worse with bending forward, standing >30 minutes, sneezing. Better with lying flat, heat application, ibuprofen.\n*   No radiation to legs, no numbness, no tingling, no weakness, no bowel/bladder changes, no fever.\n\n**Review of Systems:**\n\n*   Musculoskeletal: Back pain as described, no other joint pain.\n*   Neurological: No weakness in legs, no numbness/tingling, no saddle anesthesia, no loss of balance.\n*   Constitutional: No fever, no chills, no weight loss.\n*   GU: No urinary retention, no incontinence, normal bowel function.\n\n**Past Medical History:**\n\n*   None reported.\n\n**Medications:**\n\n*   None reported.\n\n**Allergies:**\n\n*   None reported.\n\n**Social History:**\n\n*   No information provided.\n\n**Physical Examination:**\n\n*   **Vital Signs:** BP 128/82 mmHg, HR 74, Temperature 98.4\\u00b0F, RR 14.\n*   **General:** Alert, uncomfortable when moving but not in severe distress.\n*   **Back:** Tenderness to palpation over left paraspinal muscles at L3-L5, no midline tenderness, no step-off deformity, muscle spasm present.\n*   **Range of motion:** Flexion limited to 45 degrees (pain-limited), extension 15 degrees (limited), lateral bending 20 degrees bilaterally (limited).\n*   **Neurological:**\n    *   Straight leg raise: Negative bilaterally (no radicular pain, only local back discomfort at 70 degrees).\n    *   Motor: 5/5 strength bilateral hip flexors, knee extensors, ankle dorsiflexion, plantar flexion, great toe extension.\n    *   Sensory: Intact to light touch L1-S1 distributions bilaterally.\n    *   Reflexes: 2+ patellar and Achilles bilaterally, symmetric, no clonus.\n    *   Gait: Antalgic but able to walk without assistance, able to heel walk and toe walk.\n*   **Abdomen:** Soft, non-tender, no costovertebral angle tenderness.\n\n**Assessment and Plan:**\n\n*   **Assessment:** Acute mechanical low back pain, lumbar strain (ICD-10: M54.5). No radiculopathy. No red flags for serious pathology.\n*   **Plan:**\n    *   **Conservative management:** No imaging indicated (absence of red flags, duration <4 weeks per guidelines).\n    *   **Medications:**\n        *   Ibuprofen 600mg three times daily with food for 7-10 days.\n        *   Cyclobenzaprine 5mg at bedtime for muscle spasm (3-5 days, avoid if sedation problematic).\n    *   **Activity modification:**\n        *   Avoid heavy lifting (>20 lbs) for 2 weeks.\n        *   No prolonged sitting (>1 hour without break).\n        *   Return to normal activities as tolerated (bed rest NOT recommended).\n        *   May continue light duty work if employer accommodates restrictions.\n    *   **Physical therapy:** Referral for core strengthening, proper body mechanics training, start in 1 week if pain improving.\n    *   **Heat/ice therapy:** Alternate for 15-20 minutes several times daily.\n    *   **Expected course:** Most patients improve within 2-4 weeks.\n    *   **Work note:** Light duty with 20-pound lifting restriction for 2 weeks.\n    *   **Red flag education:** Return immediately or go to ER if develops leg weakness, numbness in groin/inner thighs, loss of bowel/bladder control, or progressively worsening pain.\nf/u PRN",
+    "ground_truth_scores": {
+      "completeness": 55,
+      "accuracy": 95,
+      "compliance": 75,
+      "risk": 95,
+      "clarity": 95
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "major",
+        "description": "Lack of Patient Education regarding specific exercises."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "minor",
+        "description": "The 'f/u PRN' is vague; it should be more detailed about follow up instructions."
+      }
+    ],
+    "generated_at": "2026-02-06T00:55:02.843170"
+  },
+  {
+    "note_id": "gold_htn_followup_007",
+    "persona": "gold",
+    "scenario": "htn_followup",
+    "note_text": "**Clinical Note**\n\n**Patient:** John Smith\n**Date:** 2024-02-29\n**Time:** 10:00 AM\n**Provider:** Dr. Elizabeth Martinez\n\n**Chief Complaint:** Blood pressure check\n\n**History of Present Illness:**\nThe patient is a 58-year-old male presenting for a routine follow-up visit for hypertension. He reports that he was started on Lisinopril 10mg daily approximately 4 months ago. He states that he has been taking the medication as prescribed and has not experienced any significant side effects. He reports that he has been monitoring his blood pressure at home and that his average readings have been around 138/86 mmHg over the past two weeks. He states that he is trying to reduce his sodium intake.\n\n**Review of Systems:**\nNegative for headaches, chest pain, palpitations, dizziness, or leg swelling.\n\n**Past Medical History:**\nHypertension (diagnosed 5 years ago)\n\n**Medications:**\nLisinopril 10mg daily\n\n**Allergies:**\nNKDA\n\n**Social History:**\nWorks as a sales manager. Walks 3 times per week for 30 minutes. Drinks 2-3 beers on weekends.\n\n**Physical Examination:**\n*   **Vital Signs:** BP 142/88 mmHg (right arm), 140/86 mmHg (left arm) (seated, repeated after 5 minutes rest), HR 74, Weight 192 lbs, BMI 28.3\n*   **General:** Alert, well-appearing, overweight.\n*   **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ bilaterally.\n*   **Respiratory:** Clear lung fields bilaterally.\n*   **Extremities:** No edema.\n*   **Fundoscopic:** No papilledema (if performed)\n\n**Assessment:**\n*   Essential hypertension, uncontrolled (ICD-10: I10)\n*   Overweight (ICD-10: E66.3)\n\n**Lab Results:**\n*   Basic metabolic panel: Creatinine 0.9 mg/dL, eGFR >90, Potassium 4.2 mEq/L (all normal)\n*   Lipid panel: Total cholesterol 215 mg/dL, LDL 138 mg/dL, HDL 42 mg/dL, Triglycerides 175 mg/dL (borderline)\n\n**Plan:**\n*   Increase Lisinopril to 20mg daily\n*   Continue home BP monitoring (record twice daily for 1 week before next visit)\n*   Lifestyle counseling: DASH diet, reduce sodium to <2000mg/day, limit alcohol to <2 drinks/day, increase exercise to 5x/week\n*   Weight loss goal: Lose 10 lbs over 3 months\n*   Recheck labs in 6 months: BMP, lipid panel\n*   Consider statin if LDL remains elevated at next visit\n*   Return in 6-8 weeks to assess BP response to medication increase\n*   Patient education: Target BP <130/80, importance of medication adherence, cardiovascular risk reduction\n\n**Time spent:** 20 minutes\n\n**Billing Level:** 99214\n\n**Medical Decision Making:**\nThe patient's blood pressure remains uncontrolled despite being on Lisinopril 10mg daily. His average home blood pressure readings are 138/86 mmHg, which is above the target of <130/80 mmHg. Given his age, hypertension, and borderline lipid panel, aggressive blood pressure control is warranted to reduce his cardiovascular risk. Increasing the Lisinopril dose to 20mg daily is a reasonable first step. Lifestyle modifications, including a DASH diet, sodium restriction, alcohol moderation, and increased exercise, are crucial for long-term blood pressure control. The patient's weight is also a contributing factor to his hypertension, and weight loss is a key component of his management plan. The patient was educated on the importance of medication adherence and the potential benefits of statin therapy if LDL remains elevated.",
+    "ground_truth_scores": {
+      "completeness": 95,
+      "accuracy": 95,
+      "compliance": 90,
+      "risk": 95,
+      "clarity": 90
+    },
+    "quality_issues": [],
+    "generated_at": "2026-02-06T16:54:30.144450"
+  },
+  {
+    "note_id": "chen_htn_followup_003",
+    "persona": "chen",
+    "scenario": "htn_followup",
+    "note_text": "**Patient:** John Smith\n**Date:** October 26, 2023\n\n**Chief Complaint:** Blood pressure check\n\n**History of Present Illness:**\n\n*   **Chief Complaint:** Patient presents for routine follow-up of hypertension.\n*   **History of Present Illness:** Patient reports being diagnosed with hypertension approximately 4 months ago. He was started on Lisinopril 10mg daily. He states he has been taking the medication as prescribed, with no missed doses or reported side effects. He reports that he has been monitoring his blood pressure at home, and his average readings over the past two weeks have been 138/86 mmHg. He states that he is not currently experiencing any symptoms related to his hypertension, such as headaches, chest pain, palpitations, dizziness, or leg swelling.\n\n**Review of Systems:**\n\n*   **General:** Denies fever, chills, weight loss, or fatigue.\n*   **Cardiovascular:** Denies chest pain, palpitations, shortness of breath, or edema.\n*   **Respiratory:** Denies cough, wheezing, or shortness of breath.\n*   **Neurological:** Denies headaches, dizziness, or vision changes.\n*   **Musculoskeletal:** Denies joint pain or muscle weakness.\n*   **Gastrointestinal:** Denies abdominal pain, nausea, vomiting, or diarrhea.\n*   **Genitourinary:** Denies dysuria, frequency, or urgency.\n*   **Endocrine:** Denies excessive thirst, polyuria, or heat/cold intolerance.\n*   **Psychiatric:** Denies depression, anxiety, or psychosis.\n\n**Past Medical History:**\n\n*   Hypertension\n\n**Medications:**\n\n*   Lisinopril 10mg daily\n\n**Allergies:**\n\n*   NKDA (No Known Drug Allergies)\n\n**Social History:**\n\n*   **Occupation:** Sales Manager\n*   **Smoking:** Denies smoking.\n*   **Alcohol:** Drinks 2-3 beers on weekends.\n*   **Exercise:** Walks 3x/week for 30 minutes.\n*   **Diet:** States he is trying to reduce sodium intake.\n\n**Physical Examination:**\n\n*   **Vitals:** BP 142/88 mmHg right arm, 140/86 mmHg left arm (seated, repeated after 5 min rest), HR 74, Weight 192 lbs, BMI 28.3\n*   **General:** Alert, well-appearing, overweight.\n*   **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ bilaterally.\n*   **Respiratory:** Clear lung fields bilaterally.\n*   **Extremities:** No edema.\n*   **Fundoscopic:** No papilledema (if performed).\n\n**Assessment:**\n\n*   Essential hypertension, uncontrolled (ICD-10: I10)\n*   Overweight (ICD-10: E66.3)\n\n**Lab Results:**\n\n*   Basic metabolic panel: Creatinine 0.9 mg/dL, eGFR >90, Potassium 4.2 mEq/L (all normal)\n*   Lipid panel: Total cholesterol 215 mg/dL, LDL 138 mg/dL, HDL 42 mg/dL, Triglycerides 175 mg/dL (borderline)\n\n**Plan:**\n\n*   Increase Lisinopril to 20mg daily.\n*   Continue home BP monitoring (record twice daily for 1 week before next visit).\n*   Lifestyle counseling: DASH diet, reduce sodium to <2000mg/day, limit alcohol to <2 drinks/day, increase exercise to 5x/week.\n*   Weight loss goal: Lose 10 lbs over 3 months.\n*   Recheck labs in 6 months: BMP, lipid panel.\n*   Consider statin if LDL remains elevated at next visit.\n*   Return in 6-8 weeks to assess BP response to medication increase.\n*   Patient education: Target BP <130/80, importance of medication adherence, cardiovascular risk reduction.\n\n**Time Spent:** 20 minutes\n**Billing Level:** 99214\n**Medical Decision Making:**\n\nThe patient's blood pressure remains uncontrolled despite adherence to Lisinopril 10mg daily. His average home blood pressure readings are 138/86 mmHg, which is not meeting the target of <130/80 mmHg. The patient reports no side effects from the medication. Given his uncontrolled hypertension and borderline lipid panel, I am increasing",
+    "ground_truth_scores": {
+      "completeness": 45,
+      "accuracy": 95,
+      "compliance": 45,
+      "risk": 90,
+      "clarity": 90
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "major",
+        "description": "Missing patient education regarding lifestyle modifications beyond dietary sodium restriction."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "moderate",
+        "description": "Lack of explicit billing justification for the increased dose."
+      }
+    ],
+    "generated_at": "2026-02-05T23:44:35.255221"
+  },
+  {
+    "note_id": "brooks_back_pain_006",
+    "persona": "brooks",
+    "scenario": "back_pain",
+    "note_text": "**Patient:** [Patient Name]\n**Date:** 2024-02-29\n**Age:** 38\n**Gender:** Male\n**Occupation:** Warehouse worker\n\n**Chief Complaint:** Back pain for 3 days\n\n**History of Present Illness:**\nPt presents w/acute low back pain x 3 days. Pain is primarily located in the lower back, specifically the lumbar region, w/left-sided predominance. Pt describes pain as sharp w/movement & dull ache at rest. Pain rated 7/10 w/movement & 4/10 at rest. Onset 3 days ago, following lifting incident at work. Pt reports lifting 50lb box w/twisting motion. Pain is constant, worse in AM & after prolonged sitting. Pt reports pain worse w/bending forward & standing >30min, better w/lying flat & heat application. Pt reports ibuprofen helps alleviate pain. Pt denies rad to legs, numbness, tingling, or weakness. Pt denies bowel/bladder changes. Pt denies fever.\n\n**Review of Systems:**\n*   **Musculoskeletal:** Back pain as described, no other joint pain.\n*   **Neurological:** No weakness in legs, no numbness/tingling, no saddle anesthesia, no loss of balance.\n*   **Constitutional:** No fever, no chills, no weight loss.\n*   **GU:** No urinary retention, no incontinence, normal bowel function.\n\n**Past Medical History:**\nNone reported.\n\n**Medications:**\nNone reported.\n\n**Allergies:**\nNone reported.\n\n**Social History:**\nNon-smoker. Drinks alcohol occasionally. Works as warehouse worker.\n\n**Physical Examination:**\n*   **Vital Signs:** BP 128/82 mmHg, HR 74, Temp 98.4u00b0F, RR 14\n*   **General:** Alert, uncomfortable when moving but not in severe distress.\n*   **Back:** Tenderness to palpation over left paraspinal muscles at L3-L5, no midline tenderness, no step-off deformity, muscle spasm present.\n*   **Range of Motion:** Flexion limited to 45 degrees (pain-limited), extension 15 degrees (limited), lateral bending 20 degrees bilaterally (limited).\n*   **Neurological:**\n    *   Straight leg raise: Negative bilaterally (no radicular pain, only local back discomfort at 70 degrees).\n    *   Motor: 5/5 strength bilateral hip flexors, knee extensors, ankle dorsiflexion, plantar flexion, great toe extension.\n    *   Sensory: Intact to light touch L1-S1 distributions bilaterally.\n    *   Reflexes: 2+ patellar and Achilles bilaterally, symmetric, no clonus.\n    *   Gait: Antalgic but able to walk without assistance, able to heel walk and toe walk.\n*   **Abdomen:** Soft, non-tender, no costovertebral angle tenderness.\n\n**Assessment and Plan:**\n*   **Assessment:** Acute mechanical low back pain, lumbar strain (ICD-10: M54.5). No radiculopathy. No red flags for serious pathology.\n*   **Plan:**\n    *   **Conservative Management:** No imaging indicated (absence of red flags, duration <4 weeks per guidelines).\n    *   **Medications:**\n        *   Ibuprofen 600mg three times daily w/food for 7-10 days.\n        *   Cyclobenzaprine 5mg at bedtime for muscle spasm (3-5 days, avoid if sedation problematic).\n    *   **Activity Modification:**\n        *   Avoid heavy lifting (>20 lbs) for 2 weeks.\n        *   No prolonged sitting (>1 hour w/o break).\n        *   Return to normal activities as tolerated (bed rest NOT recommended).\n        *   May continue light duty work if employer accommodates restrictions.\n    *   **Physical Therapy:** Referral for core strengthening, proper body mechanics training, start in 1 week if pain improving.\n    *   **Heat/Ice Therapy:** Alternate for 15-20 min several times daily.\n    *   **Expected Course:** Most patients improve within 2-4 weeks.\n    *   **Work Note:** Light duty w/20-lb lifting restriction for 2 weeks.\n    *   **Red Flag Education:** Return immediately or go to ER if develops leg weakness, numbness.\n\n**Follow-up:**\nf/u PRN",
+    "ground_truth_scores": {
+      "completeness": 45,
+      "accuracy": 95,
+      "compliance": 90,
+      "risk": 95,
+      "clarity": 95
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "major",
+        "description": "Lack of specific return precautions beyond 'return immed' which could be improved by specifying what actions would warrant immediate return."
+      },
+      {
+        "dimension": "completeness",
+        "severity": "minor",
+        "description": "Could include mention of follow up appointment date."
+      }
+    ],
+    "generated_at": "2026-02-06T01:01:52.493650"
+  },
+  {
+    "note_id": "brooks_t2dm_008",
+    "persona": "brooks",
+    "scenario": "t2dm",
+    "note_text": "**Patient:** [Patient Name]\n**Date:** 2024-02-29\n**Medical Record Number:** [MRN]\n\n**Chief Complaint:** Diabetes follow-up\n\n**History of Present Illness:**\nPt presents for diabetes follow-up. Reports uncontrolled diabetes. On Metformin 1000mg BID. Home glucose 160-220 FPG, 180-250 PPG. No weight loss, visual changes, or foot problems. Occasional tingling in feet.\n\n**Review of Systems:**\nCV/Resp/GI: negative. Denies HA, dizziness, edema.\n\n**Past Medical History:**\nType 2 DM, HTN, HLD\n\n**Medications:**\nMetformin 1000mg BID, Lisinopril 20mg daily, Atorvastatin 20mg daily\n\n**Allergies:**\nNKDA\n\n**Social History:**\nOffice admin, sedentary, poor diet, drinks soda daily.\n\n**Physical Examination:**\nVitals: BP 128/78, HR 78, Wt 185 lbs, BMI 32.4, Temp 98.6.\nGeneral: Obese, pleasant.\nCV: RRR, no murmurs, 2+ DP bilaterally.\nResp: Clear bilaterally.\nExtremities: Monofilament intact, skin intact, no edema, 2+ DP bilaterally.\nFeet: No deformities, nails trimmed, no infection.\n\n**Assessment:**\nType 2 DM, uncontrolled (E11.65)\nObesity (E66.9)\nHTN, controlled (I10)\nHLD (E78.5)\n\n**Plan:**\n1. Add Semaglutide (GLP-1 agonist): 0.25mg SC weekly, increase to 0.5mg after 4 weeks. Dual benefit: glucose control and weight loss.\n2. Continue Metformin: 1000mg BID.\n3. Continue Lisinopril and Atorvastatin: No changes.\n4. Order HbA1c: In 3 months.\n5. Order Annual Kidney Function: BMP, urinalysis with microalbumin.\n6. Referral to Ophthalmology: For annual dilated eye exam (overdue).\n7. Referral to Diabetes Educator: For nutrition counseling.\n8. Lifestyle Counseling:\n    * Eliminate sugar-sweetened beverages.\n    * Portion control (use smaller plates).\n    * Increase physical activity to 150 min/week (start with 10-min walks after meals).\n9. Weight Loss Goal: 5-10% body weight (9-18 lbs) over 6 months.\n10. Vaccinations: Ensure flu vaccine, check pneumococcal status.\n11. Return in 6 weeks: To assess Semaglutide tolerance and early response.",
+    "ground_truth_scores": {
+      "completeness": 50,
+      "accuracy": 95,
+      "compliance": 75,
+      "risk": 90,
+      "clarity": 95
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "important",
+        "description": "Lack of specific details about why semaglutide was chosen as first line therapy."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "suggestion",
+        "description": "Billing justfication not included."
+      }
+    ],
+    "generated_at": "2026-02-06T00:34:24.672698"
+  },
+  {
+    "note_id": "gold_htn_followup_004",
+    "persona": "gold",
+    "scenario": "htn_followup",
+    "note_text": "**Clinical Note**\n\n**Patient:** John Smith\n**Date:** 2024-02-29\n**Time:** 10:00 AM\n**Provider:** Dr. Elizabeth Martinez\n\n**Chief Complaint:** Blood pressure check\n\n**History of Present Illness:**\nThe patient is a 58-year-old male presenting for a routine follow-up visit for his hypertension. He reports that he is here for a blood pressure check. He states he has been taking Lisinopril 10mg daily as prescribed. He denies any new symptoms, such as headaches, chest pain, palpitations, dizziness, or leg swelling. He reports taking his medication consistently and has not experienced any side effects. He has been monitoring his blood pressure at home and reports an average reading of 138/86 mmHg over the past two weeks. He states that he is trying to reduce his sodium intake and is walking 3 times a week for 30 minutes. He drinks 2-3 beers on weekends.\n\n**Review of Systems:**\nNegative for any new or worsening symptoms.\n\n**Past Medical History:**\nHypertension (diagnosed 5 years ago), Overweight (diagnosed 5 years ago)\n\n**Medications:**\nLisinopril 10mg daily\n\n**Allergies:**\nNKDA\n\n**Social History:**\nMarried, works as a sales manager. He walks 3 times a week for 30 minutes. He is trying to reduce his sodium intake. He drinks 2-3 beers on weekends.\n\n**Physical Examination:**\n*   **Vital Signs:** BP 142/88 mmHg right arm, 140/86 mmHg left arm (seated, repeated after 5 min rest), HR 74, Weight 192 lbs, BMI 28.3\n*   **General:** Alert, well-appearing, overweight.\n*   **Cardiovascular:** Regular rate and rhythm, no murmurs, peripheral pulses 2+ bilaterally.\n*   **Respiratory:** Clear lung fields bilaterally.\n*   **Extremities:** No edema.\n*   **Fundoscopic:** No papilledema (if performed).\n\n**Assessment:**\n*   Essential hypertension, uncontrolled (ICD-10: I10)\n*   Overweight (ICD-10: E66.3)\n\n**Lab Results:**\n*   Basic metabolic panel: Creatinine 0.9 mg/dL, eGFR >90, Potassium 4.2 mEq/L (all normal)\n*   Lipid panel: Total cholesterol 215 mg/dL, LDL 138 mg/dL, HDL 42 mg/dL, Triglycerides 175 mg/dL (borderline)\n\n**Plan:**\n*   Increase Lisinopril to 20mg daily.\n*   Continue home BP monitoring (record twice daily for 1 week before next visit).\n*   Lifestyle counseling: DASH diet, reduce sodium to <2000mg/day, limit alcohol to <2 drinks/day, increase exercise to 5x/week.\n*   Weight loss goal: Lose 10 lbs over 3 months.\n*   Recheck labs in 6 months: BMP, lipid panel.\n*   Consider statin if LDL remains elevated at next visit.\n*   Return in 6-8 weeks to assess BP response to medication increase.\n*   Patient education: Target BP <130/80, importance of medication adherence, cardiovascular risk reduction.\n\n**Time Spent:** 20 minutes\n**Billing Level:** 99214\n**Medical Decision Making:**\nThe patient's blood pressure remains uncontrolled despite adherence to Lisinopril 10mg daily. His average home BP readings are 138/86 mmHg, which is above the target of <130/80 mmHg. Given his elevated LDL cholesterol (138 mg/dL) and borderline triglycerides (175 mg/dL), he is at increased risk for cardiovascular events. Lifestyle modifications are crucial for managing hypertension and improving overall cardiovascular health. I have discussed the importance of a DASH diet, reducing sodium intake, limiting alcohol consumption, and increasing exercise. I have also discussed the importance of weight loss. I have explained the rationale for increasing the Lisinopril dose to 20mg daily, as this is a reasonable step to further control his blood pressure. I have also discussed the potential benefits of a statin medication if his LDL cholesterol remains elevated at his next visit. I have provided extensive counseling on lifestyle modifications, as this is a key component of his treatment plan. I have also reviewed his lab results",
+    "ground_truth_scores": {
+      "completeness": 95,
+      "accuracy": 95,
+      "compliance": 90,
+      "risk": 95,
+      "clarity": 90
+    },
+    "quality_issues": [],
+    "generated_at": "2026-02-06T16:54:30.143279"
+  },
+  {
+    "note_id": "brooks_annual_physical_008",
+    "persona": "brooks",
+    "scenario": "annual_physical",
+    "note_text": "**Patient:** [Patient Name]\n**Date:** [Date]\n\n**Chief Complaint:** Annual physical\n\n**History of Present Illness:**\nPt presents for routine annual preventive health examination. No acute complaints.\n\n**Review of Systems:**\n*   **Constitutional:** No fever, chills, no unintentional weight changes.\n*   **Eyes:** No vision changes, last eye exam 1 year ago (wears reading glasses).\n*   **ENT:** No hearing loss, no chronic sinus issues.\n*   **Cardiovascular:** No chest pain, no palpitations, no orthopnea, no PND, no edema.\n*   **Respiratory:** No cough, no shortness of breath, no wheezing.\n*   **GI:** No abdominal pain, regular bowel movements, no blood in stool, no heartburn.\n*   **GU:** No dysuria, no urinary frequency/urgency, menstrual periods regular (still menstruating).\n*   **Musculoskeletal:** No joint pain, no back pain, active without limitations.\n*   **Neurological:** No headaches, no dizziness, no weakness/numbness.\n*   **Psychiatric:** Mood stable, sleeping well, enjoying activities.\n*   **Endocrine:** No heat/cold intolerance, no polyuria/polydipsia.\n*   **Skin:** No new or changing moles, no rashes.\n*   **Heme/Lymph:** No easy bruising or bleeding, no lymph node swelling.\n\n**Past Medical History:**\n*   Mild hypertension (controlled on medication)\n\n**Medications:**\n*   Lisinopril 10mg daily\n*   Multivitamin daily\n*   Calcium with Vitamin D 600mg/400IU daily\n\n**Allergies:**\n*   Penicillin (rash as a child)\n\n**Family History:**\n*   Mother: Alive, age 72, hypertension, hyperlipidemia\n*   Father: Deceased age 68 from colon cancer (diagnosed age 65)\n*   Siblings: One sister, alive and well\n*   No family history of breast cancer, ovarian cancer, heart disease <55, diabetes\n\n**Social History:**\n*   Married, lives with spouse\n*   Works as accountant (desk job)\n*   College educated\n*   Financially stable\n*   Good social support system\n*   No tobacco, moderate alcohol, no drugs\n*   Sleep: 7-8 hours nightly, no snoring per partner\n\n**Physical Examination:**\n\n*   **Vital Signs:** BP 122/76 mmHg (right arm), 120/78 mmHg (left arm), HR 68, RR 14, Temperature 98.2u00b0F, O2 sat 99% on RA\n*   **Height:** 5'5\", Weight: 142 lbs, BMI: 23.6 (healthy weight)\n*   **General:** Well-appearing, pleasant, in no distress, appears stated age\n*   **HEENT:** Normocephalic, atraumatic, PERRLA, EOMI, conjunctivae clear, TMs clear bilaterally, oropharynx clear without erythema or exudates, thyroid non-palpable\n*   **Neck:** Supple, full ROM, no lymphadenopathy, no JVD, carotid pulses 2+ bilaterally without bruits\n*   **Cardiovascular:** Regular rate and rhythm, S1/S2 normal, no murmurs/rubs/gallops, PMI non-displaced\n*   **Respiratory:** Clear to auscultation bilaterally, good air movement, no wheezes/rales/rhonchi, symmetric expansion\n*   **Abdomen:** Soft, flat, non-distended, non-tender, normoactive bowel sounds all quadrants, no hepatosplenomegaly, no masses, no hernias\n*   **Breast:** No masses, no skin changes, no nipple discharge, no lymphadenopathy (axillary, supraclavicular, infraclavicular)\n*   **Musculoskeletal:** Full ROM all major joints, no deformities, no joint swelling or tenderness, normal gait\n*   **Neurological:** Alert and oriented x3, CN II-XII intact, strength 5/5 all extremities, sensation intact to light touch, reflexes 2+ and symmetric (biceps, triceps, patellar, Achilles), gait steady, Romberg negative\n*   **Skin:** No concerning lesions, no atypical nevi, skin appropriate for age with mild solar changes\n*   **Psychiatric:** Appropriate affect, good eye contact, linear thought process\n\n**Assessment and Plan:**\n*",
+    "ground_truth_scores": {
+      "completeness": 95,
+      "accuracy": 95,
+      "compliance": 90,
+      "risk": 95,
+      "clarity": 95
+    },
+    "quality_issues": [],
+    "generated_at": "2026-02-06T01:43:15.415964"
+  },
+  {
+    "note_id": "brooks_back_pain_003",
+    "persona": "brooks",
+    "scenario": "back_pain",
+    "note_text": "**Patient Name:** [Patient Name]\n**Patient ID:** [Patient ID]\n**Date:** 2024-02-29\n**Time:** 10:30 AM\n**Provider:** Dr. Elizabeth Martinez\n\n**Chief Complaint:** Back pain for 3 days\n\n**History of Present Illness:**\n\n*   **Location:** Lower back, lumbar region, primarily left-sided.\n*   **Quality:** Sharp with movement, dull ache at rest.\n*   **Severity:** 7/10 with movement, 4/10 at rest.\n*   **Duration:** Onset 3 days ago.\n*   **Timing:** Constant, worse in morning and after sitting for prolonged periods.\n*   **Context:** Started after lifting a 50-pound box at work with twisting motion.\n*   **Modifying factors:** Worse with bending forward, standing >30 minutes, sneezing. Better with lying flat, heat application, ibuprofen.\n*   **Associated symptoms:** No radiation to legs, no numbness, no tingling, no weakness, no bowel/bladder changes, no fever.\n\n**Past Medical History:**\n\n*   None reported.\n\n**Medications:**\n\n*   None reported.\n\n**Allergies:**\n\n*   None reported.\n\n**Social History:**\n\n*   Warehouse worker.\n*   No smoking history.\n*   Drinks alcohol occasionally.\n\n**Physical Examination:**\n\n*   **Vital Signs:** BP 128/82 mmHg, HR 74, Temperature 98.4u00b0F, RR 14.\n*   **General:** Alert, uncomfortable when moving but not in severe distress.\n*   **Back:** Tenderness to palpation over left paraspinal muscles at L3-L5, no midline tenderness, no step-off deformity, muscle spasm present.\n*   **Range of Motion:** Flexion limited to 45 degrees (pain-limited), extension 15 degrees (limited), lateral bending 20 degrees bilaterally (limited).\n*   **Neurological:**\n    *   Straight leg raise: Negative bilaterally (no radicular pain, only local back discomfort at 70 degrees).\n    *   Motor: 5/5 strength bilateral hip flexors, knee extensors, ankle dorsiflexion, plantar flexion, great toe extension.\n    *   Sensory: Intact to light touch L1-S1 distributions bilaterally.\n    *   Reflexes: 2+ patellar and Achilles bilaterally, symmetric, no clonus.\n    *   Gait: Antalgic but able to walk without assistance, able to heel walk and toe walk.\n*   **Abdomen:** Soft, non-tender, no costovertebral angle tenderness.\n\n**Assessment and Plan:**\n\n*   **Assessment:** Acute mechanical low back pain, lumbar strain (ICD-10: M54.5). No radiculopathy. No red flags for serious pathology.\n*   **Plan:**\n    *   **Conservative management:** No imaging indicated (absence of red flags, duration <4 weeks per guidelines).\n    *   **Medications:**\n        *   Ibuprofen 600mg three times daily with food for 7-10 days.\n        *   Cyclobenzaprine 5mg at bedtime for muscle spasm (3-5 days, avoid if sedation problematic).\n    *   **Activity modification:**\n        *   Avoid heavy lifting (>20 lbs) for 2 weeks.\n        *   No prolonged sitting (>1 hour without break).\n        *   Return to normal activities as tolerated (bed rest NOT recommended).\n        *   May continue light duty work if employer accommodates restrictions.\n        *   Physical therapy: Referral for core strengthening, proper body mechanics training, start in 1 week if pain improving.\n        *   Heat/ice therapy: Alternate for 15-20 minutes several times daily.\n    *   **Expected course:** Most patients improve within 2-4 weeks.\n    *   **Work note:** Light duty with 20-pound lifting restriction for 2 weeks.\n    *   **Red flag education:** Return immediately or go to ER if develops leg weakness, numbness in groin/inner thighs, loss of bowel/bladder control, or progressively worsening pain.\n    *   **Follow-up:** f/u PRN\n\n**Time Spent:** 20 minutes\n**Billing Level:**",
+    "ground_truth_scores": {
+      "completeness": 65,
+      "accuracy": 95,
+      "compliance": 80,
+      "risk": 95,
+      "clarity": 95
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "moderate",
+        "description": "The follow up is listed as 'f/u PRN' which needs clarification on what this means."
+      },
+      {
+        "dimension": "complaint",
+        "severity": "low",
+        "description": "There are some minor grammatical errors that could be improved."
+      }
+    ],
+    "generated_at": "2026-02-06T00:51:36.352341"
+  },
+  {
+    "note_id": "brooks_t2dm_006",
+    "persona": "brooks",
+    "scenario": "t2dm",
+    "note_text": "**Patient Name:** [Patient Name]\n**Patient ID:** [Patient ID]\n**Date of Service:** [Date]\n\n**Chief Complaint:** Diabetes follow-up\n\n**History of Present Illness:**\nPt presents for diabetes follow-up. On Metformin 1000mg BID. Reports occasional GI upset. Denies hypoglycemia. No diabetic complications except eye exam 8mo ago, which was normal. No polyuria, polydipsia, weight loss, or visual changes. Reports occasional tingling in feet.\n\n**Review of Systems:**\nCV/Resp/GI: negative. Denies HA, dizziness, edema.\n\n**Past Medical History:**\nType 2 Diabetes Mellitus (3 years), Hypertension (controlled), Hyperlipidemia (controlled).\n\n**Medications:**\n- Metformin 1000mg BID\n- Lisinopril 20mg daily\n- Atorvastatin 20mg daily\n\n**Allergies:**\nNKDA\n\n**Social History:**\nSedentary job, minimal exercise, struggles with portion control, drinks soda daily.\n\n**Physical Examination:**\nVitals: BP 128/78 mmHg, HR 78, Weight 185 lbs, BMI 32.4, Temperature 98.6u00b0F. General: Alert, obese, pleasant. Cardiovascular: Regular rate and rhythm, no murmurs, peripheral pulses 2+ dorsalis pedis and posterior tibial bilaterally. Respiratory: Clear to auscultation bilaterally. Extremities: Monofilament test shows protective sensation intact bilaterally, skin intact without wounds or calluses, no edema, pedal pulses palpable. Feet: No deformities, nails trimmed, no fungal infection.\n\n**Assessment:**\n- Type 2 Diabetes Mellitus, uncontrolled (ICD-10: E11.65)\n- Obesity (ICD-10: E66.9)\n- Essential hypertension, controlled (ICD-10: I10)\n- Hyperlipidemia (ICD-10: E78.5)\n\n**Plan:**\n1. Add Semaglutide (GLP-1 agonist) 0.25mg subcutaneous weekly, increase to 0.5mg after 4 weeks (dual benefit: glucose control + weight loss).\n2. Continue Metformin 1000mg BID.\n3. Continue Lisinopril and Atorvastatin.\n4. Order HbA1c in 3 months.\n5. Order annual kidney function (BMP, urinalysis with microalbumin) in 3 months.\n6. Referral to ophthalmology for annual dilated eye exam (overdue).\n7. Referral to diabetes educator for nutrition counseling.\n8. Lifestyle counseling: Eliminate sugar-sweetened beverages, portion control (use smaller plates), increase physical activity to 150 min/week (start with 10-min walks after meals).\n9. Weight loss goal: 5-10% body weight (9-18 lbs) over 6 months.\n10. Vaccinations: Ensure flu vaccine, check pneumococcal status.\n11. Follow up as needed.\n12. Patient education: Glucose targets (fasting <130, postprandial <180), HbA1c goal <7%, importance of lifestyle modifications, how to inject Semaglutide, possible side effects (nausea).",
+    "ground_truth_scores": {
+      "completeness": 55,
+      "accuracy": 95,
+      "compliance": 80,
+      "risk": 95,
+      "clarity": 95
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "major",
+        "description": "Missing patient education on specific instructions regarding semaglutide administration, proper storage, and what to do if they experience severe nausea."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "minor",
+        "description": "Lack of explicit billing level justification beyond 'as needed'. While generally acceptable, explicitly stating why this visit warrants a particular billing code would strengthen compliance."
+      }
+    ],
+    "generated_at": "2026-02-06T00:27:32.572449"
+  },
+  {
+    "note_id": "gold_t2dm_006",
+    "persona": "gold",
+    "scenario": "t2dm",
+    "note_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]\n**Patient ID:** [Patient ID]\n**Date of Service:** [Date]\n\n**Chief Complaint:** Diabetes follow-up\n\n**History of Present Illness:**\nThe patient is a 52-year-old female presenting for routine follow-up of her Type 2 Diabetes Mellitus. She reports that her diabetes has been present for 3 years. She states that her glucose readings are typically between 160-220 mg/dL fasting and 180-250 mg/dL postprandial. She takes Metformin 1000mg twice daily with meals and reports occasional GI upset, but is tolerating it. She denies any episodes of hypoglycemia. She reports no diabetic complications, except for an eye exam 8 months ago, which was normal, and a foot exam today. She denies any polyuria, polydipsia, weight loss, or visual changes. She reports occasional tingling in her feet.\n\n**Review of Systems:**\nNegative for fever, chills, cough, shortness of breath, chest pain, abdominal pain, nausea, vomiting, diarrhea, constipation, urinary symptoms, headache, dizziness, or changes in vision.\n\n**Past Medical History:**\nType 2 Diabetes Mellitus (3 years), Hypertension (controlled), Hyperlipidemia (controlled).\n\n**Medications:**\n- Metformin 1000mg twice daily\n- Lisinopril 20mg daily\n- Atorvastatin 20mg daily\n\n**Allergies:**\nNKDA\n\n**Social History:**\nSedentary job, minimal exercise, struggles with portion control, drinks soda daily.\n\n**Physical Examination:**\nVitals: BP 128/78 mmHg, HR 78, Weight 185 lbs, BMI 32.4, Temperature 98.6\u00b0F. General: Alert, obese, pleasant. Cardiovascular: Regular rate and rhythm, no murmurs, peripheral pulses 2+ dorsalis pedis and posterior tibial bilaterally. Respiratory: Clear to auscultation bilaterally. Extremities: Monofilament test shows protective sensation intact bilaterally, skin intact without wounds or calluses, no edema, pedal pulses palpable. Feet: No deformities, nails trimmed, no fungal infection.\n\n**Assessment:**\n- Type 2 Diabetes Mellitus, uncontrolled (ICD-10: E11.65)\n- Obesity (ICD-10: E66.9)\n- Essential hypertension, controlled (ICD-10: I10)\n- Hyperlipidemia (ICD-10: E78.5)\n\n**Plan:**\n1. Add Semaglutide (GLP-1 agonist) 0.25mg subcutaneous weekly, increase to 0.5mg after 4 weeks (dual benefit: glucose control + weight loss).\n2. Continue Metformin 1000mg twice daily.\n3. Continue Lisinopril and Atorvastatin.\n4. Order HbA1c in 3 months.\n5. Order annual kidney function (BMP, urinalysis with microalbumin) in 3 months.\n6. Referral to ophthalmology for annual dilated eye exam (overdue).\n7. Referral to diabetes educator for nutrition counseling.\n8. Lifestyle counseling: Eliminate sugar-sweetened beverages, portion control (use smaller plates), increase physical activity to 150 min/week (start with 10-min walks after meals).\n9. Weight loss goal: 5-10% body weight (9-18 lbs) over 6 months.\n10. Vaccinations: Ensure flu vaccine, check pneumococcal status.\n11. Return in 6 weeks to assess Semaglutide tolerance and early response.\n12. Patient education: Glucose targets (fasting <130, postprandial <180), HbA1c goal <7%, importance of lifestyle modifications, how to inject Semaglutide, possible side effects (nausea).\n\n**Time Spent:** 25 minutes\n\n**Billing Level:** 99214\n\n**Medical Decision Making:**\nThe patient's HbA1c of 8.2% indicates uncontrolled diabetes despite Metformin. Given her obesity and cardiovascular risk factors, adding a GLP-1 agonist (Semaglutide) is appropriate for dual glucose control and weight loss. The low risk of hypoglycemia with GLP-1 agonists is a significant advantage. I discussed the injection technique and potential side effects (nausea) with the patient. I addressed her barriers to lifestyle changes, including her work schedule and dietary habits. I ordered an ophthalmology referral due to the overdue",
+    "ground_truth_scores": {
+      "completeness": 95,
+      "accuracy": 95,
+      "compliance": 90,
+      "risk": 95,
+      "clarity": 90
+    },
+    "quality_issues": [],
+    "generated_at": "2026-02-06T16:54:30.147558"
+  },
+  {
+    "note_id": "brooks_t2dm_000",
+    "persona": "brooks",
+    "scenario": "t2dm",
+    "note_text": "**Patient Name:** [Patient Name]\n**Patient ID:** [Patient ID]\n**Date of Service:** 2024-02-29\n\n**Chief Complaint:** Diabetes follow-up\n\n**History of Present Illness:**\nPt presents for diabetes follow up. Reports glucose control suboptimal. Home glucose readings 160-220 mg/dL fasting, 180-250 mg/dL postprandial. Tolerating Metformin 1000mg BID. No hypoglycemia. No visual changes, tingling, or wounds. Last eye exam 8 months ago. Last foot exam today.\n\n**Review of Systems:**\nCV/Resp/GI: negative. Denies HA, dizziness, edema.\n\n**Past Medical History:**\nType 2 DM (3y), HTN (controlled on Lisinopril), Hyperlipidemia (controlled on Atorvastatin).\n\n**Medications:**\nMetformin 1000mg BID, Lisinopril 20mg daily, Atorvastatin 20mg daily.\n\n**Allergies:**\nNKDA\n\n**Social History:**\nOccupation: Office administrator. Sedentary job. Struggles with portion control. Drinks soda daily.\n\n**Physical Examination:**\nVitals: BP 128/78 mmHg, HR 78, Weight 185 lbs, BMI 32.4, Temp 98.6u00b0F. General: Alert, obese, pleasant. CV: Regular rate and rhythm, no murmurs, pulses 2+ DP and PT bilaterally. Resp: Clear to auscultation bilaterally. Extremities: Monofilament test intact bilaterally, skin intact, no edema, pedal pulses palpable. Feet: No deformities, nails trimmed, no infection.\n\n**Assessment:**\nType 2 DM, uncontrolled (E11.65), Obesity (E66.9), HTN (I10), Hyperlipidemia (E78.5).\n\n**Plan:**\n1. Add Semaglutide (GLP-1 agonist). Initiate Semaglutide 0.25mg SC weekly, titrate to 0.5mg after 4 weeks.\n2. Continue Metformin 1000mg BID.\n3. Continue Lisinopril 20mg daily and Atorvastatin 20mg daily.\n4. Order HbA1c in 3 months.\n5. Order annual labs (BMP, urinalysis with microalbumin).\n6. Referral to ophthalmology for annual dilated eye exam (overdue).\n7. Referral to diabetes educator for nutrition counseling.\n8. Lifestyle counseling: eliminate sugar-sweetened beverages, portion control, increase physical activity to 150 minutes/week, starting with 10-minute walks after meals.\nf/u PRN.\nRTC PRN.",
+    "ground_truth_scores": {
+      "completeness": 55,
+      "accuracy": 95,
+      "compliance": 55,
+      "risk": 95,
+      "clarity": 95
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "major",
+        "description": "Lack of specific details about the discussion regarding diet modifications."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "moderate",
+        "description": "No mention of discussing adherence strategies."
+      }
+    ],
+    "generated_at": "2026-02-06T00:06:51.753679"
+  },
+  {
+    "note_id": "brooks_uri_006",
+    "persona": "brooks",
+    "scenario": "uri",
+    "note_text": "**Patient:** Jane Doe\n**DOB:** 1982-03-15\n**MRN:** 1234567\n**Date:** 2024-10-27\n\n**Chief Complaint:** Cough and congestion for 5 days\n\n**History of Present Illness:**\n\n*   **Onset:** 5 days ago\n*   **Location:** Primarily upper respiratory tract\n*   **Duration:** 5 days\n*   **Character:** Productive cough, nasal congestion, clear rhinorrhea\n*   **Aggravating Factors:** None reported\n*   **Relieving Factors:** None reported\n*   **Timing:** Symptoms present throughout the day\n*   **Severity:** Mild to moderate\n\n**Review of Systems:**\n\n*   **General:** Denies fever, chills, or weight loss.\n*   **HEENT:** Denies sore throat, ear pain, or vision changes. Reports mild nasal congestion with clear discharge.\n*   **Cardiovascular:** Denies chest pain, palpitations, or edema.\n*   **Respiratory:** Reports cough and congestion. Denies shortness of breath or wheezing.\n*   **Gastrointestinal:** Denies nausea, vomiting, diarrhea, or abdominal pain.\n*   **Genitourinary:** Denies dysuria, frequency, or urgency.\n*   **Musculoskeletal:** Denies joint pain or muscle aches.\n*   **Neurological:** Denies headache, dizziness, or seizures. Reports mild headache.\n*   **Skin:** Denies rash or itching.\n*   **Psychiatric:** Denies depression, anxiety, or psychosis.\n\n**Past Medical History:**\n\n*   None reported\n\n**Medications:**\n\n*   None reported\n\n**Allergies:**\n\n*   None reported\n\n**Social History:**\n\n*   Works as an elementary school teacher.\n*   Non-smoker.\n*   Drinks alcohol occasionally.\n*   No illicit drug use.\n\n**Physical Examination:**\n\n*   **General:** Alert, oriented, and in no acute distress.\n*   **Vital Signs:** Temperature 98.9u00b0F, Heart Rate 76 bpm, Blood Pressure 118/72 mmHg, Respiratory Rate 14 breaths/min, Oxygen Saturation 99% on room air.\n*   **HEENT:** Nasal mucosa congested with clear discharge. Pharynx mildly erythematous without exudates. No tonsillar enlargement.\n*   **Neck:** Supple, no lymphadenopathy.\n*   **Lungs:** Clear to auscultation bilaterally, no wheezing, no rales.\n*   **Cardiovascular:** Regular rate and rhythm, no murmurs.\n\n**Assessment and Plan:**\n\nAssessment: Acute viral upper respiratory infection (URI).\n\nPlan:\n*   Supportive care: Rest, increase fluid intake to 8 glasses daily, use a humidifier.\n*   Symptomatic treatment: Pseudoephedrine 30 mg PRN for nasal congestion, Dextromethorphan 15 mg PRN for cough.\n*   Return if symptoms worsen, fever >102u00b0F, shortness of breath, or symptoms persist >10 days.\n*   No antibiotics indicated, as the presentation is consistent with a viral etiology.\n*   Patient education: Discussed the nature of a viral URI, its contagious period, and the importance of hand hygiene.\n\n**Time spent:** 15 minutes",
+    "ground_truth_scores": {
+      "completeness": 55,
+      "accuracy": 95,
+      "compliance": 75,
+      "risk": 95,
+      "clarity": 95
+    },
+    "quality_issues": [
+      {
+        "dimension": "completeness",
+        "severity": "important",
+        "description": "The plan section lacks specific instructions regarding when to return to clinic."
+      },
+      {
+        "dimension": "compliance",
+        "severity": "suggestion",
+        "description": "Consider adding 'This medication may cause drowsiness' before prescribing medications."
+      }
+    ],
+    "generated_at": "2026-02-05T23:18:50.500319"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_uri_008",
+  "scenario": "uri",
+  "persona": "chen",
+  "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Clinical Note**\n\n**Chief Complaint:**  \n\"Cough and congestion\"\n\n---\n\n**History of Present Illness:**  \nPatient reports cough x5 days, productive with clear sputum, worse in the morning. Nasal congestion and clear rhinorrhea present. Mild sore throat and headache noted. Fatigue reported. Denies fever >102\u00b0F, shortness of breath, or chest pain. Symptoms began gradually, possibly linked to cold season exposure. No prior treatment sought.\n\n**Review of Systems:**  \n- **Constitutional:** Denies fever, chills. Fatigue present.\n- **HEENT/Respiratory:** Nasal congestion, clear rhinorrhea, sore throat. Cough with clear sputum. No ear pain, sinus pressure, shortness of breath, or wheezing.\n- **Gastrointestinal/Neurological:** Denies nausea, vomiting, diarrhea. Mild headache. No dizziness.\n- **Musculoskeletal/Skin:** Denies joint pain, rash.\n\n**Physical Examination:**  \n- **Vital Signs:** Temperature 98.9\u00b0F, Heart Rate 76 bpm, Blood Pressure 118/72 mmHg, Respiratory Rate 14 breaths/min, O2 saturation 99%.\n- **HEENT:** Nasal mucosa congested, clear discharge. Pharynx mildly erythematous, no exudates.\n- **Lungs:** Clear to auscultation, no wheezing or rales.\n- **Heart/Skin:** Regular rate/rhythm, skin warm/dry.\n\n---\n\n**Assessment and Plan:**  \n**Assessment:**  \n- Viral URI\n\n**Plan:**  \n1. **Supportive Care:**  \n   - Rest and hydration advised.\n   - Humidifier use recommended.\n\n2. **Symptomatic Treatment:**  \n   - Pseudoephedrine for congestion.\n   - Dextromethorphan for cough.\n\n3. **Patient Education:**  \n   - Discussed viral nature, no antibiotics needed.\n   - Importance of hand hygiene stressed.\n\n4. **Follow-up:**  \n   - Return if symptoms worsen or persist >10 days.\n\n**Medications:**  \n- None reported.\n\n**Allergies:**  \n- No known drug allergies.\n\n**Time Spent:**  \nApproximately 15 minutes on history and exam.\n\n**Billing Level:**  \n99213",
+  "demographics": {
+    "age": 29,
+    "gender": "F",
+    "occupation": "graphic designer",
+    "name": "Emily Taylor"
+  },
+  "source_gold_note": "gold_uri_008",
+  "generated_at": "2026-02-14T02:54:00.407990",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 85,
+    "clarity": 88
+  }
+}

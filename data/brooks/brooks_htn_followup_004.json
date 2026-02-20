@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_htn_followup_004",
+  "scenario": "htn_followup",
+  "persona": "brooks",
+  "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \nBP check\n\n**HPI:**  \nPt with hx of HTN, on Lisinopril 10mg daily, good adherence. Home BP avg 138/86. No side effects, no sx like headaches or chest pain. Exercises, watches diet, drinks on weekends.\n\n**ROS:**  \nNo wt loss, fever, chest pain, dizziness, or ED. No respiratory or urinary complaints.\n\n**Physical Exam:**  \nVS: BP 142/88, HR 74, BMI 28.3. Gen: Alert, overweight. CV: RRR, no murmurs. Resp: Clear. Ext: No edema.\n\n**Assessment/Plan:**  \n1. Uncontrolled HTN: \u2191 Lisinopril to 20mg daily, continue home BP monitoring, lifestyle mods advised.  \n2. Overweight: Encourage wt loss.  \n3. Labs: Reassess BMP, lipids in 6 mos.  \n4. Sexual Health: Monitor for ED.\n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "source_gold_note": "gold_htn_followup_004",
+  "generated_at": "2026-02-14T02:50:22.390590",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 75
+  }
+}

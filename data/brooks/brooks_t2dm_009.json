@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_t2dm_009",
+  "scenario": "t2dm",
+  "persona": "brooks",
+  "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**  \nDiabetes f/u  \n\n**HPI:**  \nPt with Type 2 DM, reports glucose 160-220 fasting, 180-250 postprandial. Last HbA1c 10.2%. On Metformin 1000mg BID, some GI upset. No hypoglycemia. Concern for foot ulcer.  \n\n**ROS:**  \nNo weight loss, no visual changes, occasional foot tingling.  \n\n**Physical Exam:**  \nVS: BP 128/78, HR 78, Wt 185 lbs, BMI 32.4, Temp 98.6\u00b0F. Gen: Alert, obese. CV: RRR, pulses 2+. Resp: Clear. Ext: Sensation intact, pulses palpable, skin WNL, foot ulcer concern.  \n\n**Assessment/Plan:**  \n1. Uncontrolled Type 2 DM: Add Semaglutide, continue Metformin, order HbA1c 3 mos, refer to educator.  \n2. Obesity: Lifestyle counseling, weight loss goal.  \n3. Controlled HTN: Continue Lisinopril.  \n4. Hyperlipidemia: Continue Atorvastatin, lipid panel annual.  \n5. Diabetic complications: Ophthalmology referral, monitor foot.  \n6. Vaccinations: Update flu, check pneumococcal.  \n7. Pregnancy: Discuss contraception, preconception.  \n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 39,
+    "gender": "F",
+    "occupation": "project manager",
+    "name": "Sarah Johnson"
+  },
+  "source_gold_note": "gold_t2dm_009",
+  "generated_at": "2026-02-14T02:52:49.542911",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 74
+  }
+}

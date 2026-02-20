@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_t2dm_004",
+  "scenario": "t2dm",
+  "persona": "minimal",
+  "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \nDiabetes follow-up\n\n**HPI:**  \n3-year Type 2 DM, HbA1c 10.2%, glucose 160-250 mg/dL. Tingling feet, erectile dysfunction, concern for foot ulcer.\n\n**Physical Exam:**  \n- Vital Signs: BP 128/78, HR 78, BMI 32.4  \n- Feet: Monofilament intact, no open wounds\n\n**Assessment:**  \n- Uncontrolled Type 2 Diabetes  \n- Obesity  \n- Hypertension  \n- Hyperlipidemia  \n\n**Plan:**  \n- Add Semaglutide, continue Metformin.  \n- Nutrition referral.  \n- Lifestyle changes: increase exercise, reduce soda.",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "source_gold_note": "gold_t2dm_004",
+  "generated_at": "2026-02-14T02:51:58.297461",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 50
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_htn_followup_008",
+  "scenario": "htn_followup",
+  "persona": "chen",
+  "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Clinical Note**\n\n**Chief Complaint:**  \nBlood pressure check\n\n**History of Present Illness:**  \n29-year-old female with essential hypertension, follow-up after 4 months. Started Lisinopril 10mg daily last visit. Adheres well, no missed doses, no side effects. Home BP average 138/86 mmHg, not at goal. Walks 3x/week, reducing sodium. 2-3 beers on weekends. No headaches, chest pain, dizziness, or leg swelling. Periods regular, LMP 2 weeks ago.\n\n**Review of Systems:**  \n- **General/Constitutional:** No fatigue, fever.  \n- **Cardiovascular/Respiratory/Neurological:** No chest pain, palpitations, dizziness, edema, shortness of breath, headaches.  \n- **Gastrointestinal/Genitourinary:** No abdominal pain. Regular periods.  \n- **Psychiatric:** Anxiety, depression denied.  \n- **Musculoskeletal:** Skipped.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 142/88 mmHg (R), 140/86 mmHg (L), HR 74 bpm  \n- **Cardiovascular:** Regular rate, rhythm, pulses 2+  \n- **Respiratory:** Clear lungs  \n- **Extremities:** No edema  \n- **General/Neurological:** Alert, well-appearing, overweight  \n- **Fundoscopic:** Not examined\n\n**Assessment and Plan:**  \n1. **Essential Hypertension:**  \n   - Lisinopril increase.  \n   - Home BP monitoring twice daily.  \n   - DASH diet, reduce sodium, limit alcohol, increase exercise.  \n   - Follow-up in 6-8 weeks.\n\n2. **Overweight:**  \n   - Goal: Lose 10 lbs in 3 months.\n\n3. **Lipid Panel:**  \n   - Recheck in 6 months.\n\n4. **Contraception Counseling:**  \n   - Discussed ACE inhibitor contraindications in pregnancy.\n\n**Medications:**  \n- Lisinopril 10mg daily\n\n**Time Spent:** 20 minutes counseling\n\n**Billing Level:** 99214\n\n**Medical Decision Making:**  \nIncrease Lisinopril due to elevated BP. Discussed lifestyle changes to manage hypertension. Cardiovascular risk requires aggressive management.",
+  "demographics": {
+    "age": 29,
+    "gender": "F",
+    "occupation": "graphic designer",
+    "name": "Emily Taylor"
+  },
+  "source_gold_note": "gold_htn_followup_008",
+  "generated_at": "2026-02-14T02:50:50.380838",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 78,
+    "risk": 85,
+    "clarity": 88
+  }
+}

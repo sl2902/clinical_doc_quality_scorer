@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_uri_000",
+  "scenario": "uri",
+  "persona": "brooks",
+  "note_text": "**Patient:** Robert Chen\n**Age:** 42\n**Gender:** M\n**Occupation:** software engineer\n\n**CC:**  \nCough and congestion\n\n**HPI:**  \nPt with cough, nasal congestion, sore throat, and mild headache. Denies fever, SOB, or chest pain. No impact on daily activities.\n\n**ROS:**  \nDenies fever, chills, SOB, CP, N/V/D, myalgias. Reports congestion, cough, sore throat, mild HA.\n\n**PE:**  \nVS: T 98.9, HR 76, BP 118/72, RR 14, O2 sat 99% RA.  \nGen: Alert, NAD.  \nHEENT: Congested nasal mucosa, clear discharge, mild pharyngeal erythema.  \nLungs: CTA bilat.  \nCV: RRR, no murmurs.\n\n**Assessment/Plan:**  \nAcute viral URI.  \n- Rest, fluids, humidifier.  \n- Pseudoephedrine and dextromethorphan for sx relief.  \n- Educate on viral nature, no abx needed.  \n\n**Follow-up:**  \nRTC PRN.",
+  "demographics": {
+    "age": 42,
+    "gender": "M",
+    "occupation": "software engineer",
+    "name": "Robert Chen"
+  },
+  "source_gold_note": "gold_uri_000",
+  "generated_at": "2026-02-14T02:52:51.386689",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 85,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 78
+  }
+}

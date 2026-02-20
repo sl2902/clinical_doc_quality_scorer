@@ -1,0 +1,20 @@
+{
+  "note_id": "gold_uri_009",
+  "scenario": "uri",
+  "persona": "gold",
+  "note_text": "**Clinical Note**\n\n**Patient Name:** Sarah Johnson  \n**Age:** 39 years old  \n**Gender:** Female  \n**Date of Service:** [Insert Date]  \n**Physician:** Dr. Elizabeth Martinez, MD  \n**Encounter Type:** Established Patient Visit  \n**Billing Level:** 99213\n\n**Chief Complaint:**  \n\"Cough and congestion for 10 days\"\n\n**History of Present Illness:**  \nSarah Johnson is a 39-year-old female presenting with a 10-day history of upper respiratory symptoms. She reports a severe productive cough and nasal congestion, accompanied by clear rhinorrhea. Initially, the symptoms began 10 days ago, and she experienced a sore throat, mild headache, and fatigue without fever. However, over the past 3 days, the cough has become more severe, and she has noticed a change in the nasal discharge from clear to purulent, indicating a possible secondary bacterial infection. No high fever (>102\u00b0F) or shortness of breath has been noted. \n\n**Review of Systems:**  \n- **Constitutional:** Fatigue, no fever.  \n- **HEENT:** Sore throat, nasal congestion, purulent rhinorrhea, mild headache. No ear pain or sinus tenderness.  \n- **Respiratory:** Productive cough, no shortness of breath.  \n- **Cardiovascular:** No chest pain or palpitations.  \n- **Gastrointestinal:** No nausea, vomiting, or diarrhea.  \n- **Musculoskeletal:** No joint pain or muscle aches.  \n- **Neurological:** No dizziness or changes in vision.  \n- **Psychiatric:** No anxiety or depression.\n\n**Past Medical History:**  \n- No significant medical history.\n\n**Medications:**  \n- None reported.\n\n**Allergies:**  \n- No known drug allergies.\n\n**Social History:**  \n- Occupation: Project Manager  \n- Non-smoker  \n- Occasional alcohol use  \n- No illicit drug use\n\n**Physical Examination:**  \n- **Vital Signs:** Temp: 98.9\u00b0F, HR: 76 bpm, BP: 118/72 mmHg, RR: 14 breaths/min, O2 Sat: 99% on room air.  \n- **General:** Alert and oriented, no acute distress.  \n- **HEENT:** Nasal mucosa congested with purulent discharge, pharynx mildly erythematous without exudates, no tonsillar enlargement.  \n- **Neck:** Supple, no lymphadenopathy.  \n- **Lungs:** Clear to auscultation bilaterally, no wheezing, no rales.  \n- **Cardiovascular:** Regular rate and rhythm, no murmurs.\n\n**Assessment and Plan:**  \n- **Assessment:**  \n  - Acute upper respiratory infection, complicated by suspected secondary bacterial infection (ICD-10: J06.9).  \n\n- **Plan:**  \n  - **Supportive Care:** Encourage rest, increase fluid intake to at least 8 glasses per day, and use of a humidifier to alleviate symptoms.  \n  - **Symptomatic Treatment:**  \n    - Pseudoephedrine for nasal congestion.  \n    - Dextromethorphan for cough.  \n  - **Antibiotics:** Due to the persistence of symptoms and purulent nasal discharge suggesting a secondary bacterial infection, initiate Amoxicillin 500 mg orally three times daily for 7 days.  \n  - **Follow-up:**  \n    - Return to clinic if symptoms worsen, particularly if fever exceeds 102\u00b0F, or if shortness of breath occurs.  \n    - Re-evaluate if symptoms persist beyond 10 days despite treatment.  \n  - **Patient Education:**  \n    - Discussed the viral nature of the initial infection and the possibility of a secondary bacterial infection.  \n    - Reinforced the importance of hand hygiene and minimizing contact with others during the contagious period.\n\n**Time Spent:** Approximately 15 minutes spent on history, examination, and patient counseling.",
+  "demographics": {
+    "age": 39,
+    "gender": "F",
+    "occupation": "project manager",
+    "name": "Sarah Johnson"
+  },
+  "generated_at": "2026-02-14T01:53:45.444792",
+  "ground_truth_scores": {
+    "completeness": 92,
+    "accuracy": 95,
+    "compliance": 90,
+    "risk": 88,
+    "clarity": 94
+  }
+}

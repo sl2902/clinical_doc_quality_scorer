@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_annual_physical_001",
+  "scenario": "annual_physical",
+  "persona": "brooks",
+  "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Chief Complaint:**  \nAnnual physical exam\n\n**HPI:**  \nPt here for annual exam, no acute issues. Feels well, energy good. Hx mild HTN, BP elevated today. No recent hospitalizations or new dx.\n\n**ROS:**  \nNo fever, cough, CP, SOB, abd pain, or joint pain. Mood stable, sleeps well, no vision changes, no urinary issues.\n\n**Physical Exam:**  \nVS: BP 132/84, HR 68, RR 14, Temp 98.2, O2 sat 99% RA. Gen: Well-appearing, NAD. CV: RRR, no murmurs. Resp: CTA bilat. Abd: Soft, NT. Neuro: A&O x3, CN II-XII intact. Skin: WNL.\n\n**Assessment and Plan:**  \n- Annual exam  \n- HTN, not controlled  \n- Fam hx colon CA\n\n**Plan:**  \n- HTN: Consider \u2191 Lisinopril if BP remains \u2191. Encourage home BP checks.  \n- Health maintenance: Ordered labs (lipids, glucose, TSH, CBC). Flu shot given.  \n- Lifestyle: Continue diet/exercise, alcohol moderation.  \n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 51,
+    "gender": "M",
+    "occupation": "sales manager",
+    "name": "David Kim"
+  },
+  "source_gold_note": "gold_annual_physical_001",
+  "generated_at": "2026-02-14T02:47:38.037342",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 75
+  }
+}

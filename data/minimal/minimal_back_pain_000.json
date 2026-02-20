@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_back_pain_000",
+  "scenario": "back_pain",
+  "persona": "minimal",
+  "note_text": "**Patient:** Robert Chen\n**Age:** 42\n**Gender:** M\n**Occupation:** software engineer\n\n**Chief Complaint:**  \nBack pain 3 days  \n\n**HPI:**  \nLower back pain left side, sharp with movement, dull at rest. Started after lifting.  \n\n**Physical Exam:**  \n- VS: BP 128/82, HR 74, Temp 98.4\u00b0F, RR 14  \n- Tender L3-L5, muscle spasm  \n\n**Assessment:**  \nAcute mechanical low back pain  \n\n**Plan:**  \n- Ibuprofen, cyclobenzaprine  \n- Heat therapy, activity modification  \n- PT referral if no improvement in 1 week",
+  "demographics": {
+    "age": 42,
+    "gender": "M",
+    "occupation": "software engineer",
+    "name": "Robert Chen"
+  },
+  "source_gold_note": "gold_back_pain_000",
+  "generated_at": "2026-02-14T02:48:14.391955",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 50
+  }
+}

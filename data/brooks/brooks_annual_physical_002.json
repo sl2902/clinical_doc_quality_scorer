@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_annual_physical_002",
+  "scenario": "annual_physical",
+  "persona": "brooks",
+  "note_text": "**Patient:** James Wilson\n**Age:** 38\n**Gender:** M\n**Occupation:** warehouse worker\n\n**Chief Complaint:**  \nAnnual physical exam.\n\n**HPI:**  \nPt here for annual check-up. Feels well, good energy. Mild HTN, controlled with meds. No new issues or hospitalizations.\n\n**ROS:**  \nNo fever/chills, vision/hearing changes, CP, SOB, GI/GU issues. No joint pain, HA, mood issues, skin changes.\n\n**Physical Exam:**  \nVS: BP 122/76, HR 68, RR 14, Temp 98.2, O2 99% RA. Gen: Well-appearing. CV/Resp/Abd/MSK/Neuro: WNL. Skin: No lesions.\n\n**Assessment/Plan:**  \n- HTN: Well-controlled on Lisinopril.\n- Health Maintenance: Labs ordered (lipids, glucose, TSH, CBC). Influenza vax given. Continue current diet/exercise.\n- F/u PRN.",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "source_gold_note": "gold_annual_physical_002",
+  "generated_at": "2026-02-14T02:47:38.053933",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 85,
+    "compliance": 68,
+    "risk": 70,
+    "clarity": 78
+  }
+}

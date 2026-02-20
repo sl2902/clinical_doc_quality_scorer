@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_t2dm_006",
+  "scenario": "t2dm",
+  "persona": "minimal",
+  "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Chief Complaint:**  \n- Diabetes follow-up\n\n**HPI:**  \n- 3-year Type 2 DM, HbA1c 9.5%. Fasting glucose 160-220, postprandial 180-250. On Metformin, GI upset noted.\n\n**Physical Exam:**  \n- BP 128/78, HR 78, BMI 32.4  \n- Feet exam normal\n\n**Assessment:**  \n- Type 2 Diabetes Mellitus, poorly controlled  \n- Obesity\n\n**Plan:**  \n- Add Semaglutide, continue Metformin.  \n- Lifestyle changes: diet, exercise. Referral to diabetes educator.",
+  "demographics": {
+    "age": 28,
+    "gender": "F",
+    "occupation": "registered nurse",
+    "name": "Maria Garcia"
+  },
+  "source_gold_note": "gold_t2dm_006",
+  "generated_at": "2026-02-14T02:52:08.992730",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 75,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 40
+  }
+}

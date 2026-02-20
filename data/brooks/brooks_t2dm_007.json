@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_t2dm_007",
+  "scenario": "t2dm",
+  "persona": "brooks",
+  "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Chief Complaint:**  \nDiabetes f/u.\n\n**HPI:**  \nPt with T2DM, last HbA1c 7.8%. Home glucose 160-250 mg/dL. On Metformin 1000mg BID, tolerating well, no hypoglycemia. Reports tingling in feet, no polyuria/polydipsia.\n\n**ROS:**  \nNo wt loss, no visual changes, occasional foot tingling.\n\n**Physical Exam:**  \nVS: BP 128/78, HR 78, BMI 32.4. Gen: Obese, pleasant. CV: RRR, pulses 2+. Resp: CTA bilat. Ext: WNL, skin intact.\n\n**Assessment/Plan:**  \n1. T2DM: Add Semaglutide 0.25mg SC weekly. Cont Metformin. HbA1c in 3 mos.  \n2. Obesity: Lifestyle mod, wt loss goal 5-10%.  \n3. HTN: Cont Lisinopril.  \n4. HLD: Cont Atorvastatin.  \n5. Mild Retinopathy: Ophtho referral.  \n6. Vaccines: Ensure flu, check pneumococcal.\n\n**Follow-up:**  \nRTC PRN.",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "source_gold_note": "gold_t2dm_007",
+  "generated_at": "2026-02-14T02:52:13.192727",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 75
+  }
+}

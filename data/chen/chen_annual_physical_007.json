@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_annual_physical_007",
+  "scenario": "annual_physical",
+  "persona": "chen",
+  "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Clinical Note**\n\n**Chief Complaint:**  \nAnnual physical exam.\n\n**History of Present Illness:**  \nPatient here for routine check-up. Reports feeling well, no acute issues. Energy levels stable. Mild hypertension, controlled. Interested in weight management and prediabetes prevention. Regular exercise, Mediterranean diet. \n\n**Review of Systems:**  \n- **Constitutional:** No fever, chills. No notable weight changes.  \n- **Eyes/ENT:** Wears reading glasses, no vision changes. No hearing loss or sinus problems.  \n- **Cardiovascular/Respiratory:** No chest pain, palpitations. Breathing normal, no cough.  \n- **Gastrointestinal:** Regular bowel habits, no abdominal pain.  \n- **Musculoskeletal:** Active, no pain.  \n- **Neurological/Psychiatric:** No headaches or mood changes.  \n- **Endocrine/Skin:** No intolerance to temperature changes. Skin without new lesions.  \n- **Genitourinary:** Regular periods.  \n\n**Medications:**  \n- Lisinopril  \n- Multivitamin  \n- Calcium with Vitamin D  \n\n**Family History:**  \n- Mother with hypertension, hyperlipidemia.  \n- Father passed from colon cancer.  \n- No family history of diabetes or early heart disease.  \n\n**Physical Examination:**  \n- **Vital Signs:** BP 122/76, HR 68, Temp 98.2\u00b0F, O2 sat 99%.  \n- **General:** Well-appearing, no distress.  \n- **HEENT:** Normocephalic, atraumatic, PERRLA.  \n- **Neck:** Supple, no lymphadenopathy.  \n- **Cardiovascular:** Regular rate and rhythm.  \n- **Respiratory:** Clear bilaterally.  \n- **Abdomen:** Soft, non-tender.  \n- **Breast:** No masses or discharge.  \n- **Musculoskeletal:** Full ROM, normal gait.  \n- **Neurological:** Alert, oriented.  \n- **Skin:** No concerning lesions.  \n- **Psychiatric:** Appropriate affect.  \n\n**Assessment and Plan:**  \n- **Obesity:**  \n  - Diet and exercise counseling.  \n  - Referral to nutritionist.  \n  - Increase physical activity.  \n\n- **Prediabetes Concern:**  \n  - Fasting glucose test ordered.  \n  - Lifestyle modifications discussed.  \n\n- **Essential Hypertension:**  \n  - Continue Lisinopril.  \n  - Home BP monitoring.  \n  - Check renal function today.  \n\n- **Health Maintenance:**  \n  - Lipid panel, TSH, CBC today.  \n  - Mammogram ordered.  \n  - Influenza vaccine given.  \n\n**Time Spent:**  \nFace-to-face time approximately 40 minutes.\n\n**Medical Decision Making:**  \nFocus on preventive care, weight management, and prediabetes prevention.",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "source_gold_note": "gold_annual_physical_007",
+  "generated_at": "2026-02-14T02:47:57.697557",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 85,
+    "clarity": 88
+  }
+}

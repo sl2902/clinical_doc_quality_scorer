@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_back_pain_007",
+  "scenario": "back_pain",
+  "persona": "chen",
+  "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Clinical Note**\n\n**Chief Complaint:**  \nBack pain\n\n**History of Present Illness:**  \nAcute low back pain, started 1 day ago. Pain sharp with movement, dull ache at rest. Mostly on left side of lumbar region. Occurred after lifting a heavy box. Worse in morning and after sitting long. No radiation, numbness, or weakness.\n\n**Review of Systems:**  \n- **Musculoskeletal:** Back pain, no other joint issues.  \n- **Neurological:** No leg weakness or numbness.  \n- **Constitutional/General:** No fever, chills, or weight loss reported.  \n- **GU:** Normal bowel and bladder function.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/82, HR 74, Temp 98.4\u00b0F, RR 14  \n- **Back:** Tenderness over left lumbar area, muscle spasm noted. Limited flexion and extension.  \n- **Neurological:** 5/5 strength in lower extremities, negative straight leg raise. Reflexes 2+, gait antalgic.  \n- **Abdomen:** Unremarkable.\n\n**Assessment:**  \nAcute low back pain, likely lumbar strain. No signs of radiculopathy. (ICD-10: M54.5 possibly)\n\n**Plan:**  \n- Continue ibuprofen, add muscle relaxant as needed.  \n- Activity modification advised; avoid heavy lifting, no prolonged sitting.  \n- Start physical therapy in a week if improving.  \n- Educate on warning signs: leg weakness, bowel/bladder issues.  \n- Follow-up in a couple of weeks if no improvement.\n\n**Documentation Outcome:**  \n- Time Spent: 20 minutes  \n- Billing Level: 99214",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "source_gold_note": "gold_back_pain_007",
+  "generated_at": "2026-02-14T02:49:09.053591",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 80,
+    "risk": 85,
+    "clarity": 88
+  }
+}

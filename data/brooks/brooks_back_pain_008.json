@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_back_pain_008",
+  "scenario": "back_pain",
+  "persona": "brooks",
+  "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Chief Complaint:**  \nBack pain\n\n**HPI:**  \nPt with acute low back pain, left lumbar region, sharp with movement, dull at rest. Began after lifting box at work. Pain radiates to right leg. No numbness, weakness, bowel/bladder changes.\n\n**ROS:**  \nBack pain, leg tingling. No fever, chills, urinary/bowel changes. Neuro WNL except as noted.\n\n**Physical Exam:**  \nVS: BP 128/82, HR 74, Temp 98.4, RR 14. Back: Left paraspinal tenderness, muscle spasm. Neuro: 5/5 strength, SLR negative, reflexes 2+, gait antalgic.\n\n**Assessment/Plan:**  \n- Acute lumbar strain  \n- Ibuprofen 600mg TID, Cyclobenzaprine 5mg HS for spasm  \n- Avoid heavy lifting, no prolonged sitting  \n- Physical therapy referral  \n- Heat/Ice therapy  \n- RTC PRN, f/u if worsening or new sx",
+  "demographics": {
+    "age": 29,
+    "gender": "F",
+    "occupation": "graphic designer",
+    "name": "Emily Taylor"
+  },
+  "source_gold_note": "gold_back_pain_008",
+  "generated_at": "2026-02-14T02:49:22.279309",
+  "ground_truth_scores": {
+    "completeness": 70,
+    "accuracy": 85,
+    "compliance": 65,
+    "risk": 75,
+    "clarity": 80
+  }
+}

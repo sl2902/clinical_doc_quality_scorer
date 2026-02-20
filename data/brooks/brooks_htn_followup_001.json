@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_htn_followup_001",
+  "scenario": "htn_followup",
+  "persona": "brooks",
+  "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Chief Complaint:**  \nBP check\n\n**HPI:**  \nPt with hx of HTN on Lisinopril 10mg daily. Reports good adherence, BP average 138/86 at home. No headaches, chest pain, or dizziness. Walks 3x/week, limits sodium, drinks 2-3 beers/weekend.\n\n**ROS:**  \nNo CP, palpitations, SOB, HA, dizziness, edema. No GI or GU issues.\n\n**Physical Exam:**  \nVS: BP 142/88, HR 74, Wt 192 lbs, BMI 28.3  \nExam: Alert, CV and Resp WNL, no edema.\n\n**Assessment/Plan:**  \n1. Uncontrolled HTN: Increase Lisinopril to 20mg. Continue home BP monitoring.  \n2. Overweight: Discussed weight loss, DASH diet.  \n3. Lipids: Recheck in 6 mos, consider statin.  \n4. Sexual health: Monitor for ED.\n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 51,
+    "gender": "M",
+    "occupation": "sales manager",
+    "name": "David Kim"
+  },
+  "source_gold_note": "gold_htn_followup_001",
+  "generated_at": "2026-02-14T02:49:51.248196",
+  "ground_truth_scores": {
+    "completeness": 70,
+    "accuracy": 85,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 75
+  }
+}

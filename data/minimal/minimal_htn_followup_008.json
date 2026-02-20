@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_htn_followup_008",
+  "scenario": "htn_followup",
+  "persona": "minimal",
+  "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Chief Complaint:**  \n- BP check  \n\n**HPI:**  \n- Follow-up for hypertension. On Lisinopril 10mg. BP not at goal.  \n\n**Physical Exam:**  \n- BP: 142/88, HR: 74  \n- Alert, no edema  \n\n**Assessment:**  \n- Uncontrolled essential hypertension  \n\n**Plan:**  \n- Increase Lisinopril to 20mg.  \n- Continue BP monitoring, lifestyle changes.",
+  "demographics": {
+    "age": 29,
+    "gender": "F",
+    "occupation": "graphic designer",
+    "name": "Emily Taylor"
+  },
+  "source_gold_note": "gold_htn_followup_008",
+  "generated_at": "2026-02-14T02:51:18.304251",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 50
+  }
+}

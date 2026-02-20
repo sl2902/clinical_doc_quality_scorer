@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_t2dm_008",
+  "scenario": "t2dm",
+  "persona": "chen",
+  "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Clinical Note**\n\n**Chief Complaint:**  \nDiabetes follow-up.\n\n**History of Present Illness:**  \nPatient with 3-year Type 2 DM history, uncontrolled. HbA1c 8.5%. On Metformin. Fasting glucose 160-220 mg/dL, postprandial 180-250 mg/dL. GI upset occasionally from meds. No hypoglycemia. Eye exam 8 months ago, was fine. Foot exam done today. Hypertension controlled, on Lisinopril. Hyperlipidemia on Atorvastatin. Sedentary job, little exercise, poor diet. Tingling feet sometimes. No urinary symptoms or weight loss. Had gestational diabetes.\n\n**Review of Systems:**  \n- **Constitutional:** No weight loss.  \n- **Eyes/Endocrine:** No changes, no polyuria.  \n- **Neurological:** Occasional foot tingling.  \n- **Integumentary:** Skin intact, no wounds.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/78, HR 78, Temp 98.6\u00b0F, BMI 32.4.  \n- **Cardiovascular:** Regular, no murmurs, pulses 2+ bilaterally.  \n- **Extremities:** Monofilament test normal, no edema.  \n- **Respiratory:** WNL.  \n- Other systems: grossly intact.\n\n**Assessment and Plan:**  \n1. **Type 2 Diabetes Mellitus, uncontrolled:**  \n   - Start Semaglutide.  \n   - Continue Metformin.  \n   - HbA1c in 3 months.  \n   - Refer to nutrition counseling.  \n   - Lifestyle changes: cut soda, increase activity.  \n   - Educate on injection technique.\n\n2. **Obesity:** Addressed with plan above.\n\n3. **Hypertension:**  \n   - Continue Lisinopril.\n\n4. **Hyperlipidemia:**  \n   - Continue Atorvastatin.\n\n5. **Preventive Care:**  \n   - Kidney function tests.  \n   - Ophthalmology referral.  \n   - Check vaccinations.\n\n6. **Pregnancy Planning:**  \n   - Discuss contraception.  \n   - Preconception counseling if needed.\n\n**Billing Level:** 99214\n\n**Medical Decision Making:**  \nDecision to add Semaglutide for better control and weight management. Education on lifestyle adjustments given.",
+  "demographics": {
+    "age": 29,
+    "gender": "F",
+    "occupation": "graphic designer",
+    "name": "Emily Taylor"
+  },
+  "source_gold_note": "gold_t2dm_008",
+  "generated_at": "2026-02-14T02:52:32.072162",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 85,
+    "clarity": 80
+  }
+}

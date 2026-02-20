@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_htn_followup_004",
+  "scenario": "htn_followup",
+  "persona": "minimal",
+  "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \n- BP check\n\n**HPI:**  \n- 47 y/o M. Follow-up for HTN. On Lisinopril 10mg. BP avg 138/86. Adherent, no side effects.  \n\n**Physical Exam:**  \n- BP: 142/88, HR 74  \n- Alert, overweight\n\n**Assessment:**  \n- Uncontrolled HTN  \n- Overweight  \n\n**Plan:**  \n- Increase Lisinopril to 20mg.  \n- DASH diet, reduce sodium, exercise 5x/week.  \n- Follow up in 6-8 weeks.",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "source_gold_note": "gold_htn_followup_004",
+  "generated_at": "2026-02-14T02:50:23.514182",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 50
+  }
+}

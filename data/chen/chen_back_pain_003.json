@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_back_pain_003",
+  "scenario": "back_pain",
+  "persona": "chen",
+  "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Clinical Note**\n\n**Chief Complaint:**  \nBack pain for 5 days\n\n**History of Present Illness:**  \nPresents with low back pain. Left-sided, sharp with movement. Rates pain 7/10 when moving, 4/10 at rest. Began 5 days ago. Worse in AM, after sitting a while. Started after lifting a box at work. Pain with bending, standing long, sneezing. Better lying flat, heat, ibuprofen. Reports tingling in right leg.\n\n**Review of Systems:**  \n- **Musculoskeletal:** Reports only back pain, denies other joint issues.  \n- **Neurological:** Right leg tingling, denies weakness or numbness.  \n- **Constitutional/General:** No fever, chills, or weight changes noted.  \n- **Genitourinary:** Normal function, no incontinence.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/82, HR 74, Temp 98.4\u00b0F, RR 14.  \n- **Back:** Tender left paraspinal muscles L3-L5, spasm noted.  \n- **Neurological Exam:** Grossly intact, negative straight leg raise, 5/5 strength in lower extremities. Reflexes 2+, symmetric. Gait antalgic but independent.  \n- **Abdomen:** Soft, non-tender.\n\n**Assessment and Plan:**  \n- **Assessment:** Acute low back pain, lumbar strain. Mild radiculopathy.  \n- **Plan:**  \n  - Continue ibuprofen. Add muscle relaxant at night.  \n  - Avoid lifting >20 lbs, frequent breaks from sitting.  \n  - Start PT in a week if improving.  \n  - Heat/ice therapy advised.  \n  - Warned about red flags: weakness, numbness, bowel/bladder changes.  \n  - Follow-up if no improvement in 2-4 weeks. Imaging if needed later.\n\n**Billing Level:** 99214\n\n**Time Spent:** 20 minutes\n\n**Medical Decision Making:** Conservative approach, no imaging now. Explained usual recovery timeline, red flags discussed.  \n\n(Note: Social History section omitted intentionally.)",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "source_gold_note": "gold_back_pain_003",
+  "generated_at": "2026-02-14T02:48:51.282100",
+  "ground_truth_scores": {
+    "completeness": 80,
+    "accuracy": 85,
+    "compliance": 75,
+    "risk": 78,
+    "clarity": 82
+  }
+}

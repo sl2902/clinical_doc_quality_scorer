@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_annual_physical_007",
+  "scenario": "annual_physical",
+  "persona": "brooks",
+  "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**CC:** Annual physical\n\n**HPI:** Pt here for annual exam, no acute complaints. Mild HTN, well-controlled on meds. Interested in weight mgmt and prediabetes prevention.\n\n**ROS:** No fever, vision changes, CP, SOB, abd pain, dysuria, joint pain, HA, or mood issues. ROS otherwise negative.\n\n**PE:**  \n- **VS:** BP 122/76, HR 68, RR 14, Temp 98.2\u00b0F, O2 sat 99% RA  \n- **Gen:** Well-appearing, NAD  \n- **HEENT:** WNL  \n- **CV:** RRR, no murmurs  \n- **Resp:** CTA bilat  \n- **Abd:** Soft, NT, BS normoactive  \n- **MSK/Neuro/Skin:** WNL\n\n**A/P:**  \n- **Obesity:** Diet/exercise counseling, nutritionist referral.  \n- **Prediabetes Risk:** Fasting glucose ordered, lifestyle changes discussed.  \n- **HTN:** Continue Lisinopril, home BP monitoring. Annual labs today.  \n- **Health Maintenance:** Labs and mammogram ordered, flu vax given.\n\n**Follow-up:** RTC PRN",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "source_gold_note": "gold_annual_physical_007",
+  "generated_at": "2026-02-14T02:47:58.006907",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 74
+  }
+}

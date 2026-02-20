@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_uri_006",
+  "scenario": "uri",
+  "persona": "chen",
+  "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Chief Complaint:**  \nCough and congestion x5 days.\n\n**History of Present Illness:**  \nPatient reports cough for 5 days, productive, worse in the morning. Nasal congestion noted, clear discharge. Sore throat present, mild headache, and fatigue. No high fever or chest pain. Works as RN, exposed to similar symptoms at work. Denies SOB. Symptoms moderate, affecting daily life but manageable.\n\n**Review of Systems:**  \n- **General:** Fatigue; denies fever.  \n- **HEENT/Respiratory:** Sore throat, nasal congestion, rhinorrhea, productive cough.  \n- **Neurological/Other:** Mild headache, no dizziness or confusion.  \n- **Musculoskeletal/Skin:** No myalgias, joint pain, or rash.\n\n**Medications:**  \nNone reported.\n\n**Physical Examination:**  \n- **Vital Signs:** Temp: 98.9\u00b0F, HR: 76 bpm, BP: 118/72 mmHg, RR: 14, O2 sat: 99%.  \n- **HEENT:** Nasal congestion, clear discharge, pharynx mildly red.  \n- **Lungs:** Clear bilaterally.  \n- **Cardiovascular/Neck:** Unremarkable.  \n\n**Assessment and Plan:**  \n**Diagnosis:** Acute viral upper respiratory infection.  \n1. **Education:** Viral infection, no antibiotics needed. Discussed hand hygiene.  \n2. **Treatment:**  \n   - Rest, fluids.  \n   - Pseudoephedrine for congestion, dextromethorphan for cough.  \n   - Monitor: return if fever >102\u00b0F, SOB, or no improvement in 10 days.  \n3. **Follow-up:** If symptoms persist beyond typical duration.  \n\n**Time Spent:**  \nApprox. 15 min on history, exam, and counseling.  \n\n**Signature:**  \nDr. Lisa Chen, MD",
+  "demographics": {
+    "age": 28,
+    "gender": "F",
+    "occupation": "registered nurse",
+    "name": "Maria Garcia"
+  },
+  "source_gold_note": "gold_uri_006",
+  "generated_at": "2026-02-14T02:53:41.248678",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 70,
+    "risk": 85,
+    "clarity": 80
+  }
+}

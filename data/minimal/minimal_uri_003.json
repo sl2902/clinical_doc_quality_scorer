@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_uri_003",
+  "scenario": "uri",
+  "persona": "minimal",
+  "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Chief Complaint:**  \n- Cough, congestion 4 days\n\n**HPI:**  \n- 33M, cough, nasal congestion, clear rhinorrhea, mild HA, sore throat. No fever, SOB, CP. \n\n**Physical Exam:**  \n- Vitals: T 98.9, HR 76, BP 118/72, RR 14, O2 99% RA.  \n- HEENT: Nasal congestion, clear discharge, mild pharyngeal erythema.  \n- Lungs: Clear bilat.\n\n**Assessment:**  \n- Acute viral URI\n\n**Plan:**  \n- Rest, fluids, humidifier.  \n- Pseudoephedrine, dextromethorphan.",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "source_gold_note": "gold_uri_003",
+  "generated_at": "2026-02-14T02:53:29.273604",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 40
+  }
+}

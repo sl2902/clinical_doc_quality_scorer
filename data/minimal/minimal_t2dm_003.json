@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_t2dm_003",
+  "scenario": "t2dm",
+  "persona": "minimal",
+  "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Chief Complaint:**  \nDiabetes follow-up\n\n**HPI:**  \n3-yr Type 2 DM, last HbA1c 8.5%. Glucose 160-250 mg/dL. On Metformin, GI upset. No hypoglycemia. Tingling feet, ED.\n\n**Physical Exam:**  \n- Vitals: BP 128/78, HR 78  \n- Alert, obese, clear lungs, pulses 2+ bilaterally.\n\n**Assessment:**  \n- Uncontrolled Type 2 DM  \n- Obesity  \n- Hypertension  \n- Hyperlipidemia  \n- ED\n\n**Plan:**  \n- Add Semaglutide, continue Metformin.  \n- Lifestyle: no soda, portion control, exercise.  \n- Ophthalmology referral.",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "source_gold_note": "gold_t2dm_003",
+  "generated_at": "2026-02-14T02:51:55.357318",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 40
+  }
+}

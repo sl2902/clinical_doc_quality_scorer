@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_annual_physical_005",
+  "scenario": "annual_physical",
+  "persona": "minimal",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Chief Complaint:**  \nAnnual physical\n\n**HPI:**  \nFeels well, no acute issues. Controlled HTN. Discuss vaccinations.\n\n**Physical Exam:**  \n- Vitals: BP 122/76, HR 68, Temp 98.2  \n- Gen: Well-appearing  \n- CV: RRR, no murmurs  \n- Resp: Clear ausc.  \n\n**Assessment:**  \n- Routine health maintenance  \n- Controlled hypertension  \n\n**Plan:**  \n- Order labs, mammogram  \n- Continue Lisinopril  \n- Flu vaccine given, discuss COVID/Zoster",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_annual_physical_005",
+  "generated_at": "2026-02-14T02:47:52.681089",
+  "ground_truth_scores": {
+    "completeness": 30,
+    "accuracy": 70,
+    "compliance": 25,
+    "risk": 25,
+    "clarity": 50
+  }
+}

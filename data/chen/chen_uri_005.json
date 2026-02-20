@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_uri_005",
+  "scenario": "uri",
+  "persona": "chen",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Chief Complaint:**  \nCough and congestion for 3 days\n\n**History of Present Illness:**  \nPatient reports cough x3 days, productive with clear mucus. Nasal congestion present, sore throat noted. Mild headache and fatigue, denies fever >102\u00b0F, SOB, CP. Symptoms stable, not worsening. No red flags.\n\n**Review of Systems:**  \n- Constitutional: Fatigue, no fever noted  \n- HEENT: Nasal congestion, sore throat  \n- Respiratory: Productive cough, no SOB  \n- Neurological: Mild headache, denies dizziness  \n- (Cardiovascular system not reviewed)\n\n**Physical Examination:**  \n- **Vital Signs:** Temp 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 sat 99%  \n- **HEENT:** Nasal mucosa congested, pharynx mildly red  \n- **Lungs:** Clear to auscultation bilaterally  \n- Rest of the exam: Grossly intact\n\n**Assessment and Plan:**  \n**Assessment:**  \n- Acute viral upper respiratory infection\n\n**Plan:**  \n1. **Supportive Care:**  \n   - Rest, fluids, humidifier use  \n\n2. **Symptomatic Treatment:**  \n   - Pseudoephedrine PRN for congestion  \n   - Dextromethorphan PRN for cough  \n\n3. **Follow-up:**  \n   - Return if symptoms worsen, fever >102\u00b0F, or persist beyond 10 days  \n\n**Billing Level:** 99213",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_uri_005",
+  "generated_at": "2026-02-14T02:53:32.754692",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 85,
+    "risk": 88,
+    "clarity": 86
+  }
+}

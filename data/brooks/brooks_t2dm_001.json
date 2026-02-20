@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_t2dm_001",
+  "scenario": "t2dm",
+  "persona": "brooks",
+  "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Chief Complaint:**  \nDiabetes f/u\n\n**HPI:**  \nPt with 3-yr hx of T2DM. Home glucose 160-220 fasting, 180-250 postprandial. Last HbA1c 9.5%. On Metformin 1000mg BID, tolerable GI upset. Reports occasional foot tingling, ED.\n\n**ROS:**  \nNo wt loss, fatigue, visual changes. Reports foot tingling, ED. No wounds.\n\n**Physical Exam:**  \nVS: BP 128/78, HR 78, Wt 185 lbs, BMI 32.4, Temp 98.6\u00b0F. Gen: Obese, alert. CV: RRR, pulses 2+. Resp: Clear. Ext: No edema, feet WNL.\n\n**Assessment/Plan:**  \n1. T2DM, poor control: Add Semaglutide, cont Metformin. Order HbA1c 3 mos. Lifestyle/diet changes.  \n2. Obesity: Address with DM plan.  \n3. HTN, controlled: Cont Lisinopril.  \n4. Hyperlipidemia: Cont Atorvastatin.  \n5. Preventative: Ophtho referral, order kidney tests, flu vaccine.  \n6. ED: Related to DM, consider PDE5i.\n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 51,
+    "gender": "M",
+    "occupation": "sales manager",
+    "name": "David Kim"
+  },
+  "source_gold_note": "gold_t2dm_001",
+  "generated_at": "2026-02-14T02:51:22.717810",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 68
+  }
+}

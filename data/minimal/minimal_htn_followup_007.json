@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_htn_followup_007",
+  "scenario": "htn_followup",
+  "persona": "minimal",
+  "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Chief Complaint:**  \nBP check\n\n**HPI:**  \nRoutine follow-up HTN. Missed Lisinopril doses. Home BP 138/86 avg.\n\n**Physical Exam:**  \n- BP 142/88, 140/86  \n- HR 74  \n- Overweight\n\n**Assessment:**  \n- Uncontrolled HTN  \n- Overweight\n\n**Plan:**  \n- Increase Lisinopril to 20mg daily.  \n- Record BP twice daily.  \n- Lifestyle: DASH diet, reduce sodium, limit alcohol, increase exercise.  \n- Aim to lose 10 lbs in 3 months.",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "source_gold_note": "gold_htn_followup_007",
+  "generated_at": "2026-02-14T02:50:44.671043",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 50
+  }
+}

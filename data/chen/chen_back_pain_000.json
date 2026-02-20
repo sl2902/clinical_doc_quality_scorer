@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_back_pain_000",
+  "scenario": "back_pain",
+  "persona": "chen",
+  "note_text": "**Patient:** Robert Chen\n**Age:** 42\n**Gender:** M\n**Occupation:** software engineer\n\n**Chief Complaint:**\nBack pain\n\n**History of Present Illness:**\nAcute lower back pain, left lumbar area. Pain sharp with movement, dull at rest, 7/10 moving, 4/10 resting. Began 3 days ago lifting a box. Worsens in morning, sitting long. Aggravated by bending, standing, sneezing. Relief lying down, heat, ibuprofen. No leg radiation, numbness, weakness, or bladder issues.\n\n**Review of Systems:**\n- **Musculoskeletal:** Negative for other joint pain.\n- **Neurological/Constitutional/GU:** Denies weakness, numbness, fever, chills, weight loss, urinary issues.\n- **Skipped System:** N/A\n\n**Physical Examination:**\n- **Vital Signs:** BP 128/82, HR 74, Temp 98.4.\n- **Back:** Tender left paraspinal L3-L5, muscle spasm noted.\n- **Range of Motion:** Limited flexion to 45 degrees, extension 15 degrees.\n- **Neurological:** Grossly intact, normal gait.\n- **Abdomen:** Soft, non-tender.\n\n**Assessment:**\nAcute mechanical low back pain, lumbar strain. No red flags. ICD-10: M54.5\n\n**Plan:**\n- **Conservative management:** No imaging needed.\n- **Medications:** Ibuprofen and muscle relaxant prescribed.\n- **Activity modification:** Avoid heavy lifting, limit sitting time.\n- **Physical therapy:** Core strengthening planned.\n- **Heat/Ice therapy:** Suggested for relief.\n- **Patient Education:** Discussed red flag symptoms.\n- **Follow-up:** Return if no improvement.\n\n**Medications:**\n- Ibuprofen as needed.\n\n**Documentation:**\n- **Time Spent:** 20 minutes\n- **Billing Level:** 99214",
+  "demographics": {
+    "age": 42,
+    "gender": "M",
+    "occupation": "software engineer",
+    "name": "Robert Chen"
+  },
+  "source_gold_note": "gold_back_pain_000",
+  "generated_at": "2026-02-14T02:48:25.652711",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 80,
+    "risk": 85,
+    "clarity": 88
+  }
+}

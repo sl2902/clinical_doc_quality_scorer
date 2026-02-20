@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_htn_followup_006",
+  "scenario": "htn_followup",
+  "persona": "minimal",
+  "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Chief Complaint:**  \nBP check  \n\n**HPI:**  \nHx of HTN. On Lisinopril 10mg daily. BP at home avg 138/86. No side effects.  \n\n**Physical Exam:**  \n- BP: 142/88 R arm, 140/86 L arm  \n- HR: 74  \n- Overweight, alert  \n\n**Assessment:**  \n- Uncontrolled hypertension  \n- Overweight  \n\n**Plan:**  \n- Increase Lisinopril to 20mg daily  \n- Monitor BP twice daily, follow-up in 6-8 weeks",
+  "demographics": {
+    "age": 28,
+    "gender": "F",
+    "occupation": "registered nurse",
+    "name": "Maria Garcia"
+  },
+  "source_gold_note": "gold_htn_followup_006",
+  "generated_at": "2026-02-14T02:50:34.061391",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 50
+  }
+}

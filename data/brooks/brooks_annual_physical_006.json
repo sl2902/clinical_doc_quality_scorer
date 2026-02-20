@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_annual_physical_006",
+  "scenario": "annual_physical",
+  "persona": "brooks",
+  "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Chief Complaint:**  \nAnnual physical\n\n**HPI:**  \nPt here for annual check-up, no acute issues. Hx of mild HTN, on Lisinopril. No recent hospital/ER visits. Focus on health maintenance.\n\n**ROS:**  \nNo fever, wt changes, vision issues, chest pain, SOB, abd pain, dysuria, joint pain, headaches, or mood changes. All systems WNL.\n\n**Physical Exam:**  \nVS: BP 132/84, HR 68, RR 14, Temp 98.2\u00b0F, O2 99%. Gen: WNL. HEENT: WNL. CV: RRR, no murmurs. Resp: Clear. Abd: Soft, NT. MSK/Neuro/Skin: WNL.\n\n**Assessment and Plan:**  \n- Annual exam: Screening labs ordered, mammo ordered, vaccines updated.  \n- HTN: Slightly elevated BP; monitor at home.  \n- Family hx colon CA: Continue routine screening.  \n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 28,
+    "gender": "F",
+    "occupation": "registered nurse",
+    "name": "Maria Garcia"
+  },
+  "source_gold_note": "gold_annual_physical_006",
+  "generated_at": "2026-02-14T02:47:49.713269",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 75
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_uri_001",
+  "scenario": "uri",
+  "persona": "minimal",
+  "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Chief Complaint:**  \n- Cough, congestion\n\n**HPI:**  \n- 5-day cough, nasal congestion. No fever, SOB, chest pain.\n\n**Physical Exam:**  \n- Vitals: T 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99% RA.  \n- Lungs clear, nasal mucosa congested.\n\n**Assessment:**  \n- Viral URI\n\n**Plan:**  \n- Rest, fluids, humidifier.  \n- Pseudoephedrine, dextromethorphan PRN.",
+  "demographics": {
+    "age": 51,
+    "gender": "M",
+    "occupation": "sales manager",
+    "name": "David Kim"
+  },
+  "source_gold_note": "gold_uri_001",
+  "generated_at": "2026-02-14T02:53:05.411186",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 75,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 50
+  }
+}

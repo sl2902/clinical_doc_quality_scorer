@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_annual_physical_008",
+  "scenario": "annual_physical",
+  "persona": "chen",
+  "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Chief Complaint:**\nAnnual physical exam.\n\n**History of Present Illness:**\nPatient presents for routine check-up. Reports feeling generally well, with some mild fatigue noted over the past few months. No recent hospitalizations or ER visits. Hypertension managed on current meds.\n\n**Review of Systems:**\n- Constitutional: Mild fatigue, denies fever or weight change.\n- Eyes: Vision stable, uses reading glasses.\n- ENT/Cardio: No hearing issues or chest pain.\n- Respiratory/GI: Breathing and digestion normal.\n- GU: Menstrual cycle regular, no urinary complaints.\n- Musculoskeletal: Active, no pain reported.\n- Neurological: No headaches or numbness.\n- Skin: No new moles or rashes.\n- Heme/Lymph: Normal, denies bruising.\n- Psychiatric: Mood stable, good sleep.\n\n**Physical Examination:**\n- General: Appears well, no distress.\n- Vital Signs: BP within normal range, HR 68, Temp 98.2\u00b0F.\n- HEENT: Normocephalic, atraumatic, PERRLA.\n- Neck: Supple, no lymphadenopathy.\n- Cardiovascular: Regular rhythm, no murmurs.\n- Respiratory: Clear breath sounds.\n- Abdomen: Soft, non-tender.\n- Musculoskeletal: Full ROM.\n- Neurological: Alert, oriented.\n- Skin: WNL.\n\n**Assessment:**\n1. Hypertension - Controlled.\n2. Fatigue - Multifactorial, evaluate for Vitamin D deficiency.\n\n**Plan:**\n- Continue Lisinopril; monitor BP at home.\n- Order labs: Lipid panel, glucose, TSH, CBC, Vitamin D.\n- Mammogram scheduled.\n- Flu shot given today.\n- Encourage sleep, stress management, healthy diet.\n- Discussed COVID-19 booster.\n\n**Billing Level:**\n99396 - Established patient preventive visit.\n\n**Note:**\n- Time spent with patient: 40 minutes.\n- Missing section: Past Medical History.",
+  "demographics": {
+    "age": 29,
+    "gender": "F",
+    "occupation": "graphic designer",
+    "name": "Emily Taylor"
+  },
+  "source_gold_note": "gold_annual_physical_008",
+  "generated_at": "2026-02-14T02:48:01.078049",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 80,
+    "risk": 85,
+    "clarity": 88
+  }
+}

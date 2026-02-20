@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_back_pain_007",
+  "scenario": "back_pain",
+  "persona": "brooks",
+  "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Chief Complaint:**  \nBack pain\n\n**HPI:**  \nPt c/o acute lower back pain, left side. Pain sharp with movement, dull at rest. Onset after lifting heavy box. No leg radiation or neuro sx.\n\n**ROS:**  \nBack pain, no leg weakness/numbness, no systemic sx.\n\n**Physical Exam:**  \nVS: BP 128/82, HR 74, Temp 98.4\u00b0F, RR 14.  \nBack: Tender L3-L5, spasm present. ROM limited. Neuro: Strength, sensation, reflexes WNL. Gait antalgic.\n\n**Assessment/Plan:**  \n- Acute lumbar strain, no radiculopathy.  \n- Ibuprofen 600mg TID, Cyclobenzaprine 5mg QHS.  \n- Activity mod: Avoid heavy lifting, limit sitting.  \n- PT referral, heat/ice therapy.  \n- RTC PRN, ER for red flags.",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "source_gold_note": "gold_back_pain_007",
+  "generated_at": "2026-02-14T03:09:26.838448",
+  "ground_truth_scores": {
+    "completeness": 70,
+    "accuracy": 85,
+    "compliance": 60,
+    "risk": 75,
+    "clarity": 80
+  }
+}

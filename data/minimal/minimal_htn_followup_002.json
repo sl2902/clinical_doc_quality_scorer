@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_htn_followup_002",
+  "scenario": "htn_followup",
+  "persona": "minimal",
+  "note_text": "**Patient:** James Wilson\n**Age:** 38\n**Gender:** M\n**Occupation:** warehouse worker\n\n**Chief Complaint:**  \nBlood pressure check\n\n**HPI:**  \nStarted Lisinopril 4 months ago, misses doses sometimes. BP average 138/86. Trying lifestyle changes.\n\n**Physical Exam:**  \n- BP: 142/88, HR 74, BMI 28.3\n- Alert, no edema\n\n**Assessment:**  \n- Uncontrolled hypertension\n- Overweight\n\n**Plan:**  \n- Increase Lisinopril to 20mg\n- Home BP monitoring, DASH diet, exercise 5x/week",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "source_gold_note": "gold_htn_followup_002",
+  "generated_at": "2026-02-14T02:50:09.588071",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 50
+  }
+}

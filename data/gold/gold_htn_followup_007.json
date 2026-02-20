@@ -1,0 +1,20 @@
+{
+  "note_id": "gold_htn_followup_007",
+  "scenario": "htn_followup",
+  "persona": "gold",
+  "note_text": "**Clinical Note**\n\n**Chief Complaint:**\nBlood pressure check.\n\n**History of Present Illness:**\nLisa Anderson is a 45-year-old female accountant who presents for a routine follow-up of her hypertension. She was started on Lisinopril 10mg daily 4 months ago. She reports variable adherence to the medication regimen, with occasional missed doses, but denies any side effects. Home blood pressure monitoring over the past 2 weeks shows average readings of 138/86 mmHg, indicating improvement but still not at the target goal of <130/80 mmHg. She engages in physical activity by walking three times per week for 30 minutes and is attempting to reduce her sodium intake. She consumes 2-3 beers on weekends. She denies experiencing headaches, chest pain, palpitations, dizziness, or leg swelling. Her last menstrual period was 2 weeks ago, and she is not currently pregnant.\n\n**Review of Systems:**\n- Constitutional: No fatigue or weight changes.\n- Cardiovascular: No chest pain or palpitations.\n- Respiratory: No cough or shortness of breath.\n- Gastrointestinal: No nausea or abdominal pain.\n- Neurological: No headaches or dizziness.\n- Musculoskeletal: No joint pain.\n- Genitourinary: Regular menstrual periods.\n- Endocrine: No heat or cold intolerance.\n- Psychiatric: No anxiety or depression.\n\n**Past Medical History:**\n- Essential hypertension\n- Overweight\n\n**Medications:**\n- Lisinopril 10mg daily\n\n**Allergies:**\n- No known drug allergies.\n\n**Social History:**\n- Occupation: Accountant\n- Alcohol: 2-3 beers on weekends\n- Tobacco: Non-smoker\n- Exercise: Walks 3x/week for 30 minutes\n\n**Physical Examination:**\n- Vital Signs: BP 142/88 mmHg right arm, 140/86 mmHg left arm (seated, repeated after 5 min rest), HR 74 bpm, Weight 192 lbs, BMI 28.3\n- General: Alert and well-appearing, overweight\n- Cardiovascular: Regular rate and rhythm, no murmurs, peripheral pulses 2+ bilaterally\n- Respiratory: Clear lung fields bilaterally\n- Extremities: No edema\n- Fundoscopic: No papilledema\n\n**Assessment and Plan:**\n1. **Essential Hypertension, Uncontrolled (ICD-10: I10)**\n   - Increase Lisinopril to 20mg daily due to persistently elevated BP and variable medication adherence.\n   - Continue home BP monitoring, record twice daily for 1 week before the next visit.\n   - Lifestyle counseling: Implement DASH diet, reduce sodium intake to <2000mg/day, limit alcohol to <2 drinks/day, increase exercise to 5x/week.\n   - Weight loss goal: Aim to lose 10 lbs over the next 3 months.\n   - Return in 6-8 weeks to assess BP response to medication increase.\n\n2. **Overweight (ICD-10: E66.3)**\n   - Reinforce lifestyle modifications and weight loss strategies.\n\n3. **Laboratory Follow-up**\n   - Recheck labs in 6 months: BMP, lipid panel.\n   - Consider statin therapy if LDL remains elevated at next visit.\n\n4. **Contraception Counseling**\n   - Discussed the importance of reliable contraception due to the use of ACE inhibitors.\n\n**Time Spent:**\n20 minutes spent with extensive counseling on lifestyle modifications.\n\n**Billing Level:**\n99214 (Established patient, moderate complexity)\n\n**Medical Decision Making:**\nMedication increase is justified by persistently elevated BP despite variable adherence. Cardiovascular risk assessment indicates a 10-year ASCVD risk of ~12%. Focused on achieving aggressive BP control and discussed potential need for additional pharmacotherapy if current strategies prove insufficient. Emphasized lifestyle modifications for overall cardiovascular risk reduction.",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "generated_at": "2026-02-14T01:54:28.251033",
+  "ground_truth_scores": {
+    "completeness": 92,
+    "accuracy": 95,
+    "compliance": 90,
+    "risk": 88,
+    "clarity": 94
+  }
+}

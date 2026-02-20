@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_uri_004",
+  "scenario": "uri",
+  "persona": "brooks",
+  "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \nCough and congestion\n\n**HPI:**  \nPt with 10-day hx of productive cough and nasal congestion. Nasal discharge yellow-green, suspect bacterial infxn. Reports sore throat, mild HA, fatigue, no SOB or fever.\n\n**ROS:**  \nFatigue, sore throat, nasal congestion with colored discharge. Cough productive, no SOB, mild HA, no other complaints.\n\n**Physical Exam:**  \nVS: T 98.9, HR 76, BP 118/72, RR 14, O2 sat 99% RA.  \nGen: Alert, NAD.  \nHEENT: Congested nasal mucosa, pharynx erythematous.  \nLungs: CTA bilat.  \nCV: RRR.  \nAbd: Soft, NT.  \nSkin: WNL.\n\n**Assessment/Plan:**  \n1. Acute viral URI, suspect secondary bacterial infxn.  \n   - Rest, fluids, pseudoephedrine, dextromethorphan.  \n   - Start amoxicillin-clavulanate.  \n   - Educate on hand hygiene.\n\n**Follow-up:**  \nRTC PRN.",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "source_gold_note": "gold_uri_004",
+  "generated_at": "2026-02-14T02:53:19.138368",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 74
+  }
+}

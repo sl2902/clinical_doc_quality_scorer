@@ -1,0 +1,20 @@
+{
+  "note_id": "gold_uri_005",
+  "scenario": "uri",
+  "persona": "gold",
+  "note_text": "**Clinical Note**\n\n**Patient Name:** Jane Doe  \n**Age:** 35 years  \n**Gender:** Female  \n**Occupation:** Elementary Teacher  \n**Date of Visit:** [Insert Date]  \n**Billing Level:** 99213  \n\n**Chief Complaint:**  \n\"Cough and congestion for 3 days\"\n\n**History of Present Illness:**  \nJane Doe, a 35-year-old female elementary teacher, presents with symptoms of an upper respiratory tract infection that began 3 days ago. She reports a mild productive cough and nasal congestion accompanied by clear rhinorrhea. The patient also experiences a sore throat, mild headache, and fatigue, but denies any fever >102\u00b0F, shortness of breath, or chest pain. She mentions that these symptoms have not worsened over the past days and are not associated with any red flag signs.\n\n**Review of Systems:**  \n- Constitutional: Fatigue, no fever or chills reported  \n- HEENT: Nasal congestion, clear rhinorrhea, sore throat, no visual changes, no ear pain  \n- Respiratory: Productive cough, no shortness of breath, no wheezing  \n- Cardiovascular: No chest pain  \n- Gastrointestinal: No nausea, vomiting, or diarrhea  \n- Neurological: Mild headache, no dizziness or confusion  \n- Dermatological: No rashes  \n\n**Past Medical History:**  \nThe patient is previously healthy with no significant medical history.\n\n**Medications:**  \nNone reported.\n\n**Allergies:**  \nNo known drug allergies.\n\n**Social History:**  \n- Non-smoker, no alcohol or illicit drug use.  \n- Lives with her spouse and two children.  \n- Works as an elementary school teacher.  \n\n**Physical Examination:**  \n- **Vital Signs:** Temperature 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 sat 99% on RA  \n- **General:** Alert and in no acute distress  \n- **HEENT:**  \n  - Head: Normocephalic, atraumatic  \n  - Eyes: Conjunctivae clear, sclerae anicteric  \n  - Ears: TMs normal, no effusion  \n  - Nose: Nasal mucosa congested with clear discharge  \n  - Throat: Pharynx mildly erythematous, no exudates or tonsillar enlargement  \n- **Neck:** Supple, no cervical lymphadenopathy  \n- **Lungs:** Clear to auscultation bilaterally, no wheezing or rales  \n- **Cardiovascular:** Regular rate and rhythm, no murmurs  \n\n**Assessment and Plan:**  \n**Assessment:**  \n- Acute viral upper respiratory infection (ICD-10: J06.9), mild in severity  \n\n**Plan:**  \n1. **Supportive Care:**  \n   - Encourage rest and increase fluid intake to at least 8 glasses daily  \n   - Use a humidifier in the home to ease congestion \n\n2. **Symptomatic Treatment:**  \n   - Pseudoephedrine for nasal congestion, as needed  \n   - Dextromethorphan for cough relief, as needed  \n\n3. **Patient Education:**  \n   - Explained that symptoms are consistent with a viral infection; antibiotics are not indicated due to the viral etiology and absence of bacterial infection signs (e.g., purulent discharge, high fever, abnormal lung examination)  \n   - Discussed contagious period and emphasized the importance of hand hygiene to prevent spread  \n\n4. **Follow-up:**  \n   - Return if symptoms worsen, develop a fever >102\u00b0F, experience shortness of breath, or if symptoms persist beyond 10 days  \n\n**Expected Duration:** 7-10 days  \n\n**Time Spent:**  \nApproximately 15 minutes spent on patient history, examination, and counseling regarding diagnosis and management.",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "generated_at": "2026-02-14T01:53:45.502107",
+  "ground_truth_scores": {
+    "completeness": 90,
+    "accuracy": 95,
+    "compliance": 85,
+    "risk": 92,
+    "clarity": 93
+  }
+}

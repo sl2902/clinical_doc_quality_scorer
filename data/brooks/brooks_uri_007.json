@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_uri_007",
+  "scenario": "uri",
+  "persona": "brooks",
+  "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Chief Complaint:**  \nCough and congestion.\n\n**HPI:**  \nPt presents with cough, congestion, clear rhinorrhea, sore throat, mild HA, and fatigue. Denies fever, SOB, or CP. Symptoms are moderate, no prior tx.\n\n**ROS:**  \n+ fatigue, nasal congestion, sore throat, productive cough, mild HA. Denies fever, SOB, CP, GI symptoms, neuro deficits, rash.\n\n**Physical Exam:**  \nVS: T 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99% RA. Gen: Alert, NAD. HEENT: Nasal congestion, pharynx mildly erythematous. Lungs: Clear bilat. CV: RRR, no murmurs. Neck: No LAD.\n\n**Assessment/Plan:**  \n1. Acute viral URI w/ mild sinusitis.  \n   - Supportive care: Rest, fluids, humidifier.  \n   - Symptomatic tx: Pseudoephedrine, dextromethorphan.  \n   - Educate on viral nature, hand hygiene.  \n\n**Follow-up:**  \nRTC PRN.",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "source_gold_note": "gold_uri_007",
+  "generated_at": "2026-02-14T02:53:56.322652",
+  "ground_truth_scores": {
+    "completeness": 70,
+    "accuracy": 85,
+    "compliance": 65,
+    "risk": 60,
+    "clarity": 75
+  }
+}

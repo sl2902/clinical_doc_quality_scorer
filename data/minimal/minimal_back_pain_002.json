@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_back_pain_002",
+  "scenario": "back_pain",
+  "persona": "minimal",
+  "note_text": "**Patient:** James Wilson\n**Age:** 38\n**Gender:** M\n**Occupation:** warehouse worker\n\n**Chief Complaint:**  \nBack pain 1 day\n\n**HPI:**  \nAcute low back pain left side, started after lifting box. Worse in morning, better with ibuprofen.\n\n**Physical Exam:**  \n- Vital Signs: BP 128/82, HR 74, Temp 98.4\u00b0F  \n- Back: Tender L3-L5, muscle spasm\n\n**Assessment:**  \nAcute mechanical low back pain\n\n**Plan:**  \n- Ibuprofen 600mg TID  \n- Cyclobenzaprine 5mg HS  \n- Avoid heavy lifting, start PT in 1 week if improving",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "source_gold_note": "gold_back_pain_002",
+  "generated_at": "2026-02-14T02:48:43.512700",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 40
+  }
+}

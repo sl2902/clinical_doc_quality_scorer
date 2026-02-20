@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_htn_followup_003",
+  "scenario": "htn_followup",
+  "persona": "minimal",
+  "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Chief Complaint:**  \nBP check\n\n**HPI:**  \nHx HTN. On Lisinopril 10mg. BP 138/86 avg. Trying DASH diet, exercise.\n\n**Physical Exam:**  \n- **Vital Signs:** BP 142/88, HR 74  \n- **General:** Alert, overweight\n\n**Assessment:**  \n- Uncontrolled HTN  \n- Overweight\n\n**Plan:**  \n- Increase Lisinopril to 20mg.  \n- Encourage more exercise, DASH diet. Return 6-8 weeks.",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "source_gold_note": "gold_htn_followup_003",
+  "generated_at": "2026-02-14T02:50:18.901825",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 50
+  }
+}

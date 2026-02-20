@@ -1,0 +1,20 @@
+{
+  "note_id": "gold_uri_000",
+  "scenario": "uri",
+  "persona": "gold",
+  "note_text": "**Chief Complaint:**\n\n\"Cough and congestion for 3 days\"\n\n**History of Present Illness:**\n\nRobert Chen, a 42-year-old male software engineer, presents with acute upper respiratory symptoms consistent with a viral infection. He reports the onset of symptoms 3 days ago, which include a productive cough and nasal congestion accompanied by clear rhinorrhea. He also notes a sore throat, mild headache, and fatigue, but denies any fever, shortness of breath, or chest pain. The symptoms are mild in severity and have not affected his ability to perform daily activities.\n\n**Review of Systems:**\n\n- **Constitutional:** Denies fever, chills, or weight loss.\n- **HEENT:** Reports nasal congestion, clear rhinorrhea, and sore throat; denies ear pain or vision changes.\n- **Respiratory:** Productive cough; denies wheezing or shortness of breath.\n- **Cardiovascular:** Denies chest pain or palpitations.\n- **Gastrointestinal:** Denies nausea, vomiting, or diarrhea.\n- **Neurological:** Reports mild headache; denies dizziness or confusion.\n- **Musculoskeletal:** Denies myalgias or joint pain.\n\n**Past Medical History:**\n\n- No significant medical history.\n\n**Medications:**\n\n- None.\n\n**Allergies:**\n\n- No known drug allergies.\n\n**Social History:**\n\n- Occupation: Software engineer\n- Non-smoker\n- Alcohol: Occasionally drinks socially\n- No illicit drug use\n\n**Physical Examination:**\n\n- **Vital Signs:** Temperature 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 sat 99% on RA\n- **General:** Alert, no acute distress.\n- **HEENT:** Nasal mucosa congested with clear discharge. Pharynx mildly erythematous without exudates. No tonsillar enlargement.\n- **Neck:** Supple, no lymphadenopathy.\n- **Lungs:** Clear to auscultation bilaterally, no wheezing or rales.\n- **Cardiovascular:** Regular rate and rhythm, no murmurs.\n\n**Assessment and Plan:**\n\n- **Assessment:** Acute viral upper respiratory infection (ICD-10: J06.9)\n- **Plan:**\n  - **Supportive Care:** Advise rest, increase fluid intake to 8 glasses daily, and use a humidifier in living space to alleviate congestion.\n  - **Symptomatic Treatment:** Recommend pseudoephedrine for nasal congestion and dextromethorphan for cough.\n  - **Education:** Discuss the viral nature of the infection, emphasizing that antibiotics are not indicated given the absence of purulent discharge and normal lung exam. Educate on the contagious period and importance of hand hygiene.\n  - **Follow-up:** Instruct to return if symptoms worsen, develop a fever >102\u00b0F, experience shortness of breath, or if symptoms persist beyond 10 days.\n  - **Expected Duration:** 7-10 days for symptom resolution.\n\n**Time Spent:**\n\nApproximately 15 minutes spent on history, examination, and patient counseling.",
+  "demographics": {
+    "age": 42,
+    "gender": "M",
+    "occupation": "software engineer",
+    "name": "Robert Chen"
+  },
+  "generated_at": "2026-02-14T01:53:20.782509",
+  "ground_truth_scores": {
+    "completeness": 90,
+    "accuracy": 95,
+    "compliance": 88,
+    "risk": 92,
+    "clarity": 94
+  }
+}

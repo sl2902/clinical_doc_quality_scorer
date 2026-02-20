@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_back_pain_004",
+  "scenario": "back_pain",
+  "persona": "chen",
+  "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Clinical Note**\n\n**Chief Complaint:**  \n\"Back pain for 1 week with severe intensity and bilateral leg weakness.\"\n\n**History of Present Illness:**  \nPatient with 1-week history of left-sided low back pain, sharp on movement, dull at rest. Pain severe (7/10 with movement, 4/10 at rest). Constant, worse in morning and after sitting. Started after lifting heavy box. Worse with bending, standing >30 mins, sneezing. Relieved by lying flat, heat, ibuprofen. Now with bilateral leg weakness. No radiation, numbness, tingling, bowel/bladder changes.\n\n**Review of Systems:**  \n- **Musculoskeletal/Neurological:** Back pain and leg weakness present. No numbness or tingling.  \n- **Constitutional:** No fever, weight loss.  \n- **GU:** Normal bowel and urinary functions.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/82, HR 74, Temp 98.4\u00b0F, RR 14.  \n- **Back:** Tender left paraspinal muscles, L3-L5. Muscle spasm.  \n- **Neurological:**  \n  - **Motor:** 4/5 strength in lower extremities.  \n  - **Sensory/Reflexes:** Grossly intact.  \n  - **Gait:** Antalgic, can heel/toe walk.  \n- **Abdomen:** Unremarkable.\n\n**Assessment and Plan:**  \n- **Assessment:**  \n  - Acute mechanical low back pain, lumbar strain with bilateral leg weakness.  \n  - No red flags identified.  \n\n- **Plan:**  \n  - Conservative management; no imaging unless symptoms persist or worsen.  \n  - **Medications:** Ibuprofen and cyclobenzaprine for pain and spasm.  \n  - **Activity:** Avoid heavy lifting, limit sitting. Return to normal activities as tolerated.  \n  - **Physical Therapy:** Core strengthening, proper body mechanics.  \n  - **Education:** Watch for worsening symptoms like new leg weakness or bowel/bladder changes.  \n  - **Follow-up:** Return if not improved in several weeks.  \n\n**Documentation:**  \nTime spent not documented.",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "source_gold_note": "gold_back_pain_004",
+  "generated_at": "2026-02-14T02:48:55.351530",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 85,
+    "compliance": 78,
+    "risk": 80,
+    "clarity": 83
+  }
+}

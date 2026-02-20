@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_annual_physical_004",
+  "scenario": "annual_physical",
+  "persona": "brooks",
+  "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \nAnnual physical\n\n**HPI:**  \nPt here for annual exam, feels well, no acute issues. Hx of mild HTN, controlled. No new dx or hospitalizations since last visit.\n\n**ROS:**  \nNo fever, weight changes, vision/hearing issues. No chest pain, SOB, GI or GU symptoms. No joint pain, neuro, psych, skin issues. \n\n**Medications:**  \nLisinopril, multivitamin, calcium + Vit D. \n\n**Allergies:**  \nPCN (rash)\n\n**Fam/Soc Hx:**  \nMother HTN, father colon CA. No smoking, moderate EtOH. Good support, financially stable.\n\n**Physical Exam:**  \nVS: BP 122/76, HR 68, RR 14, Temp 98.2, O2 99% RA. Gen: WNL. HEENT: WNL. CV: RRR, no murmurs. Resp: Clear. Abd: Soft, NT. MSK/Neuro/Skin: WNL.\n\n**A/P:**  \n- Health maintenance: Labs ordered, vaccines up to date.  \n- HTN: Controlled on Lisinopril, continue current tx.  \n- Lifestyle: Continue diet/exercise.  \n- Preventive: Calcium/Vit D, skin protection.  \n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "source_gold_note": "gold_annual_physical_004",
+  "generated_at": "2026-02-14T02:47:45.824186",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 80,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 75
+  }
+}

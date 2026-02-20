@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_annual_physical_009",
+  "scenario": "annual_physical",
+  "persona": "minimal",
+  "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**\nAnnual physical exam.\n\n**HPI:**\nRoutine check-up, no complaints. Mild HTN, controlled.\n\n**Physical Exam:**\n- Vitals: BP 122/76, HR 68, Temp 98.2\u00b0F\n- Gen: Well-appearing, no distress.\n- CV: Regular rhythm, no murmurs.\n\n**Assessment:**\n- Health maintenance\n- Hypertension\n\n**Plan:**\n- Labs: Lipid panel, glucose.\n- Continue Lisinopril.\n- Encourage exercise, diet.",
+  "demographics": {
+    "age": 39,
+    "gender": "F",
+    "occupation": "project manager",
+    "name": "Sarah Johnson"
+  },
+  "source_gold_note": "gold_annual_physical_009",
+  "generated_at": "2026-02-14T02:48:04.558921",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 50
+  }
+}

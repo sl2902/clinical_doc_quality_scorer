@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_t2dm_003",
+  "scenario": "t2dm",
+  "persona": "brooks",
+  "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Chief Complaint:**  \nDiabetes f/u.\n\n**HPI:**  \nPt with T2DM for 3 yrs, uncontrolled. Last HbA1c 8.5%. Glucose 160-250 mg/dL. On Metformin 1000mg BID, occasional GI upset but tolerable. Reports tingling feet, occasional ED.\n\n**ROS:**  \nNo fever/chills, visual changes, chest pain, or dyspnea. Occasional GI upset, ED, tingling feet. No polyuria/polydipsia.\n\n**Physical Exam:**  \nBP 128/78, HR 78, Wt 185 lbs, Temp 98.6\u00b0F. Gen: Obese, pleasant. CV: RRR, pulses 2+. Resp: Clear. Ext: Sensation intact, no edema, WNL.\n\n**Assessment/Plan:**  \n1. T2DM uncontrolled: Add Semaglutide, continue Metformin, order HbA1c, refer ophthalmology/nutrition.\n2. Obesity: Weight loss 5-10%.\n3. HTN controlled: Continue Lisinopril.\n4. Hyperlipidemia: Continue Atorvastatin.\n5. ED: Possible DM relation, consider PDE5 inhibitors if needed.\n\n**Vaccinations:**  \nEnsure flu, check pneumococcal.\n\n**Follow-up:**  \nRTC PRN.",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "source_gold_note": "gold_t2dm_003",
+  "generated_at": "2026-02-14T02:51:43.894183",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 85,
+    "compliance": 68,
+    "risk": 70,
+    "clarity": 75
+  }
+}

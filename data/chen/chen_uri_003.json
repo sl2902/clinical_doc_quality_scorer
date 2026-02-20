@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_uri_003",
+  "scenario": "uri",
+  "persona": "chen",
+  "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Chief Complaint:**  \nCough and congestion for 4 days.\n\n**History of Present Illness:**  \nPatient reports cough x4 days, productive with clear mucus, worse in the morning. Nasal congestion present. Reports sore throat and mild headache. No fever noted, denies SOB or chest pain. Onset was sudden, no significant past medical issues.\n\n**Review of Systems:**  \n- **Constitutional:** Fatigue present. No fever.  \n- **HEENT/Respiratory:** Nasal congestion, clear discharge, sore throat, cough. No ear or sinus pain, no SOB.  \n- **Cardiovascular:** No chest pain or palpitations.  \n- **Neurological:** Mild headache. No dizziness.  \n\n**Physical Examination:**  \n- **Vital Signs:** T 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 sat 99% RA.  \n- **HEENT:** Nasal mucosa congested, clear discharge. Pharynx mildly red, no exudate.  \n- **Lungs:** Clear bilaterally.  \n- **Cardiovascular:** Regular rhythm, no murmurs.  \n- **Neck:** Supple, no lymphadenopathy.  \n\n**Assessment and Plan:**  \n- **Diagnosis:** Acute viral URI.  \n- **Plan:**  \n  - Encourage rest and fluids.  \n  - Humidifier recommended.  \n  - Pseudoephedrine for congestion, dextromethorphan for cough (no doses specified).  \n  - Educated on viral nature, no antibiotics needed.  \n  - Follow-up if symptoms worsen or persist beyond 10 days, fever over 102\u00b0F, or SOB develops.  \n\n**Billing Level:**  \n99213.\n\n**Time Spent:**  \nApproximately 15 minutes.",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "source_gold_note": "gold_uri_003",
+  "generated_at": "2026-02-14T02:53:25.587210",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 85,
+    "risk": 78,
+    "clarity": 88
+  }
+}

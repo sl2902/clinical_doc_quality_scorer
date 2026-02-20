@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_uri_001",
+  "scenario": "uri",
+  "persona": "chen",
+  "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Clinical Note**\n\n**Chief Complaint:**  \nCough and congestion.\n\n**History of Present Illness:**  \nCough x5 days, productive, clear sputum. Nasal congestion, sore throat. No fever, SOB, or chest pain. Symptoms moderate, not worsening. \n\n**Review of Systems:**  \n- **Constitutional:** Fatigue present.  \n- **HEENT/Respiratory:** Nasal congestion, clear discharge, sore throat, mild headache, cough. No visual changes, ear pain, SOB, wheezing.  \n- **Cardiovascular/Gastrointestinal:** Denies chest pain, palpitations, nausea, vomiting, diarrhea.  \n- **Neurological:** Denies dizziness.  \n- **Psychiatric:** No anxiety.\n\n**Physical Examination:**  \n- **Vitals:** Temp 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99%.  \n- **HEENT:** Nasal mucosa congested, pharynx mildly erythematous.  \n- **Neck/Lungs:** Supple, no lymphadenopathy. Clear to auscultation.  \n- **CV/Skin:** S1, S2 regular, no murmurs. Skin WNL.\n\n**Assessment and Plan:**  \n- **Assessment:** Acute viral URI.  \n- **Plan:**  \n  - Rest, fluids, humidifier.  \n  - Pseudoephedrine for congestion, dextromethorphan prn.  \n  - Viral infection education provided, hand hygiene emphasized.  \n  - Follow-up if symptoms worsen or persist beyond 10 days.  \n\n**Time Spent:** Approx. 15 mins.",
+  "demographics": {
+    "age": 51,
+    "gender": "M",
+    "occupation": "sales manager",
+    "name": "David Kim"
+  },
+  "source_gold_note": "gold_uri_001",
+  "generated_at": "2026-02-14T02:53:01.982094",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 80,
+    "risk": 85,
+    "clarity": 88
+  }
+}

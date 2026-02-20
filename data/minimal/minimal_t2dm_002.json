@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_t2dm_002",
+  "scenario": "t2dm",
+  "persona": "minimal",
+  "note_text": "**Patient:** James Wilson\n**Age:** 38\n**Gender:** M\n**Occupation:** warehouse worker\n\n**Chief Complaint:**  \n- Diabetes follow-up\n\n**HPI:**  \n- Type 2 DM, 3 years. Last HbA1c 7.8% (down from 8.2%). Glucose 160-250 mg/dL. On Metformin, occasional GI upset. Mild retinopathy noted.\n\n**Physical Exam:**  \n- BP 128/78, HR 78, BMI 32.4.  \n- Feet: Sensation intact, no wounds.\n\n**Assessment:**  \n- Type 2 Diabetes Mellitus  \n- Obesity  \n- Essential hypertension, controlled  \n- Hyperlipidemia  \n\n**Plan:**  \n- Add Semaglutide. Continue Metformin. HbA1c in 3 months.  \n- Lifestyle mods: reduce sugar drinks, increase exercise.",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "source_gold_note": "gold_t2dm_002",
+  "generated_at": "2026-02-14T02:51:43.083381",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 40
+  }
+}

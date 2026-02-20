@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_annual_physical_004",
+  "scenario": "annual_physical",
+  "persona": "minimal",
+  "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \nAnnual physical\n\n**HPI:**  \nRoutine check-up, feels well. Mild HTN, controlled.\n\n**Physical Exam:**  \n- Vitals: BP 122/76, HR 68, Temp 98.2\u00b0F  \n- Gen: Appears well  \n- CV: RRR, no murmurs  \n- Resp: Clear bilaterally  \n\n**Assessment:**  \nControlled hypertension\n\n**Plan:**  \n- Continue Lisinopril  \n- Screening labs ordered, PSA deferred  \n- Influenza vaccine given",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "source_gold_note": "gold_annual_physical_004",
+  "generated_at": "2026-02-14T02:47:43.670505",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 50
+  }
+}

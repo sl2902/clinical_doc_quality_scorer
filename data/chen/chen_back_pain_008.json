@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_back_pain_008",
+  "scenario": "back_pain",
+  "persona": "chen",
+  "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Clinical Note**\n\n**Chief Complaint:**  \nBack pain\n\n**History of Present Illness:**  \n29-year-old female with acute low back pain, left lumbar region, sharp with movement, dull at rest. Pain score 7/10 moving, 4/10 resting. Onset 5 days ago after lifting a heavy box. Worse with bending, prolonged standing, sneezing. Better lying flat, heat, ibuprofen. Tingling in right leg; denies numbness, weakness, bowel/bladder changes.\n\n**Review of Systems:**  \n- **Musculoskeletal:** Back pain, no other joint issues.  \n- **Neurological:** Tingling right leg, no numbness, no weakness.  \n- **Constitutional:** No fever or weight loss.  \n- **GU:** Skipped.\n\n**Physical Exam:**  \n- **Vital Signs:** BP 128/82, HR 74, Temp 98.4\u00b0F, RR 14  \n- **Back:** Tenderness left L3-L5, muscle spasm, no midline tenderness.  \n- **Neurological:** Motor 5/5, sensory intact, reflexes 2+ symmetric. Gait antalgic but functional.  \n- **Abdomen:** Unremarkable.  \n- **Other systems:** WNL.\n\n**Assessment:**  \nAcute mechanical low back pain, lumbar strain (ICD-10: M54.5 missing).\n\n**Plan:**  \n- **Medications:** Ibuprofen, cyclobenzaprine for muscle spasms.  \n- **Activity Modification:** Avoid lifting >20 lbs, no prolonged sitting.  \n- **Physical Therapy:** Referral if pain improves in a week.  \n- **Heat/Ice Therapy:** As needed.  \n- **Red Flag Education:** Signs requiring urgent care discussed.  \n- **Follow-Up:** Return in 2 weeks if no improvement.\n\n**Documentation:**  \nTime Spent: 20 minutes.  \nBilling Level: 99214.",
+  "demographics": {
+    "age": 29,
+    "gender": "F",
+    "occupation": "graphic designer",
+    "name": "Emily Taylor"
+  },
+  "source_gold_note": "gold_back_pain_008",
+  "generated_at": "2026-02-14T02:49:15.023632",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 85,
+    "clarity": 80
+  }
+}

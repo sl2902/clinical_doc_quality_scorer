@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_htn_followup_000",
+  "scenario": "htn_followup",
+  "persona": "minimal",
+  "note_text": "**Patient:** Robert Chen\n**Age:** 42\n**Gender:** M\n**Occupation:** software engineer\n\n**Chief Complaint:**  \n- BP check\n\n**HPI:**  \n- 4 months on Lisinopril 10mg. BP avg 138/86. Good adherence. No side effects.\n\n**Physical Exam:**  \n- BP 142/88, HR 74. Overweight, alert.\n\n**Assessment:**  \n- Uncontrolled hypertension  \n- Overweight\n\n**Plan:**  \n- Increase Lisinopril to 20mg.  \n- Continue home BP monitoring.  \n- Lifestyle changes: DASH diet, exercise 5x/week.",
+  "demographics": {
+    "age": 42,
+    "gender": "M",
+    "occupation": "software engineer",
+    "name": "Robert Chen"
+  },
+  "source_gold_note": "gold_htn_followup_000",
+  "generated_at": "2026-02-14T02:49:57.710711",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 40
+  }
+}

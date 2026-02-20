@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_htn_followup_003",
+  "scenario": "htn_followup",
+  "persona": "brooks",
+  "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Chief Complaint:**  \nBP check\n\n**HPI:**  \nPt with hx of HTN on Lisinopril 10mg daily for 4 months, adherent, no SE. Home BP avg 138/86, not at goal. Active, reducing Na intake, drinks 2-3 beers on weekends. No headaches, CP, palpitations, dizziness, or ED.\n\n**ROS:**  \nNo wt changes, fever, CP, SOB, dizziness, GI sx. No ED.\n\n**Physical Exam:**  \nBP 142/88 (R), 140/86 (L), HR 74, Wt 192 lbs, BMI 28.3. Gen: Alert, overweight. CV: RRR, no murmurs. Resp: Clear. Ext: No edema. Eyes: No papilledema.\n\n**Assessment/Plan:**  \n1. Uncontrolled HTN: Increase Lisinopril to 20mg daily, continue home BP monitoring, lifestyle changes advised.  \n2. Overweight: Aim for 10 lb wt loss over 3 months.  \n3. Hyperlipidemia: Recheck labs in 6 months, consider statin if needed.  \n4. Sexual health discussed, no current issues.\n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "source_gold_note": "gold_htn_followup_003",
+  "generated_at": "2026-02-14T02:50:15.424360",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 75
+  }
+}

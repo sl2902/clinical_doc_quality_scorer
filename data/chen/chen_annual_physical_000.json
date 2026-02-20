@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_annual_physical_000",
+  "scenario": "annual_physical",
+  "persona": "chen",
+  "note_text": "**Patient:** Robert Chen\n**Age:** 42\n**Gender:** M\n**Occupation:** software engineer\n\n**Chief Complaint:**  \nAnnual physical examination.\n\n**History of Present Illness:**  \nPatient here for routine check-up. Reports feeling generally well, no acute issues. Has history of mild hypertension, controlled with meds. No recent hospital visits.\n\n**Review of Systems:**  \n- **Constitutional:** No fever or weight change. Energy level stable.  \n- **Cardiovascular/Respiratory:** No chest pain, no palpitations, no shortness of breath.  \n- **GI/GU:** No abdominal discomfort, regular bowel habits. No urinary issues reported.  \n- **Musculoskeletal/Neurological:** Active, no joint pain. No headaches or dizziness.  \n- **Psychiatric:** Mood is good, sleeps well.  \n- **Skin:** Denies rashes or moles.\n\n**Past Medical History:**  \n- Hypertension, mild, well-managed.\n\n**Medications:**  \n- Lisinopril, Multivitamin, Calcium + Vitamin D.\n\n**Allergies:**  \n- Penicillin (rash).\n\n**Family History:**  \n- Father had colon cancer at 65. Mother has hypertension. Sister healthy.\n\n**Social History:**  \n- Married, software engineer, moderate alcohol use, non-smoker.\n\n**Physical Examination:**  \n- **Vitals:** BP 122/76, HR 68, Temp 98.2\u00b0F.  \n- **General:** Appears well, no distress.  \n- **HEENT:** Normocephalic, clear oropharynx.  \n- **Cardiovascular:** RRR, no murmurs.  \n- **Respiratory:** Clear lungs, good air movement.  \n- **Abdomen:** Soft, no tenderness.  \n- **Neurological:** Alert, oriented, CN II-XII intact.  \n- **Psychiatric:** Appropriate affect.  \n- **Musculoskeletal:** Unremarkable.\n\n**Assessment and Plan:**  \n- **Preventive Health Exam:**  \n  - Labs: Lipid panel, glucose, TSH, CBC ordered.  \n  - Influenza vaccine given, COVID booster discussed.  \n- **Hypertension:**  \n  - Continue Lisinopril. Monitor BP at home.  \n  - Check renal function today.  \n- **Lifestyle:**  \n  - Maintain diet and exercise.  \n  - Alcohol intake within limits.\n\n**Medical Decision Making:**  \nPreventive care visit with screenings per guidelines. Cardiovascular risk evaluated, <5% 10-year ASCVD risk. Discussed lifestyle and diet adherence.\n\n**Time Spent:**  \n40 minutes face-to-face.",
+  "demographics": {
+    "age": 42,
+    "gender": "M",
+    "occupation": "software engineer",
+    "name": "Robert Chen"
+  },
+  "source_gold_note": "gold_annual_physical_000",
+  "generated_at": "2026-02-14T02:32:49.870273",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 80,
+    "clarity": 88
+  }
+}

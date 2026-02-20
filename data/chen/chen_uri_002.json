@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_uri_002",
+  "scenario": "uri",
+  "persona": "chen",
+  "note_text": "**Patient:** James Wilson\n**Age:** 38\n**Gender:** M\n**Occupation:** warehouse worker\n\n**Chief Complaint:**  \nCough and congestion for 5 days\n\n**History of Present Illness:**  \nCough for 5 days, productive, worse in the morning. Nasal congestion with clear discharge. Sore throat and mild headache. No fever, denies SOB or chest pain. Mild sinus pressure, worse AM and PM. No meds taken.\n\n**Review of Systems:**  \n- **HEENT:** Nasal congestion, clear rhinorrhea, sore throat, mild headache.  \n- **Respiratory/Cardiovascular:** Productive cough, no SOB, no chest pain.  \n- **GI/Neuro:** No nausea, no vomiting, no dizziness.  \n- **Skin:** No rashes.\n\n**Physical Examination:**  \n- **Vital Signs:** T 98.9\u00b0F, HR 76 bpm, BP 118/72 mmHg, RR 14, O2 Sat 99%.  \n- **HEENT:** Nasal mucosa congested, clear discharge; pharynx mildly red, no exudates.  \n- **Respiratory:** Clear lungs bilaterally.  \n- **Cardiovascular:** Regular rhythm, no murmurs.  \n- **General/Neck:** Alert, no distress, neck supple.\n\n**Assessment and Plan:**  \n- **Diagnosis:** Acute viral URI with mild sinusitis.  \n- **Plan:**  \n  - Rest, fluids, humidifier use.  \n  - Pseudoephedrine for congestion, dextromethorphan for cough.  \n  - Educated on viral nature, no antibiotics needed. Discussed symptom duration of 7-10 days.  \n  - Return if fever >102\u00b0F, SOB, or symptoms >10 days.\n\n**Social History:**  \n- Non-smoker, social drinker, lives with family.\n\n**Time Spent:**  \nApprox. 15 minutes on history, exam, and counseling.",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "source_gold_note": "gold_uri_002",
+  "generated_at": "2026-02-14T02:53:13.950338",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 80,
+    "risk": 85,
+    "clarity": 88
+  }
+}

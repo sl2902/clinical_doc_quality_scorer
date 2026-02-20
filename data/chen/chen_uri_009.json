@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_uri_009",
+  "scenario": "uri",
+  "persona": "chen",
+  "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**  \nCough and congestion lasting 10 days.\n\n**History of Present Illness:**  \nReported a 10-day history of cough, productive, worsening in the morning. Congestion present, nasal discharge changed from clear to yellow. Symptoms started after exposure to cold weather. No significant fever or shortness of breath.\n\n**Review of Systems:**  \n- **Constitutional:** Fatigue, afebrile.  \n- **HEENT/Respiratory:** Congestion, purulent discharge, sore throat, productive cough. No ear pain.  \n- **Cardiovascular/Gastrointestinal:** No chest pain or GI symptoms.  \n- **Musculoskeletal/Neurological:** No joint pain, dizziness.  \n- **Psychiatric:** Anxiety/depression not noted.\n\n**Physical Examination:**  \n- **Vital Signs:** Temp 98.9\u00b0F, HR 76 bpm, BP 118/72 mmHg, RR 14, O2 Sat 99% on RA.  \n- **HEENT:** Nasal mucosa congested, purulent discharge noted. Pharynx mildly erythematous.  \n- **Lungs:** Clear bilaterally.  \n- **Cardiovascular:** Regular rhythm, no murmurs.  \n- **Neck:** Grossly intact.\n\n**Assessment and Plan:**  \n- **Assessment:**  \n  - Acute upper respiratory infection with suspected bacterial complication.  \n\n- **Plan:**  \n  - **Symptomatic Treatment:** Recommend pseudoephedrine for congestion, dextromethorphan for cough relief.  \n  - **Antibiotics:** Start Amoxicillin, three times daily.  \n  - **Supportive Care:** Advise rest, fluids, and humidifier use.  \n  - **Follow-up:** Return if symptoms worsen or no improvement in a few days.  \n  - **Patient Education:** Discussed infection nature and hygiene importance.\n\n**Time Spent:** Approx. 15 mins on consultation.",
+  "demographics": {
+    "age": 39,
+    "gender": "F",
+    "occupation": "project manager",
+    "name": "Sarah Johnson"
+  },
+  "source_gold_note": "gold_uri_009",
+  "generated_at": "2026-02-14T02:54:03.476332",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 85,
+    "compliance": 78,
+    "risk": 80,
+    "clarity": 84
+  }
+}

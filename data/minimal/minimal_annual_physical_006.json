@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_annual_physical_006",
+  "scenario": "annual_physical",
+  "persona": "minimal",
+  "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Chief Complaint:**  \n- Annual physical\n\n**HPI:**  \n- Feels well, no new issues. Mild hypertension, stable on meds.\n\n**Physical Exam:**  \n- **Vitals:** BP 132/84, HR 68, Temp 98.2\u00b0F  \n- Well-appearing, no distress.\n\n**Assessment:**  \n- Health maintenance  \n- Controlled hypertension\n\n**Plan:**  \n- Screen labs: Lipids, glucose, TSH.  \n- Mammogram today. Monitor BP at home.",
+  "demographics": {
+    "age": 28,
+    "gender": "F",
+    "occupation": "registered nurse",
+    "name": "Maria Garcia"
+  },
+  "source_gold_note": "gold_annual_physical_006",
+  "generated_at": "2026-02-14T02:47:51.350135",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 50
+  }
+}

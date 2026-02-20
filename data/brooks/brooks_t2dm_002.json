@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_t2dm_002",
+  "scenario": "t2dm",
+  "persona": "brooks",
+  "note_text": "**Patient:** James Wilson\n**Age:** 38\n**Gender:** M\n**Occupation:** warehouse worker\n\n**Chief Complaint:**  \nDiabetes f/u\n\n**HPI:**  \nPt with 3-yr hx of Type 2 DM, last HbA1c 7.8% (improved from 8.2%). Home glucose 160-250 mg/dL. On Metformin 1000mg BID, some GI upset. Controlled HTN on Lisinopril, hyperlipidemia on Atorvastatin. Sedentary, drinks soda, portion control issues. Occasional ED.\n\n**ROS:**  \nNo fever, chills, fatigue. No polyuria, tingling feet. No chest pain, SOB. Occasional GI upset, ED.\n\n**Physical Exam:**  \nVS: BP 128/78, HR 78, Temp 98.6\u00b0F, BMI 32.4  \nGen: Alert, obese  \nCV: RRR, 2+ pulses  \nResp: CTA bilat  \nExt: Sensation intact, skin intact, WNL\n\n**Assessment/Plan:**  \n1. Type 2 DM, add Semaglutide, cont Metformin, HbA1c in 3 mos, nutrition counseling, lifestyle mods.  \n2. Obesity: Lifestyle mods, weight loss goal.  \n3. HTN: Cont Lisinopril.  \n4. Hyperlipidemia: Cont Atorvastatin.  \n5. Complications: Annual kidney tests, eye exam referral.  \n6. ED: Improve with glucose control, consider PDE5 inhibitors.  \n7. Vaccinations: Ensure flu, check pneumococcal.\n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "source_gold_note": "gold_t2dm_002",
+  "generated_at": "2026-02-14T02:51:35.219643",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 74
+  }
+}

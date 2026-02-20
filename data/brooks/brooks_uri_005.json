@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_uri_005",
+  "scenario": "uri",
+  "persona": "brooks",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Chief Complaint:**  \nCough and congestion\n\n**HPI:**  \nPt with mild cough, nasal congestion, clear rhinorrhea, sore throat, mild headache, fatigue. No fever >102\u00b0F, SOB, or CP.\n\n**ROS:**  \nFatigue, congestion, cough, sore throat, headache. No fever, SOB, CP, GI issues, skin rashes.\n\n**Physical Exam:**  \nTemp 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99%. Alert, HEENT congestion, throat red, lungs clear, heart RRR.\n\n**Assessment:**  \nViral URI, mild\n\n**Plan:**  \nSupportive care, symptomatic tx with pseudoephedrine, dextromethorphan. RTC PRN",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_uri_005",
+  "generated_at": "2026-02-14T02:53:36.749280",
+  "ground_truth_scores": {
+    "completeness": 70,
+    "accuracy": 85,
+    "compliance": 65,
+    "risk": 60,
+    "clarity": 75
+  }
+}

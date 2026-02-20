@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_back_pain_000",
+  "scenario": "back_pain",
+  "persona": "brooks",
+  "note_text": "**Patient:** Robert Chen\n**Age:** 42\n**Gender:** M\n**Occupation:** software engineer\n\n**CC:** Back pain\n\n**HPI:** Acute LBP, left lumbar, sharp with mvmt, dull at rest. Started after lifting. No leg radiation, neuro sx, or bowel/bladder changes.\n\n**ROS:** Neg constitutional, neg neuro sx, neg GU issues.\n\n**PE:** Vitals WNL. Tender L3-L5, limited ROM. Neuro WNL, neg SLR. Gait antalgic.\n\n**Assessment/Plan:** Acute lumbar strain. No imaging, conservative mgmt. Ibuprofen, cyclobenzaprine for spasm. Avoid heavy lifting, modify activity. Heat/ice therapy. PT referral. \n\n**Follow-up:** RTC PRN",
+  "demographics": {
+    "age": 42,
+    "gender": "M",
+    "occupation": "software engineer",
+    "name": "Robert Chen"
+  },
+  "source_gold_note": "gold_back_pain_000",
+  "generated_at": "2026-02-14T02:48:08.962997",
+  "ground_truth_scores": {
+    "completeness": 70,
+    "accuracy": 85,
+    "compliance": 65,
+    "risk": 75,
+    "clarity": 80
+  }
+}

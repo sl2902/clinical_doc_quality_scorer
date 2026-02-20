@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_back_pain_006",
+  "scenario": "back_pain",
+  "persona": "minimal",
+  "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Chief Complaint:**  \n- Severe back pain\n\n**HPI:**  \n- 2 weeks of sharp lumbar pain, started after lifting at work. Radiates to left leg. Worse with movement, better with heat and ibuprofen.\n\n**Physical Exam:**  \n- Vitals: BP 128/82, HR 74, Temp 98.4\u00b0F, RR 14  \n- Tender L3-L5, muscle spasm. Limited ROM. Positive straight leg raise left.\n\n**Assessment:**  \n- Acute low back pain, lumbar strain with radiculopathy\n\n**Plan:**  \n- Continue ibuprofen. Start Cyclobenzaprine. Activity modification. PT referral. Heat/ice therapy. Follow up if no improvement.",
+  "demographics": {
+    "age": 28,
+    "gender": "F",
+    "occupation": "registered nurse",
+    "name": "Maria Garcia"
+  },
+  "source_gold_note": "gold_back_pain_006",
+  "generated_at": "2026-02-14T02:48:57.956473",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 50
+  }
+}

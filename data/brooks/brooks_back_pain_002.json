@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_back_pain_002",
+  "scenario": "back_pain",
+  "persona": "brooks",
+  "note_text": "**Patient:** James Wilson\n**Age:** 38\n**Gender:** M\n**Occupation:** warehouse worker\n\n**Chief Complaint:**  \nBack pain  \n\n**HPI:**  \nPt with acute low back pain, left side, sharp with movement, dull at rest. Started after lifting at work. No leg radiation, numbness, or bowel/bladder issues.  \n\n**ROS:**  \nBack pain, no other joint pain. No leg weakness, numbness. No fever/chills.  \n\n**Physical Exam:**  \nVS: BP 128/82, HR 74, Temp 98.4, RR 14.   \nBack: Tender L3-L5, muscle spasm. ROM limited. Neuro: Strength/sensation WNL, gait antalgic. Abd: Soft, non-tender.  \n\n**Assessment/Plan:**  \nAcute mechanical low back pain, lumbar strain.  \n- Ibuprofen 600mg TID, Cyclobenzaprine 5mg QHS  \n- Avoid heavy lifting, prolonged sitting. Light duty okay.  \n- PT for core strengthening. Heat/ice therapy.  \n- Educate on red flags.  \n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "source_gold_note": "gold_back_pain_002",
+  "generated_at": "2026-02-14T02:48:37.428744",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 74
+  }
+}

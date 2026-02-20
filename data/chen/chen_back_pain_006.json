@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_back_pain_006",
+  "scenario": "back_pain",
+  "persona": "chen",
+  "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Clinical Note**\n\n**Chief Complaint:**  \nBack pain for 2 weeks, severe\n\n**History of Present Illness:**  \nSevere low back pain on the left side, lasting 2 weeks. Sharp pain with movement, dull ache at rest. Rated 9/10 with movement, 6/10 at rest. Worse in the morning, after sitting long. Started after lifting a heavy box at work. Pain worsens with bending, prolonged standing, sneezing. Relieved by lying flat, heat, ibuprofen. Left leg pain noted, no numbness or bowel/bladder issues.\n\n**Review of Systems:**  \n- **Musculoskeletal:** Severe back pain, no other joint issues.  \n- **Neurological:** Left leg pain, no numbness or weakness.  \n- **Constitutional/General:** No fever, chills, weight loss.  \n- **GU:** Normal function, no retention or incontinence.\n\n**Physical Examination:**  \n- **Back:** Tenderness left L3-L5, muscle spasm, no midline tenderness. ROM limited due to pain.  \n- **Neurological:**  \n  * Straight leg raise positive on left.  \n  * Motor strength 5/5 in lower extremities.  \n  * Sensory: Intact.  \n  * Reflexes: Normal.  \n- **General/Other Systems:** Unremarkable.\n\n**Assessment and Plan:**  \n- **Assessment:** Acute mechanical low back pain with radiculopathy.  \n- **Plan:**  \n  * Conservative treatment, no imaging now.  \n  * Continue Ibuprofen. Start muscle relaxant at night for a few days.  \n  * Modify activities: Avoid heavy lifting, limit sitting.  \n  * Physical therapy referral for core strengthening.  \n  * Heat/ice therapy advised.  \n  * Educated on red flags for immediate care.  \n  * Follow-up in 2 weeks if not improving, sooner if symptoms worsen.\n\n**Time Spent:**  \n20 minutes\n\n**Billing Level:**  \n99214\n\n**Medical Decision Making:**  \nComprehensive evaluation of symptoms and risk factors. No red flags identified. Conservative management plan based on guidelines. Educated on expected recovery and red flag symptoms.",
+  "demographics": {
+    "age": 28,
+    "gender": "F",
+    "occupation": "registered nurse",
+    "name": "Maria Garcia"
+  },
+  "source_gold_note": "gold_back_pain_006",
+  "generated_at": "2026-02-14T02:49:59.287494",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 80,
+    "clarity": 88
+  }
+}

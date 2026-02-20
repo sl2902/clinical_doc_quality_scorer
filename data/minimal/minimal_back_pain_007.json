@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_back_pain_007",
+  "scenario": "back_pain",
+  "persona": "minimal",
+  "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n- **Chief Complaint:** Back pain  \n- **HPI:** Acute low back pain, started after lifting. Sharp with movement, dull at rest.  \n- **Physical Exam:** BP 128/82, HR 74, Temp 98.4\u00b0F. Tender L3-L5, limited ROM.  \n- **Assessment:** Acute mechanical low back pain  \n- **Plan:** Ibuprofen, avoid heavy lifting, PT referral if no improvement.",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "source_gold_note": "gold_back_pain_007",
+  "generated_at": "2026-02-14T02:49:11.529699",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 50
+  }
+}

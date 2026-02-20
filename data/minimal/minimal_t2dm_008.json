@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_t2dm_008",
+  "scenario": "t2dm",
+  "persona": "minimal",
+  "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Chief Complaint:**  \n- Diabetes follow-up\n\n**HPI:**  \n- Type 2 DM, 3 yrs, uncontrolled HbA1c 8.5%. On Metformin. Reports fasting glucose 160-220, postprandial 180-250. Occasional foot tingling, tolerates meds.\n\n**Physical Exam:**  \n- BP 128/78, HR 78, BMI 32.4  \n- Alert, obese, feet exam normal\n\n**Assessment:**  \n- Uncontrolled Type 2 Diabetes  \n- Obesity\n\n**Plan:**  \n- Add Semaglutide, continue Metformin.  \n- Lifestyle: Cut soda, increase activity 150 min/wk. Referral for nutrition.",
+  "demographics": {
+    "age": 29,
+    "gender": "F",
+    "occupation": "graphic designer",
+    "name": "Emily Taylor"
+  },
+  "source_gold_note": "gold_t2dm_008",
+  "generated_at": "2026-02-14T02:52:54.457879",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 40
+  }
+}

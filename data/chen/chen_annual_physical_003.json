@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_annual_physical_003",
+  "scenario": "annual_physical",
+  "persona": "chen",
+  "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Clinical Note**\n\n**Chief Complaint:** Annual physical examination\n\n**History of Present Illness:**\nThe patient presents for routine annual check-up. Generally feels well, but mentions occasional fatigue. Attributes tiredness to job stress. No major health changes last year. Has mild hypertension, stable on medication. No acute issues reported.\n\n**Review of Systems:**\n- **Constitutional:** Occasionally tired. No fever or weight loss.\n- **Eyes/Ears/Throat:** Vision stable, wears reading glasses. No hearing loss.\n- **Cardiovascular/Respiratory:** No chest pain, palpitations, cough, or SOB.\n- **Gastrointestinal/Genitourinary:** Normal bowel/urinary habits. No abdominal pain.\n- **Musculoskeletal/Neurological:** No joint pain. No headaches, dizziness.\n- **Psychiatric/Endocrine/Skin:** Mood stable, no rash, no heat/cold intolerance.\n\n**Current Medications:**\n- Lisinopril, multivitamin, calcium/vitamin D\n\n**Family History:**\n- Mother, hypertension. Father, colon cancer. Sister healthy.\n\n**Physical Examination:**\n- **Vital Signs:** BP 122/76, HR 68, Temp 98.2\u00b0F\n- **General:** Well-appearing, pleasant\n- **HEENT:** PERRLA, EOMI\n- **Cardiovascular:** Regular rhythm, no murmurs\n- **Respiratory:** Clear auscultation\n- **Abdomen:** Soft, normoactive bowel sounds\n- **Musculoskeletal:** Full ROM\n- **Skin:** No lesions\n\n**Assessment and Plan:**\n- **Hypertension:** Continue current meds, monitor BP at home.\n- **Health Maintenance:** Order labs (lipid panel, glucose, TSH, CBC). Discuss colonoscopy due to family history.\n- **Fatigue:** Consider vitamin D supplementation.\n- **Lifestyle:** Continue diet and exercise. \n- **Preventive Counseling:** Sun protection discussed, vaccine updates offered.\n\n**Medical Decision Making:**\nPreventive care visit with labs ordered to evaluate fatigue. Discussed family history of colon cancer. Recommendations provided for lifestyle maintenance.\n\n**Time Spent:** Approximately 40 minutes",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "source_gold_note": "gold_annual_physical_003",
+  "generated_at": "2026-02-14T02:47:45.823056",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 85,
+    "clarity": 88
+  }
+}

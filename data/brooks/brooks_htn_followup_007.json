@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_htn_followup_007",
+  "scenario": "htn_followup",
+  "persona": "brooks",
+  "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Clinical Note**\n\n**CC:** BP check.\n\n**HPI:** Pt here for HTN f/u. On Lisinopril 10mg, occasionally misses doses. Home BP avg 138/86. Walks 3x/week, reducing sodium, drinks 2-3 beers on weekends. No headaches, chest pain, or dizziness.\n\n**ROS:** No fatigue, weight change, CP, SOB, HA, or dizziness. Regular menses.\n\n**PE:** BP 142/88, HR 74, BMI 28.3. Gen: Alert, overweight. CV: RRR, no murmurs. Resp: Clear. Ext: No edema. WNL.\n\n**Assessment/Plan:**\n1. HTN, uncontrolled. Inc Lisinopril to 20mg. Cont home BP monitoring, lifestyle mods.\n2. Overweight. Encourage wt loss.\n3. Labs in 6 months; consider statin if needed.\n4. Contraception discussed.\n\n**F/U:** RTC PRN.",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "source_gold_note": "gold_htn_followup_007",
+  "generated_at": "2026-02-14T02:50:41.740880",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 85,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 78
+  }
+}

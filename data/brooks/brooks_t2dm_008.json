@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_t2dm_008",
+  "scenario": "t2dm",
+  "persona": "brooks",
+  "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Chief Complaint:**  \nDiabetes f/u\n\n**HPI:**  \nPt with 3-yr hx of Type 2 DM, uncontrolled, HbA1c 8.5%. On Metformin 1000mg BID. Fasting BG 160-220, postprandial 180-250. Reports GI upset, no hypoglycemia. Sedentary, drinks soda daily, occasional foot tingling.\n\n**ROS:**  \nNo wt loss, visual changes, polyuria. Occasional foot tingling. No skin changes.\n\n**Physical Exam:**  \nVS: BP 128/78, HR 78, BMI 32.4. Gen: Obese, pleasant. CV: RRR, pulses 2+. Resp: CTA. Ext: Sensation intact, no edema. Feet: WNL.\n\n**Assessment/Plan:**  \n1. Uncontrolled Type 2 DM: Add Semaglutide, cont Metformin. HbA1c in 3 mos. Lifestyle mods - diet, exercise.  \n2. Obesity: Address with DM plan.  \n3. Controlled HTN: Cont Lisinopril.  \n4. Hyperlipidemia: Cont Atorvastatin.  \n5. Preventive: Order BMP, eye exam, vax check.  \n6. Pregnancy planning: Discuss contraception, preconception if planning.\n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 29,
+    "gender": "F",
+    "occupation": "graphic designer",
+    "name": "Emily Taylor"
+  },
+  "source_gold_note": "gold_t2dm_008",
+  "generated_at": "2026-02-14T02:52:19.234341",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 68
+  }
+}

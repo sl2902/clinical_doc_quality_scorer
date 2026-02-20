@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_htn_followup_004",
+  "scenario": "htn_followup",
+  "persona": "chen",
+  "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \nFollow-up for blood pressure management.\n\n**History of Present Illness:**  \n47-year-old male with hypertension, here for follow-up. Initiated on Lisinopril 10mg daily 4 months ago. Takes meds daily, no missed doses, no side effects. Home BP averages 138/86 mmHg. Not at goal <130/80 mmHg. Walks 3x/week, reducing salt, drinks 2-3 beers/weekends. No headaches, chest pain, dizziness, or leg swelling noted.\n\n**Review of Systems:**  \n- Cardiovascular: Denies chest pain, palpitations.  \n- Neurological: No headaches or dizziness.  \n- Respiratory/GU/Constitutional: No cough, SOB, fever, weight change.  \n- Genitourinary: [System Skipped]\n\n**Physical Examination:**  \n- **Vital Signs:** BP 142/88 mmHg right arm, HR 74, BMI 28.3  \n- **General:** Well-appearing, overweight  \n- **Cardiovascular:** Regular rate/rhythm, peripheral pulses 2+  \n- **Respiratory/Extremities:** Unremarkable  \n- **Fundoscopic Exam:** WNL  \n\n**Assessment:**  \n1. **Uncontrolled Hypertension**  \n   - Blood pressure not at target despite adherence.\n\n2. **Overweight**  \n   - Addressed with patient.\n\n3. **Sexual Health Consideration**  \n   - Discussed potential side effects of meds.\n\n**Plan:**  \n- Increase Lisinopril.  \n- Continue home BP monitoring.  \n- Lifestyle: DASH diet, reduce sodium, limit alcohol, increase exercise.  \n- Follow-up in 6-8 weeks to assess response.  \n- Weight loss goal: 10 lbs in 3 months.  \n- Labs in 6 months: BMP, lipid panel.\n\n**Documentation:**  \nTime spent counseling lifestyle changes.  \nBilling Level: 99214 (moderate complexity).",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "source_gold_note": "gold_htn_followup_004",
+  "generated_at": "2026-02-14T02:50:27.303867",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 80,
+    "risk": 85,
+    "clarity": 88
+  }
+}

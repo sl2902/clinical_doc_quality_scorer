@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_t2dm_007",
+  "scenario": "t2dm",
+  "persona": "minimal",
+  "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Clinical Note**\n\n- **CC:** Diabetes follow-up  \n- **HPI:** Type 2 DM, 3 yrs. HbA1c now 7.8%. Glucose 160-250. Metformin ok, some GI upset.  \n- **PE:** BP 128/78, HR 78. Feet intact, no edema.  \n- **Assessment:** Type 2 DM, Obesity, Retinopathy  \n- **Plan:** Start Semaglutide, continue Metformin. HbA1c in 3 mos. Diet/exercise changes. Ophthalmology referral.",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "source_gold_note": "gold_t2dm_007",
+  "generated_at": "2026-02-14T02:52:31.736170",
+  "ground_truth_scores": {
+    "completeness": 30,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 50
+  }
+}

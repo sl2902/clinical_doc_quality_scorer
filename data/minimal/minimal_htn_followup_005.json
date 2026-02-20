@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_htn_followup_005",
+  "scenario": "htn_followup",
+  "persona": "minimal",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Chief Complaint:**  \nBP check  \n\n**HPI:**  \nHx of HTN. On Lisinopril 10mg. BP at home avg 138/86.  \n\n**Physical Exam:**  \n- BP: 142/88, 140/86  \n- HR: 74  \n- Alert, overweight  \n\n**Assessment:**  \n- Uncontrolled HTN  \n- Overweight  \n\n**Plan:**  \n- Increase Lisinopril to 20mg  \n- Monitor BP, lifestyle changes",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_htn_followup_005",
+  "generated_at": "2026-02-14T02:50:28.634457",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 40
+  }
+}

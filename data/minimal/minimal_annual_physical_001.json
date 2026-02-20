@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_annual_physical_001",
+  "scenario": "annual_physical",
+  "persona": "minimal",
+  "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Chief Complaint:**  \nAnnual physical  \n\n**HPI:**  \nNo acute complaints. Mild hypertension, BP elevated today.  \n\n**Physical Exam:**  \n- **Vital Signs:** BP 132/84, HR 68  \n- Well-appearing, no distress  \n\n**Assessment:**  \n- Essential hypertension  \n\n**Plan:**  \n- Consider increasing Lisinopril if BP stays high.  \n- Home BP monitoring advised.  \n- Annual labs ordered: renal function, electrolytes.",
+  "demographics": {
+    "age": 51,
+    "gender": "M",
+    "occupation": "sales manager",
+    "name": "David Kim"
+  },
+  "source_gold_note": "gold_annual_physical_001",
+  "generated_at": "2026-02-14T02:47:34.918709",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 50
+  }
+}

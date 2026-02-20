@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_back_pain_006",
+  "scenario": "back_pain",
+  "persona": "brooks",
+  "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Chief Complaint:**  \nBack pain, severe, 2 weeks.\n\n**HPI:**  \nPt c/o severe LBP, sharp w/ movement, dull at rest. Onset after lifting at work. Pain radiates to L leg, no numbness/tingling. Ibuprofen helps.\n\n**ROS:**  \nMusculoskeletal: LBP, radiculopathy. Neuro: No weakness/numbness. Constitutional/GU: No fever, normal bowel/bladder.\n\n**Physical Exam:**  \nVS: BP 128/82, HR 74, Temp 98.4, RR 14.  \nBack: Tender L3-L5, muscle spasm. Neuro: +SLR L, motor/sensory WNL, reflexes 2+. Gait antalgic.\n\n**Assessment/Plan:**  \nAcute mech LBP, lumbar strain w/ L radiculopathy. Continue ibuprofen, add cyclobenzaprine HS. Avoid heavy lifting, PT referral. Heat/ice therapy. RTC PRN.",
+  "demographics": {
+    "age": 28,
+    "gender": "F",
+    "occupation": "registered nurse",
+    "name": "Maria Garcia"
+  },
+  "source_gold_note": "gold_back_pain_006",
+  "generated_at": "2026-02-14T02:48:55.350227",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 80,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 75
+  }
+}

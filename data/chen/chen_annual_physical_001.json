@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_annual_physical_001",
+  "scenario": "annual_physical",
+  "persona": "chen",
+  "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Clinical Note**\n\n**Chief Complaint:**  \nAnnual physical exam\n\n**History of Present Illness:**  \nThe patient presents for their annual exam, reporting no acute issues. Energy levels are satisfactory. History of mild hypertension, on Lisinopril, with today's blood pressure higher than usual. No hospital visits or new health problems since last year.\n\n**Review of Systems:**  \n- **Constitutional:** No fever, weight stable.  \n- **Eyes/ENT:** No changes in vision or hearing; denies sinus issues.  \n- **Cardiovascular/Respiratory:** No chest pain, palpitations; denies cough, SOB.  \n- **Gastrointestinal:** Regular bowel movements, no abdominal pain or blood in stool.  \n- **Genitourinary/Musculoskeletal:** No urinary issues or joint pain.  \n- **Neurological/Psychiatric:** No headaches; mood stable.  \n- **Endocrine/Skin:** No intolerance to temperature changes, skin WNL.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 132/84 mmHg, HR 68, Temp 98.2\u00b0F, O2 sat 99%.  \n- **General:** Well-appearing, no distress.  \n- **HEENT:** Normocephalic, PERRLA, EOMI.  \n- **Neck:** Supple, no lymphadenopathy.  \n- **Cardiovascular:** Regular rhythm, no abnormal sounds.  \n- **Respiratory:** Clear lungs, symmetric expansion.  \n- **Abdomen:** Soft, non-tender, normoactive bowel sounds.  \n- **Musculoskeletal:** Full ROM, no joint swelling.  \n- **Neurological:** Alert, oriented, reflexes normal.  \n- **Skin:** No concerning lesions.  \n- **Psychiatric:** Appropriate affect.\n\n**Assessment and Plan:**  \n- **Essential hypertension:** Elevated BP noted. Consider increasing Lisinopril if BP remains high. Home monitoring advised.  \n- **Health maintenance:**  \n  - Labs: Lipid profile, glucose, TSH, CBC ordered.  \n  - Vaccinations: Flu shot given.  \n  - Discussed colon cancer screening due to family history; colonoscopy not due yet.  \n  - Lifestyle: Continue current diet and exercise.\n\n**Follow-up:**  \n- Return in 6 months for BP reassessment, sooner if issues arise.  \n- Call with any questions.\n\n**Patient Education:**  \n- Discussed cardiovascular health and preventive care strategies. Provided written materials on maintaining a healthy lifestyle. \n\n**Documentation:**  \n- Time spent: Approximately 40 minutes.  \n- Billing Level: 99396\n\n(Note: Past Medical History section omitted per documentation style guidelines.)",
+  "demographics": {
+    "age": 51,
+    "gender": "M",
+    "occupation": "sales manager",
+    "name": "David Kim"
+  },
+  "source_gold_note": "gold_annual_physical_001",
+  "generated_at": "2026-02-14T02:47:41.180646",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 78,
+    "clarity": 85
+  }
+}

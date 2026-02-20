@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_back_pain_002",
+  "scenario": "back_pain",
+  "persona": "chen",
+  "note_text": "**Patient:** James Wilson\n**Age:** 38\n**Gender:** M\n**Occupation:** warehouse worker\n\n**Chief Complaint:**  \nBack pain\n\n**History of Present Illness:**  \nPatient presents with acute low back pain, left-sided, lumbar area. Pain is sharp with movement, dull ache at rest. Severity mild, 4/10 with movement, 2/10 at rest. Began 1 day ago, lifting a box at work. Worse in the morning, after sitting. Eased by lying flat, heat, ibuprofen. No leg symptoms or bowel/bladder issues.\n\n**Review of Systems:**  \n- **Musculoskeletal:** Back pain as described, no other joint pain.  \n- **Neurological/Constitutional/GU:** Denies leg weakness, numbness, fever, chills, urinary issues.\n\n**Allergies:**  \nNo known drug allergies.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/82, HR 74, Temp 98.4\u00b0F  \n- **Back:** Tender over left lumbar area, muscle spasm noted. Limited ROM.  \n- **Neurological:** Grossly intact, SLR negative.  \n- **Abdomen:** Unremarkable  \n- **Gait:** Antalgic, able to heel/toe walk.\n\n**Assessment:**  \nAcute mechanical low back pain, lumbar strain. No radiculopathy.\n\n**Plan:**  \n- **Conservative management:** Ibuprofen and muscle relaxant prescribed.  \n- **Activity modification:** No heavy lifting, avoid prolonged sitting, light duty work as tolerated.  \n- **Therapies:** Heat/ice recommended.  \n- **Physical therapy:** Referral for core strengthening.  \n- **Follow-up:** Return if no improvement or worsening.  \n- **Education:** Red flags to watch for, such as leg weakness or bowel issues.  \n\n**Social History:**  \nOmitted.\n\n**Time Spent:**  \nIncluded in overall assessment.\n\n**Billing Level:**  \n99214 (moderate complexity)\n\n**Medical Decision Making:**  \nFocused on mechanical low back pain, no imaging needed now. Discussed natural history and activity guidelines with patient.",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "source_gold_note": "gold_back_pain_002",
+  "generated_at": "2026-02-14T02:48:39.864632",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 80,
+    "clarity": 85
+  }
+}

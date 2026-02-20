@@ -1,0 +1,20 @@
+{
+  "note_id": "gold_uri_003",
+  "scenario": "uri",
+  "persona": "gold",
+  "note_text": "**Patient Name:** Carlos Rodriguez  \n**Date of Visit:** [Insert Date]  \n**Age:** 33 years  \n**Gender:** Male  \n**Occupation:** Restaurant Manager  \n\n**Chief Complaint:**  \n\"Cough and congestion for 4 days\"\n\n**History of Present Illness:**  \nCarlos Rodriguez is a 33-year-old male who presents with a 4-day history of upper respiratory symptoms. The symptoms began with a productive cough and nasal congestion, accompanied by clear rhinorrhea. He reports a sore throat and mild headache, as well as fatigue. He denies any fever, with his temperature remaining below 100\u00b0F. He has no significant past medical history and has been otherwise healthy. He has no red flag symptoms such as high fever (over 102\u00b0F), shortness of breath, or chest pain. His symptom severity is mild.\n\n**Review of Systems:**  \n- **Constitutional:** Positive for fatigue. Negative for fever, chills, or weight changes.  \n- **HEENT:** Positive for nasal congestion, clear rhinorrhea, sore throat. Negative for ear pain, sinus pain.  \n- **Respiratory:** Positive for cough. Negative for shortness of breath, wheezing.  \n- **Cardiovascular:** Negative for chest pain, palpitations.  \n- **Gastrointestinal:** Negative for nausea, vomiting, diarrhea.  \n- **Neurological:** Positive for mild headache. Negative for dizziness, syncope.  \n\n**Past Medical History:**  \n- No significant medical history.\n\n**Medications:**  \n- None currently.\n\n**Allergies:**  \n- No known drug allergies.\n\n**Social History:**  \n- Occupation: Restaurant Manager.  \n- Denies smoking and illicit drug use. Consumes alcohol socially.\n\n**Physical Examination:**  \n- **Vital Signs:** Temperature 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 sat 99% on room air.  \n- **General:** Alert, in no acute distress.  \n- **HEENT:** Nasal mucosa congested with clear discharge. Pharynx mildly erythematous without exudates, no tonsillar enlargement.  \n- **Neck:** Supple, no cervical lymphadenopathy.  \n- **Lungs:** Clear to auscultation bilaterally, no wheezing, no rales.  \n- **Cardiovascular:** Regular rate and rhythm, no murmurs.  \n\n**Assessment and Plan:**  \n- **Diagnosis:** Acute viral upper respiratory infection (ICD-10: J06.9)\n- **Plan:**  \n  - **Supportive Care:** Encourage rest and increased fluid intake to 8 glasses daily. Recommend using a humidifier to ease symptoms.  \n  - **Symptomatic Treatment:**  \n    - Pseudoephedrine for nasal congestion.  \n    - Dextromethorphan for cough.  \n  - **Education:** Explained the viral nature of the infection and that antibiotics are not indicated. Discussed contagious period and importance of hand hygiene to prevent spread.  \n  - **Follow-up:** Return to clinic if symptoms worsen, if a fever over 102\u00b0F develops, if shortness of breath occurs, or if symptoms persist beyond 10 days.  \n  - **Expected Duration:** Symptoms are expected to resolve in 7-10 days.  \n\n**Time Spent:**  \nApproximately 15 minutes were spent on history taking, physical examination, and patient counseling.  \n\n**Billing Level:**  \n99213 (Established patient, low complexity, straightforward medical decision making)",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "generated_at": "2026-02-14T01:53:26.605929",
+  "ground_truth_scores": {
+    "completeness": 92,
+    "accuracy": 95,
+    "compliance": 90,
+    "risk": 93,
+    "clarity": 94
+  }
+}

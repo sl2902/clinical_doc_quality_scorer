@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_uri_000",
+  "scenario": "uri",
+  "persona": "chen",
+  "note_text": "**Patient:** Robert Chen\n**Age:** 42\n**Gender:** M\n**Occupation:** software engineer\n\n**Chief Complaint:**\n\nCough and congestion\n\n**History of Present Illness:**\n\nReports cough lasting 3 days, productive with clear mucus, mostly in the morning. Nasal congestion and clear runny nose noted. Sore throat and mild headache present. Fatigue but denies fever or chest pain. Symptoms mild, daily activities unaffected.\n\n**Review of Systems:**\n\n- **Constitutional:** No fever or chills.  \n- **HEENT/Respiratory:** Nasal congestion, clear discharge, sore throat, headache. Cough productive. No SOB or wheezing.\n- **Cardiovascular/Neurological:** No chest pain, dizziness, or confusion.\n- **Gastrointestinal/Musculoskeletal:** No nausea, vomiting, or diarrhea. No joint pain.\n\n**Physical Exam:**\n\n- **Vital Signs:** WNL\n- **HEENT:** Congested nasal mucosa, clear discharge. Mild throat redness.\n- **Lungs:** Clear bilaterally, no abnormal sounds.\n- **Cardiovascular:** Regular rhythm, no murmurs.\n- **Neck:** WNL\n- **General:** Alert, NAD.\n\n**Assessment and Plan:**\n\n- **Assessment:** Acute viral URTI\n- **Plan:**\n  - Rest, fluids, humidifier use recommended.\n  - Pseudoephedrine for congestion, dextromethorphan for cough.\n  - Educated on viral nature, no antibiotics needed.\n  - Return if symptoms worsen or persist >10 days.\n\n**Medications:**\n\nNone\n\n**Social History:**\n\nNon-smoker, occasional alcohol, no drugs\n\n**Time Spent:**\n\nApprox. 15 mins on consultation.",
+  "demographics": {
+    "age": 42,
+    "gender": "M",
+    "occupation": "software engineer",
+    "name": "Robert Chen"
+  },
+  "source_gold_note": "gold_uri_000",
+  "generated_at": "2026-02-14T02:52:54.860382",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 80,
+    "risk": 85,
+    "clarity": 88
+  }
+}

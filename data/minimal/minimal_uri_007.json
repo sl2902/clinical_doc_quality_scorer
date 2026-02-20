@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_uri_007",
+  "scenario": "uri",
+  "persona": "minimal",
+  "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Chief Complaint:**  \n- Cough, congestion 5 days  \n\n**HPI:**  \n- 5-day cough, nasal congestion. Sore throat, mild headache. No fever > 98.9\u00b0F.  \n\n**Physical Exam:**  \n- Vitals: T 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99%.  \n- HEENT: Nasal congestion, clear discharge. Lungs: Clear auscultation.  \n\n**Assessment:**  \n- Viral URI, mild sinusitis  \n\n**Plan:**  \n- Rest, fluids, humidifier. Pseudoephedrine, dextromethorphan for symptoms.",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "source_gold_note": "gold_uri_007",
+  "generated_at": "2026-02-14T02:53:44.253746",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 50
+  }
+}

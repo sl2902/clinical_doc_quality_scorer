@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_uri_009",
+  "scenario": "uri",
+  "persona": "minimal",
+  "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**  \n- Cough, congestion\n\n**HPI:**  \n- 10 days cough, congestion. Purulent discharge past 3 days, no SOB.\n\n**Physical Exam:**  \n- Vitals: Temp 98.9, HR 76, BP 118/72, RR 14, O2 99%  \n- Nasal congestion, purulent discharge\n\n**Assessment:**  \n- Acute upper respiratory infection, possible bacterial\n\n**Plan:**  \n- Rest, fluids, humidifier  \n- Pseudoephedrine, dextromethorphan  \n- Amoxicillin 500mg TID 7 days",
+  "demographics": {
+    "age": 39,
+    "gender": "F",
+    "occupation": "project manager",
+    "name": "Sarah Johnson"
+  },
+  "source_gold_note": "gold_uri_009",
+  "generated_at": "2026-02-14T02:54:05.689245",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 40
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_htn_followup_008",
+  "scenario": "htn_followup",
+  "persona": "brooks",
+  "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Chief Complaint:**  \nBP check\n\n**HPI:**  \nPt with hx of essential HTN, on Lisinopril 10mg daily. Good adherence, BP not at goal, avg 138/86 at home. Pt exercises, reducing sodium, drinks 2-3 beers weekends. No sx like headaches or chest pain.\n\n**ROS:**  \nNo fatigue, fever, wt changes. Denies CP, SOB, dizziness, edema. Regular menses, LMP 2 wks ago.\n\n**Physical Exam:**  \nVS: BP 142/88 R arm, 140/86 L arm, HR 74, Wt 192 lbs, BMI 28.3. Gen: Alert, overweight. CV: RRR, no murmurs. Resp: Clear. Ext: No edema.\n\n**Assessment/Plan:**  \n1. Uncontrolled HTN: Increase Lisinopril to 20mg daily, continue home BP monitoring, lifestyle mods.\n2. Overweight: 10 lb wt loss goal.\n3. Lipids: Recheck in 6 mos, consider statin if needed.\n4. Contraception: Discussed importance with ACE use.\n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 29,
+    "gender": "F",
+    "occupation": "graphic designer",
+    "name": "Emily Taylor"
+  },
+  "source_gold_note": "gold_htn_followup_008",
+  "generated_at": "2026-02-14T02:50:57.409868",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 75
+  }
+}

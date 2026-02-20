@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_htn_followup_006",
+  "scenario": "htn_followup",
+  "persona": "chen",
+  "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Clinical Note**\n\n**Chief Complaint:**  \nBlood pressure check\n\n**History of Present Illness:**  \n28-year-old F with hx of HTN, here for 4-month follow-up. On Lisinopril daily, no missed doses. BP at home ~138/86 past 2 weeks. Acknowledges BP not at goal. Walks 3x/week, trying to cut sodium. Drinks beer wknds. Last period 2 weeks ago, not pregnant. Discussed contraception due to ACE inhibitor use.\n\n**Review of Systems:**  \n- Cardiovascular: No chest pain, palpitations.  \n- Respiratory & Neuro: No SOB, headache, dizziness.  \n- Skin: No rashes.  \n- (Skipped GI)\n\n**Physical Examination:**  \n- Vital Signs: BP 142/88, HR 74.  \n- Cardiovascular: Regular, no murmurs, pulses 2+  \n- Respiratory: Clear  \n- Extremities: No edema  \n- (Skipped Fundoscopic)\n\n**Assessment and Plan:**  \n1. **Essential hypertension:** BP not controlled. Increase Lisinopril. Monitor BP at home, return in 6-8 weeks.  \n2. **Overweight:** Lifestyle changes - DASH diet, reduce sodium, increase exercise.  \n3. **Borderline lipids:** Recheck labs in 6 months, consider statin if needed.  \n4. **Contraception counseling:** Reliable contraception advised.\n\n**Billing Level:**  \n99214 (moderate complexity)  \n\n**Medical Decision Making:**  \nBP high despite adherence. Increase Lisinopril, emphasize lifestyle. Discussed possible future statin use.",
+  "demographics": {
+    "age": 28,
+    "gender": "F",
+    "occupation": "registered nurse",
+    "name": "Maria Garcia"
+  },
+  "source_gold_note": "gold_htn_followup_006",
+  "generated_at": "2026-02-14T02:50:33.142609",
+  "ground_truth_scores": {
+    "completeness": 80,
+    "accuracy": 90,
+    "compliance": 85,
+    "risk": 88,
+    "clarity": 82
+  }
+}

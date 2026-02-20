@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_t2dm_003",
+  "scenario": "t2dm",
+  "persona": "chen",
+  "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Clinical Note**\n\n**Chief Complaint:**  \nDiabetes follow-up.\n\n**History of Present Illness:**  \n33-year-old male with Type 2 Diabetes Mellitus, 3-year duration, here for diabetes management. Last HbA1c 8.5% (3 months ago), indicating poor control. Home glucose 160-220 fasting, 180-250 post-meal. On Metformin 1000mg twice daily, reports GI upset sometimes but manageable. No hypoglycemia episodes. Last eye exam 8 months ago, no retinopathy. Foot exam today. Hypertension and hyperlipidemia noted. Minimal exercise, struggles with portion control, drinks soda daily. Denies polyuria, weight loss, visual changes. Occasional foot tingling, erectile issues possibly linked to diabetes.\n\n**Review of Systems:**  \n- **General:** No fever, chills.  \n- **Eyes:** No visual changes.  \n- **CV/Resp:** No chest pain, palpitations, cough, or dyspnea.  \n- **GI/Endo:** Occasional GI upset with Metformin.  \n- **GU/Neuro:** Occasional erectile dysfunction, foot tingling.  \n- **Derm:** No rashes.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/78, HR 78, Temp 98.6\u00b0F  \n- **Cardiovascular:** Regular rhythm, no murmurs. Pulses 2+ bilaterally.  \n- **Respiratory:** Clear bilaterally.  \n- **Extremities:** Monofilament: protective sensation intact, no edema.  \n- **Feet:** No deformities.  \n- **General:** Alert, pleasant, obese male.  \n- **Other systems:** WNL\n\n**Assessment and Plan:**  \n1. **Type 2 Diabetes Mellitus, uncontrolled**  \n   - Start Semaglutide, titrate as needed.  \n   - Continue Metformin.  \n   - HbA1c in 3 months.  \n   - Ophthalmology referral for overdue eye exam.  \n   - Diabetes educator for nutrition advice.  \n   - Lifestyle: cut soda, control portions, exercise 150 min/week.\n\n2. **Obesity**  \n   - Aim for 5-10% weight reduction in 6 months.\n\n3. **Hypertension**  \n   - Continue Lisinopril.\n\n4. **Hyperlipidemia**  \n   - Continue Atorvastatin.\n\n5. **Erectile Dysfunction**  \n   - Discuss potential diabetes link. Consider PDE5 inhibitors.\n\n**Vaccinations:** Check flu and pneumococcal status.\n\n**Return visit:** In 6 weeks to evaluate Semaglutide response.\n\n**Patient education:** Discussed glucose targets and lifestyle changes.\n\n**Time Spent:** 25 minutes on counseling and education.\n\n**Medical Decision Making:** Added GLP-1 agonist for better glycemic control and weight loss, minimal hypoglycemia risk. Addressed lifestyle barriers. Ophthalmology referral for overdue screening.\n\n**Billing Level:** 99214 (moderate complexity due to chronic disease management).",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "source_gold_note": "gold_t2dm_003",
+  "generated_at": "2026-02-14T02:52:02.312937",
+  "ground_truth_scores": {
+    "completeness": 75,
+    "accuracy": 85,
+    "compliance": 70,
+    "risk": 80,
+    "clarity": 78
+  }
+}

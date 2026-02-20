@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_annual_physical_002",
+  "scenario": "annual_physical",
+  "persona": "chen",
+  "note_text": "**Patient:** James Wilson\n**Age:** 38\n**Gender:** M\n**Occupation:** warehouse worker\n\n**Chief Complaint:**\nAnnual physical exam.\n\n**History of Present Illness:**\nPatient presents for routine annual check-up, feeling well with good energy. No recent hospitalizations or new diagnoses. Hypertension history, controlled. Focus on health maintenance.\n\n**Review of Systems:**\n- **Constitutional:** No fever, no weight change.\n- **Cardiovascular/Respiratory:** No chest pain, palpitations, or breathing issues.\n- **GI/GU:** Normal bowel movements, no urinary complaints.\n- **Musculoskeletal/Neurological:** No joint pain, no dizziness.\n- **Psychiatric:** Mood stable.\n\n**Medications:**\n- Lisinopril daily.\n- Multivitamin, Calcium with Vitamin D.\n\n**Allergies:**\n- Penicillin (rash).\n\n**Family History:**\n- Father passed away from colon cancer.\n- Mother has hypertension.\n\n**Physical Examination:**\n- **Vital Signs:** BP 122/76 mmHg, HR 68, Temp 98.2\u00b0F.\n- **General:** Well-appearing, no distress.\n- **HEENT:** Normocephalic, PERRLA, oropharynx clear.\n- **Cardiovascular:** Regular rhythm, no murmurs.\n- **Respiratory:** Clear, good air movement.\n- **Abdomen:** Soft, non-tender.\n- **Neurological:** Alert, oriented, CN II-XII intact.\n- **Skin:** No lesions.\n- **Psychiatric:** Appropriate affect.\n\n**Assessment and Plan:**\n- **Hypertension:** Controlled, continue Lisinopril. Monitor BP at home.\n- **Health Maintenance:** Lipid panel, glucose, TSH, CBC ordered. Flu shot given. Discussed COVID booster.\n- **Lifestyle:** Encouraged Mediterranean diet, regular exercise. Alcohol intake within limits.\n- **Preventive Counseling:** Sun protection, seatbelt use discussed.\n\n**Billing Level:**\n99396 (Preventive visit).\n\n**Medical Decision Making:**\nFocused on preventive care and lifestyle maintenance. Addressed family history of colon cancer. Provided educational materials on cardiovascular health.\n\n**Time Spent:**\nApproximately 40 minutes face-to-face.",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "source_gold_note": "gold_annual_physical_002",
+  "generated_at": "2026-02-14T02:47:40.189894",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 80,
+    "risk": 85,
+    "clarity": 88
+  }
+}

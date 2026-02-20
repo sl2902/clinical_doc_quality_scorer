@@ -1,0 +1,20 @@
+{
+  "note_id": "gold_uri_001",
+  "scenario": "uri",
+  "persona": "gold",
+  "note_text": "**Clinical Note**\n\n**Patient Name:** David Kim  \n**Age:** 51 years old  \n**Gender:** Male  \n**Date:** [Insert Date]  \n**Encounter Type:** Established patient visit  \n\n**Chief Complaint:**  \n\"Cough and congestion for 5 days\"\n\n**History of Present Illness:**  \nDavid Kim, a 51-year-old male, presents with a 5-day history of upper respiratory symptoms. The patient reports a productive cough with clear sputum and nasal congestion accompanied by clear rhinorrhea. He has experienced a sore throat and mild headache, and has felt fatigued, but denies any fever. He reports no high fever (>102\u00b0F), no shortness of breath, and no chest pain. The symptoms began gradually and have been persistent but not worsening. The patient rates the severity as moderate. This presentation is consistent with the ongoing cold/flu season.\n\n**Review of Systems:**  \n- **Constitutional:** Reports fatigue, denies fever or chills.  \n- **HEENT:** Positive for nasal congestion, clear rhinorrhea, sore throat, mild headache. No visual changes, ear pain, or sinus pressure.  \n- **Respiratory:** Positive for cough, denies shortness of breath or wheezing.  \n- **Cardiovascular:** Denies chest pain, palpitations.  \n- **Gastrointestinal:** Denies nausea, vomiting, diarrhea.  \n- **Dermatological:** No rashes or lesions.  \n- **Neurological:** Denies dizziness or confusion.  \n- **Psychiatric:** Denies anxiety or depression.\n\n**Past Medical History:**  \n- No significant past medical history reported.\n\n**Medications:**  \n- None reported.\n\n**Allergies:**  \n- No known drug allergies.\n\n**Social History:**  \n- Occupation: Sales manager.  \n- Non-smoker, occasional alcohol use, exercises regularly.  \n- Lives with family, no recent travel.\n\n**Physical Examination:**  \n- **Vital Signs:** Temperature 98.9\u00b0F, HR 76 bpm, BP 118/72 mmHg, RR 14 breaths/min, O2 sat 99% on room air.  \n- **General:** Patient is alert, in no acute distress.  \n- **HEENT:** Nasal mucosa congested with clear discharge. Pharynx mildly erythematous, no exudates, no tonsillar enlargement.  \n- **Neck:** Supple, no cervical lymphadenopathy.  \n- **Lungs:** Clear to auscultation bilaterally, no wheezing, no rales.  \n- **Cardiovascular:** S1 and S2 present, regular rate and rhythm, no murmurs.  \n- **Skin:** Warm and dry, no rashes.\n\n**Assessment and Plan:**  \n- **Assessment:** Acute viral upper respiratory infection (ICD-10: J06.9).  \n- **Plan:**  \n  - **Supportive Care:** Rest, increase fluid intake to 8 glasses daily, use a humidifier.  \n  - **Symptomatic Treatment:** Pseudoephedrine for nasal congestion, dextromethorphan for cough as needed.  \n  - **Education:** Discussed the viral nature of the infection, the expected duration of symptoms (7-10 days), and the contagious period. Emphasized the importance of hand hygiene to prevent spread.  \n  - **Follow-up:** Return to clinic if symptoms worsen, if fever exceeds 102\u00b0F, if shortness of breath develops, or if symptoms persist beyond 10 days.  \n  - **Antibiotics:** Not indicated as symptoms suggest a viral etiology (clear rhinorrhea, absence of purulent discharge, normal lung examination).\n\n**Time Spent:** Approximately 15 minutes spent on history, examination, and patient counseling.  \n\n**Billing Level:** 99213 (Established patient, low complexity, straightforward medical decision making).",
+  "demographics": {
+    "age": 51,
+    "gender": "M",
+    "occupation": "sales manager",
+    "name": "David Kim"
+  },
+  "generated_at": "2026-02-14T01:53:28.241256",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 95,
+    "compliance": 80,
+    "risk": 75,
+    "clarity": 90
+  }
+}

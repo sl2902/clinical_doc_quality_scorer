@@ -1,0 +1,20 @@
+{
+  "note_id": "gold_uri_004",
+  "scenario": "uri",
+  "persona": "gold",
+  "note_text": "**Clinical Note**\n\n**Patient Name:** Michael Brown  \n**DOB:** [Date of Birth]  \n**Date of Visit:** [Today's Date]  \n**Age:** 47 years  \n**Gender:** Male  \n**Occupation:** High School Teacher\n\n**Chief Complaint:**  \n\"Cough and congestion for 10 days.\"\n\n**History of Present Illness:**  \nMichael Brown is a 47-year-old male who presents with a 10-day history of upper respiratory symptoms, including a productive cough and nasal congestion. Symptoms began 10 days ago and have progressively worsened. Initially, he experienced clear rhinorrhea, but over the last two days, nasal discharge has become yellow-green, raising suspicion for a secondary bacterial infection. He reports a sore throat and mild headache. Fatigue is noted, but there is no significant fever, with the highest recorded temperature being 98.9\u00b0F. He denies any shortness of breath, chest pain, or wheezing. He has been previously healthy with no significant medical history.\n\n**Review of Systems:**  \n- **Constitutional:** Fatigue present, no fever.  \n- **ENT:** Nasal congestion, clear progressing to yellow-green rhinorrhea, sore throat.  \n- **Respiratory:** Cough productive, no shortness of breath.  \n- **Neurological:** Mild headache, no dizziness or confusion.  \n- **Cardiovascular:** No chest pain or palpitations.  \n- **Gastrointestinal:** No nausea or vomiting.  \n- **Dermatological:** No rashes or lesions.\n\n**Past Medical History:**  \n- No significant past medical history reported.\n\n**Medications:**  \n- None reported.\n\n**Allergies:**  \n- No known drug allergies.\n\n**Social History:**  \n- Occupation: High School Teacher  \n- Non-smoker  \n- Social alcohol use, denies illicit drug use\n\n**Physical Examination:**  \n- **Vital Signs:** T 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 sat 99% on RA  \n- **General:** Alert and oriented, in no acute distress.  \n- **HEENT:** Nasal mucosa congested with yellow-green discharge, pharynx mildly erythematous without exudates, no tonsillar enlargement.  \n- **Neck:** Supple, no lymphadenopathy.  \n- **Lungs:** Clear to auscultation bilaterally, no wheezing, no rales.  \n- **Cardiovascular:** Regular rate and rhythm, no murmurs or gallops.  \n- **Abdomen:** Soft, non-tender, non-distended.  \n- **Skin:** Warm, dry, no rashes.\n\n**Assessment and Plan:**  \n1. **Acute Viral Upper Respiratory Infection with secondary bacterial infection suspected (ICD-10: J06.9):**  \n   - **Supportive care:** Encourage rest and increased fluid intake to 8 glasses daily.  \n   - **Symptomatic treatment:** Recommend pseudoephedrine for nasal congestion and dextromethorphan for cough.  \n   - **Antibiotic consideration:** Considering the change in nasal discharge color and duration of symptoms, a course of amoxicillin-clavulanate will be initiated to address the suspected secondary bacterial infection.  \n   - **Patient education:** Discussed the viral nature of the initial infection and the possibility of secondary bacterial involvement. Emphasized the importance of hand hygiene and limiting the spread to others.  \n   - **Follow-up:** Advised to return if symptoms worsen, develop a fever >102\u00b0F, or if shortness of breath occurs. Monitor symptoms; if no improvement in 48-72 hours, consider reevaluation.  \n   - **Expected duration:** Symptoms typically resolve within 7-10 days; bacterial symptoms may extend this period slightly.\n\n**Time Spent:** Approximately 15 minutes spent on history, examination, and patient counseling.\n\n**Billing Level:** 99213 (Established patient, low complexity, straightforward medical decision making)",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "generated_at": "2026-02-14T01:53:25.685219",
+  "ground_truth_scores": {
+    "completeness": 92,
+    "accuracy": 95,
+    "compliance": 90,
+    "risk": 88,
+    "clarity": 94
+  }
+}

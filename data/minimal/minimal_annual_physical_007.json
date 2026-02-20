@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_annual_physical_007",
+  "scenario": "annual_physical",
+  "persona": "minimal",
+  "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Clinical Note**\n\n- **CC:** Annual physical  \n- **HPI:** Feels well, no acute issues. Mild hypertension, well-controlled. Focus on weight and prediabetes prevention.  \n\n**Physical Exam:**  \n- **Vitals:** BP 122/76, HR 68, Temp 98.2\u00b0F  \n- **General:** Well-appearing, obese  \n\n**Assessment:**  \n- Obesity  \n- Prediabetes concern  \n- Hypertension  \n\n**Plan:**  \n- Diet, exercise counseling.  \n- Fasting glucose test.  \n- Continue Lisinopril.  ",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "source_gold_note": "gold_annual_physical_007",
+  "generated_at": "2026-02-14T02:47:54.215633",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 50
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_back_pain_009",
+  "scenario": "back_pain",
+  "persona": "chen",
+  "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**  \nSevere back pain for 1 week, bilateral leg weakness.\n\n**History of Present Illness:**  \nPatient presents with severe low back pain lasting for a week. Pain is localized to the left lumbar region, sharp with movement, dull at rest. Rates pain 7/10 when moving, 4/10 at rest. Aggravated in the morning and after prolonged sitting. Began post lifting a heavy box. Alleviated by lying down, heat, ibuprofen. Reports leg weakness, denies radiation, bowel/bladder issues.\n\n**Review of Systems:**  \n- **Musculoskeletal:** Severe low back pain, denies other joint pain.  \n- **Neurological:** Bilateral leg weakness, denies numbness/tingling.  \n- **Constitutional/GU:** No fever, no urinary or bowel changes.  \n- **Skipped System:** Not assessed.\n\n**Physical Exam:**  \n- **Back:** Tender over left paraspinal muscles, spasm noted.  \n- **Neurological:**  \n  - Motor strength 5/5 in lower extremities.  \n  - Sensory intact.  \n  - Reflexes 2+ and symmetric.  \n  - Gait antalgic but stable.\n- **Vital Signs/General:** WNL, patient uncomfortable.  \n- **Abdomen:** Unremarkable.\n\n**Assessment and Plan:**  \n- **Assessment:** Acute mechanical low back pain, lumbar strain. Bilateral leg weakness to be monitored.  \n- **Plan:**  \n  - Continue ibuprofen, add Cyclobenzaprine for muscle spasm.  \n  - Avoid heavy lifting, modify activities.  \n  - Physical therapy referral for core strengthening.  \n  - Educate on red flag symptoms.  \n  - Follow-up if symptoms persist.  \n  - Consider imaging if no improvement in 4-6 weeks.\n\n**Documentation:**  \n- Time Spent: 20 minutes.  \n- **Billing Level:** 99214.",
+  "demographics": {
+    "age": 39,
+    "gender": "F",
+    "occupation": "project manager",
+    "name": "Sarah Johnson"
+  },
+  "source_gold_note": "gold_back_pain_009",
+  "generated_at": "2026-02-14T02:49:25.045127",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 85,
+    "clarity": 80
+  }
+}

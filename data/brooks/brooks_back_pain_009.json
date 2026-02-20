@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_back_pain_009",
+  "scenario": "back_pain",
+  "persona": "brooks",
+  "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**  \nSevere back pain, bilateral leg weakness.\n\n**HPI:**  \nPt c/o severe low back pain x1 week, sharp with movement, dull at rest. Pain after lifting at work. Bilateral leg weakness, no radiation to legs, denies numbness or bowel/bladder issues.\n\n**ROS:**  \nMSK: Severe back pain, no joint pain. Neuro: Bilateral leg weakness, no numbness. General: No fever, chills.\n\n**Physical Exam:**  \nVS: BP 128/82, HR 74, Temp 98.4, RR 14.  \nBack: Tender L3-L5, muscle spasm. Neuro: Strength 5/5, SLR neg, reflexes 2+, gait antalgic. Abd: Soft, NT.\n\n**Assessment/Plan:**  \n- Acute mechanical low back pain, lumbar strain.  \n- Bilateral leg weakness, monitor.  \n- Ibuprofen, cyclobenzaprine for pain/spasm.  \n- Activity mod: Avoid heavy lifting, no prolonged sitting.  \n- PT referral, heat/ice therapy.  \n- Red flag education.  \n- f/u PRN.",
+  "demographics": {
+    "age": 39,
+    "gender": "F",
+    "occupation": "project manager",
+    "name": "Sarah Johnson"
+  },
+  "source_gold_note": "gold_back_pain_009",
+  "generated_at": "2026-02-14T02:49:24.737804",
+  "ground_truth_scores": {
+    "completeness": 68,
+    "accuracy": 72,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 74
+  }
+}

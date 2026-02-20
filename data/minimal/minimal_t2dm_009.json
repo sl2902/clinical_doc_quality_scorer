@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_t2dm_009",
+  "scenario": "t2dm",
+  "persona": "minimal",
+  "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**  \nDiabetes follow-up  \n\n**HPI:**  \n3-year Type 2 DM, glucose 160-250 mg/dL. HbA1c 10.2%. On Metformin, tolerates well. Foot ulcer concern.  \n\n**Physical Exam:**  \nBP 128/78, HR 78, Temp 98.6\u00b0F. Alert, obese. Feet: No deformities, ulcer concern.  \n\n**Assessment:**  \n- Uncontrolled Type 2 DM  \n- Obesity  \n- Hypertension, controlled  \n- Hyperlipidemia  \n\n**Plan:**  \n- Start Semaglutide weekly.  \n- Continue Metformin.  \n- Diet/exercise counseling.  \n- Ophthalmology referral.  ",
+  "demographics": {
+    "age": 39,
+    "gender": "F",
+    "occupation": "project manager",
+    "name": "Sarah Johnson"
+  },
+  "source_gold_note": "gold_t2dm_009",
+  "generated_at": "2026-02-14T02:52:41.555391",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 40
+  }
+}

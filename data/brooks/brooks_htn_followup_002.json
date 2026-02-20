@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_htn_followup_002",
+  "scenario": "htn_followup",
+  "persona": "brooks",
+  "note_text": "**Patient:** James Wilson\n**Age:** 38\n**Gender:** M\n**Occupation:** warehouse worker\n\n**Chief Complaint:**  \nBP check\n\n**HPI:**  \nPt with hx of HTN on Lisinopril 10mg daily, inconsistent adherence. Home BP avg 138/86. No med side effects. Trying lifestyle changes: walking, less sodium, limited alcohol.\n\n**ROS:**  \nNo fatigue, CP, SOB, dizziness, or ED. WNL otherwise.\n\n**Physical Exam:**  \nBP 142/88, HR 74, Wt 192 lbs, BMI 28.3. Gen: Alert, overweight. CV: Reg rhythm, no murmurs. Resp: Clear. Ext: No edema.\n\n**Assessment/Plan:**  \n1. HTN, uncontrolled: Increase Lisinopril to 20mg. Continue home BP checks. Lifestyle advice: DASH diet, more exercise, weight loss.\n2. Overweight: Discussed weight management.\n3. Sexual health: Discussed potential med effects.\n\nRTC PRN",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "source_gold_note": "gold_htn_followup_002",
+  "generated_at": "2026-02-14T02:50:03.033017",
+  "ground_truth_scores": {
+    "completeness": 65,
+    "accuracy": 70,
+    "compliance": 60,
+    "risk": 68,
+    "clarity": 72
+  }
+}

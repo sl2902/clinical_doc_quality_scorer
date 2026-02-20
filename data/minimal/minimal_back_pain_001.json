@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_back_pain_001",
+  "scenario": "back_pain",
+  "persona": "minimal",
+  "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Chief Complaint:**  \n- Back pain, 2 weeks\n\n**HPI:**  \n- Severe sharp pain left lumbar, dull at rest. Started after lifting box. Radiates to left leg, no numbness.\n\n**Physical Exam:**  \n- Vitals: BP 128/82, HR 74, Temp 98.4\u00b0F, RR 14  \n- Tender left L3-L5, limited ROM, positive straight leg raise left.\n\n**Assessment:**  \n- Acute mechanical low back pain, radiculopathy.\n\n**Plan:**  \n- Ibuprofen, rest, no heavy lifting, PT referral.",
+  "demographics": {
+    "age": 51,
+    "gender": "M",
+    "occupation": "sales manager",
+    "name": "David Kim"
+  },
+  "source_gold_note": "gold_back_pain_001",
+  "generated_at": "2026-02-14T02:48:36.610480",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 75,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 50
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_annual_physical_003",
+  "scenario": "annual_physical",
+  "persona": "brooks",
+  "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Chief Complaint:** Annual physical exam\n\n**HPI:** Pt here for routine check-up. Feels well, minor fatigue due to work. No acute issues. Mild HTN, controlled on Lisinopril.\n\n**ROS:** Occasional fatigue, no vision/hearing changes, no chest pain/cough, GI/GU WNL, no joint/neuro issues, mood stable.\n\n**Physical Exam:**\n- **VS:** BP 122/76, HR 68, RR 14, Temp 98.2, O2 sat 99%\n- **Gen:** Well-appearing, NAD\n- **HEENT/Neck:** WNL\n- **CV/Resp:** RRR, lungs clear\n- **Abd:** Soft, NT, BS normoactive\n- **MSK/Neuro/Skin/Psych:** WNL\n\n**Assessment and Plan:**\n- Continue current meds\n- Screening labs ordered\n- Encourage lifestyle modifications\n- Vaccination discussed\n\n**Follow-up:** RTC PRN",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "source_gold_note": "gold_annual_physical_003",
+  "generated_at": "2026-02-14T02:47:41.176356",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 85,
+    "compliance": 68,
+    "risk": 70,
+    "clarity": 75
+  }
+}

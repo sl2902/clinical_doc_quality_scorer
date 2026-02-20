@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_t2dm_005",
+  "scenario": "t2dm",
+  "persona": "chen",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Clinical Note**\n\n**Chief Complaint:**  \nDiabetes follow-up\n\n**History of Present Illness:**  \n35-year-old with Type 2 Diabetes Mellitus x3 years. Last HbA1c 8.2% (3 months ago). Reports fasting glucose 160-220 mg/dL, postprandial 180-250 mg/dL. On Metformin 1000mg BID, occasional GI upset but tolerable. No hypoglycemic events, no polyuria/polydipsia. Occasional foot tingling. Sedentary lifestyle, struggles with portions.\n\n**Review of Systems:**  \n- **General/Endocrine:** No weight loss, no fatigue, no polyuria.  \n- **Neurological:** Tingling in feet, no headaches.  \n- **Cardiovascular/Gastrointestinal:** No chest pain, occasional GI upset with Metformin.  \n- **Musculoskeletal/Dermatological:** No joint pain, no skin changes.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/78, HR 78, Temp 98.6\u00b0F, Weight 185 lbs, BMI 32.4  \n- **General:** Alert, obese  \n- **Cardiovascular/Respiratory:** Regular rate, clear lungs  \n- **Extremities/Feet:** Monofilament test normal, no edema, intact skin  \n- Absent detailed neurological exam\n\n**Assessment and Plan:**  \n1. **Uncontrolled Type 2 Diabetes Mellitus**  \n   - Add Semaglutide, weekly dosing  \n   - Continue Metformin  \n   - HbA1c recheck in ~3 months  \n   - Nutrition counseling  \n   - Discuss glucose targets\n\n2. **Obesity**  \n   - Lifestyle advice on sugar reduction, portion control, exercise increase  \n   - Weight loss goal: 5-10% over 6 months\n\n3. **Hypertension, controlled**  \n   - Continue Lisinopril\n\n4. **Hyperlipidemia**  \n   - Continue Atorvastatin\n\n5. **Neuropathy symptoms**  \n   - Monitor\n\n6. **Preventive Care**  \n   - Ophthalmology referral  \n   - Annual kidney tests  \n   - Vaccination review\n\n**Time Spent:**  \n25 minutes with patient\n\n**Medical Decision Making:**  \nFocused on diabetes management and lifestyle changes. Initiated GLP-1 agonist for better control. Addressed cardiovascular risks with current meds. Educated on medication use. Return visit planned to assess new medication response.",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_t2dm_005",
+  "generated_at": "2026-02-14T03:09:29.762816",
+  "ground_truth_scores": {
+    "completeness": 80,
+    "accuracy": 85,
+    "compliance": 75,
+    "risk": 78,
+    "clarity": 82
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_uri_009",
+  "scenario": "uri",
+  "persona": "brooks",
+  "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**  \nCough and congestion\n\n**HPI:**  \nPt with 10-day hx of cough and congestion. Reports productive cough, nasal discharge now purulent. No SOB or high fever.\n\n**ROS:**  \nFatigue, HA, sore throat, congestion. No SOB, CP, or GI sx. No neuro/psych issues.\n\n**Physical Exam:**  \nVS: Temp 98.9, HR 76, BP 118/72, RR 14, O2 99%.  \nGen: Alert, NAD. HEENT: Congested, purulent discharge. Lungs: Clear. CVS: RRR, no murmurs.\n\n**Assessment/Plan:**  \n- Acute URI with possible bacterial infection.  \n- Supportive care, pseudoephedrine, dextromethorphan.  \n- Start Amox 500 mg TID x 7 days.  \n- RTC or f/u PRN.",
+  "demographics": {
+    "age": 39,
+    "gender": "F",
+    "occupation": "project manager",
+    "name": "Sarah Johnson"
+  },
+  "source_gold_note": "gold_uri_009",
+  "generated_at": "2026-02-14T02:54:14.017040",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 75
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_back_pain_005",
+  "scenario": "back_pain",
+  "persona": "minimal",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Chief Complaint:**  \n- Back pain\n\n**HPI:**  \n- Acute low back pain, 3 days, post-lifting box. Sharp with movement.\n\n**Physical Exam:**  \n- VS: BP 128/82, HR 74, Temp 98.4\u00b0F  \n- Tender L3-L5, limited ROM.\n\n**Assessment:**  \n- Acute mechanical low back pain\n\n**Plan:**  \n- Ibuprofen, cyclobenzaprine for spasm.  \n- Avoid heavy lifting, start PT if pain improves.",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_back_pain_005",
+  "generated_at": "2026-02-14T02:48:52.890399",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 50
+  }
+}

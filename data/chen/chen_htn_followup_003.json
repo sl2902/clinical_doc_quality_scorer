@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_htn_followup_003",
+  "scenario": "htn_followup",
+  "persona": "chen",
+  "note_text": "**Patient:** Carlos Rodriguez\n**Age:** 33\n**Gender:** M\n**Occupation:** restaurant manager\n\n**Clinical Note**\n\n**Chief Complaint:**  \nBlood pressure check.\n\n---\n\n**History of Present Illness:**  \n33-year-old male with hypertension, on Lisinopril 10mg daily, started 4 months ago. Reports taking all doses, no side effects. Home BP readings average 138/86 mmHg last 2 weeks. Not at target <130/80 mmHg. Walks 3x/week, reducing sodium. Drinks 2-3 beers weekends. No headaches, chest pain, palpitations, dizziness, or leg swelling. Sexual function normal.\n\n---\n\n**Review of Systems:**  \n- **General:** No weight changes, fever.  \n- **Cardiovascular/Respiratory:** No chest pain, palpitations, leg swelling, or shortness of breath.  \n- **Gastrointestinal/Neurological:** No nausea, vomiting, headaches, or dizziness.  \n- **Genitourinary:** Not assessed.  \n- **Musculoskeletal:** No joint pain.\n\n---\n\n**Physical Examination:**  \n- **Vital Signs:** BP 142/88 mmHg right arm, HR 74 bpm.  \n- **General:** Alert, well-appearing, overweight.  \n- **Cardiovascular:** Regular rate/rhythm, no murmurs.  \n- **Respiratory:** Clear.  \n- **Extremities:** No edema.\n\n---\n\n**Assessment and Plan:**  \n1. **Hypertension, uncontrolled:**  \n   - Increase Lisinopril.  \n   - Continue home BP monitoring, record twice daily.  \n   - Lifestyle: DASH diet, reduce sodium, limit alcohol, exercise more.  \n   - Follow-up in 6-8 weeks.\n\n2. **Overweight:**  \n   - Aim for 10 lbs weight loss over 3 months.\n\n3. **Hyperlipidemia:**  \n   - Recheck lipids in 6 months. Consider statin if needed.\n\n4. **Sexual Health:**  \n   - No concerns reported; monitor.\n\n**Patient Education:**  \nDiscussed BP targets and lifestyle changes.\n\n---\n\n**Time Spent:**  \n20 minutes counseling on lifestyle.\n\n---\n\n**Medical Decision Making:**  \nIncrease Lisinopril due to elevated BP. Extensive lifestyle discussion.  \nICD-10: I10 for Hypertension.",
+  "demographics": {
+    "age": 33,
+    "gender": "M",
+    "occupation": "restaurant manager",
+    "name": "Carlos Rodriguez"
+  },
+  "source_gold_note": "gold_htn_followup_003",
+  "generated_at": "2026-02-14T02:50:16.655603",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 78,
+    "clarity": 85
+  }
+}

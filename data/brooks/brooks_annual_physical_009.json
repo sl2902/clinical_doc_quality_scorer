@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_annual_physical_009",
+  "scenario": "annual_physical",
+  "persona": "brooks",
+  "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**CC:** Annual physical exam.\n\n**HPI:** Pt here for annual check-up, no acute issues. Reports good energy, mild HTN controlled with meds. No recent hospitalizations or new dx.\n\n**ROS:** No constitutional, CV, or respiratory issues. GI/GU WNL. No MSK, neuro, psych, or skin problems.\n\n**PMH:** HTN.\n\n**Meds:** Lisinopril, multivitamin, calcium/Vit D.\n\n**Allergies:** PCN (rash).\n\n**FH:** Mother HTN, father colon CA. No early heart dz or DM.\n\n**SH:** Married, no smoking, moderate ETOH. Healthy diet, regular exercise.\n\n**PE:**\n- Vitals: BP 122/76, HR 68, RR 14, Temp 98.2, O2 99% RA.\n- Gen: Well-appearing.\n- HEENT, neck, CV, resp, abd, MSK, neuro, skin: WNL.\n\n**Assessment/Plan:**\n- Health maintenance: Labs ordered, mammo ordered, flu vax given.\n- HTN: Continue Lisinopril.\n- Lifestyle: Continue diet/exercise.\n\n**Follow-up:** RTC PRN.",
+  "demographics": {
+    "age": 39,
+    "gender": "F",
+    "occupation": "project manager",
+    "name": "Sarah Johnson"
+  },
+  "source_gold_note": "gold_annual_physical_009",
+  "generated_at": "2026-02-14T02:48:26.673111",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 85,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 78
+  }
+}

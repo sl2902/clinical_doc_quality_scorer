@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_t2dm_001",
+  "scenario": "t2dm",
+  "persona": "minimal",
+  "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Chief Complaint:**  \n- Diabetes follow-up\n\n**HPI:**  \n- 3-year Type 2 DM, poor control. Glucose 160-250 mg/dL. Last HbA1c 9.5%.\n\n**Physical Exam:**  \n- BP 128/78, HR 78.  \n- Obese, alert, no foot wounds.\n\n**Assessment:**  \n- Type 2 Diabetes Mellitus, poorly controlled  \n- Obesity  \n- Essential hypertension, controlled  \n- Hyperlipidemia\n\n**Plan:**  \n- Add Semaglutide, continue Metformin.  \n- Nutrition referral, increase activity, reduce sugar.  \n- Eye exam referral, kidney function tests.",
+  "demographics": {
+    "age": 51,
+    "gender": "M",
+    "occupation": "sales manager",
+    "name": "David Kim"
+  },
+  "source_gold_note": "gold_t2dm_001",
+  "generated_at": "2026-02-14T02:51:30.491070",
+  "ground_truth_scores": {
+    "completeness": 30,
+    "accuracy": 70,
+    "compliance": 25,
+    "risk": 30,
+    "clarity": 50
+  }
+}

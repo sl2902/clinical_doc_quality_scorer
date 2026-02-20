@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_uri_002",
+  "scenario": "uri",
+  "persona": "minimal",
+  "note_text": "**Patient:** James Wilson\n**Age:** 38\n**Gender:** M\n**Occupation:** warehouse worker\n\n**Chief Complaint:**  \n- Cough, congestion\n\n**HPI:**  \n- 5 days cough, nasal congestion, sore throat. No fever, SOB, or chest pain.\n\n**Physical Exam:**  \n- Temp 98.9\u00b0F, HR 76, BP 118/72, RR 14.  \n- Congested nasal mucosa, clear lungs.\n\n**Assessment:**  \n- Viral URI, mild sinusitis\n\n**Plan:**  \n- Rest, fluids, humidifier.  \n- Pseudoephedrine, dextromethorphan PRN.",
+  "demographics": {
+    "age": 38,
+    "gender": "M",
+    "occupation": "warehouse worker",
+    "name": "James Wilson"
+  },
+  "source_gold_note": "gold_uri_002",
+  "generated_at": "2026-02-14T02:53:10.431710",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 30,
+    "clarity": 40
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_annual_physical_004",
+  "scenario": "annual_physical",
+  "persona": "chen",
+  "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \nAnnual physical exam\n\n**History of Present Illness:**  \nPatient here for routine check-up. No acute issues. Feels well, good energy. Hypertension well-controlled on meds. Last visit a year ago, no hospital visits or new diagnoses since.\n\n**Review of Systems:**  \n- *Constitutional:* No fever or weight loss.\n- *Cardiovascular/Respiratory:* No chest pain, shortness of breath, or palpitations.\n- *GI/GU:* No abdominal pain or urinary issues.\n- *Musculoskeletal:* No joint pain, active without limitations.\n- *Neurological:* No headaches or dizziness.  \n(ENT system not assessed)\n\n**Allergies:**  \n- Penicillin (rash as a child)\n\n**Family History:**  \n- Father had colon cancer, died at age 68.\n- Mother has hypertension, alive and well.\n\n**Physical Exam:**  \n- *Vital Signs:* BP 122/76, HR 68, Temp 98.2\u00b0F\n- *General:* Appears well, no distress.\n- *HEENT:* Normocephalic, atraumatic.\n- *Cardiovascular:* Regular rate and rhythm, no murmurs.\n- *Respiratory:* Clear to auscultation bilaterally.\n- *Abdomen:* Soft, non-tender.\n- *Skin:* No concerning lesions noted.\n- *Psychiatric:* Appropriate affect, good eye contact.\n- (Genitourinary exam not documented)\n\n**Assessment:**  \n- Hypertension, well-controlled (ICD-10: I10)\n- Health maintenance visit\n\n**Plan:**  \n- Continue Lisinopril, home BP monitoring.\n- Screening labs: Lipid panel, fasting glucose.\n- Influenza vaccine administered.\n- Discussed PSA and deferred screening.\n- Encouraged Mediterranean diet and exercise.\n- Review colonoscopy at age 55.\n- Sun protection advised.\n\n**Time Spent:** Not documented\n\n**Billing Level:** Not documented",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "source_gold_note": "gold_annual_physical_004",
+  "generated_at": "2026-02-14T02:47:48.791984",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 95,
+    "compliance": 85,
+    "risk": 90,
+    "clarity": 88
+  }
+}

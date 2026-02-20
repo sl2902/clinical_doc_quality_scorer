@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_back_pain_001",
+  "scenario": "back_pain",
+  "persona": "chen",
+  "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Clinical Note**\n\n**Chief Complaint:**  \nBack pain for 2 weeks\n\n**History of Present Illness:**  \n51-year-old male with severe low back pain, left lumbar region, 9/10 with movement, dull at rest. Started 2 weeks ago after lifting 50 lbs box. Pain constant, worsens morning/sitting. Better with heat/ibuprofen. Left leg pain, no numbness/weakness.\n\n**Review of Systems:**  \n- **Musculoskeletal:** Severe back pain, no joint pain elsewhere.  \n- **Neurological:** Leg pain without numbness/tingling, no bowel/bladder issues.  \n- **Constitutional:** No fever or weight loss.  \n- **GU:** Normal function.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/82, HR 74, Temp 98.4\u00b0F  \n- **Back:** Tender L3-L5, muscle spasm noted.  \n- **Neurological:**  \n  * Positive straight leg raise left side.  \n  * Motor and sensory WNL, reflexes 2+.  \n- **General Appearance:** Uncomfortable, not in distress.  \n- **Abdomen:** Soft, non-tender.\n\n**Assessment:**  \n- Acute low back pain with radiculopathy. Lumbar strain.\n\n**Plan:**  \n- Conservative treatment: No imaging needed now.  \n- Medications: Ibuprofen and cyclobenzaprine, doses not specified.  \n- Avoid heavy lifting, modify activities.  \n- Physical therapy referral for core strengthening.  \n- Heat/ice therapy advised.  \n- Follow-up in a few weeks if no improvement.  \n- Red flag education provided.\n\n**Billing Level:** 99214",
+  "demographics": {
+    "age": 51,
+    "gender": "M",
+    "occupation": "sales manager",
+    "name": "David Kim"
+  },
+  "source_gold_note": "gold_back_pain_001",
+  "generated_at": "2026-02-14T02:48:40.028172",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 80,
+    "risk": 88,
+    "clarity": 85
+  }
+}

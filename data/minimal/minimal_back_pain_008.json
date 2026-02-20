@@ -1,0 +1,21 @@
+{
+  "note_id": "minimal_back_pain_008",
+  "scenario": "back_pain",
+  "persona": "minimal",
+  "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n- **CC:** Back pain 5 days  \n- **HPI:** Acute low back pain, sharp with movement, dull at rest. Started after lifting heavy box, worsens with bending, improves with ibuprofen.  \n- **PE:**  \n  * **Vitals:** BP 128/82, HR 74, Temp 98.4\u00b0F  \n  * **Back:** Tender L3-L5, muscle spasm, limited ROM.  \n- **Assessment:** Acute mechanical low back pain  \n- **Plan:** Ibuprofen, avoid heavy lifting, consider PT if pain persists.",
+  "demographics": {
+    "age": 29,
+    "gender": "F",
+    "occupation": "graphic designer",
+    "name": "Emily Taylor"
+  },
+  "source_gold_note": "gold_back_pain_008",
+  "generated_at": "2026-02-14T02:49:14.497176",
+  "ground_truth_scores": {
+    "completeness": 25,
+    "accuracy": 70,
+    "compliance": 20,
+    "risk": 25,
+    "clarity": 50
+  }
+}

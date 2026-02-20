@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_annual_physical_005",
+  "scenario": "annual_physical",
+  "persona": "chen",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Chief Complaint:**  \nAnnual physical exam\n\n**History of Present Illness:**  \nPatient presents for routine annual exam, without acute complaints. Feels well overall, good energy. Hypertension controlled on current meds. No hospital visits or new diagnoses since last year. Follows a Mediterranean diet, exercises regularly, moderate alcohol use. Last mammogram normal, due today. Pap smear normal three years ago, next due in a year. Flu shot last October, Tdap in 2020. Wants to discuss vaccines.\n\n**Review of Systems:**  \n- **Constitutional:** No fever, weight loss.\n- **Cardiovascular/Respiratory:** No chest pain, palpitations, cough, or SOB.\n- **GI/GU:** Regular BMs, no pain, periods normal.  \n- **Psychiatric/Neuro:** Mood stable, sleeping well, no headaches.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 122/76, HR 68, Temp 98.2\u00b0F  \n- **HEENT:** Normocephalic, atraumatic, PERRLA, EOMI  \n- **Cardiovascular:** Regular rhythm, no murmurs  \n- **Respiratory/Abdomen:** Clear to auscultation, abdomen soft, non-tender  \n- **Skin:** No concerning lesions, skin appropriate for age  \n- **Neurological:** Grossly intact\n\n**Assessment and Plan:**  \n- **Hypertension:** Controlled. Continue Lisinopril. Monitor BP at home.  \n- **Preventive Care:**  \n  - Mammogram ordered, Pap smear not due.  \n  - Discussed COVID-19 booster and Shingles vaccine.  \n  - Screening labs ordered: Lipid panel, glucose, TSH, CBC.  \n  - Influenza vaccine given today.\n\n- **Lifestyle Counseling:**  \n  - Continue Mediterranean diet, regular exercise.  \n  - Weight management and moderate alcohol use within limits.\n\n**Family History:**  \n- Father had colon cancer at 65, no other significant family history.\n\n**Time spent:**  \nApproximately 40 minutes.  \n\n**Billing Level:**  \n99396 (Preventive visit)  \n\n**Medical Decision Making:**  \nComprehensive preventive care visit. Educated on lifestyle and screening tailored to family history.",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_annual_physical_005",
+  "generated_at": "2026-02-14T02:47:50.889098",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 80,
+    "risk": 85,
+    "clarity": 88
+  }
+}

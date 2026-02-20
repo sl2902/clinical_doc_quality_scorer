@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_annual_physical_005",
+  "scenario": "annual_physical",
+  "persona": "brooks",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Chief Complaint:**  \nAnnual physical\n\n**HPI:**  \nPt here for routine exam, feels well. No new dx or acute issues. Hx of mild HTN, controlled on meds. Follows Mediterranean diet, exercises, moderate ETOH, no tobacco/drugs.\n\n**ROS:**  \nNo fever, weight changes, or vision changes. No CP, SOB, GI, GU, or MSK issues. Mood stable, sleeps well. Skin, neuro, and endocrine WNL.\n\n**Physical Exam:**  \nVS: BP 122/76, HR 68, RR 14, Temp 98.2, O2 99% RA. Gen: Well-appearing. CV: RRR, no murmurs. Resp: CTA. Abd: Soft, NT. Skin, neuro, MSK, psych WNL.\n\n**Assessment and Plan:**  \n- Preventive care: Lipid panel, glucose, TSH, CBC. Mammogram ordered. Flu vaccine given.\n- HTN: Continue Lisinopril, monitor BP.\n- Lifestyle: Continue diet, exercise. ETOH moderation.\n\n**Follow-up:**  \nRTC PRN.",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_annual_physical_005",
+  "generated_at": "2026-02-14T02:47:46.333878",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 74
+  }
+}

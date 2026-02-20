@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_back_pain_001",
+  "scenario": "back_pain",
+  "persona": "brooks",
+  "note_text": "**Patient:** David Kim\n**Age:** 51\n**Gender:** M\n**Occupation:** sales manager\n\n**Clinical Note**\n\n**CC:** \"Back pain for 2 weeks\"\n\n**HPI:** Pt with severe L lumbar back pain, sharp with movement, dull at rest, 9/10 with movement. Started after lifting at work. Pain radiates down L leg, no neuro deficits.\n\n**ROS:** Musculoskeletal: back pain, no other joint issues. Neurological: radiculopathy, no numbness/tingling. Constitutional: no fever/chills.\n\n**Exam:** Vitals: BP 128/82, HR 74, Temp 98.4, RR 14. Gen: Alert, uncomfortable. Back: Tender L paraspinal L3-L5, muscle spasm. Neuro: +SLR L side, 5/5 strength, intact sensation, reflexes 2+ bilat. Gait antalgic.\n\n**Assessment/Plan:** Acute mechanical LBP w/ L leg radiculopathy. Conservative tx: Ibuprofen, cyclobenzaprine, activity mod, PT referral, heat/ice. No imaging needed. \n\n**Follow-up:** f/u PRN",
+  "demographics": {
+    "age": 51,
+    "gender": "M",
+    "occupation": "sales manager",
+    "name": "David Kim"
+  },
+  "source_gold_note": "gold_back_pain_001",
+  "generated_at": "2026-02-14T02:48:37.913110",
+  "ground_truth_scores": {
+    "completeness": 70,
+    "accuracy": 85,
+    "compliance": 65,
+    "risk": 75,
+    "clarity": 80
+  }
+}

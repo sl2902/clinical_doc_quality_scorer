@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_uri_007",
+  "scenario": "uri",
+  "persona": "chen",
+  "note_text": "**Patient:** Lisa Anderson\n**Age:** 45\n**Gender:** F\n**Occupation:** accountant\n\n**Chief Complaint:**  \nCough and congestion for 5 days\n\n**History of Present Illness:**  \nCough x5 days, productive, worse in the morning. Congestion started around the same time. No fever, highest temp 98.9\u00b0F. Sore throat, mild headache, and fatigue present. No chest pain. Symptoms moderate, manageable. No treatment sought yet.\n\n**Review of Systems:**  \n- **Constitutional:** Denies fever, chills, weight loss. Reports fatigue.  \n- **HEENT/Respiratory:** Nasal congestion, clear discharge, sore throat. Productive cough, no SOB.  \n- **Cardiovascular/Neurological/Skin:** No chest pain, headaches mild. No rash.  \n- **Gastrointestinal:** Not applicable.  \n\n**Physical Examination:**  \n- **Vital Signs:** T 98.9\u00b0F, HR 76 bpm, BP 118/72 mmHg, RR 14, O2 99% RA.  \n- **HEENT:** Nasal mucosa congested, clear discharge. Throat slightly red, no tonsil enlargement.  \n- **Neck/Lungs:** Supple, no lymphadenopathy. Lungs CTA bilaterally.  \n- **Cardiovascular:** Regular rate/rhythm, no m/g.  \n- **General:** Grossly intact.\n\n**Assessment:**  \nAcute viral upper respiratory infection with mild sinusitis.\n\n**Plan:**  \n1. Supportive care: Rest, fluids, humidifier suggested.  \n2. Symptomatic relief: Pseudoephedrine for congestion, dextromethorphan for cough.  \n3. Education: Viral infection, no antibiotics. Stress hand hygiene.  \n4. Monitoring: Return if symptoms worsen or persist beyond 10 days, fever >102\u00b0F, or SOB develops.  \n5. Duration: Symptoms usually resolve in 7-10 days.\n\n**Time Spent:**  \n15 minutes on history, exam, and counseling.\n\n**Medical Decision Making:**  \nDiagnosis of viral etiology due to clear rhinorrhea, lack of purulent discharge, and clear lungs. Antibiotics not needed.",
+  "demographics": {
+    "age": 45,
+    "gender": "F",
+    "occupation": "accountant",
+    "name": "Lisa Anderson"
+  },
+  "source_gold_note": "gold_uri_007",
+  "generated_at": "2026-02-14T02:53:46.975608",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 92,
+    "compliance": 78,
+    "risk": 80,
+    "clarity": 88
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_annual_physical_006",
+  "scenario": "annual_physical",
+  "persona": "chen",
+  "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Chief Complaint:**  \nAnnual physical exam.\n\n**History of Present Illness:**  \nThe patient presents for her yearly check-up. No acute complaints. Reports feeling well with stable energy levels. Has mild hypertension, managed with medication. No recent hospitalizations or new diagnoses. Focus on health maintenance.\n\n**Review of Systems:**  \n- **Constitutional:** No fever, weight stable.  \n- **Eyes/ENT:** No changes in vision, uses glasses. No sinus issues.  \n- **Cardiovascular/Respiratory:** No chest pain, cough, or dyspnea.  \n- **GI/GU:** Regular bowel movements, no dysuria.  \n- **Musculoskeletal:** Active, no joint pain.  \n- **Neurological:** No headaches or dizziness.  \n- **Psychiatric/Endocrine:** Mood stable, sleeping well.  \n- **Skin:** No new moles or rashes.\n\n**Allergies:**  \nPenicillin (rash as a child).\n\n**Family History:**  \nMother with hypertension and hyperlipidemia. Father died of colon cancer. No breast or ovarian cancer in family.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 132/84 mmHg, HR 68, RR 14, Temp 98.2\u00b0F.  \n- **General:** Well-appearing, no distress.  \n- **HEENT:** Normocephalic, atraumatic, PERRLA.  \n- **Cardiovascular:** Regular rhythm, no murmurs.  \n- **Respiratory:** Clear, good air movement.  \n- **Abdomen:** Soft, non-tender, bowel sounds present.  \n- **Musculoskeletal:** Full ROM, no swelling.  \n- **Neurological:** Alert, oriented, CN intact, reflexes normal.  \n- **Skin/Psychiatric:** Unremarkable.\n\n**Assessment:**  \n- Health Maintenance Exam: Z00.00  \n- Essential Hypertension, Controlled: I10  \n- Family History of Colon Cancer  \n\n**Plan:**  \n- Order screening labs: Lipid panel, glucose, TSH, CBC.  \n- Schedule mammogram.  \n- Continue current supplements.  \n- Monitor BP at home.  \n- Influenza vaccine given, discuss COVID-19 booster.  \n- Educated on skin exams and sunscreen use.  \n\n**Documentation:**  \n- Time Spent: 40 minutes.  \n- Billing Level: 99396 (Preventive visit).  \n\n**Medical Decision Making:**  \nFocus on preventive care and screenings. Discussed hypertension management and family history of colon cancer.",
+  "demographics": {
+    "age": 28,
+    "gender": "F",
+    "occupation": "registered nurse",
+    "name": "Maria Garcia"
+  },
+  "source_gold_note": "gold_annual_physical_006",
+  "generated_at": "2026-02-14T02:47:55.241709",
+  "ground_truth_scores": {
+    "completeness": 82,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 85,
+    "clarity": 88
+  }
+}

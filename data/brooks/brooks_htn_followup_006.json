@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_htn_followup_006",
+  "scenario": "htn_followup",
+  "persona": "brooks",
+  "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Chief Complaint:**  \nBP check\n\n**HPI:**  \nPt with hx of HTN on Lisinopril 10mg daily. Reports good med adherence, no side effects. Home BP avg 138/86. Working on diet and exercise, drinks 2-3 beers on weekends.\n\n**ROS:**  \nNo fever, chest pain, SOB, HA, or GI issues. Regular menses, no joint pain.\n\n**Physical Exam:**  \nBP 142/88 R arm, 140/86 L arm, HR 74, BMI 28.3. Gen WNL, CV reg, lungs clear, no edema.\n\n**Assessment/Plan:**  \n1. HTN, uncontrolled: Increase Lisinopril to 20mg, continue home BP monitoring.  \n2. Overweight: Lifestyle counseling, DASH diet, increase exercise.  \n3. Borderline lipids: Recheck labs in 6 months.  \n4. Contraception discussed due to ACE inhibitor use.\n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 28,
+    "gender": "F",
+    "occupation": "registered nurse",
+    "name": "Maria Garcia"
+  },
+  "source_gold_note": "gold_htn_followup_006",
+  "generated_at": "2026-02-14T02:50:36.622211",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 74
+  }
+}

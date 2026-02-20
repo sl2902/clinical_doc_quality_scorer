@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_annual_physical_008",
+  "scenario": "annual_physical",
+  "persona": "brooks",
+  "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Chief Complaint:**  \nAnnual physical exam.\n\n**HPI:**  \nPt here for annual check-up. Reports mild fatigue but generally well. Hx of mild HTN, controlled on meds. No acute issues or recent hospital visits.\n\n**ROS:**  \nNo fever, weight change, or vision issues. No chest pain, SOB, or GI complaints. Mood stable, no skin changes. Regular menses, no GU issues.\n\n**Physical Exam:**  \nVS: BP 122/76, HR 68, Temp 98.2\u00b0F, O2 99%. Gen: WNL. CV: RRR, no murmurs. Resp: Clear bilat. Abd: Soft, non-tender. Ext: Full ROM, neuro intact.\n\n**Assessment and Plan:**  \n1. Health maintenance: Labs ordered, mammogram, flu vaccine given.  \n2. HTN: Continue Lisinopril. Encourage home BP checks.  \n3. Fatigue: Labs to eval; advise sleep/stress mgmt.  \n4. Lifestyle: Maintain current diet/exercise.\n\n**Follow-up:**  \nRTC PRN.",
+  "demographics": {
+    "age": 29,
+    "gender": "F",
+    "occupation": "graphic designer",
+    "name": "Emily Taylor"
+  },
+  "source_gold_note": "gold_annual_physical_008",
+  "generated_at": "2026-02-14T02:48:00.195381",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 74
+  }
+}

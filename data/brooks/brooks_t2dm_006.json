@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_t2dm_006",
+  "scenario": "t2dm",
+  "persona": "brooks",
+  "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Chief Complaint:**  \nDiabetes f/u\n\n**HPI:**  \nPt with 3-year hx of T2DM, poorly controlled, HbA1c 9.5%. Fasting glucose 160-220, postprandial 180-250. On Metformin 1000mg BID, GI upset noted. No hypoglycemia, occasional foot tingling. Sedentary, drinks soda daily.\n\n**ROS:**  \nNo fever, fatigue, visual changes. Occasional GI upset and foot tingling. No polyuria, polydipsia, or weight loss.\n\n**Physical Exam:**  \nBP 128/78, HR 78, BMI 32.4. Obese, pleasant. CV, Resp, Ext: WNL. Feet: WNL, no deformities.\n\n**Assessment/Plan:**  \n1. T2DM, poorly controlled. Add Semaglutide, continue Metformin. Nutrition counseling, lifestyle changes advised.\n2. Obesity. Encourage weight loss.\n3. HTN, controlled. Continue Lisinopril.\n4. Hyperlipidemia. Continue Atorvastatin.\n5. Preventive: Ophthalmology referral, kidney tests, vax review.\n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 28,
+    "gender": "F",
+    "occupation": "registered nurse",
+    "name": "Maria Garcia"
+  },
+  "source_gold_note": "gold_t2dm_006",
+  "generated_at": "2026-02-14T02:52:11.553829",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 68
+  }
+}

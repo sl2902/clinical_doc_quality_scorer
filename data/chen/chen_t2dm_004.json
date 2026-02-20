@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_t2dm_004",
+  "scenario": "t2dm",
+  "persona": "chen",
+  "note_text": "**Patient:** Michael Brown\n**Age:** 47\n**Gender:** M\n**Occupation:** high school teacher\n\n**Chief Complaint:**  \nDiabetes follow-up\n\n**History of Present Illness:**  \n47-year-old male with Type 2 Diabetes for 3 years. Reports high fasting glucose (160-220 mg/dL) and postprandial (180-250 mg/dL). HbA1c recently 10.2%. On Metformin, experiences some GI upset. No hypoglycemia. Occasional foot tingling, worried about possible ulcer. Erectile dysfunction noted. Sedentary, struggles with diet control. Last eye check 8 months ago, no issues.\n\n**Review of Systems:**  \n- **General:** No weight loss, no fatigue.  \n- **Endocrine/Neurologic/GU:** No polyuria/polydipsia. Tingling feet, erectile dysfunction.  \n- **Eyes:** No changes.  \n- **GI:** GI upset with Metformin.  \n- **Skin:** Potential foot ulcer concern, no visible wounds.\n\n**Physical Examination:**  \n- **Vital Signs:** BP 128/78, HR 78, Temp 98.6\u00b0F, BMI 32.4  \n- **General/Respiratory:** Alert, obese, pleasant, lungs clear.  \n- **Cardiovascular:** Normal heart sounds, no murmurs, pulses 2+ in feet.  \n- **Extremities:** Monofilament test intact, skin intact, no ulcers or deformities.  \n- **Feet:** Nails trimmed, no fungal infection.  \n- **Abdomen/Other:** Grossly intact.\n\n**Assessment:**  \n1. Type 2 Diabetes Mellitus, uncontrolled.  \n2. Obesity.  \n3. Hypertension, controlled.  \n4. Hyperlipidemia.  \n5. Sexual dysfunction possibly related to diabetes.\n\n**Plan:**  \n- Add Semaglutide weekly. Continue Metformin. Check HbA1c in 3 months.  \n- Nutrition counseling referral.  \n- Lifestyle changes: reduce sugary drinks, smaller portions, exercise 150 min/week.  \n- Continue Lisinopril, Atorvastatin.  \n- Foot care education, monitor for ulcers.  \n- Discuss erectile dysfunction treatment options.  \n- Preventive care: flu vaccine, ophthalmology referral for eye exam, kidney tests ordered.\n\n**Time Spent:**  \n25 minutes.",
+  "demographics": {
+    "age": 47,
+    "gender": "M",
+    "occupation": "high school teacher",
+    "name": "Michael Brown"
+  },
+  "source_gold_note": "gold_t2dm_004",
+  "generated_at": "2026-02-14T02:52:10.529654",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 80,
+    "risk": 85,
+    "clarity": 88
+  }
+}

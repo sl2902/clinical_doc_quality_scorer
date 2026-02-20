@@ -1,0 +1,21 @@
+{
+  "note_id": "chen_t2dm_009",
+  "scenario": "t2dm",
+  "persona": "chen",
+  "note_text": "**Patient:** Sarah Johnson\n**Age:** 39\n**Gender:** F\n**Occupation:** project manager\n\n**Chief Complaint:**\nDiabetes follow-up\n\n**History of Present Illness:**\nPatient with a 3-year history of diabetes. Fasting glucose 160-220, postprandial 180-250. Last HbA1c was 10.2%. On Metformin, 1000mg BID, some GI upset. No hypoglycemia. Concern about foot ulcer today. History of hypertension and hyperlipidemia. Sedentary lifestyle, struggles with diet, drinks soda. Occasional foot tingling. Irregular menses, not planning pregnancy.\n\n**Review of Systems:**\n- General: No weight loss\n- Eyes/Endocrine: No visual changes, no polyuria, no polydipsia\n- Neurological/Skin: Tingling feet, foot ulcer concern\n\n**Physical Examination:**\n- Vitals: BP 128/78, HR 78, Weight 185 lbs\n- General: Obese, alert\n- Cardiovascular: Regular rhythm, peripheral pulses 2+\n- Respiratory: Clear bilaterally\n- Extremities: No edema, skin intact, pulses palpable\n- Feet: Nails trimmed, no fungal infection, ulcer concern\n\n**Assessment and Plan:**\n1. **Type 2 Diabetes Mellitus, Uncontrolled:**\n   - Add Semaglutide, increase dose after 4 weeks.\n   - Continue Metformin.\n   - HbA1c in 3 months.\n   - Refer to diabetes educator.\n\n2. **Obesity:**\n   - Counseling on diet and exercise.\n   - Aim for 5-10% weight loss.\n\n3. **Hypertension:**\n   - Continue Lisinopril.\n\n4. **Diabetic Complications:**\n   - Ophthalmology referral for overdue exam.\n   - Monitor foot ulcer.\n\n**Vaccinations:**\n- Check flu and pneumococcal status.\n\n**Documentation:**\n- **Time Spent:** Not recorded\n- **Billing Level:** 99214 (moderate complexity)\n\n**Medical Decision Making:**\nAddressed poor glycemic control. GLP-1 agonist added for benefits. Discussed lifestyle changes and referred for further education.",
+  "demographics": {
+    "age": 39,
+    "gender": "F",
+    "occupation": "project manager",
+    "name": "Sarah Johnson"
+  },
+  "source_gold_note": "gold_t2dm_009",
+  "generated_at": "2026-02-14T02:53:09.103315",
+  "ground_truth_scores": {
+    "completeness": 85,
+    "accuracy": 90,
+    "compliance": 75,
+    "risk": 80,
+    "clarity": 85
+  }
+}

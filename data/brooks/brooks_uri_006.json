@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_uri_006",
+  "scenario": "uri",
+  "persona": "brooks",
+  "note_text": "**Patient:** Maria Garcia\n**Age:** 28\n**Gender:** F\n**Occupation:** registered nurse\n\n**Chief Complaint:**  \nCough and congestion\n\n**HPI:**  \nPt presents with 5-day hx of cough and nasal congestion. Also reports sore throat, mild headache, and fatigue. No fever, SOB, or chest pain.\n\n**ROS:**  \n+fatigue, cough, nasal congestion, sore throat, mild headache. Denies fever, SOB, chest pain, GI symptoms.\n\n**Physical Exam:**  \nVS: Temp 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 99% RA. Gen: Alert, NAD. HEENT: Nasal congestion, erythematous pharynx, no exudates. Lungs: Clear. CV: RRR, no murmurs.\n\n**Assessment/Plan:**  \nAcute viral URI. Supportive care: fluids, rest, humidifier. Symptomatic tx: Pseudoephedrine, dextromethorphan. RTC PRN.",
+  "demographics": {
+    "age": 28,
+    "gender": "F",
+    "occupation": "registered nurse",
+    "name": "Maria Garcia"
+  },
+  "source_gold_note": "gold_uri_006",
+  "generated_at": "2026-02-14T02:54:25.482488",
+  "ground_truth_scores": {
+    "completeness": 70,
+    "accuracy": 85,
+    "compliance": 65,
+    "risk": 60,
+    "clarity": 75
+  }
+}

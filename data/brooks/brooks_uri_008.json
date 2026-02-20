@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_uri_008",
+  "scenario": "uri",
+  "persona": "brooks",
+  "note_text": "**Patient:** Emily Taylor\n**Age:** 29\n**Gender:** F\n**Occupation:** graphic designer\n\n**Chief Complaint:**  \nCough and congestion\n\n**HPI:**  \nPt reports cough with clear sputum and nasal congestion for 5 days. Mild sore throat, headache, and fatigue present. No fever, SOB, or chest pain. No prior tx.\n\n**ROS:**  \nFatigue, mild headache, nasal congestion, cough. Denies fever, SOB, chest pain, GI issues, rash.\n\n**Physical Exam:**  \nVS: Temp 98.9\u00b0F, HR 76, BP 118/72, RR 14, O2 sat 99%. Gen: Alert, NAD. HEENT: Congested nasal mucosa, mild pharyngeal erythema. Lungs/Heart: WNL. Skin: WNL.\n\n**Assessment/Plan:**  \n- Acute viral URI  \n  - Rest, fluids, humidifier.  \n  - Pseudoephedrine, Dextromethorphan PRN.\n\n**Follow-up:**  \nRTC PRN",
+  "demographics": {
+    "age": 29,
+    "gender": "F",
+    "occupation": "graphic designer",
+    "name": "Emily Taylor"
+  },
+  "source_gold_note": "gold_uri_008",
+  "generated_at": "2026-02-14T02:53:48.415712",
+  "ground_truth_scores": {
+    "completeness": 65,
+    "accuracy": 80,
+    "compliance": 60,
+    "risk": 70,
+    "clarity": 75
+  }
+}

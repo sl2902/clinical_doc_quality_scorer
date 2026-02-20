@@ -1,0 +1,21 @@
+{
+  "note_id": "brooks_back_pain_005",
+  "scenario": "back_pain",
+  "persona": "brooks",
+  "note_text": "**Patient:** Jane Doe\n**Age:** 35\n**Gender:** F\n**Occupation:** elementary teacher\n\n**Clinical Note**\n\n**CC:** \"Back pain for 3 days\"\n\n**HPI:** Pt with acute low back pain, sharp with movement, dull at rest. Started after lifting at work. No leg radiation or neuro symptoms.\n\n**ROS:** Musculoskeletal: back pain. Neuro: no weakness/numbness. Constitutional: no fever/chills.\n\n**Physical Exam:** Vitals: BP 128/82, HR 74, Temp 98.4\u00b0F, RR 14. Back: tenderness L3-L5, muscle spasm. Neuro: strength/sensation WNL, gait antalgic.\n\n**Assessment/Plan:**  \n- Dx: Acute mechanical low back pain.  \n- Tx: Ibuprofen, cyclobenzaprine. Avoid heavy lifting, activity as tolerated. PT referral.  \n- Red flag advice given.  \n- RTC PRN.",
+  "demographics": {
+    "age": 35,
+    "gender": "F",
+    "occupation": "elementary teacher",
+    "name": "Jane Doe"
+  },
+  "source_gold_note": "gold_back_pain_005",
+  "generated_at": "2026-02-14T02:48:50.944950",
+  "ground_truth_scores": {
+    "completeness": 72,
+    "accuracy": 78,
+    "compliance": 65,
+    "risk": 70,
+    "clarity": 74
+  }
+}
