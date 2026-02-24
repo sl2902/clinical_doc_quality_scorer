@@ -4,4 +4,8 @@ version = "0.1.0"
 description = "Clinical Document Quality Scorer"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+"openai",
+"aiofiles",
+"python-dotenv",
+]
