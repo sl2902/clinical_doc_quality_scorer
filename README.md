@@ -20,8 +20,8 @@ Multi-agent MedGemma system for real-time clinical note quality assessment acros
 2. **Run Demo**:
    ```bash
    # Open notebooks/06-demo.ipynb in Google Colab
-   # Run all the cells sequentially. If successful, the public url to streamlit is displayed.
-   # The demo will create a public URL via ngrok
+   # Run all the cells sequentially.
+   # If successful, the demo will create a public URL via ngrok
    # Set your HF_TOKEN in the Streamlit configuration box
    # Explore the app
    ```
@@ -115,7 +115,7 @@ scores = orchestrator.score_note(clinical_note_text)
 ### Dependencies
 ```bash
 pip install transformers peft torch bitsandbytes streamlit
-pip install openai aiofiles  # For data generation only
+pip install openai aiofiles python-dotenv  # For data generation only
 ```
 
 ### Hardware Requirements
