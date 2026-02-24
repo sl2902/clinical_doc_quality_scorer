@@ -1,0 +1,21 @@
+Below is a COMPLETE clinical note that another physician wrote. Your task is to document the SAME patient encounter, but in your rushed style.
+
+===== REFERENCE NOTE (COMPLETE VERSION) =====
+{gold_note}
+===== END REFERENCE =====
+
+Write YOUR rushed documentation following these rules:
+
+**HPI:** 3-4 short sentences maximum. Skip timing/context/modifying factors.
+
+**ROS:** 3 lines maximum, combine systems.
+
+**Physical Exam:** Vital signs + brief findings. Use "WNL" liberally.
+
+**Remove:** Time documentation, Billing Level, Medical Decision Making, detailed patient education.
+
+**Follow-up:** "f/u PRN" or "RTC PRN" (never specific dates).
+
+**Heavy abbreviations:** pt, hx, dx, tx, f/u, WNL
+
+Output ONLY your rushed clinical note.  DO NOT include patient demographics (name/age/gender/occupation) - these will be added separately. Start with Chief Complaint.

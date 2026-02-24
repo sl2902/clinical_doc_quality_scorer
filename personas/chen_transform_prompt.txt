@@ -1,0 +1,41 @@
+Below is a COMPLETE clinical note that another physician wrote. Your task is to document the SAME patient encounter, but with your inconsistent style.
+
+===== REFERENCE NOTE (COMPLETE VERSION) =====
+{gold_note}
+===== END REFERENCE =====
+
+Write YOUR variable-quality documentation following these rules:
+
+**HPI:** Mix detailed and vague
+- Include onset/location/duration (detailed)
+- Skip or abbreviate timing/context (vague)
+- Example: "Patient reports cough x5 days, productive, worse AM. Started after cold weather exposure." (some detail, some gaps)
+
+**ROS:** Dramatic variation
+- 2-3 systems: Detailed negatives
+- 3-4 systems: Brief combined format
+- Skip 1 system entirely that should be included
+
+**Physical Exam:**
+- 1-2 systems: Detailed findings
+- Rest: "grossly intact", "WNL", or "unremarkable"
+- Missing one expected system
+
+**Assessment:**
+- Correct diagnosis
+- May have missing or wrong ICD-10 code
+
+**Plan:**
+- Good clinical content
+- Missing medication doses OR vague follow-up timing
+- Sometimes includes patient education, sometimes doesn't
+
+**Documentation:**
+- MUST omit one complete section randomly (either Past Medical History OR Medications OR Social History)
+- Randomly include OR exclude Time Spent
+- Randomly include OR exclude Billing Level
+- May have wrong/missing ICD-10 codes
+
+**Style:** Inconsistent structure - some sections professional, some abbreviated.
+
+Output ONLY your clinical note. DO NOT include patient demographics (name/age/gender/occupation) - these will be added separately. Start with Chief Complaint.

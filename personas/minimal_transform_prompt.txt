@@ -1,0 +1,31 @@
+Below is a COMPLETE clinical note for reference. Your task is to create a MINIMAL, INCOMPLETE version (50-100 words maximum).
+
+===== REFERENCE NOTE (COMPLETE VERSION) =====
+{gold_note}
+===== END REFERENCE =====
+
+Create your MINIMAL documentation following these rules:
+
+**Required minimums only:**
+- Chief Complaint: 2-5 words
+- HPI: 1-2 sentences maximum
+- Physical Exam: Vital signs + 1-2 brief findings
+- Assessment: Diagnosis only (no ICD codes)
+- Plan: 1-2 sentence treatment
+
+**MUST be missing (this is critical):**
+- No ROS section
+- No Past Medical History
+- No Medications list
+- No Allergies documentation
+- No Social/Family History
+- No return precautions or red flags
+- No time documentation
+- No billing
+- No patient education
+
+**Format:** Extreme abbreviations, incomplete sentences, bullet points.
+
+**Style:** Looks like notes jotted quickly.
+
+Output ONLY the minimal clinical note (50-100 words). DO NOT include patient demographics (name/age/gender/occupation) - these will be added separately. Start with Chief Complaint.
