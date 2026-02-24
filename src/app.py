@@ -170,34 +170,162 @@ with st.sidebar:
 
 # Sample notes
 SAMPLE_NOTES = {
-    "Complete Note": """**Chief Complaint:** Annual physical examination
+    "Complete Note": """# Clinical Note
 
-**History of Present Illness:**
-Patient presents for routine annual preventive health examination. No acute complaints. Patient reports feeling well overall.
+**Patient Name:** Carlos Rodriguez  
+**Date of Service:** [Insert Date]  
+**Age:** 33 years  
+**Gender:** Male  
+**Occupation:** Restaurant Manager  
 
-**Review of Systems:**
-* Constitutional: No fever, chills, fatigue, or unintentional weight changes
-* HEENT: No vision changes, hearing loss, or sinus issues
-* Cardiovascular: No chest pain, palpitations, or edema
-* Respiratory: No shortness of breath, cough, or wheezing
+---
 
-**Physical Examination:**
-* Vital Signs: BP 120/80, HR 72, Temp 98.6°F, RR 16
-* General: Alert, well-appearing
-* HEENT: Normal exam
-* Cardiovascular: Regular rhythm, no murmurs
-* Respiratory: Clear to auscultation bilaterally
+## Chief Complaint
+“Back pain for 5 days”
 
-**Assessment:** Healthy adult, routine physical examination
-**Plan:** Continue preventive care, follow-up in 1 year""",
-    
-    "Incomplete Note": """CC: Back pain
+---
 
-HPI: Pt reports low back pain x 3 days. Started after lifting.
+## History of Present Illness
+Carlos Rodriguez is a 33-year-old male presenting with acute low back pain localized to the lumbar region, primarily left-sided. The pain is described as sharp with movement and a dull ache at rest. Severity is **7/10 with movement** and **4/10 at rest**.
 
-PE: Tenderness lower back. ROM limited.
+Symptoms began 5 days ago after lifting a 50-pound box at work with a twisting motion. Pain is constant and worse in the morning and after prolonged sitting.
 
-A/P: Low back strain. Ibuprofen. F/u PRN."""
+**Exacerbating factors:**
+- Bending forward  
+- Standing >30 minutes  
+- Sneezing  
+
+**Relieving factors:**
+- Lying flat  
+- Heat application  
+- Ibuprofen  
+
+Associated symptom: tingling in the right leg.  
+Denies numbness, weakness, saddle anesthesia, or bowel/bladder dysfunction.
+
+---
+
+## Review of Systems
+- **Musculoskeletal:** Lower back pain as described; no other joint pain.  
+- **Neurological:** Tingling in right leg; no weakness, numbness, or balance issues.  
+- **Constitutional:** No fever, chills, or weight loss.  
+- **Genitourinary:** No urinary retention or incontinence; normal bowel function.  
+
+---
+
+## Past Medical History
+- No history of chronic back problems  
+- Last physical examination 3 months ago  
+
+---
+
+## Medications
+- Ibuprofen 600 mg as needed for pain  
+
+---
+
+## Allergies
+- No known drug allergies  
+
+---
+
+## Social History
+- Occupation: Restaurant Manager  
+- No tobacco use  
+- Occasional alcohol use  
+
+---
+
+## Physical Examination
+
+**Vital Signs**
+- BP: 128/82 mmHg  
+- HR: 74 bpm  
+- Temperature: 98.4°F  
+- RR: 14  
+
+**General**
+- Alert, uncomfortable with movement, not in severe distress  
+
+**Back**
+- Tenderness over left paraspinal muscles at L3–L5  
+- No midline tenderness  
+- Muscle spasm present  
+
+**Range of Motion**
+- Flexion limited to 45° due to pain  
+- Extension 15°  
+- Lateral bending 20° bilaterally  
+
+**Neurological**
+- **Straight Leg Raise:** Negative bilaterally (local discomfort only at 70°)  
+- **Motor:** 5/5 strength in bilateral hip flexors, knee extensors, ankle dorsiflexion, plantar flexion, and great toe extension  
+- **Sensory:** Intact to light touch L1–S1 bilaterally  
+- **Reflexes:** 2+ patellar and Achilles reflexes bilaterally, symmetric, no clonus  
+- **Gait:** Antalgic but ambulates independently; able to heel and toe walk  
+
+**Abdomen**
+- Soft, non-tender, no costovertebral angle tenderness  
+
+---
+
+## Assessment
+1. **Acute mechanical low back pain / lumbar strain** (ICD-10: M54.5)  
+2. Mild radiculopathy (right leg tingling)  
+3. No red flags for serious pathology  
+
+---
+
+## Plan
+
+### Conservative Management
+- No imaging indicated at this time  
+
+### Medications
+- Ibuprofen 600 mg three times daily with food for 7–10 days  
+- Cyclobenzaprine 5 mg at bedtime for 3–5 days (avoid if excessive sedation)  
+
+### Activity Modification
+- Avoid lifting >20 lbs for 2 weeks  
+- Avoid prolonged sitting (>1 hour without break)  
+- Return to normal activities as tolerated  
+
+### Physical Therapy
+- Referral for core strengthening and body mechanics training  
+- Initiate in 1 week if symptoms improving  
+
+### Adjunct Therapy
+- Alternate heat and ice for 15–20 minutes several times daily  
+
+### Education
+- Discussed expected course (most improve within 2–4 weeks)  
+- Reviewed red flag symptoms requiring urgent evaluation:
+  - Progressive leg weakness  
+  - Numbness in groin/inner thighs  
+  - Loss of bowel/bladder control  
+  - Worsening or severe pain  
+
+### Work Note
+- Light duty with 20-pound lifting restriction for 2 weeks  
+
+### Follow-Up
+- Return in 2 weeks if not significantly improved  
+- Earlier evaluation if symptoms worsen or new symptoms develop  
+- Imaging (X-ray or MRI) if no improvement at 4–6 weeks or if red flags develop  
+
+---
+
+## Billing Information
+- **CPT Code:** 99214 – Established patient, moderate complexity  
+- **ICD-10:** M54.5  
+- **Total Time Spent:** 20 minutes  
+
+---
+
+## Medical Decision Making
+Comprehensive red flag assessment performed and negative. Clinical presentation consistent with acute mechanical low back pain/lumbar 
+strain with mild radicular symptoms. No indication for imaging per guidelines. Medication risks/benefits and activity modification discussed. 
+Patient educated on warning signs requiring urgent evaluation."""
 }
 
 # Main content
