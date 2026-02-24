@@ -1,0 +1,101 @@
+Create a complete clinical note for the following patient encounter.
+
+SCENARIO: Acute Low Back Pain
+
+Patient Demographics:
+- Name: {name}
+- Age: {age} years old
+- Gender: {gender}
+- Occupation: {occupation}
+- Last physical: 3 months ago
+
+Clinical Context:
+Established patient presenting with acute low back pain. No history of chronic back problems.
+
+Chief Complaint: "Back pain for 3 days"
+
+Required Clinical Details - HPI (All 8 elements):
+1. Location: Lower back, lumbar region, primarily left-sided
+2. Quality: Sharp with movement, dull ache at rest
+3. Severity: 7/10 with movement, 4/10 at rest
+4. Duration: Onset 3 days ago
+5. Timing: Constant, worse in morning and after sitting for prolonged periods
+6. Context: Started after lifting a 50-pound box at work with twisting motion
+7. Modifying factors: Worse with bending forward, standing >30 minutes, sneezing. Better with lying flat, heat application, ibuprofen
+8. Associated symptoms: No radiation to legs, no numbness, no tingling, no weakness, no bowel/bladder changes, no fever
+
+Review of Systems:
+- Musculoskeletal: Back pain as described, no other joint pain
+- Neurological: No weakness in legs, no numbness/tingling, no saddle anesthesia, no loss of balance
+- Constitutional: No fever, no chills, no weight loss
+- GU: No urinary retention, no incontinence, normal bowel function
+
+Physical Exam Findings to Include:
+- Vital signs: BP 128/82 mmHg, HR 74, Temperature 98.4°F, RR 14
+- General: Alert, uncomfortable when moving but not in severe distress
+- Back: Tenderness to palpation over left paraspinal muscles at L3-L5, no midline tenderness, no step-off deformity, muscle spasm present
+- Range of motion: Flexion limited to 45 degrees (pain-limited), extension 15 degrees (limited), lateral bending 20 degrees bilaterally (limited)
+- Neurological:
+  * Straight leg raise: Negative bilaterally (no radicular pain, only local back discomfort at 70 degrees)
+  * Motor: 5/5 strength bilateral hip flexors, knee extensors, ankle dorsiflexion, plantar flexion, great toe extension
+  * Sensory: Intact to light touch L1-S1 distributions bilaterally
+  * Reflexes: 2+ patellar and Achilles bilaterally, symmetric, no clonus
+  * Gait: Antalgic but able to walk without assistance, able to heel walk and toe walk
+- Abdomen: Soft, non-tender, no costovertebral angle tenderness
+
+Red Flags Assessment (document absence of):
+- No fever or signs of infection
+- No recent trauma with high-energy mechanism
+- No progressive neurological deficit
+- No bowel/bladder dysfunction
+- No saddle anesthesia
+- Age 38 (low risk for malignancy or compression fracture)
+- No unexplained weight loss
+- No rest pain or night pain
+- No history of cancer
+- No immunosuppression
+
+Assessment:
+- Acute mechanical low back pain, lumbar strain (ICD-10: M54.5)
+- No radiculopathy
+- No red flags for serious pathology
+
+Plan Should Include:
+- Conservative management: No imaging indicated (absence of red flags, duration <4 weeks per guidelines)
+- Medications:
+  * Ibuprofen 600mg three times daily with food for 7-10 days
+  * Cyclobenzaprine 5mg at bedtime for muscle spasm (3-5 days, avoid if sedation problematic)
+- Activity modification:
+  * Avoid heavy lifting (>20 lbs) for 2 weeks
+  * No prolonged sitting (>1 hour without break)
+  * Return to normal activities as tolerated (bed rest NOT recommended)
+  * May continue light duty work if employer accommodates restrictions
+- Physical therapy: Referral for core strengthening, proper body mechanics training, start in 1 week if pain improving
+- Heat/ice therapy: Alternate for 15-20 minutes several times daily
+- Expected course: Most patients improve within 2-4 weeks
+- Work note: Light duty with 20-pound lifting restriction for 2 weeks
+- Red flag education: Return immediately or go to ER if develops leg weakness, numbness in groin/inner thighs, loss of bowel/bladder control, or progressively worsening pain
+- Follow-up: Return in 2 weeks if not improving significantly, sooner if worsening or new symptoms
+- Imaging: Will order lumbar X-rays or MRI only if no improvement at 4-6 weeks or if red flags develop
+
+Billing Level: 99214 (Established patient, moderate complexity)
+Document 20 minutes including detailed neurological exam and extensive education about natural history and red flags.
+
+Medical Decision Making:
+Document comprehensive assessment for red flags (all absent). Clinical presentation consistent with acute mechanical low back pain/lumbar strain. No indication for imaging per evidence-based guidelines (no red flags, duration <4 weeks, no radiculopathy). Discussed natural history (90% improve within 4-6 weeks). Risk-benefit analysis of medications (NSAIDs effective, short-term muscle relaxant for severe spasm). Emphasized activity modification and return to normal activities as tolerated (bed rest increases recovery time). Patient educated extensively on red flag symptoms requiring urgent evaluation.
+
+Generate a complete clinical note with the following sections:
+- Chief Complaint
+- History of Present Illness (all 8 elements)
+- Review of Systems
+- Past Medical History
+- Medications
+- Allergies
+- Social History
+- Physical Examination
+- Assessment and Plan
+- Time spent
+- Billing Level
+- Medical Decision Making
+
+Output ONLY the clinical note. Do not include explanations, disclaimers, or documentation tips.

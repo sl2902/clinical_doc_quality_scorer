@@ -1,0 +1,166 @@
+Create a complete clinical note for the following patient encounter.
+
+SCENARIO: Annual Comprehensive Physical Examination
+
+Patient Demographics:
+- Name: {name}
+- Age: {age} years old
+- Gender: {gender}
+- Occupation: {occupation}
+- Last physical: 1 year ago
+
+Clinical Context:
+Established patient presenting for routine annual preventive health examination. No acute complaints. Focus on health maintenance, screening, and prevention.
+
+Chief Complaint: "Annual physical"
+
+Required Clinical Details:
+- Interval history: No hospitalizations, no ER visits, no new diagnoses since last visit
+- Current health status: Feels well overall, energy level good
+- Chronic conditions: Mild hypertension (controlled on medication)
+- Preventive care review:
+  * Last colonoscopy: Age 45 (normal, next due in 10 years)
+  {gender_specific_screening}
+  * Vaccinations: Flu vaccine last October, Tdap 2020, needs to discuss others
+- Lifestyle assessment:
+  * Diet: Mediterranean-style, eats vegetables daily, cooks at home 5x/week
+  * Exercise: Walks 4x/week for 45 minutes, does yoga 1x/week
+  * Tobacco: Never smoker
+  * Alcohol: 1 glass of wine with dinner 3-4x/week
+  * Substance use: Denies
+  * Sleep: 7-8 hours nightly, no snoring per partner
+  * Stress: Moderate work stress, manages well
+- Safety: Wears seatbelt, smoke detectors in home, no firearms
+- Mental health: PHQ-2 score 0 (negative depression screen), low anxiety
+
+Review of Systems (Comprehensive):
+- Constitutional: No fever, chills, no unintentional weight changes
+- Eyes: No vision changes, last eye exam 1 year ago (wears reading glasses)
+- ENT: No hearing loss, no chronic sinus issues
+- Cardiovascular: No chest pain, no palpitations, no orthopnea, no PND, no edema
+- Respiratory: No cough, no shortness of breath, no wheezing
+- GI: No abdominal pain, regular bowel movements, no blood in stool, no heartburn
+- GU: {gu_ros}
+- Musculoskeletal: No joint pain, no back pain, active without limitations
+- Neurological: No headaches, no dizziness, no weakness/numbness
+- Psychiatric: Mood stable, sleeping well, enjoying activities
+- Endocrine: No heat/cold intolerance, no polyuria/polydipsia
+- Skin: No new or changing moles, no rashes
+- Heme/Lymph: No easy bruising or bleeding, no lymph node swelling
+
+Current Medications:
+- Lisinopril 10mg daily (for hypertension)
+- Multivitamin daily
+- Calcium with Vitamin D 600mg/400IU daily
+
+Allergies:
+- Penicillin (rash as a child)
+
+Family History:
+- Mother: Alive, age 72, hypertension, hyperlipidemia
+- Father: Deceased age 68 from colon cancer (diagnosed age 65)
+- Siblings: One sister, alive and well
+- No family history of breast cancer, ovarian cancer, heart disease <55, diabetes
+
+Social History:
+- Married, lives with spouse
+- Works as {occupation}
+- College educated
+- Financially stable
+- Good social support system
+- No tobacco, moderate alcohol, no drugs
+
+Physical Exam (Complete):
+- Vital signs: BP 122/76 mmHg (right arm), 120/78 mmHg (left arm), HR 68, RR 14, Temperature 98.2°F, O2 sat 99% on RA
+- Height: 5'5", Weight: 142 lbs, BMI: 23.6 (healthy weight)
+- General: Well-appearing, pleasant, in no distress, appears stated age
+- HEENT: Normocephalic, atraumatic, PERRLA, EOMI, conjunctivae clear, TMs clear bilaterally, oropharynx clear without erythema or exudates, thyroid non-palpable
+- Neck: Supple, full ROM, no lymphadenopathy, no JVD, carotid pulses 2+ bilaterally without bruits
+- Cardiovascular: Regular rate and rhythm, S1/S2 normal, no murmurs/rubs/gallops, PMI non-displaced
+- Respiratory: Clear to auscultation bilaterally, good air movement, no wheezes/rales/rhonchi, symmetric expansion
+- Abdomen: Soft, flat, non-distended, non-tender, normoactive bowel sounds all quadrants, no hepatosplenomegaly, no masses, no hernias
+- {breast_exam}
+- Genitourinary: {gu_exam}
+- Musculoskeletal: Full ROM all major joints, no deformities, no joint swelling or tenderness, normal gait
+- Neurological: Alert and oriented x3, CN II-XII intact, strength 5/5 all extremities, sensation intact to light touch, reflexes 2+ and symmetric (biceps, triceps, patellar, Achilles), gait steady, Romberg negative
+- Skin: No concerning lesions, no atypical nevi, skin appropriate for age with mild solar changes
+- Psychiatric: Appropriate affect, good eye contact, linear thought process
+
+Assessment:
+- Health maintenance examination (Z00.00)
+- Essential hypertension, controlled (I10)
+- Family history of colon cancer (Z80.0)
+
+Plan by Problem:
+
+**Health Maintenance:**
+- Screening labs ordered today:
+  * Lipid panel (due every 5 years, last done 5 years ago)
+  * Fasting glucose (diabetes screening, every 3 years)
+  * TSH (thyroid screening)
+  * CBC (baseline)
+- Cancer screening:
+  {gender_specific_cancer_screening}
+  * Colonoscopy: Not due (last at 45, repeat age 55 given normal result and family history)
+- Vaccinations:
+  * Influenza: Offered today, patient accepted
+  * Tdap: Up to date (2020, good for 10 years)
+  * COVID-19: Discussed updated booster, patient will consider
+  * Zoster (Shingrix): Discussed, not yet due (recommend age 50+)
+- Bone density: Not yet indicated (age <65, no risk factors)
+- Cardiovascular risk assessment: ASCVD 10-year risk <5% (low risk), continue current management
+
+**Hypertension:**
+- Well-controlled on Lisinopril 10mg daily
+- Home BP monitoring encouraged
+- Continue current medication
+- Annual renal function and electrolytes (will check today with metabolic panel)
+
+**Lifestyle Counseling:**
+- Diet: Excellent adherence to Mediterranean diet, encouraged to continue
+- Exercise: Meeting guidelines (150+ min/week moderate activity), encouraged to continue
+- Weight: Healthy BMI, maintain current weight
+- Alcohol: Within recommended limits
+- Mental health: Screened negative for depression/anxiety
+
+**Preventive Counseling:**
+- Calcium and Vitamin D: Continue supplementation for bone health
+- Sun protection: Discussed sunscreen use, skin self-exams
+- Safety: Seatbelt use, smoke detectors confirmed
+
+Follow-up:
+- Return in 1 year for next annual physical
+- Return sooner for: Lab result review (call in 1 week if abnormal), any new concerns
+- Call office with any questions
+
+Patient Education:
+- Reviewed all screening recommendations and rationale
+- Discussed family history of colon cancer and appropriate screening timeline
+- Encouraged continuation of healthy lifestyle habits
+- Provided written materials on cardiovascular risk reduction
+- All questions answered
+
+Billing Level: 99396 (Established patient preventive visit, age 40-64)
+
+Time Documentation:
+Face-to-face time approximately 40 minutes including comprehensive history, examination, and extensive counseling on preventive care.
+
+Medical Decision Making:
+Comprehensive preventive care visit including age-appropriate screening recommendations per USPSTF guidelines. Cardiovascular risk assessed using pooled cohort equations (10-year ASCVD risk <5%). Discussed rationale for cancer screening including earlier colonoscopy surveillance due to first-degree relative with colon cancer (but screening still age 50+, last colonoscopy age 45 adequate given normal result). Patient educated on importance of continued healthy lifestyle for disease prevention. All preventive care recommendations individualized based on age, gender, family history, and patient preferences.
+
+Generate a complete clinical note with the following sections:
+- Chief Complaint
+- History of Present Illness
+- Review of Systems (comprehensive)
+- Past Medical History
+- Medications
+- Allergies
+- Family History
+- Social History
+- Physical Examination (complete)
+- Assessment and Plan
+- Time spent
+- Billing Level
+- Medical Decision Making
+
+Output ONLY the clinical note. Do not include explanations, disclaimers, or documentation tips.

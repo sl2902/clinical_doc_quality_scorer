@@ -1,0 +1,89 @@
+Create a complete clinical note for the following patient encounter.
+
+SCENARIO: Type 2 Diabetes Management Visit
+
+Patient Demographics:
+- Name: {name}
+- Age: {age} years old
+- Gender: {gender}
+- Occupation: {occupation}
+- BMI: 32.4
+
+Clinical Context:
+Established patient with Type 2 Diabetes Mellitus diagnosed 3 years ago, returning for routine management. Last HbA1c 3 months ago was 8.2%. Currently on Metformin only.
+
+Chief Complaint: "Diabetes follow-up"
+
+Required Clinical Details:
+- Diabetes duration: 3 years since diagnosis
+- Current glucose control: Home glucose readings 160-220 mg/dL fasting, 180-250 mg/dL postprandial
+- Medication adherence: Takes Metformin 1000mg twice daily with meals, reports occasional GI upset but tolerating
+- Hypoglycemia: No episodes
+- Diabetic complications screening: Last eye exam 8 months ago (no retinopathy), last foot exam today
+- Comorbidities: Hypertension (controlled on Lisinopril), hyperlipidemia (on Atorvastatin)
+- Lifestyle: Sedentary job, minimal exercise, struggles with portion control, drinks soda daily
+- Review of systems: No polyuria, no polydipsia, no weight loss, no visual changes, reports tingling in feet occasionally, no wounds
+{gender_specific_diabetes_questions}
+
+Current Medications:
+- Metformin 1000mg twice daily
+- Lisinopril 20mg daily
+- Atorvastatin 20mg daily
+
+Physical Exam Findings to Include:
+- Vital signs: BP 128/78 mmHg, HR 78, Weight 185 lbs, BMI 32.4, Temperature 98.6°F
+- General: Alert, obese, pleasant
+- Cardiovascular: Regular rate and rhythm, no murmurs, peripheral pulses 2+ dorsalis pedis and posterior tibial bilaterally
+- Respiratory: Clear to auscultation bilaterally
+- Extremities: Monofilament test shows protective sensation intact bilaterally, skin intact without wounds or calluses, no edema, pedal pulses palpable
+- Feet: No deformities, nails trimmed, no fungal infection
+
+Assessment:
+- Type 2 Diabetes Mellitus, uncontrolled (ICD-10: E11.65)
+- Obesity (ICD-10: E66.9)
+- Essential hypertension, controlled (ICD-10: I10)
+- Hyperlipidemia (ICD-10: E78.5)
+
+Lab Results to Reference:
+- HbA1c: 8.2% (goal <7%)
+- Fasting glucose: 178 mg/dL
+- Basic metabolic panel: Creatinine 0.8 mg/dL, eGFR >90, all normal
+- Lipid panel: LDL 95 mg/dL (at goal on statin), HDL 48 mg/dL, Triglycerides 165 mg/dL
+- Urinalysis: No microalbuminuria
+
+Plan Should Include:
+- Add Semaglutide (GLP-1 agonist) 0.25mg subcutaneous weekly, increase to 0.5mg after 4 weeks (dual benefit: glucose control + weight loss)
+- Continue Metformin 1000mg twice daily
+- Continue Lisinopril and Atorvastatin (unchanged)
+- Order HbA1c in 3 months
+- Order annual kidney function (BMP, urinalysis with microalbumin)
+- Referral to ophthalmology for annual dilated eye exam (overdue)
+- Referral to diabetes educator for nutrition counseling
+- Lifestyle counseling: Eliminate sugar-sweetened beverages, portion control (use smaller plates), increase physical activity to 150 min/week (start with 10-min walks after meals)
+- Weight loss goal: 5-10% body weight (9-18 lbs) over 6 months
+- Vaccinations: Ensure flu vaccine, check pneumococcal status
+{gender_specific_diabetes_counseling}
+- Return in 6 weeks to assess Semaglutide tolerance and early response
+- Patient education: Glucose targets (fasting <130, postprandial <180), HbA1c goal <7%, importance of lifestyle modifications, how to inject Semaglutide, possible side effects (nausea)
+
+Billing Level: 99214 (Established patient, moderate to high complexity due to uncontrolled chronic disease)
+Document 25 minutes with extensive medication counseling and lifestyle education.
+
+Medical Decision Making:
+Document assessment of glycemic control (HbA1c 8.2% above goal despite Metformin). Cardiovascular risk elevated given diabetes, obesity, and age. Decision to add GLP-1 agonist based on dual benefit for glucose control and weight loss, low hypoglycemia risk, and cardiovascular benefit data. Discussed injection technique and expected side effects. Addressed barriers to lifestyle change (work schedule, dietary habits). Screening for complications current except ophthalmology (referral placed).
+
+Generate a complete clinical note with the following sections:
+- Chief Complaint
+- History of Present Illness (all 8 elements)
+- Review of Systems
+- Past Medical History
+- Medications
+- Allergies
+- Social History
+- Physical Examination
+- Assessment and Plan
+- Time spent
+- Billing Level
+- Medical Decision Making
+
+Output ONLY the clinical note. Do not include explanations, disclaimers, or documentation tips.

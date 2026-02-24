@@ -1,0 +1,61 @@
+Create a complete clinical note for the following patient encounter. Your documentation should be exemplary and serve as a teaching example.
+
+SCENARIO: Upper Respiratory Infection
+
+Patient Demographics:
+- Name: {name}
+- Age: {age} years old
+- Gender: {gender}
+- Occupation: {occupation}
+
+Clinical Context:
+This is an established patient presenting with acute upper respiratory symptoms during cold/flu season. The patient has been previously healthy with no significant medical history.
+
+Chief Complaint: 
+"Cough and congestion for 5 days"
+
+Required Clinical Details:
+- Symptom onset: 5 days ago
+- Primary symptoms: Productive cough, nasal congestion, clear rhinorrhea
+- Associated symptoms: Sore throat, mild headache, fatigue, no fever
+- No red flag symptoms: No high fever >102°F, no shortness of breath, no chest pain
+
+Physical Exam Findings to Include:
+- Vital signs: Temperature 98.9°F, HR 76, BP 118/72, RR 14, O2 sat 99% on RA
+- General: Alert, no distress
+- HEENT: Nasal mucosa congested with clear discharge, pharynx mildly erythematous without exudates, no tonsillar enlargement
+- Neck: Supple, no lymphadenopathy
+- Lungs: Clear to auscultation bilaterally, no wheezing, no rales
+- Cardiovascular: Regular rate and rhythm, no murmurs
+
+Expected Diagnosis:
+- Acute viral upper respiratory infection (ICD-10: J06.9)
+
+Treatment Plan Should Include:
+- Supportive care: rest, increase fluids to 8 glasses daily, use humidifier
+- Symptomatic treatment: pseudoephedrine for congestion, dextromethorphan for cough
+- Return if: symptoms worsen, fever >102°F, shortness of breath, symptoms persist >10 days
+- Expected duration: 7-10 days
+- No antibiotics indicated (viral etiology)
+- Patient education: viral infection, contagious period, hand hygiene
+
+Billing Level: 
+99213 (Established patient, low complexity, straightforward medical decision making)
+Document approximately 15 minutes spent on history, exam, and counseling.
+
+Medical Decision Making:
+Document reasoning for viral vs bacterial diagnosis based on clear rhinorrhea, absence of purulent discharge, normal lung exam. Explain why antibiotics not indicated.
+
+Generate a complete clinical note with the following sections:
+- Chief Complaint
+- History of Present Illness (all 8 elements)
+- Review of Systems
+- Past Medical History
+- Medications
+- Allergies
+- Social History
+- Physical Examination
+- Assessment and Plan
+- Time spent
+
+Output ONLY the clinical note. Do not include explanations, disclaimers, or documentation tips.

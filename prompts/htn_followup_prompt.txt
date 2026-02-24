@@ -1,0 +1,75 @@
+Create a complete clinical note for the following patient encounter.
+
+SCENARIO: Hypertension Follow-up Visit
+
+Patient Demographics:
+- Name: {name}
+- Age: {age} years old
+- Gender: {gender}
+- Occupation: {occupation}
+
+Clinical Context:
+Established patient with diagnosed hypertension, returning for routine follow-up. Patient was started on Lisinopril 10mg daily 4 months ago.
+
+Chief Complaint: "Blood pressure check"
+
+Required Clinical Details:
+- Time since last visit: 4 months
+- Medication adherence: Takes Lisinopril daily, no missed doses, no side effects
+- Home blood pressure monitoring: Average readings 138/86 mmHg over past 2 weeks
+- Current BP control: Not at goal (target <130/80)
+- Lifestyle: Walks 3x/week for 30 minutes, trying to reduce sodium intake, drinks 2-3 beers on weekends
+- Review of systems: No headaches, no chest pain, no palpitations, no dizziness, no leg swelling
+{gender_specific_htn_questions}
+
+Current Medications:
+- Lisinopril 10mg daily
+
+Physical Exam Findings to Include:
+- Vital signs: BP 142/88 mmHg right arm, 140/86 mmHg left arm (seated, repeated after 5 min rest), HR 74, Weight 192 lbs, BMI 28.3
+- General: Alert, well-appearing, overweight
+- Cardiovascular: Regular rate and rhythm, no murmurs, peripheral pulses 2+ bilaterally
+- Respiratory: Clear lung fields bilaterally
+- Extremities: No edema
+- Fundoscopic: No papilledema (if performed)
+
+Assessment:
+- Essential hypertension, uncontrolled (ICD-10: I10)
+- Overweight (ICD-10: E66.3)
+
+Lab Results to Reference:
+- Basic metabolic panel: Creatinine 0.9 mg/dL, eGFR >90, Potassium 4.2 mEq/L (all normal)
+- Lipid panel: Total cholesterol 215 mg/dL, LDL 138 mg/dL, HDL 42 mg/dL, Triglycerides 175 mg/dL (borderline)
+
+Plan Should Include:
+- Increase Lisinopril to 20mg daily
+- Continue home BP monitoring (record twice daily for 1 week before next visit)
+- Lifestyle counseling: DASH diet, reduce sodium to <2000mg/day, limit alcohol to <2 drinks/day, increase exercise to 5x/week
+- Weight loss goal: Lose 10 lbs over 3 months
+- Recheck labs in 6 months: BMP, lipid panel
+- Consider statin if LDL remains elevated at next visit
+{gender_specific_htn_counseling}
+- Return in 6-8 weeks to assess BP response to medication increase
+- Patient education: Target BP <130/80, importance of medication adherence, cardiovascular risk reduction
+
+Billing Level: 99214 (Established patient, moderate complexity)
+Document 20 minutes spent with extensive counseling on lifestyle modifications.
+
+Medical Decision Making:
+Document rationale for medication increase based on persistently elevated BP despite adherence. Cardiovascular risk assessment (10-year ASCVD risk ~12% based on pooled cohort equation). Discussed need for aggressive BP control given risk factors. Considered adding second agent but will try higher dose of current medication first. Discussed lifestyle modifications at length.
+
+Generate a complete clinical note with the following sections:
+- Chief Complaint
+- History of Present Illness (all 8 elements)
+- Review of Systems
+- Past Medical History
+- Medications
+- Allergies
+- Social History
+- Physical Examination
+- Assessment and Plan
+- Time spent
+- Billing Level
+- Medical Decision Making
+
+Output ONLY the clinical note. Do not include explanations, disclaimers, or documentation tips.
