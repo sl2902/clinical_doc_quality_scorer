@@ -120,6 +120,26 @@ def score_dimension(base_model, tokenizer, note_text, dimension, hf_token):
         st.error(f"Error scoring {dimension}: {str(e)}")
         return None
 
+def validate_input(note_text: str) -> tuple[bool, str]:
+        """Validate if input is a clinical note"""
+        
+        if len(note_text.strip()) < 50:
+            return False, "Input too short (minimum 50 characters)"
+        
+        clinical_keywords = [
+            'patient', 'chief complaint', 'cc:', 'history', 'hpi',
+            'physical exam', 'pe:', 'vital', 'assessment', 'plan',
+            'diagnosis', 'medication', 'treatment', 'symptom'
+        ]
+        
+        text_lower = note_text.lower()
+        matches = sum(1 for kw in clinical_keywords if kw in text_lower)
+        
+        if matches < 2:
+            return False, "Input does not appear to be a clinical note"
+        
+        return True, "Valid"
+
 
 # ============================================================================
 # UI
@@ -217,85 +237,89 @@ if analyze_button:
     elif not note_text.strip():
         st.warning("Please enter a clinical note to analyze")
     else:
-        with st.spinner("Loading models..."):
-            try:
-                base_model, tokenizer = load_base_model(hf_token)
-                st.success("✓ Models loaded")
-            except Exception as e:
-                st.error(f"Failed to load models: {str(e)}")
-                st.stop()
-        
-        # Score each dimension
-        dimensions = ["completeness", "accuracy", "compliance", "risk", "clarity"]
-        scores = {}
-        
-        progress_bar = st.progress(0)
-        status_text = st.empty()
-        
-        for i, dim in enumerate(dimensions):
-            status_text.text(f"Scoring {dim}...")
-            score = score_dimension(base_model, tokenizer, note_text, dim, hf_token)
-            # st.write(f"Risk extracted: {score}")
+        is_valid, msg = validate_input(note_text.strip())
+        if is_valid:
+            with st.spinner("Loading models..."):
+                try:
+                    base_model, tokenizer = load_base_model(hf_token)
+                    st.success(" Models loaded")
+                except Exception as e:
+                    st.error(f"Failed to load models: {str(e)}")
+                    st.stop()
             
-            if score is not None:
-                scores[dim] = score
+            # Score each dimension
+            dimensions = ["completeness", "accuracy", "compliance", "risk", "clarity"]
+            scores = {}
             
-            progress_bar.progress((i + 1) / len(dimensions))
-        
-        status_text.text("Analysis complete!")
-        
-        # Calculate overall
-        if scores:
-            scores['overall'] = sum(scores.values()) / len(scores)
-        
-        # Display results
-        with score_placeholder.container():
-            # Overall score
-            st.metric(
-                label="Overall Quality",
-                value=f"{scores.get('overall', 0):.0f}/100",
-                delta=None
-            )
+            progress_bar = st.progress(0)
+            status_text = st.empty()
             
-            st.markdown("---")
-            
-            # Individual scores with color coding
-            for dim in dimensions:
-                score = scores.get(dim, 0)
+            for i, dim in enumerate(dimensions):
+                status_text.text(f"Scoring {dim}...")
+                score = score_dimension(base_model, tokenizer, note_text, dim, hf_token)
+                # st.write(f"Risk extracted: {score}")
                 
-                # Color coding
-                if score >= 90:
-                    color = "🟢"
-                elif score >= 70:
-                    color = "🟡"
-                else:
-                    color = "🔴"
+                if score is not None:
+                    scores[dim] = score
                 
+                progress_bar.progress((i + 1) / len(dimensions))
+            
+            status_text.text("Analysis complete!")
+            
+            # Calculate overall
+            if scores:
+                scores['overall'] = sum(scores.values()) / len(scores)
+            
+            # Display results
+            with score_placeholder.container():
+                # Overall score
                 st.metric(
-                    label=f"{color} {dim.capitalize()}",
-                    value=f"{score}/100"
+                    label="Overall Quality",
+                    value=f"{scores.get('overall', 0):.0f}/100",
+                    delta=None
                 )
-        
-        # Feedback section
-        st.markdown("---")
-        st.subheader("📋 Recommendations")
-        
-        issues = []
-        if scores.get('completeness', 100) < 70:
-            issues.append("- Missing required documentation elements")
-        if scores.get('accuracy', 100) < 70:
-            issues.append("- Review medical facts and diagnoses")
-        if scores.get('compliance', 100) < 70:
-            issues.append("- Insufficient billing documentation")
-        if scores.get('risk', 100) < 70:
-            issues.append("- Missing critical safety elements")
-        if scores.get('clarity', 100) < 70:
-            issues.append("- Improve organization and clarity")
-        
-        if issues:
-            st.markdown("\n".join(issues))
+                
+                st.markdown("---")
+                
+                # Individual scores with color coding
+                for dim in dimensions:
+                    score = scores.get(dim, 0)
+                    
+                    # Color coding
+                    if score >= 90:
+                        color = "🟢"
+                    elif score >= 70:
+                        color = "🟡"
+                    else:
+                        color = "🔴"
+                    
+                    st.metric(
+                        label=f"{color} {dim.capitalize()}",
+                        value=f"{score}/100"
+                    )
+            
+            # Feedback section
+            st.markdown("---")
+            st.subheader("📋 Recommendations")
+            
+            issues = []
+            if scores.get('completeness', 100) < 70:
+                issues.append("- Missing required documentation elements")
+            if scores.get('accuracy', 100) < 70:
+                issues.append("- Review medical facts and diagnoses")
+            if scores.get('compliance', 100) < 70:
+                issues.append("- Insufficient billing documentation")
+            if scores.get('risk', 100) < 70:
+                issues.append("- Missing critical safety elements")
+            if scores.get('clarity', 100) < 70:
+                issues.append("- Improve organization and clarity")
+            
+            if issues:
+                st.markdown("\n".join(issues))
+            else:
+                st.success(" Documentation meets quality standards")
         else:
-            st.success("✓ Documentation meets quality standards")
+            st.warning(msg)
 
 # Footer
 st.markdown("---")
