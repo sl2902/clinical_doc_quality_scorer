@@ -325,7 +325,13 @@ Denies numbness, weakness, saddle anesthesia, or bowel/bladder dysfunction.
 ## Medical Decision Making
 Comprehensive red flag assessment performed and negative. Clinical presentation consistent with acute mechanical low back pain/lumbar 
 strain with mild radicular symptoms. No indication for imaging per guidelines. Medication risks/benefits and activity modification discussed. 
-Patient educated on warning signs requiring urgent evaluation."""
+Patient educated on warning signs requiring urgent evaluation.""",
+
+"Incomplete Note": """CC: Back pain
+
+HPI: Pt reports low back pain x 3 days. Started after lifting.
+
+PE: Tenderness lower back. ROM limited."""
 }
 
 # Main content
